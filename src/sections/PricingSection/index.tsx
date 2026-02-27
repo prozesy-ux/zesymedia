@@ -8,7 +8,7 @@ export const PricingSection = () => {
         <div className="box-border caret-transparent">
           <div className="bg-neutral-950 box-border caret-transparent">
             <div className="relative box-border caret-transparent px-5 py-[60px] md:px-[94px] md:py-[100px]">
-              <div className="box-border caret-transparent max-w-[1252px] w-full z-[1] mx-auto">
+              <div className="box-border caret-transparent max-w-[1252px] z-[1] mx-auto">
                 <div className="box-border caret-transparent">
                   <div className="box-border caret-transparent gap-x-8 flex flex-col gap-y-8 md:gap-x-14 md:gap-y-14">
                     <div className="box-border caret-transparent gap-x-8 flex flex-col gap-y-8 md:gap-x-14 md:gap-y-14">
@@ -166,7 +166,7 @@ export const PricingSection = () => {
               </div>
             </div>
             <div className="box-border caret-transparent py-[60px] md:py-[100px]">
-              <div className="box-border caret-transparent max-w-[1252px] w-full z-[1] mx-auto">
+              <div className="box-border caret-transparent max-w-[1252px] z-[1] mx-auto">
                 <div className="box-border caret-transparent gap-x-10 flex flex-col gap-y-10">
                   <div className="items-center box-border caret-transparent gap-x-4 flex flex-col justify-start gap-y-4 text-center">
                     <div className="box-border caret-transparent flex">
@@ -178,8 +178,8 @@ export const PricingSection = () => {
                     </div>
                     <div className="text-zinc-50 box-border caret-transparent">
                       <h2 className="text-[28px] font-bold box-border caret-transparent leading-[33.6px] font-redhatdisplay_variablefont_wght md:text-5xl md:leading-[57.6px]">
-                        <span className="text-[28px] italic box-border caret-transparent leading-[33.6px] capitalize font-playfairdisplay_variablefont_wght md:text-5xl md:leading-[57.6px]">
-                          Design Monks’s
+                          <span className="text-[28px] italic box-border caret-transparent leading-[33.6px] capitalize font-playfairdisplay_variablefont_wght md:text-5xl md:leading-[57.6px]">
+                          Prozesy Media’s
                         </span>
                         Alternative?
                         <br className="text-[28px] box-border caret-transparent leading-[33.6px] md:text-5xl md:leading-[57.6px]" />
@@ -236,7 +236,7 @@ export const PricingSection = () => {
                             </div>
                             <div className="text-zinc-50 box-border caret-transparent flex flex-col gap-y-2">
                               <h3 className="text-xl font-bold box-border caret-transparent leading-6 font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
-                                Design Monks
+                                Prozesy Media
                               </h3>
                               <div className="box-border caret-transparent hidden min-h-0 min-w-0 md:block md:min-h-[auto] md:min-w-[auto]">
                                 <div className="text-neutral-300 box-border caret-transparent">

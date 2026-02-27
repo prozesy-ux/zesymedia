@@ -1,64 +1,116 @@
-import { ArrowUpRight } from "lucide-react";
+export const ServicesDropdown = () => {
+  const services = [
+    { title: "UI UX", desc: "Creating user-friendly digital experiences." },
+    { title: "Logo & Branding", desc: "Creating memorable identities for brands." },
+    { title: "Web Design", desc: "Building visually appealing & functional websites." },
+    { title: "Webflow Design", desc: "Developing responsive websites effortlessly." },
+    { title: "Framer Design", desc: "Interactive web designs are made simple." },
+    { title: "SaaS Design", desc: "Intuitive interfaces that boost user engagement." },
+  ];
 
-    export const ServicesDropdown = () => {
-      const services = [
-        { title: "UI UX", desc: "Creating user-friendly digital experiences." },
-        { title: "Logo & Branding", desc: "Creating memorable identities for brands." },
-        { title: "Web Design", desc: "Building visually appealing & functional websites." },
-        { title: "Webflow Design", desc: "Developing responsive websites effortlessly." },
-        { title: "Framer Design", desc: "Interactive web designs are made simple." },
-        { title: "SaaS Design", desc: "Intuitive interfaces that boost user engagement." },
-      ];
-
-      return (
-        <div className="absolute bottom-[calc(100%+40px)] left-[-140px] w-[900px] bg-neutral-950 rounded-[32px] shadow-[0_20px_80px_-10px_rgba(0,0,0,0.5)] p-2 cursor-default z-50 hidden md:block opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform origin-bottom translate-y-4 group-hover:translate-y-0 border border-white/10">
-          <div className="grid grid-cols-[1.2fr_1fr] gap-2">
-            {/* Left Column: Services List */}
-            <div className="p-8 grid grid-cols-2 gap-x-8 gap-y-8">
-              {services.map((service, index) => (
-                <a key={index} href={`/services/${service.title.toLowerCase().replace(/ /g, "-")}`} className="group/item block">
-                  <h4 className="text-zinc-50 text-lg font-bold mb-1 group-hover/item:text-violet-500 transition-colors font-redhatdisplay_variablefont_wght">
-                    {service.title}
-                  </h4>
-                  <p className="text-neutral-400 text-sm leading-relaxed font-outfit_variablefont_wght">
-                    {service.desc}
-                  </p>
-                </a>
-              ))}
-            </div>
-
-            {/* Right Column: Featured Card */}
-            <div className="bg-white/5 rounded-[24px] p-8 relative overflow-hidden group/card min-h-[380px] flex flex-col border border-white/5">
-              <div className="relative z-10">
-                <div className="flex justify-between items-start mb-4">
-                  <h3 className="text-[28px] font-bold text-zinc-50 leading-[34px] max-w-[200px] font-redhatdisplay_variablefont_wght">
-                    Level Up Like Player 456
-                  </h3>
-                  <div className="w-10 h-10 bg-neutral-900 rounded-full flex items-center justify-center shadow-sm group-hover/card:scale-110 transition-transform border border-white/10">
-                    <ArrowUpRight className="w-5 h-5 text-zinc-50" />
+  return (
+    <div 
+      className="absolute bottom-[calc(100%+40px)] left-[-140px] w-[900px] max-w-[1200px] bg-white rounded-[24px] shadow-[0_20px_60px_-10px_rgba(0,0,0,0.1)] cursor-default z-[99999] hidden md:block opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform origin-bottom translate-y-4 group-hover:translate-y-0 overflow-hidden"
+      onMouseEnter={() => {
+        const backdrop = document.getElementById('navBackdrop');
+        if (backdrop) {
+          backdrop.classList.remove('opacity-0', 'invisible');
+          backdrop.classList.add('opacity-100', 'visible');
+        }
+      }}
+      onMouseLeave={() => {
+        const backdrop = document.getElementById('navBackdrop');
+        if (backdrop) {
+          backdrop.classList.add('opacity-0', 'invisible');
+          backdrop.classList.remove('opacity-100', 'visible');
+        }
+      }}
+    >
+      <div className="grid grid-cols-2 gap-0 min-h-[560px]">
+        {/* Left Column: Services List */}
+        <div className="p-8 lg:p-12 flex flex-col gap-6">
+          <div>
+            <p className="text-[0.875rem] font-medium tracking-[0.15em] uppercase text-gray-500 mb-2">
+              What we do
+            </p>
+            <h3 className="text-[1.681rem] font-medium text-gray-900 leading-tight tracking-tight font-redhatdisplay_variablefont_wght">
+              Our Services
+            </h3>
+          </div>
+          <div className="flex flex-col gap-6">
+            {services.map((service, index) => (
+              <a 
+                key={index} 
+                href={`/services/${service.title.toLowerCase().replace(/ /g, "-")}`} 
+                className="group/item block relative p-4 -m-4 rounded-xl hover:bg-gray-50 transition-all"
+              >
+                <div className="flex items-start justify-between gap-4">
+                  <div className="flex-1">
+                    <h4 className="font-outfit_variablefont_wght text-gray-900 group-hover/item:text-violet-600 transition-colors" style={{ fontSize: 'clamp(1rem, 0.188vw + 0.9559rem, 1.125rem)', fontWeight: 400, lineHeight: 1.5, letterSpacing: '0.02em' }}>
+                      {service.title}
+                    </h4>
+                    <p className="font-outfit_variablefont_wght text-gray-500" style={{ fontSize: 'clamp(0.875rem, 0.188vw + 0.8309rem, 1rem)', fontWeight: 400, lineHeight: 1.5, letterSpacing: '0.02em' }}>
+                      {service.desc}
+                    </p>
                   </div>
+                  <svg 
+                    className="opacity-0 group-hover/item:opacity-100 transition-all transform translate-x-[-8px] group-hover/item:translate-x-0 flex-shrink-0 mt-1"
+                    width="20" 
+                    height="21" 
+                    viewBox="0 0 20 21" 
+                    fill="none" 
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path fillRule="evenodd" clipRule="evenodd" d="M18.1154 9.49999C18.1187 9.5 18.1219 9.5 18.1252 9.5L18.1252 9.50006V11.5001H18.0906C14.1662 11.5163 11.6252 14.2984 11.6252 16.75H9.62518C9.62518 14.7566 10.6464 12.8552 12.3134 11.5001H1.87518L1.87518 9.50006H12.3136C10.6464 8.14492 9.62518 6.24342 9.62518 4.25L11.6252 4.25C11.6252 6.70673 14.1769 9.49539 18.1154 9.49999Z" fill="#737373" className="group-hover/item:fill-violet-600 transition-colors"/>
+                  </svg>
                 </div>
-                <p className="text-neutral-400 text-base leading-6 mb-8 max-w-[280px] font-outfit_variablefont_wght">
-                  Our services will help you win the business success game in every design aspect you face on the way.
-                </p>
-              </div>
-              
-              {/* Image Container */}
-              <div className="absolute bottom-0 right-0 w-[85%] h-[220px] translate-y-4 translate-x-4 transition-transform duration-500 group-hover/card:translate-y-2 group-hover/card:translate-x-2">
-                <img 
-                  src="https://c.animaapp.com/mkiynesyxwO7zZ/assets/67ac78087a5b72120cc3e5db_d1a5f14e5e5fc69f2dbac575600f06f4_Project_Cards-6.avif" 
-                  alt="Squid Games UI/UX Design" 
-                  className="w-full h-full object-cover rounded-tl-[24px] shadow-lg"
-                />
-                <div className="absolute top-1/2 left-8 -translate-y-1/2 text-white font-bold text-3xl leading-tight drop-shadow-md font-redhatdisplay_variablefont_wght">
-                  Squid<br/>Games<br/>UI/UX<br/>Design
+              </a>
+            ))}
+          </div>
+        </div>
+
+        {/* Right Column: Visual Block */}
+        <div className="p-8 lg:p-12 flex items-stretch">
+          <div className="relative bg-black text-white flex flex-col items-center justify-center rounded-[20px] overflow-hidden w-full h-full">
+            <video
+              autoPlay
+              loop
+              muted
+              playsInline
+              preload="auto"
+              className="absolute inset-0 w-full h-full object-cover"
+            >
+              <source src="https://github.com/designmonks/DM-Showreel/raw/main/DM%20Showreel%202025%20Vertical.mp4" type="video/mp4" />
+            </video>
+            
+            <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black pointer-events-none" />
+            
+            <div className="relative z-10 flex flex-col items-center justify-center gap-4 select-none">
+              <span className="text-white font-semibold tracking-[0.3em] uppercase text-[2rem] leading-none">
+                WE
+              </span>
+              <div className="animate-[breathe_3s_ease-in-out_infinite] will-transform">
+                <div className="w-16 h-16 rounded-xl bg-[hsl(75,84%,60%)] flex items-center justify-center">
+                  <div className="w-8 h-8 rounded-md bg-[hsl(240,29%,12%)]" />
                 </div>
               </div>
+              <span className="text-white font-semibold tracking-[0.3em] uppercase text-[2rem] leading-none">
+                ARE
+              </span>
             </div>
           </div>
-
-          {/* Arrow */}
-          <div className="absolute -bottom-[8px] left-[180px] w-6 h-6 bg-neutral-950 rotate-45 border-b border-r border-white/10"></div>
         </div>
-      );
-    };
+      </div>
+
+      {/* V-shaped pointer */}
+      <svg
+        className="absolute -bottom-[8px] left-[165px] w-[24px] h-[10px]"
+        viewBox="0 0 24 10"
+        aria-hidden="true"
+        shapeRendering="geometricPrecision"
+      >
+        <path d="M12 0 L24 10 H0 Z" fill="white" />
+      </svg>
+    </div>
+  );
+};

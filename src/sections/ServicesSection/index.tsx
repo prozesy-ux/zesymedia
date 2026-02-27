@@ -101,7 +101,7 @@ export const ServicesSection = () => {
     <section className="relative bg-neutral-950 box-border caret-transparent rounded-[32px]">
       <div className="box-border caret-transparent py-[60px] md:py-[100px]">
         <div className="box-border caret-transparent z-[1] px-5 md:px-[94px]">
-          <div className="box-border caret-transparent max-w-[1252px] w-full mx-auto">
+          <div className="box-border caret-transparent max-w-[1252px] mx-auto">
             <div className="box-border caret-transparent">
               <div className="box-border caret-transparent gap-x-2 flex flex-col gap-y-2 md:gap-x-4 md:gap-y-4">
                 <div className="box-border caret-transparent flex justify-start mb-2">

@@ -5,7 +5,7 @@ export const WhyChooseUsSection = () => {
     <div className="bg-[url('https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/680d7d95ce9dda385ee1093b_Background%20Dots.png')] box-border caret-transparent bg-center">
       <div className="box-border caret-transparent">
         <div className="box-border caret-transparent px-5 py-[60px] md:px-[94px] md:py-[100px]">
-          <div className="box-border caret-transparent max-w-[1252px] w-full z-[1] mx-auto">
+          <div className="box-border caret-transparent max-w-[1252px] z-[1] mx-auto">
             <div className="box-border caret-transparent">
               <div className="box-border caret-transparent gap-x-8 flex flex-col gap-y-8 md:gap-x-14 md:gap-y-14">
                 <div className="box-border caret-transparent max-w-[700px]">

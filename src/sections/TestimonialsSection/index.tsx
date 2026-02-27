@@ -5,7 +5,7 @@ export const TestimonialsSection = () => {
     <div className="box-border caret-transparent">
       <div className="bg-zinc-50 box-border caret-transparent">
         <div className="box-border caret-transparent px-5 py-[60px] md:px-[94px] md:py-[100px]">
-          <div className="box-border caret-transparent max-w-[1252px] w-full z-[1] mx-auto mb-8 md:mb-14">
+          <div className="box-border caret-transparent max-w-[1252px] z-[1] mx-auto mb-8 md:mb-14">
             <div className="items-end box-border caret-transparent gap-x-4 grid auto-cols-[1fr] grid-cols-[1.5fr_1fr] grid-rows-[auto] justify-items-stretch gap-y-4">
               <div className="box-border caret-transparent gap-x-4 flex flex-col gap-y-4">
                 <div className="box-border caret-transparent flex">

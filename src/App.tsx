@@ -1,3 +1,4 @@
+import React, { useEffect, useState } from "react";
 import { Navbar } from "@/sections/Navbar";
 import { Logo } from "@/components/Logo";
 import { HeroSection } from "@/sections/HeroSection";
@@ -15,8 +16,44 @@ import { FAQSection } from "@/sections/FAQSection";
 import { ContactSection } from "@/sections/ContactSection";
 import { Footer } from "@/sections/Footer";
 import { CookieConsent } from "@/components/CookieConsent";
+import { About } from "@/pages/About";
+import { Blog } from "@/pages/Blog";
 
 export const App = () => {
+  const getNormalizedPath = () =>
+    typeof window !== "undefined"
+      ? window.location.pathname.replace(/\/+$/, "") || "/"
+      : "/";
+
+  const [path, setPath] = useState<string>(getNormalizedPath);
+
+  useEffect(() => {
+    // Patch history methods to dispatch a custom event so SPA navigations are detected
+    const origPush = history.pushState;
+    const origReplace = history.replaceState;
+    history.pushState = function (...args: any[]) {
+      const ret = origPush.apply(this, args as any);
+      window.dispatchEvent(new Event("locationchange"));
+      return ret;
+    };
+    history.replaceState = function (...args: any[]) {
+      const ret = origReplace.apply(this, args as any);
+      window.dispatchEvent(new Event("locationchange"));
+      return ret;
+    };
+
+    const onLocationChange = () => setPath(getNormalizedPath());
+    window.addEventListener("popstate", onLocationChange);
+    window.addEventListener("locationchange", onLocationChange as EventListener);
+
+    return () => {
+      window.removeEventListener("popstate", onLocationChange);
+      window.removeEventListener("locationchange", onLocationChange as EventListener);
+      history.pushState = origPush;
+      history.replaceState = origReplace;
+    };
+  }, []);
+
   return (
     <body className="text-zinc-800 text-sm not-italic normal-nums font-normal accent-auto bg-zinc-50 box-border caret-transparent block tracking-[normal] leading-5 list-outside list-disc min-h-full pointer-events-auto text-start indent-[0px] normal-case visible border-separate font-outfit_variablefont_wght">
       <div className="box-border caret-transparent overflow-x-clip">
@@ -24,19 +61,27 @@ export const App = () => {
         <Navbar />
         <Logo />
         <main className="box-border caret-transparent">
-          <HeroSection />
-          <IndustryWinsSection />
-          <TestimonialsSection />
-          <AIDesignSection />
-          <VideoSection />
-          <ServicesSection />
-          <WhyChooseUsSection />
-          <SkillsMarquee />
-          <PricingSection />
-          <JobOpeningsSection />
-          <ReferralTestimonials />
-          <FAQSection />
-          <ContactSection />
+          {path === '/about' ? (
+            <About />
+          ) : path === '/blog' ? (
+            <Blog />
+          ) : (
+            <>
+              <HeroSection />
+              <IndustryWinsSection />
+              <TestimonialsSection />
+              <AIDesignSection />
+              <VideoSection />
+              <ServicesSection />
+              <WhyChooseUsSection />
+              <SkillsMarquee />
+              <PricingSection />
+              <JobOpeningsSection />
+              <ReferralTestimonials />
+              <FAQSection />
+              <ContactSection />
+            </>
+          )}
         </main>
         <Footer />
       </div>

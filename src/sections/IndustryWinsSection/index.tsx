@@ -6,7 +6,7 @@ export const IndustryWinsSection = () => {
     <section className="relative bg-zinc-50 box-border caret-transparent h-full z-10 -mt-10 rounded-t-[20px] md:rounded-t-[32px]">
       <div className="box-border caret-transparent py-[60px] md:py-[100px]">
         <div className="box-border caret-transparent z-[1] px-5 md:px-[94px]">
-          <div className="box-border caret-transparent max-w-[1252px] w-full mx-auto">
+          <div className="box-border caret-transparent max-w-[1252px] mx-auto">
             <div className="sticky box-border caret-transparent">
               <div className="box-border caret-transparent">
                 <div className="box-border caret-transparent flex justify-start mb-2">

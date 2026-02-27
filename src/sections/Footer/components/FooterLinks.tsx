@@ -1,7 +1,7 @@
 export const FooterLinks = () => {
   return (
     <div className="box-border caret-transparent z-0 pt-[60px] px-5 md:px-[94px]">
-      <div className="box-border caret-transparent max-w-[1252px] w-full z-[1] mx-auto">
+      <div className="box-border caret-transparent max-w-[1252px] z-[1] mx-auto">
         <div className="box-border caret-transparent gap-x-8 flex flex-col gap-y-8 md:gap-x-14 md:gap-y-14">
           <div className="relative box-border caret-transparent gap-x-6 grid flex-wrap auto-cols-[1fr] grid-cols-[1fr_1fr] grid-rows-[auto] justify-between justify-items-stretch gap-y-6 z-[55] mx-auto md:static md:flex md:flex-nowrap md:grid-cols-[1fr_1fr_1fr_1fr_1fr] md:z-auto md:mx-0">
             <div className="box-border caret-transparent">
@@ -358,8 +358,8 @@ export const FooterLinks = () => {
               href="/"
               className="text-zinc-50 text-sm items-start box-border caret-transparent gap-x-1 flex justify-end tracking-[0.32px] leading-[21px] max-w-full gap-y-1 text-left md:text-base md:items-center md:gap-x-1.5 md:justify-start md:leading-6 md:gap-y-1.5 md:text-start"
             >
-              <div className="text-sm box-border caret-transparent leading-[21px] text-left md:text-base md:leading-6 md:text-start">
-                © 2026, Design Monks, All Rights Reserved.
+                <div className="text-sm box-border caret-transparent leading-[21px] text-left md:text-base md:leading-6 md:text-start">
+                © 2026, Prozesy Media, All Rights Reserved.
               </div>
             </a>
             <a

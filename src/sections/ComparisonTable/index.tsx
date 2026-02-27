@@ -1,7 +1,20 @@
+import { useRef, useState } from "react";
+import { motion, useScroll, useTransform } from "framer-motion";
+
 export const ComparisonTable = () => {
+  const containerRef = useRef<HTMLDivElement>(null);
+  const { scrollYProgress } = useScroll({
+    target: containerRef,
+    offset: ["start end", "end start"],
+  });
+  const [isHovered, setIsHovered] = useState(false);
+
+  const scale = useTransform(scrollYProgress, [0.1, 0.6], [1, 1.03]);
+  const opacity = useTransform(scrollYProgress, [0.1, 0.3], [0.85, 1]);
+
   return (
-    <div className="box-border caret-transparent py-[60px] md:py-[100px]">
-      <div className="box-border caret-transparent max-w-[1252px] w-full z-[1] mx-auto">
+    <div ref={containerRef} className="box-border caret-transparent py-[60px] md:py-[100px]">
+      <div className="box-border caret-transparent max-w-[1252px] z-[1] mx-auto">
         <div className="box-border caret-transparent gap-x-10 flex flex-col gap-y-10">
           <div className="items-center box-border caret-transparent gap-x-4 flex flex-col justify-start gap-y-4 text-center">
             <div className="box-border caret-transparent flex">
@@ -13,8 +26,8 @@ export const ComparisonTable = () => {
             </div>
             <div className="text-zinc-50 box-border caret-transparent">
               <h2 className="text-[28px] font-bold box-border caret-transparent leading-[33.6px] font-redhatdisplay_variablefont_wght md:text-5xl md:leading-[57.6px]">
-                <span className="text-[28px] italic box-border caret-transparent leading-[33.6px] capitalize font-playfairdisplay_variablefont_wght md:text-5xl md:leading-[57.6px]">
-                  Design Monks’s
+                  <span className="text-[28px] italic box-border caret-transparent leading-[33.6px] capitalize font-playfairdisplay_variablefont_wght md:text-5xl md:leading-[57.6px]">
+                  Prozesy Media’s
                 </span>
                 Alternative?
                 <br className="text-[28px] box-border caret-transparent leading-[33.6px] md:text-5xl md:leading-[57.6px]" />
@@ -59,7 +72,15 @@ export const ComparisonTable = () => {
               </div>
             </div>
             <div className="box-border caret-transparent flex flex-col gap-y-8 mx-5 md:gap-y-14 md:mx-0">
-              <div className="relative bg-[linear-gradient(183deg,rgb(235,248,252),rgb(127,184,239)_30%,rgb(81,66,241)_62%,rgb(29,29,41))] box-border caret-transparent min-w-[884px] w-full overflow-hidden p-[1.5px] rounded-[32px] md:min-w-[1252px]">
+              <motion.div
+                style={{
+                  scale: isHovered ? scale : 1,
+                  opacity: isHovered ? opacity : 1,
+                }}
+                onMouseEnter={() => setIsHovered(true)}
+                onMouseLeave={() => setIsHovered(false)}
+                className="relative bg-[linear-gradient(183deg,rgb(235,248,252),rgb(127,184,239)_30%,rgb(81,66,241)_62%,rgb(29,29,41))] box-border caret-transparent min-w-[884px] w-full overflow-hidden p-[1.5px] rounded-[32px] md:min-w-[1252px]"
+              >
                 <div className="items-center bg-neutral-950 bg-[linear-gradient(202deg,rgba(87,27,210,0.2),rgba(10,10,10,0.2))] shadow-[rgba(23,11,38,0.1)_0px_16px_24px_0px,rgba(255,255,255,0.09)_0px_8px_24px_0px_inset] box-border caret-transparent gap-x-0 grid auto-cols-[1fr] grid-cols-[1.75fr_1fr_1fr_1fr_1fr_1fr] grid-rows-[auto] min-w-[884px] gap-y-0 w-full px-10 py-[30px] rounded-[32px] md:grid-cols-[3.5fr_1fr_1fr_1fr_1fr_1fr] md:min-w-[1249px] md:py-6">
                   <div className="items-center box-border caret-transparent gap-x-6 flex col-end-[span_1] col-start-[span_1] row-end-[span_1] row-start-[span_1] justify-start md:col-end-auto md:col-start-auto md:row-end-auto md:row-start-auto">
                     <div className="items-center bg-violet-600 box-border caret-transparent hidden justify-center max-h-[85px] max-w-[85px] min-h-[85px] min-w-[85px] rounded-[10px] md:flex">
@@ -71,7 +92,7 @@ export const ComparisonTable = () => {
                     </div>
                     <div className="text-zinc-50 box-border caret-transparent flex flex-col gap-y-2">
                       <h3 className="text-xl font-bold box-border caret-transparent leading-6 font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
-                        Design Monks
+                        Prozesy Media
                       </h3>
                       <div className="box-border caret-transparent hidden min-h-0 min-w-0 md:block md:min-h-[auto] md:min-w-[auto]">
                         <div className="text-neutral-300 box-border caret-transparent">
@@ -140,7 +161,7 @@ export const ComparisonTable = () => {
                   alt=""
                   className="absolute box-border caret-transparent max-w-full left-[0%] bottom-[0%]"
                 />
-              </div>
+              </motion.div>
               <div className="items-center border-b-neutral-600/50 border-l-zinc-800 border-r-zinc-800 border-t-zinc-800 box-border caret-transparent gap-x-0 grid auto-cols-[1fr] grid-cols-[1.75fr_1fr_1fr_1fr_1fr_1fr] grid-rows-[auto] min-w-[884px] gap-y-0 w-full pb-6 px-10 border-b md:grid-cols-[3.5fr_1fr_1fr_1fr_1fr_1fr] md:min-w-[1249px]">
                 <div className="items-center box-border caret-transparent gap-x-6 flex col-end-[span_1] col-start-[span_1] row-end-[span_1] row-start-[span_1] justify-start md:col-end-auto md:col-start-auto md:row-end-auto md:row-start-auto">
                   <div className="items-center bg-blue-600/30 box-border caret-transparent hidden justify-center max-h-[85px] max-w-[85px] min-h-[85px] min-w-[85px] rounded-[10px] md:flex">

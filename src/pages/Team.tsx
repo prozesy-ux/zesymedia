@@ -38,25 +38,25 @@ const testimonials = [
   {
     name: "Saif Sarwar",
     role: "Product Designer",
-    quote: "Being a part of Design Monks truly feels like a blessing. I get to work with amazing teammates and learn from great mentors. Also, working remotely not only saves time but also boosts productivity. For me, Design Monks isn't just about work, it's about being part of a team that genuinely understands the balance between freedom and responsibility.",
+    quote: "Being a part of Prozesy Media truly feels like a blessing. I get to work with amazing teammates and learn from great mentors. Also, working remotely not only saves time but also boosts productivity. For me, Prozesy Media isn't just about work, it's about being part of a team that genuinely understands the balance between freedom and responsibility.",
     image: "https://cdn.prod.website-files.com/674703d2af36853f65da67e0/68b819c1deb8e68db3dba2d6_DP_Saif Sarwar.avif",
   },
   {
     name: "Sourav Dhali",
     role: "Product Designer",
-    quote: "Being a part of Design Monks truly feels like a blessing. I get to work with amazing teammates and learn from great mentors. Also, working remotely not only saves time but also boosts productivity. For me, Design Monks isn't just about work, it's about being part of a team that genuinely understands the balance between freedom and responsibility.",
+    quote: "Being a part of Prozesy Media truly feels like a blessing. I get to work with amazing teammates and learn from great mentors. Also, working remotely not only saves time but also boosts productivity. For me, Prozesy Media isn't just about work, it's about being part of a team that genuinely understands the balance between freedom and responsibility.",
     image: "https://cdn.prod.website-files.com/674703d2af36853f65da67e0/68b81a54cf1e021d5942774a_DP_Sourav Dhali.avif",
   },
   {
     name: "Sabiha Sultana",
     role: "Content Writer",
-    quote: "Working at Design Monks has been an incredible journey. The collaborative environment and supportive team make every project enjoyable and rewarding.",
+    quote: "Working at Prozesy Media has been an incredible journey. The collaborative environment and supportive team make every project enjoyable and rewarding.",
     image: "https://cdn.prod.website-files.com/674703d2af36853f65da67e0/68b8197ba8f360fc1827ad50_DP_Sabiha Sultana.avif",
   },
   {
     name: "Abid Hasan",
     role: "Project Manager",
-    quote: "Design Monks provides the perfect balance of creative freedom and professional growth. It's a place where innovation thrives.",
+    quote: "Prozesy Media provides the perfect balance of creative freedom and professional growth. It's a place where innovation thrives.",
     image: "https://cdn.prod.website-files.com/674703d2af36853f65da67e0/68b819e46f5ee25b86cc4be2_DP_Abid Hasan.avif",
   },
 ];
@@ -96,7 +96,7 @@ export const Team = () => {
     <div className="bg-zinc-50">
       {/* Hero Section */}
       <section className="relative bg-neutral-950/90 bg-[linear-gradient(rgba(48,255,151,0)_30%,rgba(48,255,151,0.33))] overflow-hidden rounded-b-[20px] md:rounded-b-[32px]">
-        <div className="max-w-[1252px] w-full z-[1] mx-auto">
+        <div className="max-w-[1252px] z-[1] mx-auto">
           <div className="relative items-center flex flex-col h-full justify-center text-left w-full z-[2] pb-[92px] px-5 md:pb-[560px] md:px-[94px] pt-[100px]">
             <div className="items-center gap-x-4 flex flex-col justify-start gap-y-4 text-center">
               
@@ -135,7 +135,7 @@ export const Team = () => {
       {/* Team Grid Section */}
       <section className="relative mt-[-60px] z-[3] md:mt-[-480px]">
         <div className="pb-[60px] px-5 md:pb-[100px] md:px-[94px]">
-          <div className="max-w-[1252px] w-full z-[1] mx-auto">
+          <div className="max-w-[1252px] z-[1] mx-auto">
             
             {/* Founders */}
             <div className="gap-x-6 grid auto-cols-[1fr] grid-cols-[1fr] grid-rows-[auto] gap-y-6 md:gap-x-8 md:grid-cols-[1fr_1fr] md:gap-y-8">
@@ -217,7 +217,7 @@ export const Team = () => {
       {/* Testimonial Carousel Section */}
       <section className="bg-violet-50 overflow-hidden" onMouseEnter={() => setIsAutoPlaying(false)} onMouseLeave={() => setIsAutoPlaying(true)}>
         <div className="px-5 py-[60px] md:px-[94px] md:py-[100px]">
-          <div className="max-w-[1252px] w-full z-[1] mx-auto">
+          <div className="max-w-[1252px] z-[1] mx-auto">
             <div className="gap-x-[30px] grid grid-cols-none gap-y-[30px] mx-auto md:gap-x-[normal] md:grid-cols-[22.8365%_72.6763%_4.48718%] md:gap-y-[normal]">
               
               {/* Testimonial Images Slider */}
@@ -271,7 +271,7 @@ export const Team = () => {
 
       {/* Career CTA Section */}
       <div className="pt-0 px-5 md:pt-[156px] md:px-[94px] pb-20">
-        <div className="max-w-[1252px] w-full z-[1] mx-auto">
+        <div className="max-w-[1252px] z-[1] mx-auto">
           <div className="relative bg-neutral-950 bg-[url('https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/680ce2c7ccbfc46d3d64d42c_dea7841b0e3986b5c5471118785093c7_Dots%20Background%20dark.avif')] flex flex-col w-full overflow-hidden bg-[position:0px_0px] rounded-2xl md:bg-none md:block md:flex-row md:overflow-visible md:bg-left-top md:rounded-[32px]">
             
             <div className="relative items-center flex flex-col h-auto z-[1] overflow-hidden rounded-2xl md:block md:flex-row md:h-[500px] md:z-[21] md:rounded-[32px]">

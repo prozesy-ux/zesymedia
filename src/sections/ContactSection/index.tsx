@@ -5,7 +5,7 @@ export const ContactSection = () => {
     <section className="box-border caret-transparent">
       <div className="box-border caret-transparent">
         <div className="box-border caret-transparent pt-8 pb-[60px] px-5 md:pt-[1.6px] md:pb-[100px] md:px-[94px]">
-          <div className="box-border caret-transparent max-w-[1252px] w-full z-[1] mx-auto">
+          <div className="box-border caret-transparent max-w-[1252px] z-[1] mx-auto">
             <div className="relative bg-neutral-950 box-border caret-transparent w-full mt-0 rounded-2xl md:mt-11 md:rounded-[32px]">
               <div className="relative items-center box-border caret-transparent gap-x-8 flex flex-col auto-cols-[1fr] grid-cols-[1fr] grid-rows-[auto] h-full gap-y-8 z-0 overflow-hidden pt-[60px] pb-8 px-3 rounded-2xl md:[align-items:normal] md:grid md:flex-row md:grid-cols-[1fr_1fr] md:p-16 md:rounded-[32px]">
                 <div className="relative box-border caret-transparent h-auto max-w-full w-full z-[99] md:static md:h-full md:max-w-none md:z-auto">

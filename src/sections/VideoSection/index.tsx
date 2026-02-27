@@ -45,7 +45,7 @@ import { useRef } from "react";
           <div className="sticky top-0 h-screen flex items-center justify-center w-full overflow-hidden">
             <motion.div
               style={{ scale, opacity, borderRadius }}
-              className="relative items-center box-border caret-transparent flex justify-center object-cover z-[5] overflow-hidden mx-auto w-[90%] h-[60vh] md:w-full md:h-full"
+              className="relative items-center box-border caret-transparent flex justify-center object-cover z-[5] overflow-hidden mx-auto w-[90%] h-[60vh] md:w-full md:h-full cursor-pointer"
             >
               <video
                 loop

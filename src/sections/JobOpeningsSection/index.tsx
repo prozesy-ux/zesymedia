@@ -2,7 +2,7 @@ export const JobOpeningsSection = () => {
   return (
     <section className="relative bg-neutral-950 box-border caret-transparent hidden overflow-hidden rounded-2xl md:rounded-[32px]">
       <div className="box-border caret-transparent px-5 py-[60px] md:px-[94px] md:py-[100px]">
-        <div className="box-border caret-transparent max-w-[1252px] w-full mx-auto">
+        <div className="box-border caret-transparent max-w-[1252px] mx-auto">
           <div className="box-border caret-transparent flex flex-col gap-y-14">
             <div className="items-center box-border caret-transparent flex flex-col justify-start max-w-[360px] gap-y-4 text-center w-full mx-auto md:max-w-[642px]">
               <div className="text-green-500 box-border caret-transparent border border-green-800 px-3 py-1 rounded-3xl border-solid">

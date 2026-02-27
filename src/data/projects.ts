@@ -88,7 +88,7 @@ export const projects = [
   },
   {
     id: "fitmate",
-    slug: "enhancing-fitness-for-australians",
+    slug: "enhancing-fitness-for-indians",
     category: "Cliccart",
     title: "ClickCart Ads Sales App",
     description:
@@ -113,7 +113,7 @@ export const projects = [
     fullDescription: "Fitmate is designed to make fitness accessible and personalized. We worked closely with the team to create an app that adapts to the user's lifestyle and goals.",
     challenge: "The fitness market is crowded. We needed to create a unique value proposition that stood out. The challenge was to combine gym access, scheduling, and AI insights into a single, cohesive experience.",
     solution: "We focused on a user-centric design that prioritizes flexibility. The app allows users to book gym sessions at various locations, create custom workout plans, and receive AI-driven recommendations based on their progress.",
-    results: "The app was developed and launched in just 2 months. It has since gained a loyal user base in Australia, helping thousands of people achieve their fitness goals."
+    results: "The app was developed and launched in just 2 months. It has since gained a loyal user base in India, helping thousands of people achieve their fitness goals."
   },
   {
     id: "zantrik",

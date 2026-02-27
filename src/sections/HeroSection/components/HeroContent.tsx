@@ -19,8 +19,8 @@ export const HeroContent = () => {
             className="box-border caret-transparent max-w-full"
           />
         </div>
-        <div className="box-border caret-transparent mt-2.5">
-          <h1 className="text-base font-bold box-border caret-transparent leading-[19.2px] font-redhatdisplay_variablefont_wght md:text-xl md:leading-6">
+        <div className="box-border caret-transparent mt-2.5\">
+          <h1 className="text-xl font-bold box-border caret-transparent leading-6 font-redhatdisplay_variablefont_wght md:text-xl md:leading-6" style={{ fontSize: 'var(--_typography---font--size--xl)', lineHeight: '120%' }}>
             Leading Marketing 360 Agency
           </h1>
         </div>

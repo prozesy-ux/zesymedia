@@ -5,7 +5,7 @@ export const HeroSection = () => {
   return (
     <section className="relative text-zinc-50 bg-neutral-950 box-border caret-transparent h-auto overflow-hidden pt-[90px] pb-20 md:h-[980px] md:pb-0">
       <div className="box-border caret-transparent h-full z-[1] px-5 md:px-[94px]">
-        <div className="box-border caret-transparent h-full max-w-[1252px] w-full mx-auto">
+        <div className="box-border caret-transparent h-full max-w-[1252px] mx-auto">
           <div className="box-border caret-transparent h-[570px] justify-around md:h-full md:justify-normal">
             <HeroContent />
             <div className="box-border caret-transparent">

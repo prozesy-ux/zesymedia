@@ -3,8 +3,15 @@ import { ServicesDropdown } from "@/sections/Navbar/components/ServicesDropdown"
 
     export const Navbar = () => {
       return (
-        <div className="fixed box-border caret-transparent max-w-none z-[99999] mx-auto pb-0 bottom-[0%] inset-x-[0%] md:max-w-[713px] md:pb-6">
-          <nav className="relative box-border caret-transparent grid grid-cols-[1fr_1fr_92px_1fr_1fr] z-[2] pt-4 pb-[22px] px-0 rounded-2xl md:grid-cols-[1fr_1fr_auto_1fr_1fr] md:p-2">
+        <>
+          {/* Backdrop Blur Overlay - shared by both dropdowns */}
+          <div 
+            id="navBackdrop" 
+            className="fixed inset-0 bg-black/20 backdrop-blur-sm z-[99998] opacity-0 invisible transition-all duration-300 pointer-events-none"
+          />
+          
+          <div className="fixed box-border caret-transparent max-w-none z-[99999] mx-auto pb-0 bottom-[0%] inset-x-[0%] md:max-w-[713px] md:pb-6">
+            <nav className="relative box-border caret-transparent grid grid-cols-[1fr_1fr_92px_1fr_1fr] z-[2] pt-4 pb-[22px] px-0 rounded-2xl md:grid-cols-[1fr_1fr_auto_1fr_1fr] md:p-2">
             <img
               src="https://c.animaapp.com/mkiynesyxwO7zZ/assets/icon-1.svg"
               alt="Icon"
@@ -43,7 +50,21 @@ import { ServicesDropdown } from "@/sections/Navbar/components/ServicesDropdown"
             <div className="relative group hidden md:flex justify-center w-full">
               <a
                 href="/services"
-                className="relative text-zinc-50 text-base items-center box-border caret-transparent gap-x-2 flex flex-col justify-center tracking-[0.32px] leading-6 w-full p-[5px] group-hover:text-violet-600 transition-colors"
+                className="relative text-zinc-50 text-base items-center box-border caret-transparent gap-x-2 flex flex-col justify-center tracking-[0.32px] leading-6 w-full p-[5px] group-hover:text-violet-400 transition-all duration-300 group-hover:drop-shadow-[0_0_10px_rgba(139,92,246,0.5)]"
+                onMouseEnter={() => {
+                  const backdrop = document.getElementById('navBackdrop');
+                  if (backdrop) {
+                    backdrop.classList.remove('opacity-0', 'invisible');
+                    backdrop.classList.add('opacity-100', 'visible');
+                  }
+                }}
+                onMouseLeave={() => {
+                  const backdrop = document.getElementById('navBackdrop');
+                  if (backdrop) {
+                    backdrop.classList.add('opacity-0', 'invisible');
+                    backdrop.classList.remove('opacity-100', 'visible');
+                  }
+                }}
               >
                 <span className="block">Services</span>
               </a>
@@ -55,15 +76,15 @@ import { ServicesDropdown } from "@/sections/Navbar/components/ServicesDropdown"
               className="relative group text-zinc-50 text-base font-bold items-center box-border caret-transparent flex h-16 justify-center justify-self-center tracking-[0.32px] leading-6 max-w-full translate-y-[-60.0%] w-16 rounded-[18px] md:h-auto md:justify-self-auto md:transform-none md:w-auto md:rounded-lg overflow-hidden"
             >
               {/* Animated Gradient Border */}
-              <div className="absolute inset-[-100%] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)] animate-[spin_2s_linear_infinite]" />
+              <div className="absolute inset-[-100%] bg-[conic-gradient(from_0deg_at_50%_50%,transparent_0%,#ffffff_10%,transparent_20%,transparent_100%)] animate-[spin_2s_linear_infinite]" />
               
               {/* Inner Background */}
-              <div className="absolute inset-[1px] bg-neutral-950 rounded-[17px] md:rounded-[7px] z-0" />
+              <div className="absolute inset-[1px] bg-[#743bed] rounded-[17px] md:rounded-[7px] z-0" />
 
               {/* Content */}
               <div className="relative items-center box-border caret-transparent gap-x-2 flex h-full justify-center gap-y-2 w-full z-10 p-[5px] md:px-8 md:py-4">
                 <img
-                  src="https://c.animaapp.com/mkiynesyxwO7zZ/assets/icon-6.svg"
+                  src="https://anpeyqpnsavhykstwwbq.supabase.co/storage/v1/object/public/images/ff/1770491818758-0.png"
                   alt="Icon"
                   className="text-[32px] box-border caret-transparent shrink-0 h-8 leading-[48px] w-8 md:text-2xl md:h-6 md:leading-9 md:w-6"
                 />
@@ -94,6 +115,20 @@ import { ServicesDropdown } from "@/sections/Navbar/components/ServicesDropdown"
               <a
                 href="/more"
                 className="relative text-zinc-50 text-[12.8px] items-center box-border caret-transparent gap-x-2 flex flex-col justify-center tracking-[0.256px] leading-[19.2px] max-w-full gap-y-2 w-full p-[5px] md:text-base md:tracking-[0.32px] md:leading-6 group-hover:text-violet-600 transition-colors"
+                onMouseEnter={() => {
+                  const backdrop = document.getElementById('navBackdrop');
+                  if (backdrop) {
+                    backdrop.classList.remove('opacity-0', 'invisible');
+                    backdrop.classList.add('opacity-100', 'visible');
+                  }
+                }}
+                onMouseLeave={() => {
+                  const backdrop = document.getElementById('navBackdrop');
+                  if (backdrop) {
+                    backdrop.classList.add('opacity-0', 'invisible');
+                    backdrop.classList.remove('opacity-100', 'visible');
+                  }
+                }}
               >
                 <img
                   src="https://c.animaapp.com/mkiynesyxwO7zZ/assets/icon-3.svg"
@@ -109,5 +144,6 @@ import { ServicesDropdown } from "@/sections/Navbar/components/ServicesDropdown"
             <div className="absolute bg-neutral-950 border border-white/10 shadow-[0_0_20px_rgba(0,0,0,0.5)] box-border caret-transparent pointer-events-none z-[-1] rounded-t-2xl rounded-b-none inset-[0%] md:rounded-b-2xl"></div>
           </nav>
         </div>
+        </>
       );
     };

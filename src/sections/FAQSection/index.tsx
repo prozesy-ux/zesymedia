@@ -5,7 +5,7 @@ export const FAQSection = () => {
     <div className="box-border caret-transparent">
       <div className="box-border caret-transparent">
         <div className="box-border caret-transparent px-5 py-[60px] md:px-[94px] md:py-[100px]">
-          <div className="box-border caret-transparent max-w-[1252px] w-full z-[1] mx-auto">
+          <div className="box-border caret-transparent max-w-[1252px] z-[1] mx-auto">
             <div className="items-center box-border caret-transparent gap-x-8 flex flex-col justify-start gap-y-8 md:gap-x-14 md:gap-y-14">
               <div className="items-center box-border caret-transparent gap-x-4 flex flex-col justify-start gap-y-4 text-center">
                 <div className="box-border caret-transparent flex">
@@ -27,13 +27,13 @@ export const FAQSection = () => {
               </div>
               <div className="box-border caret-transparent flex flex-col max-w-[1038px] w-full">
                 <FAQItem
-                  question="How can I start a project with Design Monks?"
+                  question="How can I start a project with Prozesy Media?"
                   answer="Starting a project with us is simple. Just reach out through our contact form or email, and share a brief about your needs. We’ll schedule a call to understand your goals, discuss the scope, and recommend the right approach tailored to your product or brand."
                   hasStrongQuestion={true}
                 />
                 <FAQItem
-                  question="Why is Design Monks different?"
-                  answer="The team Design Monks prioritizes a perfect mix of creativity, client-focused strategy, and deep industry insights. We consistently deliver high-quality UI/UX design across branding, product design, and web design. Our collaborative process ensures designs align with your goals to help your brand grow and succeed. This is definitely a unique process that makes us different from others."
+                  question="Why is Prozesy Media different?"
+                  answer="The team Prozesy Media prioritizes a perfect mix of creativity, client-focused strategy, and deep industry insights. We consistently deliver high-quality UI/UX design across branding, product design, and web design. Our collaborative process ensures designs align with your goals to help your brand grow and succeed. This is definitely a unique process that makes us different from others."
                 />
                 <FAQItem
                   question="How Long Does a Design Project Take?"
@@ -41,8 +41,8 @@ export const FAQSection = () => {
                   hasStrongQuestion={true}
                 />
                 <FAQItem
-                  question="Is Design Monks a start-up-friendly agency?"
-                  answer="Yes, Design Monks is a start-up-friendly agency. We understand the unique challenges start-ups face and offer affordable and flexible design solutions that fit your budget and needs. Our team is committed to helping your start-up build a strong brand and user-friendly digital presence from the ground up."
+                  question="Is Prozesy Media a start-up-friendly agency?"
+                  answer="Yes, Prozesy Media is a start-up-friendly agency. We understand the unique challenges start-ups face and offer affordable and flexible design solutions that fit your budget and needs. Our team is committed to helping your start-up build a strong brand and user-friendly digital presence from the ground up."
                 />
                 <FAQItem
                   question="What design tools do you use?"

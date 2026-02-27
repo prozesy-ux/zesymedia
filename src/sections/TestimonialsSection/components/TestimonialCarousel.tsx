@@ -18,7 +18,7 @@ const TESTIMONIALS: Testimonial[] = [
     role: "Design Director",
     company: "Esdiac",
     quote:
-      "Working with Design Monks on our ESDIAC app and group websites was an excellent experience. They were patient, attentive to feedback, and delivered clean, consistent, high-quality work.",
+      "Working with Prozesy Media on our ESDIAC app and group websites was an excellent experience. They were patient, attentive to feedback, and delivered clean, consistent, high-quality work.",
     image:
       "https://c.animaapp.com/mkiynesyxwO7zZ/assets/68db83d7e2ef5cee4c7c64ad_Client_Sofia_Gouveia_916.avif",
     logo: "https://c.animaapp.com/mkiynesyxwO7zZ/assets/68dcdfc38248b93d8a3fe1ed_Logo_Esdiac_mono.svg",
@@ -29,7 +29,7 @@ const TESTIMONIALS: Testimonial[] = [
     role: "CEO",
     company: "Clarity LLC",
     quote:
-      "I’ve worked with Design Monks on three websites, and they’ve been nothing but exceptional. Their design is top-notch, development is reliable, and communication is always smooth.",
+      "I’ve worked with Prozesy Media on three websites, and they’ve been nothing but exceptional. Their design is top-notch, development is reliable, and communication is always smooth.",
     image:
       "https://c.animaapp.com/mkiynesyxwO7zZ/assets/68db86d8ef94ad655fb9fd01_Client_Austin_916.avif",
     logo: "https://c.animaapp.com/mkiynesyxwO7zZ/assets/68db9056e42ba9fd6c172833_Logo_Clarity_mono.svg",
@@ -40,7 +40,7 @@ const TESTIMONIALS: Testimonial[] = [
     role: "COO & Co-founder",
     company: "Dlicio",
     quote:
-      "Big shoutout to the Design Monks team. They brought our vision to life both visually and strategically. They nailed the balance between clean design and real business results.",
+      "Big shoutout to the Prozesy Media team. They brought our vision to life both visually and strategically. They nailed the balance between clean design and real business results.",
     image:
       "https://c.animaapp.com/mkiynesyxwO7zZ/assets/68e64d2785cf3cb4d1e5bcc1_Client_Dilicio_916.avif",
     logo: "https://c.animaapp.com/mkiynesyxwO7zZ/assets/6885ef94ab9e4ca1123be230_Logo_Dlicio_mono.svg",
@@ -51,7 +51,7 @@ const TESTIMONIALS: Testimonial[] = [
     role: "Founder",
     company: "LeKlub",
     quote:
-      "Had an amazing experience with Design Monks. Their talented team understood my vision and turned it into stunning visuals, with their impressive attention to detail skills.",
+      "Had an amazing experience with Prozesy Media. Their talented team understood my vision and turned it into stunning visuals, with their impressive attention to detail skills.",
     image:
       "https://c.animaapp.com/mkiynesyxwO7zZ/assets/68c27038f25d2ac850921b7e_Client_LeKlub_reel.avif",
     logo: "https://c.animaapp.com/mkiynesyxwO7zZ/assets/6885f091d389d8df99129c17_Logo_leklub_mono.svg",
@@ -62,7 +62,7 @@ const TESTIMONIALS: Testimonial[] = [
     role: "CEO & Founder",
     company: "Relaxy",
     quote:
-      "Design Monks felt like part of our own team. They understood our vision, built a scalable UX we still use, and made the whole process easy. If you want more than just good looks, go with Design Monks.",
+      "Prozesy Media felt like part of our own team. They understood our vision, built a scalable UX we still use, and made the whole process easy. If you want more than just good looks, go with Prozesy Media.",
     image:
       "https://c.animaapp.com/mkiynesyxwO7zZ/assets/68e51a2880009d309ccf8a30_Client_Jahnobi_916.avif",
     logo: "https://c.animaapp.com/mkiynesyxwO7zZ/assets/688656b4cb56ce5a1e817819_Logo_Relaxy_mono.svg",
@@ -73,7 +73,7 @@ const TESTIMONIALS: Testimonial[] = [
     role: "CEO & Co Founder",
     company: "Klasio",
     quote:
-      "Thanks to Design Monks for building a world-class website that captured our vision and helped us land customers from day one. They went beyond design, researching trends and bringing great ideas.",
+      "Thanks to Prozesy Media for building a world-class website that captured our vision and helped us land customers from day one. They went beyond design, researching trends and bringing great ideas.",
     image:
       "https://c.animaapp.com/mkiynesyxwO7zZ/assets/68c27001524a8683f8f0aff1_Client_Klasio_reel.avif",
     logo: "https://c.animaapp.com/mkiynesyxwO7zZ/assets/6885f07d9c093fad609a26bb_Logo_klasio_mono.svg",
@@ -84,7 +84,7 @@ const TESTIMONIALS: Testimonial[] = [
     role: "COO",
     company: "Ontik Technologies",
     quote:
-      "We’ve worked with Design Monks for over 2 years on 10+ projects, and the experience has been outstanding. They deliver with precision, provide clear documentation, and make the whole process smooth.",
+      "We’ve worked with Prozesy Media for over 2 years on 10+ projects, and the experience has been outstanding. They deliver with precision, provide clear documentation, and make the whole process smooth.",
     image:
       "https://c.animaapp.com/mkiynesyxwO7zZ/assets/68db8732b22da6b432112dce_Client_Moshiur_Rahman_Radif_916.avif",
     logo: "https://c.animaapp.com/mkiynesyxwO7zZ/assets/6885f13ec2ad5470f81a0156_Logo_ontik_mono.svg",
@@ -123,7 +123,7 @@ const TestimonialCard = ({
     <div
       role="group"
       aria-label={`Testimonial from ${testimonial.name}`}
-      className="relative aspect-[9/16] box-border caret-transparent min-w-[272px] w-[272px] overflow-hidden rounded-3xl md:min-w-[396px] md:w-[396px] bg-neutral-900 select-none"
+      className="relative aspect-[9/16] box-border caret-transparent min-w-[300px] w-[300px] overflow-hidden rounded-3xl md:min-w-[360px] md:w-[360px] lg:min-w-[420px] lg:w-[420px] bg-neutral-900 select-none"
     >
       <video
         ref={videoRef}
@@ -233,7 +233,7 @@ export const TestimonialCarousel = () => {
       <div
         ref={scrollRef}
         role="list"
-        className={`flex overflow-x-auto gap-4 md:gap-8 w-full pb-4 -mx-5 px-5 md:-mx-[94px] md:px-[94px] hide-scrollbar cursor-grab active:cursor-grabbing ${
+        className={`relative left-1/2 -translate-x-1/2 flex overflow-x-auto gap-6 md:gap-8 lg:gap-10 w-screen pb-4 px-5 md:px-[94px] hide-scrollbar cursor-grab active:cursor-grabbing ${
           isDown ? "snap-none" : "snap-x snap-mandatory"
         }`}
         style={{

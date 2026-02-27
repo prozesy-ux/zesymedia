@@ -5,7 +5,7 @@ export const Projects = () => {
   return (
     <section className="relative bg-zinc-50 box-border caret-transparent h-full z-10 pt-[150px] pb-20">
       <div className="box-border caret-transparent px-5 md:px-[94px]">
-        <div className="box-border caret-transparent max-w-[1252px] w-full mx-auto">
+        <div className="box-border caret-transparent max-w-[1252px] mx-auto">
           <div className="box-border caret-transparent mb-14 text-center">
             <h1 className="text-[40px] font-bold box-border caret-transparent leading-[48px] font-redhatdisplay_variablefont_wght md:text-7xl md:leading-[86.4px] mb-6">
               Our <span className="italic font-playfairdisplay_variablefont_wght">Projects</span>
