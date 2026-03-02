@@ -74,8 +74,13 @@ export const MoreDropdown = () => {
             {links.map((link, index) => (
               <a 
                 key={index} 
-                href={link.href} 
-                className="group/item block relative p-4 -m-4 rounded-xl hover:bg-gray-50 transition-all"
+                href={link.href}
+                onClick={(e) => {
+                  e.preventDefault();
+                  window.history.pushState({}, "", link.href);
+                  window.dispatchEvent(new Event("locationchange"));
+                }}
+                className="group/item block relative p-4 -m-4 rounded-xl hover:bg-gray-50 transition-all cursor-pointer"
               >
                 <div className="flex items-start justify-between gap-4">
                   <div className="flex-1">

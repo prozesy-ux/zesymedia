@@ -19,7 +19,12 @@ import { ServicesDropdown } from "@/sections/Navbar/components/ServicesDropdown"
             />
             <a
               href="/projects"
-              className="relative text-zinc-50 text-[12.8px] items-center box-border caret-transparent gap-x-2 flex flex-col justify-center tracking-[0.256px] leading-[19.2px] max-w-full gap-y-2 w-full p-[5px] md:text-base md:tracking-[0.32px] md:leading-6 hover:text-violet-600 transition-colors"
+              onClick={(e) => {
+                e.preventDefault();
+                window.history.pushState({}, "", "/projects");
+                window.dispatchEvent(new Event("locationchange"));
+              }}
+              className="relative text-zinc-50 text-[12.8px] items-center box-border caret-transparent gap-x-2 flex flex-col justify-center tracking-[0.256px] leading-[19.2px] max-w-full gap-y-2 w-full p-[5px] md:text-base md:tracking-[0.32px] md:leading-6 hover:text-violet-600 transition-colors cursor-pointer"
             >
               <img
                 src="https://c.animaapp.com/mkiynesyxwO7zZ/assets/icon-2.svg"
@@ -34,7 +39,12 @@ import { ServicesDropdown } from "@/sections/Navbar/components/ServicesDropdown"
             {/* Mobile Services Link */}
             <a
               href="/services"
-              className="relative text-zinc-50 text-[12.8px] items-center box-border caret-transparent gap-x-2 flex flex-col justify-center tracking-[0.256px] leading-[19.2px] max-w-full min-h-[auto] min-w-[auto] gap-y-2 w-full p-[5px] md:hidden md:tracking-[0.32px] md:leading-6 md:min-h-0 md:min-w-0"
+              onClick={(e) => {
+                e.preventDefault();
+                window.history.pushState({}, "", "/services");
+                window.dispatchEvent(new Event("locationchange"));
+              }}
+              className="relative text-zinc-50 text-[12.8px] items-center box-border caret-transparent gap-x-2 flex flex-col justify-center tracking-[0.256px] leading-[19.2px] max-w-full min-h-[auto] min-w-[auto] gap-y-2 w-full p-[5px] md:hidden md:tracking-[0.32px] md:leading-6 md:min-h-0 md:min-w-0 cursor-pointer"
             >
               <img
                 src="https://c.animaapp.com/mkiynesyxwO7zZ/assets/icon-3.svg"
@@ -73,7 +83,12 @@ import { ServicesDropdown } from "@/sections/Navbar/components/ServicesDropdown"
 
             <a
               href="/contact"
-              className="relative group text-zinc-50 text-base font-bold items-center box-border caret-transparent flex h-16 justify-center justify-self-center tracking-[0.32px] leading-6 max-w-full translate-y-[-60.0%] w-16 rounded-[18px] md:h-auto md:justify-self-auto md:transform-none md:w-auto md:rounded-lg overflow-hidden"
+              onClick={(e) => {
+                e.preventDefault();
+                window.history.pushState({}, "", "/contact");
+                window.dispatchEvent(new Event("locationchange"));
+              }}
+              className="relative group text-zinc-50 text-base font-bold items-center box-border caret-transparent flex h-16 justify-center justify-self-center tracking-[0.32px] leading-6 max-w-full translate-y-[-60.0%] w-16 rounded-[18px] md:h-auto md:justify-self-auto md:transform-none md:w-auto md:rounded-lg overflow-hidden cursor-pointer"
             >
               {/* Animated Gradient Border */}
               <div className="absolute inset-[-100%] bg-[conic-gradient(from_0deg_at_50%_50%,transparent_0%,#ffffff_10%,transparent_20%,transparent_100%)] animate-[spin_2s_linear_infinite]" />
@@ -100,7 +115,12 @@ import { ServicesDropdown } from "@/sections/Navbar/components/ServicesDropdown"
             </a>
             <a
               href="/pricing"
-              className="relative text-zinc-50 text-[12.8px] items-center box-border caret-transparent gap-x-2 flex flex-col justify-center tracking-[0.256px] leading-[19.2px] max-w-full gap-y-2 w-full p-[5px] md:text-base md:tracking-[0.32px] md:leading-6 hover:text-violet-600 transition-colors"
+              onClick={(e) => {
+                e.preventDefault();
+                window.history.pushState({}, "", "/pricing");
+                window.dispatchEvent(new Event("locationchange"));
+              }}
+              className="relative text-zinc-50 text-[12.8px] items-center box-border caret-transparent gap-x-2 flex flex-col justify-center tracking-[0.256px] leading-[19.2px] max-w-full gap-y-2 w-full p-[5px] md:text-base md:tracking-[0.32px] md:leading-6 hover:text-violet-600 transition-colors cursor-pointer"
             >
               <img
                 src="https://c.animaapp.com/mkiynesyxwO7zZ/assets/icon-8.svg"
