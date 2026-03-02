@@ -1,11 +1,11 @@
-import { Hero } from "@/sections/Hero";
+import { HeroSection } from "@/sections/HeroSection";
 import { Footer } from "@/sections/Footer";
 
 // Teams page - same style as About and Blog, uses main site components
 export const Teams = () => {
   return (
     <div className="bg-zinc-50 pt-[0px] pb-0">
-      <Hero />
+      <HeroSection />
       
       {/* Teams Grid Section */}
       <div className="px-4 md:px-8 py-12 md:py-20">
