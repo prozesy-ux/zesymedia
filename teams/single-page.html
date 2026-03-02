@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Design Monks - Team Page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @font-face {
+      font-family: 'Outfit';
+      src: url("https://fonts.gstatic.com/s/outfit/v15/QGYvz_MVcBeNP4NJuktqQ4E.woff2") format("woff2");
+      font-weight: 300 700;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: 'Playfair Display';
+      src: url("https://fonts.gstatic.com/s/playfairdisplay/v40/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgA.woff2") format("woff2");
+      font-weight: 400 700;
+      font-style: italic;
+    }
+    @font-face {
+      font-family: 'Red Hat Display';
+      src: url("https://fonts.gstatic.com/s/redhatdisplay/v21/8vIQ7wUr0m80wwYf0QCXZzYzUoTg_T6h.woff2") format("woff2");
+      font-weight: 300 700;
+      font-style: normal;
+    }
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: 'Outfit', sans-serif;
+      background: #fafafa;
+      overflow-x: hidden;
+    }
+    
+    html {
+      scroll-behavior: smooth;
+    }
+    
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(10px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    
+    .animate-fadeIn {
+      animation: fadeIn 0.5s ease-in-out;
+    }
+    
+    .team-card:hover img {
+      transform: scale(1.1);
+    }
+    
+    .team-card:hover h3 {
+      color: #7c3aed;
+    }
+    
+    .team-card img {
+      transition: transform 0.5s ease-in-out;
+    }
+    
+    .team-card h3 {
+      transition: color 0.3s ease;
+    }
+    
+    .testimonial-slider {
+      transition: transform 700ms ease-in-out;
+    }
+    
+    .testimonial-item {
+      transition: opacity 700ms ease-in-out, transform 700ms ease-in-out;
+    }
+    
+    .testimonial-image:hover {
+      transform: scale(1.05);
+    }
+    
+    .testimonial-image {
+      transition: transform 0.5s ease-in-out;
+    }
+  </style>
+</head>
+<body class="text-zinc-800 text-sm bg-zinc-50">
+  
+  <!-- Bottom Navbar -->
+  <div class="fixed max-w-none z-[99999] mx-auto pb-6 bottom-0 inset-x-0 md:max-w-[713px]">
+    <nav class="relative grid grid-cols-[1fr_1fr_92px_1fr_1fr] z-[2] pt-4 pb-[22px] px-0 rounded-2xl md:grid-cols-[1fr_1fr_auto_1fr_1fr] md:p-2">
+      <img src="https://c.animaapp.com/mlcfrtj47me9da/assets/icon-1.svg" alt="Icon" class="absolute block h-[92px] pointer-events-none -translate-x-1/2 w-screen left-1/2 top-0 md:hidden md:transform-none md:w-[375px]">
+      
+      <a href="https://www.designmonks.co/projects" class="relative text-zinc-50 text-[12.8px] items-center gap-x-2 flex flex-col justify-center tracking-[0.256px] leading-[19.2px] max-w-full gap-y-2 w-full p-[5px] md:text-base md:tracking-[0.32px] md:leading-6 hover:text-violet-400">
+        <img src="https://c.animaapp.com/mlcfrtj47me9da/assets/icon-2.svg" alt="Icon" class="text-2xl block shrink-0 h-6 tracking-[0.256px] leading-9 w-6 md:hidden">
+        <span class="text-[12.8px] block tracking-[0.256px] leading-[19.2px] md:text-base md:tracking-[0.32px] md:leading-6">Projects</span>
+      </a>
+      
+      <a href="https://www.designmonks.co/services" class="relative text-zinc-50 text-[12.8px] items-center gap-x-2 flex flex-col justify-center tracking-[0.256px] leading-[19.2px] max-w-full gap-y-2 w-full p-[5px] md:text-base md:tracking-[0.32px] md:leading-6 hover:text-violet-400">
+        <img src="https://c.animaapp.com/mlcfrtj47me9da/assets/icon-3.svg" alt="Icon" class="text-2xl block shrink-0 h-6 tracking-[0.256px] leading-9 w-6 md:hidden">
+        <span class="text-[12.8px] block tracking-[0.256px] leading-[19.2px] md:text-base md:tracking-[0.32px] md:leading-6">Services</span>
+      </a>
+      
+      <a href="https://www.designmonks.co/contact" class="relative text-zinc-50 text-base font-bold items-center bg-violet-600 flex h-16 justify-center justify-self-center tracking-[0.32px] leading-6 max-w-full -translate-y-[60%] w-16 rounded-[18px] md:h-auto md:justify-self-auto md:transform-none md:w-auto md:rounded-lg">
+        <div class="absolute bg-violet-600 bg-[conic-gradient(at_8.04%_51.79%,rgb(251,250,246)_0deg,rgba(251,250,246,0)_360deg)] pointer-events-none inset-0"></div>
+        <div class="relative items-center bg-neutral-950 gap-x-2 flex h-full justify-center gap-y-2 w-full z-0 p-[5px] md:px-8 md:py-4">
+          <div class="absolute bg-[linear-gradient(rgb(89,45,181)_25%,rgb(125,64,255))] shadow-[rgba(255,255,255,0.72)_0px_2px_3px_0px_inset] pointer-events-none z-[-1] inset-0"></div>
+          <img src="https://c.animaapp.com/mlcfrtj47me9da/assets/icon-6.svg" alt="Icon" class="text-[32px] shrink-0 h-8 leading-[48px] w-8 md:text-2xl md:h-6 md:leading-9 md:w-6">
+          <span class="hidden min-h-0 min-w-0 md:block md:min-h-[auto] md:min-w-[auto]">Start a Project</span>
+          <img src="https://c.animaapp.com/mlcfrtj47me9da/assets/icon-7.svg" alt="Icon" class="absolute text-white/50 blur-[2.5px] h-16 pointer-events-none translate-x-1/2 -translate-y-1/2 w-16 right-0 top-0">
+        </div>
+      </a>
+      
+      <a href="https://www.designmonks.co/pricing" class="relative text-zinc-50 text-[12.8px] items-center gap-x-2 flex flex-col justify-center tracking-[0.256px] leading-[19.2px] max-w-full gap-y-2 w-full p-[5px] md:text-base md:tracking-[0.32px] md:leading-6 hover:text-violet-400">
+        <img src="https://c.animaapp.com/mlcfrtj47me9da/assets/icon-8.svg" alt="Icon" class="text-2xl block shrink-0 h-6 tracking-[0.256px] leading-9 w-6 md:hidden">
+        <span class="text-[12.8px] block tracking-[0.256px] leading-[19.2px] md:text-base md:tracking-[0.32px] md:leading-6">Pricing</span>
+      </a>
+      
+      <div class="relative items-center contents justify-center text-left mx-auto">
+        <div role="button" class="relative text-zinc-50 text-[12.8px] items-center gap-x-2 flex flex-col justify-center tracking-[0.256px] leading-[19.2px] gap-y-2 text-nowrap align-top w-full mx-auto my-0 p-[5px] md:text-base md:tracking-[0.32px] md:leading-6 md:-my-2 hover:text-violet-400">
+          <img src="https://c.animaapp.com/mlcfrtj47me9da/assets/icon-9.svg" alt="Icon" class="text-2xl block shrink-0 h-6 tracking-[0.256px] leading-9 text-nowrap w-6 md:hidden">
+          <div class="text-[12.8px] tracking-[0.256px] leading-[19.2px] text-nowrap md:text-base md:tracking-[0.32px] md:leading-6">More</div>
+        </div>
+      </div>
+      
+      <div class="absolute bg-neutral-950 shadow-[rgba(48,255,151,0.4)_0px_3px_4px_0px_inset] pointer-events-none z-[-1] rounded-2xl inset-0"></div>
+    </nav>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="relative bg-neutral-950/90 bg-[linear-gradient(rgba(48,255,151,0)_30%,rgba(48,255,151,0.33))] overflow-hidden rounded-b-[20px] md:rounded-b-[32px]">
+    <div class="max-w-[1252px] w-full z-[1] mx-auto">
+      <div class="relative items-center flex-col h-full justify-center text-left w-full z-[2] pb-[92px] px-5 md:pb-[560px] md:px-[94px]">
+        <div class="items-center gap-x-4 flex flex-col justify-start gap-y-4 text-center">
+          <div class="items-center flex justify-center z-[99] pt-[27px] pb-[7px] md:py-7">
+            <a href="https://www.designmonks.co/" class="text-violet-600 block max-w-full">
+              <img src="https://c.animaapp.com/mlcfrtj47me9da/img/uploaded-asset-1770480051271-0.png" alt="Grazymedia" class="inline-block max-w-full h-12 md:h-16">
+            </a>
+          </div>
+          
+          <div class="items-center bg-white/10 gap-x-[5px] flex gap-y-[5px] z-[88] px-3 py-1 rounded-[18px] md:static md:z-auto">
+            <a href="https://www.designmonks.co/" class="text-neutral-400 text-xs block tracking-[0.24px] leading-[18px] max-w-full capitalize">
+              <div class="normal-case">Home</div>
+            </a>
+            <div><img src="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/67423a8542288605dea89299_CaretRight.webp" alt="" class="inline-block max-w-full"></div>
+            <a href="https://www.designmonks.co/about" class="text-neutral-400 text-xs block tracking-[0.24px] leading-[18px] max-w-full capitalize">
+              <div class="normal-case">About Us</div>
+            </a>
+            <div><img src="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/67423a8542288605dea89299_CaretRight.webp" alt="" class="inline-block max-w-full"></div>
+            <a href="https://www.designmonks.co/teams" class="text-white text-xs block tracking-[0.24px] leading-[18px] max-w-full capitalize">
+              <div class="normal-case">Team Page</div>
+            </a>
+          </div>
+          
+          <div class="text-zinc-50">
+            <h1 class="text-[32px] font-bold leading-[38.4px] md:text-[56px] md:leading-[67.2px]" style="font-family: 'Red Hat Display', sans-serif;">
+              Our Awesome <br>
+              <em class="text-[32px] italic leading-[38.4px] capitalize md:text-[56px] md:leading-[67.2px]" style="font-family: 'Playfair Display', serif;">Monks family</em>
+            </h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <img src="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/67fbb9e09e1ee391a7f159d2_Group 2147223906.avif" alt="" class="absolute max-w-44 pointer-events-none z-0 right-0 top-0 md:max-w-full">
+    <img src="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/680abee77b8b1a005391c27b_d06c4296b2ae60af25ab36e28167df46_box element.avif" alt="" class="absolute items-end hidden h-[100px] justify-start max-w-20 pointer-events-none w-full left-0 bottom-0 md:block md:h-auto md:max-w-full md:w-auto">
+    
+    <video loop autoplay muted playsinline preload="auto" class="absolute h-full object-cover object-[50%_0%] pointer-events-none w-full z-[-1] inset-0">
+      <source src="https://github.com/designmonks/webvideos/raw/main/Abstract_objects_(dark_theme).mp4" type="video/mp4">
+    </video>
+  </section>
+
+  <!-- Team Grid Section -->
+  <section class="relative mt-[-60px] z-[3] md:mt-[-480px]">
+    <div class="pb-[60px] px-5 md:pb-[100px] md:px-[94px]">
+      <div class="max-w-[1252px] w-full z-[1] mx-auto">
+        
+        <!-- Founders -->
+        <div class="gap-x-6 grid auto-cols-[1fr] grid-cols-[1fr] grid-rows-[auto] gap-y-6 md:gap-x-8 md:grid-cols-[1fr_1fr] md:gap-y-8">
+          
+          <div class="self-center md:self-auto team-card">
+            <a href="https://www.designmonks.co/atiqur-rahaman" class="text-black inline-block max-w-full w-full group">
+              <div class="overflow-hidden rounded-3xl">
+                <img src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/68b818a778cc3901842066df_DP_Atiq.avif" alt="" class="aspect-[auto_610_/_917] inline-block h-full max-w-full object-cover w-full">
+              </div>
+              <div class="text-neutral-950 items-center gap-x-1 flex flex-col gap-y-1 text-center mt-3 md:gap-x-2 md:gap-y-2 md:mt-6">
+                <h3 class="text-xl font-bold leading-6 md:text-[32px] md:leading-[38.4px]" style="font-family: 'Red Hat Display', sans-serif;">Atiqur Rahaman</h3>
+                <div class="text-neutral-500">
+                  <div class="text-xl tracking-[0.48px] leading-[30px] md:text-2xl md:leading-9">CEO & Co-founder</div>
+                </div>
+              </div>
+            </a>
+            <div class="gap-x-4 flex justify-center gap-y-4 mt-4">
+              <a href="https://www.linkedin.com/in/atiq31416/" class="text-violet-600 items-center bg-neutral-900/10 flex h-11 justify-center max-w-11 w-full rounded-lg hover:bg-blue-600/20">
+                <img src="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/676d686bcc487e32fc0ab3d3_LinkedinLogo.svg" alt="" class="max-w-full">
+              </a>
+              <a href="https://twitter.com/Atiq31416" class="text-violet-600 items-center bg-neutral-900/10 flex h-11 justify-center max-w-11 w-full rounded-lg hover:bg-blue-600/20">
+                <img src="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/67376bdd90129fe64264acde_XLogo.svg" alt="" class="max-w-full">
+              </a>
+              <a href="https://www.youtube.com/@atiq31416" class="text-violet-600 items-center bg-neutral-900/10 flex h-11 justify-center max-w-11 w-full rounded-lg hover:bg-blue-600/20">
+                <img src="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/67f8db745b67524f77d6f971_YoutubeLogo.png" alt="" class="max-w-full">
+              </a>
+            </div>
+          </div>
+          
+          <div class="self-center md:self-auto team-card">
+            <a href="https://www.designmonks.co/abdullah-al-noman" class="text-black inline-block max-w-full w-full group">
+              <div class="overflow-hidden rounded-3xl">
+                <img src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/68b81861c10b86bd876593bc_DP_Noman.avif" alt="" class="aspect-[auto_610_/_917] inline-block h-full max-w-full object-cover w-full">
+              </div>
+              <div class="text-neutral-950 items-center gap-x-1 flex flex-col gap-y-1 text-center mt-3 md:gap-x-2 md:gap-y-2 md:mt-6">
+                <h3 class="text-xl font-bold leading-6 md:text-[32px] md:leading-[38.4px]" style="font-family: 'Red Hat Display', sans-serif;">Abdullah Al Noman</h3>
+                <div class="text-neutral-500">
+                  <div class="text-xl tracking-[0.48px] leading-[30px] md:text-2xl md:leading-9">COO & Co-founder</div>
+                </div>
+              </div>
+            </a>
+            <div class="gap-x-4 flex justify-center gap-y-4 mt-4">
+              <a href="https://www.linkedin.com/in/nomandigital/" class="text-violet-600 items-center bg-neutral-900/10 flex h-11 justify-center max-w-11 w-full rounded-lg hover:bg-blue-600/20">
+                <img src="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/676d686bcc487e32fc0ab3d3_LinkedinLogo.svg" alt="" class="max-w-full">
+              </a>
+              <a href="https://twitter.com/imnomandigital" class="text-violet-600 items-center bg-neutral-900/10 flex h-11 justify-center max-w-11 w-full rounded-lg hover:bg-blue-600/20">
+                <img src="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/67376bdd90129fe64264acde_XLogo.svg" alt="" class="max-w-full">
+              </a>
+            </div>
+          </div>
+          
+        </div>
+        
+        <!-- Team Members Grid -->
+        <div class="mt-6 md:mt-14">
+          <div class="gap-x-6 grid auto-cols-[1fr] grid-cols-[1fr] grid-rows-[auto_auto] gap-y-6 md:gap-x-8 md:grid-cols-[1fr_1fr_1fr] md:gap-y-8">
+            
+            <div class="team-card group">
+              <div class="text-black w-full">
+                <div class="overflow-hidden rounded-3xl">
+                  <img src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/695d3590ed342d8b2ad128cd_Adom Shafi.avif" alt="" class="aspect-[auto_396_/_596] inline-block h-full max-w-full object-cover w-full">
+                </div>
+                <div class="text-neutral-950 items-center gap-x-1 flex flex-col gap-y-1 text-center mt-3 md:gap-x-2 md:gap-y-2 md:mt-6">
+                  <h3 class="text-xl font-bold leading-6 md:text-[32px] md:leading-[38.4px]" style="font-family: 'Red Hat Display', sans-serif;">Adom Shafi</h3>
+                  <div class="text-neutral-500">
+                    <div class="text-xl tracking-[0.48px] leading-[30px] md:text-2xl md:leading-9">Senior UI Designer</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="team-card group">
+              <div class="text-black w-full">
+                <div class="overflow-hidden rounded-3xl">
+                  <img src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/695d34f22381beb744809b52_Jami.avif" alt="" class="aspect-[auto_396_/_596] inline-block h-full max-w-full object-cover w-full">
+                </div>
+                <div class="text-neutral-950 items-center gap-x-1 flex flex-col gap-y-1 text-center mt-3 md:gap-x-2 md:gap-y-2 md:mt-6">
+                  <h3 class="text-xl font-bold leading-6 md:text-[32px] md:leading-[38.4px]" style="font-family: 'Red Hat Display', sans-serif;">Abdullah Al Jami</h3>
+                  <div class="text-neutral-500">
+                    <div class="text-xl tracking-[0.48px] leading-[30px] md:text-2xl md:leading-9">Product Designer</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="team-card group">
+              <div class="text-black w-full">
+                <div class="overflow-hidden rounded-3xl">
+                  <img src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/695d33a241147890065cd70d_Nahid.avif" alt="" class="aspect-[auto_396_/_596] inline-block h-full max-w-full object-cover w-full">
+                </div>
+                <div class="text-neutral-950 items-center gap-x-1 flex flex-col gap-y-1 text-center mt-3 md:gap-x-2 md:gap-y-2 md:mt-6">
+                  <h3 class="text-xl font-bold leading-6 md:text-[32px] md:leading-[38.4px]" style="font-family: 'Red Hat Display', sans-serif;">Hasan Imam Nahid</h3>
+                  <div class="text-neutral-500">
+                    <div class="text-xl tracking-[0.48px] leading-[30px] md:text-2xl md:leading-9">UI Designer</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="team-card group">
+              <div class="text-black w-full">
+                <div class="overflow-hidden rounded-3xl">
+                  <img src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/695d32c5ed342d8b2ad0c923_Maruf.avif" alt="" class="aspect-[auto_396_/_596] inline-block h-full max-w-full object-cover w-full">
+                </div>
+                <div class="text-neutral-950 items-center gap-x-1 flex flex-col gap-y-1 text-center mt-3 md:gap-x-2 md:gap-y-2 md:mt-6">
+                  <h3 class="text-xl font-bold leading-6 md:text-[32px] md:leading-[38.4px]" style="font-family: 'Red Hat Display', sans-serif;">Abdullah Al Maruf</h3>
+                  <div class="text-neutral-500">
+                    <div class="text-xl tracking-[0.48px] leading-[30px] md:text-2xl md:leading-9">Product Designer</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="team-card group">
+              <div class="text-black w-full">
+                <div class="overflow-hidden rounded-3xl">
+                  <img src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/695d30b7c61d8992d171b1f2_Tanvir Ahmed Saimon (1).avif" alt="" class="aspect-[auto_396_/_596] inline-block h-full max-w-full object-cover w-full">
+                </div>
+                <div class="text-neutral-950 items-center gap-x-1 flex flex-col gap-y-1 text-center mt-3 md:gap-x-2 md:gap-y-2 md:mt-6">
+                  <h3 class="text-xl font-bold leading-6 md:text-[32px] md:leading-[38.4px]" style="font-family: 'Red Hat Display', sans-serif;">Tanvir Ahmed Saimon</h3>
+                  <div class="text-neutral-500">
+                    <div class="text-xl tracking-[0.48px] leading-[30px] md:text-2xl md:leading-9">Creative Director</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="team-card group">
+              <div class="text-black w-full">
+                <div class="overflow-hidden rounded-3xl">
+                  <img src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/693fb3287046c788b365314a_Arif Hossain.avif" alt="" class="aspect-[auto_396_/_596] inline-block h-full max-w-full object-cover w-full">
+                </div>
+                <div class="text-neutral-950 items-center gap-x-1 flex flex-col gap-y-1 text-center mt-3 md:gap-x-2 md:gap-y-2 md:mt-6">
+                  <h3 class="text-xl font-bold leading-6 md:text-[32px] md:leading-[38.4px]" style="font-family: 'Red Hat Display', sans-serif;">Arif Hossain</h3>
+                  <div class="text-neutral-500">
+                    <div class="text-xl tracking-[0.48px] leading-[30px] md:text-2xl md:leading-9">Product Designer</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonial Carousel Section -->
+  <section class="bg-violet-50 overflow-hidden" id="testimonial-section">
+    <div class="px-5 py-[60px] md:px-[94px] md:py-[100px]">
+      <div class="max-w-[1252px] w-full z-[1] mx-auto">
+        <div class="gap-x-[30px] grid grid-cols-none gap-y-[30px] mx-auto md:gap-x-[normal] md:grid-cols-[22.8365%_72.6763%_4.48718%] md:gap-y-[normal]">
+          
+          <!-- Testimonial Images Slider -->
+          <div class="relative h-auto list-none max-w-[690px] w-full z-[1] mx-auto md:h-[685.236px] md:max-w-none overflow-hidden">
+            <div id="testimonial-slider" class="testimonial-slider relative flex flex-col h-full w-full z-[1]">
+              
+              <div class="testimonial-item relative aspect-square shrink-0 h-[253.667px] w-full p-[12.0001px] md:aspect-auto md:px-9 md:py-5">
+                <div class="h-full overflow-hidden -mb-6 rounded-[50%] md:mb-0 md:rounded-[28.9955px]">
+                  <img alt="Saif Sarwar" src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/68b819c1deb8e68db3dba2d6_DP_Saif Sarwar.avif" class="testimonial-image inline-block h-full max-w-full object-cover object-[50%_10%] w-full">
+                </div>
+              </div>
+              
+              <div class="testimonial-item relative aspect-square shrink-0 h-[253.667px] w-full p-[12.0001px] md:aspect-auto md:px-9 md:py-5">
+                <div class="h-full overflow-hidden -mb-6 rounded-[50%] md:mb-0 md:rounded-[28.9955px]">
+                  <img alt="Sourav Dhali" src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/68b81a54cf1e021d5942774a_DP_Sourav Dhali.avif" class="testimonial-image inline-block h-full max-w-full object-cover object-[50%_10%] w-full">
+                </div>
+              </div>
+              
+              <div class="testimonial-item relative aspect-square shrink-0 h-[253.667px] w-full p-[12.0001px] md:aspect-auto md:px-9 md:py-5">
+                <div class="h-full overflow-hidden -mb-6 rounded-[50%] md:mb-0 md:rounded-[28.9955px]">
+                  <img alt="Sabiha Sultana" src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/68b8197ba8f360fc1827ad50_DP_Sabiha Sultana.avif" class="testimonial-image inline-block h-full max-w-full object-cover object-[50%_10%] w-full">
+                </div>
+              </div>
+              
+              <div class="testimonial-item relative aspect-square shrink-0 h-[253.667px] w-full p-[12.0001px] md:aspect-auto md:px-9 md:py-5">
+                <div class="h-full overflow-hidden -mb-6 rounded-[50%] md:mb-0 md:rounded-[28.9955px]">
+                  <img alt="Abid Hasan" src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/68b819e46f5ee25b86cc4be2_DP_Abid Hasan.avif" class="testimonial-image inline-block h-full max-w-full object-cover object-[50%_10%] w-full">
+                </div>
+              </div>
+              
+            </div>
+          </div>
+          
+          <!-- Testimonial Content -->
+          <div class="relative list-none w-full z-[1] overflow-hidden mx-auto">
+            <div id="testimonial-content" class="relative grid h-full w-full z-[1]">
+              <div class="relative items-center grid shrink-0 col-start-[-1] row-start-1 h-full animate-fadeIn">
+                <div class="items-center bg-violet-50 gap-x-6 flex flex-col h-full justify-between justify-items-center gap-y-6 text-center mt-0 mx-0 md:items-start md:gap-x-14 md:h-auto md:justify-center md:gap-y-14 md:text-start md:ml-[54.5891px] md:mr-[43.4707px] md:-mt-6">
+                  <img src="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/6744858be9dbe2f7a6b0bce9_Frame 1618871848.avif" alt="" class="max-w-full text-center md:text-start">
+                  <p id="testimonial-quote" class="text-2xl tracking-[0.36px] leading-[28.8px] text-center md:text-[40px] md:leading-[48px] md:text-start">
+                    Being a part of Design Monks truly feels like a blessing. I get to work with amazing teammates and learn from great mentors. Also, working remotely not only saves time but also boosts productivity. For me, Design Monks isn't just about work, it's about being part of a team that genuinely understands the balance between freedom and responsibility.
+                  </p>
+                  <div class="text-center md:text-start">
+                    <p id="testimonial-name" class="text-neutral-950 text-xl font-bold tracking-[0.36px] leading-6 text-center md:text-[32px] md:leading-[38.4px] md:text-start" style="font-family: 'Red Hat Display', sans-serif;">Saif Sarwar</p>
+                    <p id="testimonial-role" class="text-neutral-600 text-base tracking-[0.36px] leading-6 text-center md:text-lg md:leading-[27px] md:text-start">Product Designer</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Carousel Controls -->
+          <div class="content-center gap-x-3 grid grid-flow-col justify-center gap-y-3 w-auto md:grid-flow-row md:justify-normal md:w-full">
+            <button type="button" id="prev-btn" aria-label="Previous slide" class="text-violet-600 items-center aspect-square bg-zinc-50 grid justify-items-center text-center -rotate-90 w-[46px] border border-violet-600 p-0 rounded-[50%] border-solid md:transform-none hover:bg-violet-600 hover:text-white">
+              <img src="https://c.animaapp.com/mlcfrtj47me9da/assets/icon-10.svg" alt="Icon" class="h-[21px] w-[17px]">
+            </button>
+            <button type="button" id="next-btn" aria-label="Next slide" class="text-violet-600 items-center aspect-square bg-zinc-50 grid justify-items-center text-center -rotate-90 w-[46px] border border-violet-600 p-0 rounded-[50%] border-solid md:transform-none hover:bg-violet-600 hover:text-white">
+              <img src="https://c.animaapp.com/mlcfrtj47me9da/assets/icon-11.svg" alt="Icon" class="h-[21px] w-[17px]">
+            </button>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Career CTA Section -->
+  <div class="pt-0 px-5 md:pt-[156px] md:px-[94px]">
+    <div class="max-w-[1252px] w-full z-[1] mx-auto">
+      <div class="relative bg-neutral-950 bg-[url('https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/680ce2c7ccbfc46d3d64d42c_dea7841b0e3986b5c5471118785093c7_Dots%20Background%20dark.avif')] flex flex-col w-full overflow-hidden bg-[position:0px_0px] rounded-2xl md:bg-none md:block md:flex-row md:overflow-visible md:bg-left-top md:rounded-[32px]">
+        
+        <div class="relative items-center flex flex-col h-auto z-[1] overflow-hidden rounded-2xl md:block md:flex-row md:h-[500px] md:z-[21] md:rounded-[32px]">
+          <div class="items-center flex h-full justify-start w-full pt-8 pb-4 px-6 md:w-auto md:p-12">
+            <div class="relative items-center flex flex-col justify-start w-full md:static md:block md:flex-row md:w-[423px]">
+              <div class="gap-x-6 flex flex-col gap-y-6 md:gap-x-8 md:gap-y-8">
+                <div class="items-center gap-x-2 flex flex-col justify-start gap-y-2 text-center md:gap-x-4 md:gap-y-4 md:text-start">
+                  <div class="flex text-center md:text-start">
+                    <div class="text-green-500 text-center border border-green-800 px-3 py-1 rounded-3xl border-solid md:text-start">
+                      <div class="text-sm leading-[21px] text-center md:text-base md:leading-6 md:text-start">Career</div>
+                    </div>
+                  </div>
+                  <div class="text-zinc-50 text-center md:text-start">
+                    <h2 class="text-[28px] font-bold leading-[33.6px] text-center md:text-5xl md:leading-[57.6px] md:text-start" style="font-family: 'Red Hat Display', sans-serif;">
+                      Want to be a <br>
+                      <em class="text-[28px] italic leading-[33.6px] text-center capitalize md:text-5xl md:leading-[57.6px] md:text-start" style="font-family: 'Playfair Display', serif;">monk like us?</em>
+                    </h2>
+                  </div>
+                  <div class="text-neutral-300 text-center md:text-start">
+                    <p class="text-sm tracking-[0.36px] leading-[21px] text-center md:text-base md:leading-6 md:text-start">
+                      Are you a talented and self-motivated person with a positive vibe? If yes, you can be the next member of our Monks family.
+                    </p>
+                  </div>
+                </div>
+                <div class="relative items-start gap-x-8 hidden flex-col max-w-full gap-y-8 w-full z-[3] md:flex md:max-w-[280px]">
+                  <div class="relative items-center flex justify-start w-full z-20 md:static">
+                    <a href="https://www.designmonks.co/contractualmonks" class="relative text-violet-600 items-center bg-[linear-gradient(rgb(89,45,181)_25%,rgb(125,64,255))] shadow-[rgba(255,255,255,0.72)_0px_1.6px_3px_0px_inset] flex flex-col h-14 justify-center max-w-full text-left w-full z-10 overflow-hidden rounded-lg md:max-w-[207px]">
+                      <div class="absolute items-center bg-neutral-400 flex h-full justify-center w-full inset-0">
+                        <div class="absolute bg-[linear-gradient(90deg,rgba(255,255,255,0.79)_61%,rgb(255,255,255)_75%)] blur-[6px] h-20 w-full left-1/2 right-0 top-1/2 bottom-0 md:-translate-y-1/2"></div>
+                      </div>
+                      <div class="absolute bg-[linear-gradient(rgb(89,45,181)_25%,rgb(125,64,255))] m-[1.3px] rounded-lg inset-0"></div>
+                      <div class="relative text-gray-200 w-full md:w-auto">
+                        <div class="relative items-center gap-x-2 flex h-full justify-center gap-y-2 w-full z-[1]">
+                          <div class="text-zinc-50 text-base font-bold tracking-[0.32px] leading-[19.2px]">Join our team</div>
+                          <img src="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/67adba6a3ab018a0349e2bc2_CTA Arrow (2).svg" alt="" class="h-7 max-w-7 object-contain w-full md:h-6 md:max-w-6">
+                        </div>
+                      </div>
+                      <img src="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/672a7a8e3a6aba070d15d4c0_Star 6.avif" alt="" class="absolute max-w-full right-0 top-0">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="relative h-[425px] order-1 w-full z-[2] right-0 bottom-0 md:absolute md:h-auto md:order-none md:w-[675px] md:z-20">
+          <img alt="" src="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/67a2138f9f2e22f26587c4c0_Product Design Vs UX Design 3 3.avif" class="h-full max-w-full object-cover object-[50%_0%] w-full md:object-fill md:object-[50%_50%]">
+          <div class="absolute items-start gap-x-8 block flex-col max-w-full gap-y-8 w-full z-[3] pb-4 px-4 bottom-0 md:relative md:hidden md:max-w-none md:pb-0 md:px-0 md:bottom-auto">
+            <div class="relative items-center flex justify-start w-full z-20 md:static">
+              <a href="https://www.designmonks.co/teams" class="relative text-violet-600 items-center bg-[linear-gradient(rgb(89,45,181)_25%,rgb(125,64,255))] shadow-[rgba(255,255,255,0.72)_0px_1.6px_3px_0px_inset] flex flex-col h-14 justify-center max-w-full text-left w-full z-10 overflow-hidden rounded-lg md:max-w-[207px]">
+                <div class="absolute items-center bg-neutral-400 flex h-full justify-center rotate-[30.40919928365078deg] w-full inset-0 md:transform-none">
+                  <div class="absolute bg-[linear-gradient(90deg,rgba(255,255,255,0.79)_61%,rgb(255,255,255)_75%)] blur-[6px] h-20 -translate-y-10 w-full left-1/2 right-0 top-1/2 bottom-0 md:transform-none"></div>
+                </div>
+                <div class="absolute bg-[linear-gradient(rgb(89,45,181)_25%,rgb(125,64,255))] m-[1.3px] rounded-lg inset-0"></div>
+                <div class="relative text-gray-200 w-full md:w-auto">
+                  <div class="relative items-center gap-x-2 flex h-full justify-center gap-y-2 w-full z-[1]">
+                    <div class="text-zinc-50 text-base font-bold tracking-[0.32px] leading-[19.2px]">Join Our team</div>
+                    <img src="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/67adba6a3ab018a0349e2bc2_CTA Arrow (2).svg" alt="" class="h-7 max-w-7 object-contain w-full md:h-6 md:max-w-6">
+                  </div>
+                </div>
+                <img src="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/672a7a8e3a6aba070d15d4c0_Star 6.avif" alt="" class="absolute max-w-full right-0 top-0">
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="absolute pointer-events-none overflow-hidden rounded-2xl inset-0 md:rounded-[32px]">
+          <div class="absolute opacity-[0.02] left-0 right-0 top-0 md:left-auto">
+            <img src="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/680ce24b995fd04d3ca18883_Group 2147225317.avif" alt="" class="block h-full max-w-full w-full md:hidden">
+            <img alt="" src="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/674237f27912e40806ed4a51_Gradient (4).avif" class="hidden h-full max-w-full w-full md:inline-block">
+          </div>
+          <div class="absolute max-w-[190px] opacity-[0.02] z-0 left-0 bottom-0 md:max-w-none">
+            <img src="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/674237f20b709b60e0d2c3ee_Gradient (3).avif" alt="" class="inline-block h-full max-w-full w-full">
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer Section -->
+  <footer class="relative">
+    
+    <!-- Footer Newsletter -->
+    <div class="pt-8 pb-[60px] px-5 md:pb-[100px] md:px-[94px]">
+      <div class="gap-x-12 flex flex-col max-w-[822px] gap-y-12 text-center w-full mx-auto">
+        <div class="gap-x-6 flex flex-col gap-y-6 md:gap-x-8 md:gap-y-8">
+          <div class="text-neutral-600">
+            <p class="text-base tracking-[0.36px] leading-6 md:text-lg md:leading-[27px]">
+              Say goodbye to outdated enterprise software and welcome the smoother one. We lead you from design to product innovation to shape your path from idea to success
+            </p>
+          </div>
+          
+          <!-- Social Links -->
+          <div class="gap-x-4 flex justify-center gap-y-4">
+            <a href="https://dribbble.com/design_monks" class="text-violet-600 items-center bg-neutral-900/10 flex h-11 justify-center max-w-11 w-full rounded-lg hover:bg-blue-600/20">
+              <img src="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/67376bf69713c3b8f748765c_DribbbleLogo.svg" alt="" class="max-w-full">
+            </a>
+            <a href="https://www.behance.net/designmonksux" class="text-violet-600 items-center bg-neutral-900/10 flex h-11 justify-center max-w-11 w-full rounded-lg hover:bg-blue-600/20">
+              <img src="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/67376bddffa276ad56ceafaa_BehanceLogo.svg" alt="" class="max-w-full">
+            </a>
+            <a href="https://www.instagram.com/designmonks.co/" class="text-violet-600 items-center bg-neutral-900/10 flex h-11 justify-center max-w-11 w-full rounded-lg hover:bg-blue-600/20">
+              <img alt="" src="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/67376bdd74e5db4d2d79e93c_InstagramLogo.svg" class="max-w-full w-7">
+            </a>
+            <a href="https://www.linkedin.com/company/designmonks" class="text-violet-600 items-center bg-neutral-900/10 flex h-11 justify-center max-w-11 w-full rounded-lg hover:bg-blue-600/20">
+              <img src="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/676d686bcc487e32fc0ab3d3_LinkedinLogo.svg" alt="" class="max-w-full">
+            </a>
+            <a href="https://www.facebook.com/designmonks.co" class="text-violet-600 items-center bg-neutral-900/10 flex h-11 justify-center max-w-11 w-full rounded-lg hover:bg-blue-600/20">
+              <img src="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/67376bdd34c574ea949458a1_FacebookLogo.svg" alt="" class="max-w-full">
+            </a>
+            <a href="https://twitter.com/design_monks" class="text-violet-600 items-center bg-neutral-900/10 flex h-11 justify-center max-w-11 w-full rounded-lg hover:bg-blue-600/20">
+              <img src="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/67376bdd90129fe64264acde_XLogo.svg" alt="" class="max-w-full">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Footer Locations -->
+    <div class="relative bg-neutral-950 z-0 pt-[156px] pb-0 px-5 md:pt-[352px] md:pb-[78px] md:px-[94px]">
+      <div class="items-stretch gap-x-6 flex flex-col flex-nowrap justify-start max-w-[1073px] gap-y-6 mx-auto md:items-start md:flex-row md:flex-wrap md:justify-center">
+        
+        <div class="backdrop-blur-[56px] shadow-[rgba(255,255,255,0.59)_-2px_-2px_0px_-1.75px,rgba(255,255,255,0.59)_2px_2px_0px_-1.75px] w-full border px-3 py-[11.2px] rounded-2xl border-solid border-white/20 md:w-[220px] md:px-[11.2px]">
+          <div class="text-zinc-50 items-start gap-x-2 flex flex-col justify-between gap-y-2 text-left md:items-center md:text-center">
+            <p class="text-base font-bold tracking-[0.36px] leading-[19.2px] text-left md:text-xl md:leading-6 md:text-center" style="font-family: 'Red Hat Display', sans-serif;">United States</p>
+            <div class="text-neutral-400 text-left md:text-center">
+              <p class="tracking-[0.36px] leading-[21px] text-left md:text-center">16 Cove Road<br>Mount Arlington, NJ 07856</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="backdrop-blur-[56px] shadow-[rgba(255,255,255,0.59)_-2px_-2px_0px_-1.75px,rgba(255,255,255,0.59)_2px_2px_0px_-1.75px] w-full border px-3 py-[11.2px] rounded-2xl border-solid border-white/20 md:w-[220px] md:px-[11.2px]">
+          <div class="text-zinc-50 items-start gap-x-2 flex flex-col justify-between gap-y-2 text-left md:items-center md:text-center">
+            <p class="text-base font-bold tracking-[0.36px] leading-[19.2px] text-left md:text-xl md:leading-6 md:text-center" style="font-family: 'Red Hat Display', sans-serif;">Bangladesh</p>
+            <div class="text-neutral-400 text-left md:text-center">
+              <p class="tracking-[0.36px] leading-[21px] text-left md:text-center">Ventura Iconia, Plot 37 Road No. 11, Banani, Dhaka 1213</p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      
+      <div class="absolute h-[211px] pointer-events-none w-full z-[-1] top-0 bottom-auto inset-x-0 md:h-full md:bottom-0">
+        <video loop autoplay muted playsinline class="absolute h-full object-cover object-[50%_0%] w-full z-[-1] inset-0">
+          <source src="https://github.com/designmonks/webvideos/raw/refs/heads/main/footer_globe.mp4" type="video/mp4">
+        </video>
+        <div class="absolute bg-[linear-gradient(rgba(0,0,0,0),rgb(10,10,10))] bottom-[-1%] h-[124px] inset-x-0"></div>
+      </div>
+    </div>
+    
+    <!-- Footer Links -->
+    <div class="bg-neutral-950 z-0 pt-[60px] px-5 md:px-[94px]">
+      <div class="max-w-[1252px] w-full z-[1] mx-auto">
+        <div class="gap-x-8 flex flex-col gap-y-8 md:gap-x-14 md:gap-y-14">
+          
+          <div class="items-center gap-x-5 flex flex-col justify-start gap-y-5 md:gap-x-10 md:gap-y-10">
+            <div class="bg-zinc-300/10 h-px w-screen"></div>
+            
+            <!-- Footer Bottom -->
+            <div class="items-center gap-x-4 flex flex-col justify-center gap-y-4 mb-5 md:gap-x-[normal] md:flex-row md:justify-between md:gap-y-[normal] md:mb-8">
+              <a href="https://www.designmonks.co/terms-and-condition" class="text-zinc-50 text-sm items-start gap-x-1 flex justify-end tracking-[0.32px] leading-[21px] max-w-full gap-y-1 text-left md:text-base md:items-center md:gap-x-1.5 md:justify-start md:leading-6 md:gap-y-1.5 md:text-start">
+                <div class="text-sm leading-[21px] text-left md:text-base md:leading-6 md:text-start">Terms & Conditions</div>
+              </a>
+              <a href="https://www.designmonks.co/" class="text-zinc-50 text-sm items-start gap-x-1 flex justify-end tracking-[0.32px] leading-[21px] max-w-full gap-y-1 text-left md:text-base md:items-center md:gap-x-1.5 md:justify-start md:leading-6 md:gap-y-1.5 md:text-start">
+                <div class="text-sm leading-[21px] text-left md:text-base md:leading-6 md:text-start">© 2026, Design Monks, All Rights Reserved.</div>
+              </a>
+              <a href="https://www.designmonks.co/privacy-policy" class="text-zinc-50 text-sm items-start gap-x-1 flex justify-end tracking-[0.32px] leading-[21px] max-w-full gap-y-1 text-left md:text-base md:items-center md:gap-x-1.5 md:justify-start md:leading-6 md:gap-y-1.5 md:text-start">
+                <div class="text-sm leading-[21px] text-left md:text-base md:leading-6 md:text-start">Privacy Policy</div>
+              </a>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      
+      <img alt="" src="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/67cb19c5fc7cea1c4b1fc709_9e07db1ecae6aafdfe7fe0fa6c077ee6_FOOTER.avif" class="hidden h-full max-w-full w-full md:inline-block">
+      <img alt="" src="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/68a1bbb5ef83f7891cb7fcd0_Group 2147224414.avif" class="block h-full max-w-full w-full pb-6 md:hidden md:pb-0">
+    </div>
+    
+  </footer>
+
+  <!-- Testimonial Carousel JavaScript -->
+  <script>
+    const testimonials = [
+      {
+        name: "Saif Sarwar",
+        role: "Product Designer",
+        quote: "Being a part of Design Monks truly feels like a blessing. I get to work with amazing teammates and learn from great mentors. Also, working remotely not only saves time but also boosts productivity. For me, Design Monks isn't just about work, it's about being part of a team that genuinely understands the balance between freedom and responsibility."
+      },
+      {
+        name: "Sourav Dhali",
+        role: "Product Designer",
+        quote: "Being a part of Design Monks truly feels like a blessing. I get to work with amazing teammates and learn from great mentors. Also, working remotely not only saves time but also boosts productivity. For me, Design Monks isn't just about work, it's about being part of a team that genuinely understands the balance between freedom and responsibility."
+      },
+      {
+        name: "Sabiha Sultana",
+        role: "Content Writer",
+        quote: "Working at Design Monks has been an incredible journey. The collaborative environment and supportive team make every project enjoyable and rewarding."
+      },
+      {
+        name: "Abid Hasan",
+        role: "Project Manager",
+        quote: "Design Monks provides the perfect balance of creative freedom and professional growth. It's a place where innovation thrives."
+      }
+    ];
+    
+    let currentIndex = 0;
+    let isAutoPlaying = true;
+    let autoPlayInterval;
+    
+    const slider = document.getElementById('testimonial-slider');
+    const testimonialName = document.getElementById('testimonial-name');
+    const testimonialRole = document.getElementById('testimonial-role');
+    const testimonialQuote = document.getElementById('testimonial-quote');
+    const prevBtn = document.getElementById('prev-btn');
+    const nextBtn = document.getElementById('next-btn');
+    const section = document.getElementById('testimonial-section');
+    
+    function updateTestimonial() {
+      // Update slider position
+      slider.style.transform = `translateY(${-currentIndex * 253.667}px)`;
+      
+      // Update opacity and scale for all items
+      const items = slider.querySelectorAll('.testimonial-item');
+      items.forEach((item, index) => {
+        if (index === currentIndex) {
+          item.style.opacity = '1';
+          item.style.transform = 'scale(1)';
+        } else {
+          item.style.opacity = '0.4';
+          item.style.transform = 'scale(0.9)';
+        }
+      });
+      
+      // Update content with fade effect
+      const content = document.getElementById('testimonial-content').firstElementChild;
+      content.style.opacity = '0';
+      
+      setTimeout(() => {
+        testimonialName.textContent = testimonials[currentIndex].name;
+        testimonialRole.textContent = testimonials[currentIndex].role;
+        testimonialQuote.textContent = testimonials[currentIndex].quote;
+        content.style.opacity = '1';
+      }, 300);
+    }
+    
+    function startAutoPlay() {
+      if (autoPlayInterval) clearInterval(autoPlayInterval);
+      autoPlayInterval = setInterval(() => {
+        currentIndex = (currentIndex + 1) % testimonials.length;
+        updateTestimonial();
+      }, 5000);
+    }
+    
+    function stopAutoPlay() {
+      if (autoPlayInterval) {
+        clearInterval(autoPlayInterval);
+        autoPlayInterval = null;
+      }
+    }
+    
+    prevBtn.addEventListener('click', () => {
+      stopAutoPlay();
+      currentIndex = (currentIndex - 1 + testimonials.length) % testimonials.length;
+      updateTestimonial();
+      setTimeout(() => {
+        isAutoPlaying = true;
+        startAutoPlay();
+      }, 10000);
+    });
+    
+    nextBtn.addEventListener('click', () => {
+      stopAutoPlay();
+      currentIndex = (currentIndex + 1) % testimonials.length;
+      updateTestimonial();
+      setTimeout(() => {
+        isAutoPlaying = true;
+        startAutoPlay();
+      }, 10000);
+    });
+    
+    section.addEventListener('mouseenter', () => {
+      isAutoPlaying = false;
+      stopAutoPlay();
+    });
+    
+    section.addEventListener('mouseleave', () => {
+      isAutoPlaying = true;
+      startAutoPlay();
+    });
+    
+    // Initialize
+    updateTestimonial();
+    startAutoPlay();
+  </script>
+
+</body>
+</html>
