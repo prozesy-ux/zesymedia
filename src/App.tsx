@@ -18,6 +18,7 @@ import { Footer } from "@/sections/Footer";
 import { CookieConsent } from "@/components/CookieConsent";
 import { About } from "@/pages/About";
 import { Blog } from "@/pages/Blog";
+import { Teams } from "@/pages/Teams";
 
 export const App = () => {
   const getNormalizedPath = () =>
@@ -65,6 +66,8 @@ export const App = () => {
             <About />
           ) : path === '/blog' ? (
             <Blog />
+          ) : path === '/teams' ? (
+            <Teams />
           ) : (
             <>
               <HeroSection />
