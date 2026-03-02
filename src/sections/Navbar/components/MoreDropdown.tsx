@@ -3,6 +3,7 @@ export const MoreDropdown = () => {
     { title: "Home", desc: "Home is where the monk lives", href: "/" },
     { title: "About us", desc: "The journey of Design Monks", href: "/about" },
     { title: "Meet the team", desc: "An overview of the Monk family", href: "/team" },
+    { title: "Teams", desc: "Explore our team page and structure", href: "/teams" },
     { title: "Blogs", desc: "A collection of informative blogs", href: "/blog" },
     { title: "Career", desc: "Work with top global brands, grow your skills", href: "/career" },
     { title: "Contact us", desc: "Start your dream design journey from here", href: "/contact" },
