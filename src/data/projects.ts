@@ -17,7 +17,7 @@ export const projects = [
     testimonialName: "Bijendara Pratrap Sing",
     testimonialTitle: "E-SHOP MART CEO",
     projectImageUrl:
-      "https://wcvjpentbtxtnlrdthdk.supabase.co/storage/v1/object/public/images/5f337e11-6346-48b4-8f2b-d5c417e57077/Untitled%20design%20(55).png",
+      "https://anpeyqpnsavhykstwwbq.supabase.co/storage/v1/object/public/images/ff/1770490034103-6.png",
     projectImageAlt: "",
     arrowIconUrl:
       "https://c.animaapp.com/mkiynesyxwO7zZ/assets/6799f28b6dbb92499048ec9a_CTA_Arrow_(1).svg",

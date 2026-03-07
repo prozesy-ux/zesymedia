@@ -1,49 +1,57 @@
 export const FooterLinks = () => {
   return (
     <div className="box-border caret-transparent z-0 pt-[60px] px-5 md:px-[94px]">
-      <div className="box-border caret-transparent max-w-[1252px] w-full z-[1] mx-auto">
+      <div className="box-border caret-transparent max-w-[1252px] z-[1] mx-auto">
         <div className="box-border caret-transparent gap-x-8 flex flex-col gap-y-8 md:gap-x-14 md:gap-y-14">
-          <div className="relative box-border caret-transparent gap-x-6 grid flex-wrap auto-cols-[1fr] grid-cols-[1fr_1fr] grid-rows-[auto] justify-between justify-items-stretch gap-y-6 z-[55] mx-auto md:static md:flex md:flex-nowrap md:grid-cols-[1fr_1fr_1fr_1fr] md:z-auto md:mx-0">
+          <div className="relative box-border caret-transparent gap-x-6 grid flex-wrap auto-cols-[1fr] grid-cols-[1fr_1fr] grid-rows-[auto] justify-between justify-items-stretch gap-y-6 z-[55] mx-auto md:static md:flex md:flex-nowrap md:grid-cols-[1fr_1fr_1fr_1fr_1fr] md:z-auto md:mx-0">
             <div className="box-border caret-transparent">
               <h3 className="text-zinc-50 text-base font-bold box-border caret-transparent leading-6 mb-4 md:text-lg md:leading-[27px] md:mb-6">
                 Important Links
               </h3>
               <div className="items-start box-border caret-transparent gap-x-3.5 flex flex-col gap-y-3.5 capitalize md:gap-x-4 md:gap-y-4">
                 <a
-                  href="https://www.designmonks.co/contact"
-                  className="text-neutral-400 text-sm items-start box-border caret-transparent gap-x-1 flex justify-end tracking-[0.32px] leading-[21px] max-w-full gap-y-1 text-left md:text-base md:items-center md:gap-x-1.5 md:justify-start md:leading-6 md:gap-y-1.5 md:text-start hover:text-violet-400 hover:border-violet-400"
+                  href="/contact"
+                  className="text-neutral-400 text-sm items-start box-border caret-transparent gap-x-1 flex justify-end tracking-[0.32px] leading-[21px] max-w-full gap-y-1 text-left md:text-base md:items-center md:gap-x-1.5 md:justify-start md:leading-6 md:gap-y-1.5 md:text-start"
                 >
                   <div className="text-sm box-border caret-transparent leading-[21px] text-left md:text-base md:leading-6 md:text-start">
                     Contact Us
                   </div>
                 </a>
                 <a
-                  href="https://www.designmonks.co/about"
-                  className="text-neutral-400 text-sm items-start box-border caret-transparent gap-x-1 flex justify-end tracking-[0.32px] leading-[21px] max-w-full gap-y-1 text-left md:text-base md:items-center md:gap-x-1.5 md:justify-start md:leading-6 md:gap-y-1.5 md:text-start hover:text-violet-400 hover:border-violet-400"
+                  href="/about"
+                  className="text-neutral-400 text-sm items-start box-border caret-transparent gap-x-1 flex justify-end tracking-[0.32px] leading-[21px] max-w-full gap-y-1 text-left md:text-base md:items-center md:gap-x-1.5 md:justify-start md:leading-6 md:gap-y-1.5 md:text-start"
                 >
                   <div className="text-sm box-border caret-transparent leading-[21px] text-left md:text-base md:leading-6 md:text-start">
                     About us
                   </div>
                 </a>
                 <a
-                  href="https://www.designmonks.co/products"
-                  className="text-neutral-400 text-sm items-start box-border caret-transparent gap-x-1 flex justify-end tracking-[0.32px] leading-[21px] max-w-full gap-y-1 text-left md:text-base md:items-center md:gap-x-1.5 md:justify-start md:leading-6 md:gap-y-1.5 md:text-start hover:text-violet-400 hover:border-violet-400"
+                  href="/career"
+                  className="text-neutral-400 text-sm items-start box-border caret-transparent gap-x-1 flex justify-end tracking-[0.32px] leading-[21px] max-w-full gap-y-1 text-left md:text-base md:items-center md:gap-x-1.5 md:justify-start md:leading-6 md:gap-y-1.5 md:text-start"
+                >
+                  <div className="text-sm box-border caret-transparent leading-[21px] text-left md:text-base md:leading-6 md:text-start">
+                    Careers
+                  </div>
+                </a>
+                <a
+                  href="/products"
+                  className="text-neutral-400 text-sm items-start box-border caret-transparent gap-x-1 flex justify-end tracking-[0.32px] leading-[21px] max-w-full gap-y-1 text-left md:text-base md:items-center md:gap-x-1.5 md:justify-start md:leading-6 md:gap-y-1.5 md:text-start"
                 >
                   <div className="text-sm box-border caret-transparent leading-[21px] text-left md:text-base md:leading-6 md:text-start">
                     Products
                   </div>
                 </a>
                 <a
-                  href="https://www.designmonks.co/industry"
-                  className="text-neutral-400 text-sm items-start box-border caret-transparent gap-x-1 flex justify-end tracking-[0.32px] leading-[21px] max-w-full gap-y-1 text-left md:text-base md:items-center md:gap-x-1.5 md:justify-start md:leading-6 md:gap-y-1.5 md:text-start hover:text-violet-400 hover:border-violet-400"
+                  href="/industry"
+                  className="text-neutral-400 text-sm items-start box-border caret-transparent gap-x-1 flex justify-end tracking-[0.32px] leading-[21px] max-w-full gap-y-1 text-left md:text-base md:items-center md:gap-x-1.5 md:justify-start md:leading-6 md:gap-y-1.5 md:text-start"
                 >
                   <div className="text-sm box-border caret-transparent leading-[21px] text-left md:text-base md:leading-6 md:text-start">
                     Industry
                   </div>
                 </a>
                 <a
-                  href="https://www.designmonks.co/blog"
-                  className="text-neutral-400 text-sm items-start box-border caret-transparent gap-x-1 flex justify-end tracking-[0.32px] leading-[21px] max-w-full gap-y-1 text-left md:text-base md:items-center md:gap-x-1.5 md:justify-start md:leading-6 md:gap-y-1.5 md:text-start hover:text-violet-400 hover:border-violet-400"
+                  href="/blog"
+                  className="text-neutral-400 text-sm items-start box-border caret-transparent gap-x-1 flex justify-end tracking-[0.32px] leading-[21px] max-w-full gap-y-1 text-left md:text-base md:items-center md:gap-x-1.5 md:justify-start md:leading-6 md:gap-y-1.5 md:text-start"
                 >
                   <div className="text-sm box-border caret-transparent leading-[21px] text-left md:text-base md:leading-6 md:text-start">
                     Blogs
@@ -57,40 +65,40 @@ export const FooterLinks = () => {
               </h3>
               <div className="items-start box-border caret-transparent gap-x-3.5 flex flex-col gap-y-3.5 capitalize md:gap-x-4 md:gap-y-4">
                 <a
-                  href="https://www.designmonks.co/services/ui-ux"
-                  className="text-neutral-400 text-sm items-start box-border caret-transparent gap-x-1 flex justify-end tracking-[0.32px] leading-[21px] max-w-full gap-y-1 text-left md:text-base md:items-center md:gap-x-1.5 md:justify-start md:leading-6 md:gap-y-1.5 md:text-start hover:text-violet-400 hover:border-violet-400"
+                  href="/services/ui-ux"
+                  className="text-neutral-400 text-sm items-start box-border caret-transparent gap-x-1 flex justify-end tracking-[0.32px] leading-[21px] max-w-full gap-y-1 text-left md:text-base md:items-center md:gap-x-1.5 md:justify-start md:leading-6 md:gap-y-1.5 md:text-start"
                 >
                   <div className="text-sm box-border caret-transparent leading-[21px] text-left md:text-base md:leading-6 md:text-start">
                     UI/UX Design
                   </div>
                 </a>
                 <a
-                  href="https://www.designmonks.co/services/web-design"
-                  className="text-neutral-400 text-sm items-start box-border caret-transparent gap-x-1 flex justify-end tracking-[0.32px] leading-[21px] max-w-full gap-y-1 text-left md:text-base md:items-center md:gap-x-1.5 md:justify-start md:leading-6 md:gap-y-1.5 md:text-start hover:text-violet-400 hover:border-violet-400"
+                  href="/services/web-design"
+                  className="text-neutral-400 text-sm items-start box-border caret-transparent gap-x-1 flex justify-end tracking-[0.32px] leading-[21px] max-w-full gap-y-1 text-left md:text-base md:items-center md:gap-x-1.5 md:justify-start md:leading-6 md:gap-y-1.5 md:text-start"
                 >
                   <div className="text-sm box-border caret-transparent leading-[21px] text-left md:text-base md:leading-6 md:text-start">
                     Web Design
                   </div>
                 </a>
                 <a
-                  href="https://www.designmonks.co/services/logo-branding"
-                  className="text-neutral-400 text-sm items-start box-border caret-transparent gap-x-1 flex justify-end tracking-[0.32px] leading-[21px] max-w-full gap-y-1 text-left md:text-base md:items-center md:gap-x-1.5 md:justify-start md:leading-6 md:gap-y-1.5 md:text-start hover:text-violet-400 hover:border-violet-400"
+                  href="/services/logo-branding"
+                  className="text-neutral-400 text-sm items-start box-border caret-transparent gap-x-1 flex justify-end tracking-[0.32px] leading-[21px] max-w-full gap-y-1 text-left md:text-base md:items-center md:gap-x-1.5 md:justify-start md:leading-6 md:gap-y-1.5 md:text-start"
                 >
                   <div className="text-sm box-border caret-transparent leading-[21px] text-left md:text-base md:leading-6 md:text-start">
                     Logo &amp; Branding
                   </div>
                 </a>
                 <a
-                  href="https://www.designmonks.co/services/webflow-design"
-                  className="text-neutral-400 text-sm items-start box-border caret-transparent gap-x-1 flex justify-end tracking-[0.32px] leading-[21px] max-w-full gap-y-1 text-left md:text-base md:items-center md:gap-x-1.5 md:justify-start md:leading-6 md:gap-y-1.5 md:text-start hover:text-violet-400 hover:border-violet-400"
+                  href="/services/webflow-design"
+                  className="text-neutral-400 text-sm items-start box-border caret-transparent gap-x-1 flex justify-end tracking-[0.32px] leading-[21px] max-w-full gap-y-1 text-left md:text-base md:items-center md:gap-x-1.5 md:justify-start md:leading-6 md:gap-y-1.5 md:text-start"
                 >
                   <div className="text-sm box-border caret-transparent leading-[21px] text-left md:text-base md:leading-6 md:text-start">
                     Webflow Design
                   </div>
                 </a>
                 <a
-                  href="https://www.designmonks.co/services/framer-design"
-                  className="text-neutral-400 text-sm items-start box-border caret-transparent gap-x-1 flex justify-end tracking-[0.32px] leading-[21px] max-w-full gap-y-1 text-left md:text-base md:items-center md:gap-x-1.5 md:justify-start md:leading-6 md:gap-y-1.5 md:text-start hover:text-violet-400 hover:border-violet-400"
+                  href="/services/framer-design"
+                  className="text-neutral-400 text-sm items-start box-border caret-transparent gap-x-1 flex justify-end tracking-[0.32px] leading-[21px] max-w-full gap-y-1 text-left md:text-base md:items-center md:gap-x-1.5 md:justify-start md:leading-6 md:gap-y-1.5 md:text-start"
                 >
                   <div className="text-sm box-border caret-transparent leading-[21px] text-left md:text-base md:leading-6 md:text-start">
                     Framer Design
@@ -105,7 +113,7 @@ export const FooterLinks = () => {
               <div className="items-start box-border caret-transparent gap-x-3.5 flex flex-col gap-y-3.5 capitalize md:gap-x-4 md:gap-y-4">
                 <a
                   href="https://www.designmonks.co/industry/fintech"
-                  className="text-neutral-400 text-sm items-start box-border caret-transparent gap-x-1 flex justify-end tracking-[0.32px] leading-[21px] max-w-full gap-y-1 text-left md:text-base md:items-center md:gap-x-1.5 md:justify-start md:leading-6 md:gap-y-1.5 md:text-start hover:text-violet-400 hover:border-violet-400"
+                  className="text-neutral-400 text-sm items-start box-border caret-transparent gap-x-1 flex justify-end tracking-[0.32px] leading-[21px] max-w-full gap-y-1 text-left md:text-base md:items-center md:gap-x-1.5 md:justify-start md:leading-6 md:gap-y-1.5 md:text-start"
                 >
                   <div className="text-sm box-border caret-transparent leading-[21px] text-left md:text-base md:leading-6 md:text-start">
                     Fintech Industry
@@ -113,7 +121,7 @@ export const FooterLinks = () => {
                 </a>
                 <a
                   href="https://www.designmonks.co/industry/fitness-gym"
-                  className="text-neutral-400 text-sm items-start box-border caret-transparent gap-x-1 flex justify-end tracking-[0.32px] leading-[21px] max-w-full gap-y-1 text-left md:text-base md:items-center md:gap-x-1.5 md:justify-start md:leading-6 md:gap-y-1.5 md:text-start hover:text-violet-400 hover:border-violet-400"
+                  className="text-neutral-400 text-sm items-start box-border caret-transparent gap-x-1 flex justify-end tracking-[0.32px] leading-[21px] max-w-full gap-y-1 text-left md:text-base md:items-center md:gap-x-1.5 md:justify-start md:leading-6 md:gap-y-1.5 md:text-start"
                 >
                   <div className="text-sm box-border caret-transparent leading-[21px] text-left md:text-base md:leading-6 md:text-start">
                     Healthcare &amp; Fitness Industry
@@ -121,7 +129,7 @@ export const FooterLinks = () => {
                 </a>
                 <a
                   href="https://www.designmonks.co/industry/edtech"
-                  className="text-neutral-400 text-sm items-start box-border caret-transparent gap-x-1 flex justify-end tracking-[0.32px] leading-[21px] max-w-full gap-y-1 text-left md:text-base md:items-center md:gap-x-1.5 md:justify-start md:leading-6 md:gap-y-1.5 md:text-start hover:text-violet-400 hover:border-violet-400"
+                  className="text-neutral-400 text-sm items-start box-border caret-transparent gap-x-1 flex justify-end tracking-[0.32px] leading-[21px] max-w-full gap-y-1 text-left md:text-base md:items-center md:gap-x-1.5 md:justify-start md:leading-6 md:gap-y-1.5 md:text-start"
                 >
                   <div className="text-sm box-border caret-transparent leading-[21px] text-left md:text-base md:leading-6 md:text-start">
                     Edtech Industry{" "}
@@ -129,7 +137,7 @@ export const FooterLinks = () => {
                 </a>
                 <a
                   href="https://www.designmonks.co/industry/cybersecurity"
-                  className="text-neutral-400 text-sm items-start box-border caret-transparent gap-x-1 flex justify-end tracking-[0.32px] leading-[21px] max-w-full gap-y-1 text-left md:text-base md:items-center md:gap-x-1.5 md:justify-start md:leading-6 md:gap-y-1.5 md:text-start hover:text-violet-400 hover:border-violet-400"
+                  className="text-neutral-400 text-sm items-start box-border caret-transparent gap-x-1 flex justify-end tracking-[0.32px] leading-[21px] max-w-full gap-y-1 text-left md:text-base md:items-center md:gap-x-1.5 md:justify-start md:leading-6 md:gap-y-1.5 md:text-start"
                 >
                   <div className="text-sm box-border caret-transparent leading-[21px] text-left md:text-base md:leading-6 md:text-start">
                     Cybersecurity Industry
@@ -137,14 +145,14 @@ export const FooterLinks = () => {
                 </a>
                 <a
                   href="https://www.figma.com/proto/3SAd2UpB6GgFnozSVLb73V/Design-Monks-Pitchdeck?page-id=0%3A1&node-id=1-3671&t=gqeZCfRxCq3aupSr-0&scaling=contain&content-scaling=fixed&starting-point-node-id=1%3A3671"
-                  className="text-neutral-400 text-sm items-start box-border caret-transparent gap-x-1 flex justify-end tracking-[0.32px] leading-[21px] max-w-full gap-y-1 text-left md:text-base md:items-center md:gap-x-1.5 md:justify-start md:leading-6 md:gap-y-1.5 md:text-start hover:text-violet-400 hover:border-violet-400"
+                  className="text-neutral-400 text-sm items-start box-border caret-transparent gap-x-1 flex justify-end tracking-[0.32px] leading-[21px] max-w-full gap-y-1 text-left md:text-base md:items-center md:gap-x-1.5 md:justify-start md:leading-6 md:gap-y-1.5 md:text-start"
                 >
                   <div className="text-sm box-border caret-transparent leading-[21px] text-left md:text-base md:leading-6 md:text-start">
                     Company Deck
                   </div>
                   <div className="text-sm items-center box-border caret-transparent flex shrink-0 h-3.5 justify-center leading-[21px] text-left mt-1 md:text-base md:[align-items:normal] md:block md:shrink md:h-auto md:justify-normal md:leading-6 md:text-start md:mt-0">
                     <img
-                      src="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/68a1a4d69b7f2d6096d260a3_Download button.svg"
+                      src="https://c.animaapp.com/mkiynesyxwO7zZ/assets/68a1a4d69b7f2d6096d260a3_Download_button.svg"
                       alt=""
                       className="text-sm box-border caret-transparent block h-3.5 leading-[21px] max-w-full min-h-[auto] min-w-[auto] text-left md:text-base md:inline-block md:h-auto md:leading-6 md:min-h-0 md:min-w-0 md:text-start"
                     />
@@ -158,27 +166,66 @@ export const FooterLinks = () => {
               </h3>
               <div className="items-start box-border caret-transparent gap-x-3.5 flex flex-col gap-y-3.5 capitalize md:gap-x-4 md:gap-y-4">
                 <a
-                  href="https://www.designmonks.co/design-monks-vs-agencies"
-                  className="text-neutral-400 text-sm items-start box-border caret-transparent gap-x-1 flex justify-end tracking-[0.32px] leading-[21px] max-w-full gap-y-1 text-left md:text-base md:items-center md:gap-x-1.5 md:justify-start md:leading-6 md:gap-y-1.5 md:text-start hover:text-violet-400 hover:border-violet-400"
+                  href="/design-monks-vs-agencies"
+                  className="text-neutral-400 text-sm items-start box-border caret-transparent gap-x-1 flex justify-end tracking-[0.32px] leading-[21px] max-w-full gap-y-1 text-left md:text-base md:items-center md:gap-x-1.5 md:justify-start md:leading-6 md:gap-y-1.5 md:text-start"
                 >
                   <div className="text-sm box-border caret-transparent leading-[21px] text-left md:text-base md:leading-6 md:text-start">
                     Vs Agencies
                   </div>
                 </a>
                 <a
-                  href="https://www.designmonks.co/design-monks-vs-freelancers"
-                  className="text-neutral-400 text-sm items-start box-border caret-transparent gap-x-1 flex justify-end tracking-[0.32px] leading-[21px] max-w-full gap-y-1 text-left md:text-base md:items-center md:gap-x-1.5 md:justify-start md:leading-6 md:gap-y-1.5 md:text-start hover:text-violet-400 hover:border-violet-400"
+                  href="/design-monks-vs-freelancers"
+                  className="text-neutral-400 text-sm items-start box-border caret-transparent gap-x-1 flex justify-end tracking-[0.32px] leading-[21px] max-w-full gap-y-1 text-left md:text-base md:items-center md:gap-x-1.5 md:justify-start md:leading-6 md:gap-y-1.5 md:text-start"
                 >
                   <div className="text-sm box-border caret-transparent leading-[21px] text-left md:text-base md:leading-6 md:text-start">
                     Vs Freelancers
                   </div>
                 </a>
                 <a
-                  href="https://www.designmonks.co/design-monks-vs-inhouse"
-                  className="text-neutral-400 text-sm items-start box-border caret-transparent gap-x-1 flex justify-end tracking-[0.32px] leading-[21px] max-w-full gap-y-1 text-left md:text-base md:items-center md:gap-x-1.5 md:justify-start md:leading-6 md:gap-y-1.5 md:text-start hover:text-violet-400 hover:border-violet-400"
+                  href="/design-monks-vs-inhouse"
+                  className="text-neutral-400 text-sm items-start box-border caret-transparent gap-x-1 flex justify-end tracking-[0.32px] leading-[21px] max-w-full gap-y-1 text-left md:text-base md:items-center md:gap-x-1.5 md:justify-start md:leading-6 md:gap-y-1.5 md:text-start"
                 >
                   <div className="text-sm box-border caret-transparent leading-[21px] text-left md:text-base md:leading-6 md:text-start">
                     Vs Inhouse
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div className="box-border caret-transparent">
+              <h3 className="text-zinc-50 text-base font-bold box-border caret-transparent leading-6 mb-4 md:text-lg md:leading-[27px] md:mb-6">
+                More
+              </h3>
+              <div className="items-start box-border caret-transparent gap-x-3.5 flex flex-col gap-y-3.5 capitalize md:gap-x-4 md:gap-y-4">
+                <a
+                  href="/process"
+                  className="text-neutral-400 text-sm items-start box-border caret-transparent gap-x-1 flex justify-end tracking-[0.32px] leading-[21px] max-w-full gap-y-1 text-left md:text-base md:items-center md:gap-x-1.5 md:justify-start md:leading-6 md:gap-y-1.5 md:text-start"
+                >
+                  <div className="text-sm box-border caret-transparent leading-[21px] text-left md:text-base md:leading-6 md:text-start">
+                    Process
+                  </div>
+                </a>
+                <a
+                  href="/pricing"
+                  className="text-neutral-400 text-sm items-start box-border caret-transparent gap-x-1 flex justify-end tracking-[0.32px] leading-[21px] max-w-full gap-y-1 text-left md:text-base md:items-center md:gap-x-1.5 md:justify-start md:leading-6 md:gap-y-1.5 md:text-start"
+                >
+                  <div className="text-sm box-border caret-transparent leading-[21px] text-left md:text-base md:leading-6 md:text-start">
+                    Pricing
+                  </div>
+                </a>
+                <a
+                  href="/faq"
+                  className="text-neutral-400 text-sm items-start box-border caret-transparent gap-x-1 flex justify-end tracking-[0.32px] leading-[21px] max-w-full gap-y-1 text-left md:text-base md:items-center md:gap-x-1.5 md:justify-start md:leading-6 md:gap-y-1.5 md:text-start"
+                >
+                  <div className="text-sm box-border caret-transparent leading-[21px] text-left md:text-base md:leading-6 md:text-start">
+                    FAQ
+                  </div>
+                </a>
+                <a
+                  href="/testimonials"
+                  className="text-neutral-400 text-sm items-start box-border caret-transparent gap-x-1 flex justify-end tracking-[0.32px] leading-[21px] max-w-full gap-y-1 text-left md:text-base md:items-center md:gap-x-1.5 md:justify-start md:leading-6 md:gap-y-1.5 md:text-start"
+                >
+                  <div className="text-sm box-border caret-transparent leading-[21px] text-left md:text-base md:leading-6 md:text-start">
+                    Testimonials
                   </div>
                 </a>
               </div>
@@ -193,7 +240,7 @@ export const FooterLinks = () => {
               >
                 <div className="text-sm box-border caret-transparent h-[30px] leading-[21px] text-left overflow-visible md:text-base md:leading-6 md:text-center md:overflow-hidden">
                   <img
-                    src="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/68a1a625f8231c1a57a017fc_Frame.svg"
+                    src="https://c.animaapp.com/mkiynesyxwO7zZ/assets/68a1a625f8231c1a57a017fc_Frame.svg"
                     alt=""
                     className="text-sm box-border caret-transparent inline-block leading-[21px] max-w-full text-left md:text-base md:leading-6 md:text-center"
                   />
@@ -208,7 +255,7 @@ export const FooterLinks = () => {
               >
                 <div className="text-sm box-border caret-transparent h-[30px] leading-[21px] text-left overflow-visible md:text-base md:leading-6 md:text-center md:overflow-hidden">
                   <img
-                    src="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/68a1a630288a807b150cd91a_Frame 1116606739.svg"
+                    src="https://p.kindpng.com/picc/s/207-2070073_google-ads-transparent-background-hd-png-download.png"
                     alt=""
                     className="text-sm box-border caret-transparent inline-block leading-[21px] max-w-full text-left md:text-base md:leading-6 md:text-center"
                   />
@@ -223,7 +270,7 @@ export const FooterLinks = () => {
               >
                 <div className="text-sm box-border caret-transparent h-[30px] leading-[21px] text-left overflow-visible md:text-base md:leading-6 md:text-center md:overflow-hidden">
                   <img
-                    src="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/68a1a63eef83f7891cb55475_Frame 1116606740.svg"
+                    src="https://c.animaapp.com/mkiynesyxwO7zZ/assets/68a1a63eef83f7891cb55475_Frame_1116606740.svg"
                     alt=""
                     className="text-sm box-border caret-transparent inline-block leading-[21px] max-w-full text-left md:text-base md:leading-6 md:text-center"
                   />
@@ -238,7 +285,7 @@ export const FooterLinks = () => {
               >
                 <div className="text-sm box-border caret-transparent h-[30px] leading-[21px] text-left overflow-visible md:text-base md:leading-6 md:text-center md:overflow-hidden">
                   <img
-                    src="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/68a1a63eef83f7891cb55478_Frame 1116606741.svg"
+                    src="https://c.animaapp.com/mkiynesyxwO7zZ/assets/68a1a63eef83f7891cb55478_Frame_1116606741.svg"
                     alt=""
                     className="text-sm box-border caret-transparent inline-block leading-[21px] max-w-full text-left md:text-base md:leading-6 md:text-center"
                   />
@@ -253,7 +300,7 @@ export const FooterLinks = () => {
               >
                 <div className="text-sm box-border caret-transparent h-[30px] leading-[21px] text-left overflow-visible md:text-base md:leading-6 md:text-center md:overflow-hidden">
                   <img
-                    src="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/68a1a63e1b6574571b18b9f9_Frame 1116606742.svg"
+                    src="https://c.animaapp.com/mkiynesyxwO7zZ/assets/68a1a63e1b6574571b18b9f9_Frame_1116606742.svg"
                     alt=""
                     className="text-sm box-border caret-transparent inline-block leading-[21px] max-w-full text-left md:text-base md:leading-6 md:text-center"
                   />
@@ -264,7 +311,7 @@ export const FooterLinks = () => {
                   </div>
                   <div className="text-sm items-center box-border caret-transparent flex shrink-0 h-3.5 justify-center leading-[21px] text-left mt-1 md:text-base md:[align-items:normal] md:block md:shrink md:h-auto md:justify-normal md:leading-6 md:text-center md:mt-0">
                     <img
-                      src="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/676d6a6b6b8d7df0ad84c278_Star.svg"
+                      src="https://c.animaapp.com/mkiynesyxwO7zZ/assets/676d6a6b6b8d7df0ad84c278_Star.svg"
                       alt=""
                       className="text-sm box-border caret-transparent block h-3.5 leading-[21px] max-w-full min-h-[auto] min-w-[auto] text-left md:text-base md:inline-block md:h-auto md:leading-6 md:min-h-0 md:min-w-0 md:text-center"
                     />
@@ -277,7 +324,7 @@ export const FooterLinks = () => {
               >
                 <div className="text-sm box-border caret-transparent h-[30px] leading-[21px] text-left overflow-visible md:text-base md:leading-6 md:text-center md:overflow-hidden">
                   <img
-                    src="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/68a1a6571c705d568fbe3e0d_Google.svg"
+                    src="https://c.animaapp.com/mkiynesyxwO7zZ/assets/68a1a6571c705d568fbe3e0d_Google.svg"
                     alt=""
                     className="text-sm box-border caret-transparent inline-block leading-[21px] max-w-full text-left md:text-base md:leading-6 md:text-center"
                   />
@@ -288,7 +335,7 @@ export const FooterLinks = () => {
                   </div>
                   <div className="text-sm items-center box-border caret-transparent flex shrink-0 h-3.5 justify-center leading-[21px] text-left mt-1 md:text-base md:[align-items:normal] md:block md:shrink md:h-auto md:justify-normal md:leading-6 md:text-center md:mt-0">
                     <img
-                      src="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/676d6a6b6b8d7df0ad84c278_Star.svg"
+                      src="https://c.animaapp.com/mkiynesyxwO7zZ/assets/676d6a6b6b8d7df0ad84c278_Star.svg"
                       alt=""
                       className="text-sm box-border caret-transparent block h-3.5 leading-[21px] max-w-full min-h-[auto] min-w-[auto] text-left md:text-base md:inline-block md:h-auto md:leading-6 md:min-h-0 md:min-w-0 md:text-center"
                     />
@@ -300,7 +347,7 @@ export const FooterLinks = () => {
           </div>
           <div className="items-center box-border caret-transparent gap-x-4 flex flex-col justify-center gap-y-4 mb-5 md:[align-items:normal] md:gap-x-[normal] md:flex-row md:justify-between md:gap-y-[normal] md:mb-8">
             <a
-              href="https://www.designmonks.co/terms-and-condition"
+              href="/terms-and-condition"
               className="text-zinc-50 text-sm items-start box-border caret-transparent gap-x-1 flex justify-end tracking-[0.32px] leading-[21px] max-w-full gap-y-1 text-left md:text-base md:items-center md:gap-x-1.5 md:justify-start md:leading-6 md:gap-y-1.5 md:text-start"
             >
               <div className="text-sm box-border caret-transparent leading-[21px] text-left md:text-base md:leading-6 md:text-start">
@@ -308,15 +355,15 @@ export const FooterLinks = () => {
               </div>
             </a>
             <a
-              href="https://www.designmonks.co/"
+              href="/"
               className="text-zinc-50 text-sm items-start box-border caret-transparent gap-x-1 flex justify-end tracking-[0.32px] leading-[21px] max-w-full gap-y-1 text-left md:text-base md:items-center md:gap-x-1.5 md:justify-start md:leading-6 md:gap-y-1.5 md:text-start"
             >
-              <div className="text-sm box-border caret-transparent leading-[21px] text-left md:text-base md:leading-6 md:text-start">
-                © 2026, Design Monks, All Rights Reserved.
+                <div className="text-sm box-border caret-transparent leading-[21px] text-left md:text-base md:leading-6 md:text-start">
+                © 2026, Prozesy Media, All Rights Reserved.
               </div>
             </a>
             <a
-              href="https://www.designmonks.co/privacy-policy"
+              href="/privacy-policy"
               className="text-zinc-50 text-sm items-start box-border caret-transparent gap-x-1 flex justify-end tracking-[0.32px] leading-[21px] max-w-full gap-y-1 text-left md:text-base md:items-center md:gap-x-1.5 md:justify-start md:leading-6 md:gap-y-1.5 md:text-start"
             >
               <div className="text-sm box-border caret-transparent leading-[21px] text-left md:text-base md:leading-6 md:text-start">

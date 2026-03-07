@@ -1,5 +1,3 @@
-import { useState } from "react";
-
 export type TestimonialSliderProps = {
   testimonials: Array<{
     quote: string;
@@ -10,37 +8,19 @@ export type TestimonialSliderProps = {
     title: string;
     ariaLabel: string;
   }>;
-  direction?: "left" | "right";
-  durationSeconds?: number;
+  sliderVariant?: string;
 };
 
 export const TestimonialSlider = (props: TestimonialSliderProps) => {
-  const [isPaused, setIsPaused] = useState(false);
-  const direction = props.direction || "left";
-  const durationSeconds = props.durationSeconds || 42;
-
   return (
     <div
       role="region"
       className="relative box-border caret-transparent flex-col overflow-hidden"
-      onMouseEnter={() => setIsPaused(true)}
-      onMouseLeave={() => setIsPaused(false)}
     >
       <div className="relative box-border caret-transparent z-0">
         <div
           role="presentation"
-          className="box-border caret-transparent gap-x-4 flex h-full gap-y-4 w-max"
-          style={{
-            animationName:
-              direction === "left"
-                ? "testimonial-scroll-left"
-                : "testimonial-scroll-right",
-            animationDuration: `${durationSeconds}s`,
-            animationTimingFunction: "linear",
-            animationIterationCount: "infinite",
-            animationPlayState: isPaused ? "paused" : "running",
-            willChange: "transform",
-          }}
+          className={`box-border caret-transparent gap-x-4 flex h-full gap-y-4 ${props.sliderVariant || ""}`}
         >
           {props.testimonials.map((testimonial, index) => (
             <div
@@ -109,25 +89,6 @@ export const TestimonialSlider = (props: TestimonialSliderProps) => {
           ))}
         </div>
       </div>
-      <style>{`
-        @keyframes testimonial-scroll-left {
-          from {
-            transform: translateX(0);
-          }
-          to {
-            transform: translateX(calc(-50% - 8px));
-          }
-        }
-
-        @keyframes testimonial-scroll-right {
-          from {
-            transform: translateX(calc(-50% - 8px));
-          }
-          to {
-            transform: translateX(0);
-          }
-        }
-      `}</style>
     </div>
   );
 };

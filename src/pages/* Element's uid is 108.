@@ -1,9 +1,0 @@
-* Element's uid is 108.
-* Its selector is `nav.rd-navbar`
-* It has 8 child element nodes: `svg.rd-navbar_curve-shape` (uid=251), `a.rd-navbar_link.w-inline-block` (uid=114), `a.rd-navbar_link.cc-hide_desktop.w-inline-block` (uid=253), `.rd-navbar_dropdown.cc-hide_mobile.w-dropdown` (uid=482), `a.rd-navbar_btn.w-inline-block` (uid=117), `a.rd-navbar_link.w-inline-block` (uid=122), `.rd-navbar_dropdown.w-dropdown` (uid=612), `.rd-navbar_bg` (uid=732)
-* It doesn't have any child text nodes
-* It has a next sibling and it is an element (uid=733) node
-* It has a previous sibling and it is an element (uid=467) node
-* Its parent's selector is `.rd-navbar_wrapper` (uid=41)
-* Its parent is an element node
-* Its parent has 3 child element nodes: `.rd-navbar_overlay` (uid=467), `nav.rd-navbar` (uid=108), `a.back-top.w-inline-block` (uid=733)

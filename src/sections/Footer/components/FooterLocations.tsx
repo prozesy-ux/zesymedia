@@ -1,6 +1,6 @@
 export const FooterLocations = () => {
   return (
-    <div className="relative bg-neutral-950 box-border caret-transparent z-0 pt-[156px] pb-0 px-5 md:pt-[352px] md:pb-[78px] md:px-[94px]">
+    <div className="relative bg-neutral-950 box-border caret-transparent z-0 pt-[156px] pb-0 px-5 md:pt-[352px] md:pb-[78px] md:px-[94px] rounded-t-[20px] overflow-hidden md:rounded-t-[32px]">
       <div className="items-stretch box-border caret-transparent gap-x-6 flex flex-col flex-nowrap justify-start max-w-[1073px] gap-y-6 mx-auto md:items-start md:flex-row md:flex-wrap md:justify-center">
         <div className="backdrop-blur-[56px] shadow-[rgba(255,255,255,0.59)_-2px_-2px_0px_-1.75px,rgba(255,255,255,0.59)_2px_2px_0px_-1.75px] box-border caret-transparent w-full border px-3 py-[11.2px] rounded-2xl border-solid border-white/20 md:w-[220px] md:px-[11.2px]">
           <div className="text-zinc-50 items-start box-border caret-transparent gap-x-2 flex flex-col justify-between gap-y-2 text-left md:items-center md:text-center">
@@ -19,11 +19,11 @@ export const FooterLocations = () => {
         <div className="backdrop-blur-[56px] shadow-[rgba(255,255,255,0.59)_-2px_-2px_0px_-1.75px,rgba(255,255,255,0.59)_2px_2px_0px_-1.75px] box-border caret-transparent w-full border px-3 py-[11.2px] rounded-2xl border-solid border-white/20 md:w-[220px] md:px-[11.2px]">
           <div className="text-zinc-50 items-start box-border caret-transparent gap-x-2 flex flex-col justify-between gap-y-2 text-left md:items-center md:text-center">
             <p className="text-base font-bold box-border caret-transparent tracking-[0.36px] leading-[19.2px] text-left font-redhatdisplay_variablefont_wght md:text-xl md:leading-6 md:text-center">
-              Australia
+              India
             </p>
             <div className="text-neutral-400 box-border caret-transparent text-left md:text-center">
               <p className="box-border caret-transparent tracking-[0.36px] leading-[21px] text-left md:text-center">
-                155 Bennett Rd, St Clair NSW 2759
+                Dellhi , Ashok Vihar Grand Road near 1 Office
               </p>
             </div>
           </div>

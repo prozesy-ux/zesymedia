@@ -3,9 +3,9 @@ import { TeamMemberCard } from "@/aboutdd_sections/TeamSection/components/TeamMe
 
 const teamMembers = [
   {
-    name: "Yash Vhardan",
+    name: "Atiqur Rahaman",
     role: "CEO & Co-founder",
-    image: "https://anpeyqpnsavhykstwwbq.supabase.co/storage/v1/object/public/images/team/1770575877119-2.jfif"
+    image: "https://cdn.prod.website-files.com/674703d2af36853f65da67e0/68b818a778cc3901842066df_DP_Atiq.avif"
   },
   {
     name: "Abdullah Al Noman",

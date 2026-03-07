@@ -17,11 +17,10 @@
 }
 
 @font-face {
+  /* This font could not be included automatically because of legal reasons. Please add it manually or switch to another font */
   font-family: 'Redhatdisplay Variablefont Wght';
-  src: url('https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/69648b17a0f413f2696dde9d_RedHatDisplay-VariableFont_wght.ttf') format("truetype");
   font-weight: 300 900;
   font-style: normal;
-  font-display: swap;
 }
 
 @font-face {
@@ -289,86 +288,6 @@
     --destructive: 0 63% 31%;
     --destructive-foreground: 210 40% 98%;
     --ring: 216 34% 17%;
-  }
-}
-
-@layer components {
-  @keyframes rd-navbar-border-spin {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
-
-  .rd-navbar {
-    --color--navbar--bg: #050505;
-    --color--navbar--text: #fafafa;
-    --color--navbar--btn-border-color: #743bed;
-    --color--navbar--btn-border-radius: 7px;
-    --color--navbar--btn-border-width: 1px;
-  }
-
-  @media screen and (min-width: 768px) {
-    .rd-navbar_btn {
-      border-radius: var(--color--navbar--btn-border-radius);
-      background-color: var(--color--navbar--btn-border-color);
-      color: var(--color--navbar--text);
-      letter-spacing: 0.02em;
-      justify-content: center;
-      align-items: center;
-      font-size: 1rem;
-      font-weight: 700;
-      line-height: 1.5;
-      text-decoration: none;
-      display: flex;
-      position: relative;
-      isolation: isolate;
-      overflow: hidden;
-    }
-
-    .rd-navbar_btn::before {
-      content: "";
-      position: absolute;
-      inset: -120%;
-      background: conic-gradient(
-        from 0deg at 8.04% 51.79%,
-        rgb(251, 250, 246) 0deg,
-        rgba(251, 250, 246, 0) 360deg
-      );
-      animation: rd-navbar-border-spin 2s linear infinite;
-      pointer-events: none;
-      z-index: 0;
-    }
-
-    .rd-navbar_btn:hover {
-      color: var(--color--navbar--text);
-    }
-
-    .rd-navbar_btn_content {
-      z-index: 0;
-      grid-column-gap: 0.5rem;
-      grid-row-gap: 0.5rem;
-      background-color: var(--color--navbar--bg);
-      justify-content: center;
-      align-items: center;
-      width: 100%;
-      height: 100%;
-      padding: 1rem 2rem;
-      display: flex;
-      position: relative;
-      clip-path: inset(
-        var(--color--navbar--btn-border-width)
-        round calc(var(--color--navbar--btn-border-radius) - var(--color--navbar--btn-border-width))
-      );
-      z-index: 1;
-    }
-
-    .rd-navbar_btn_content > * {
-      position: relative;
-      z-index: 1;
-    }
   }
 }
 

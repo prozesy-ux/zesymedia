@@ -30,11 +30,10 @@
 }
 
 @font-face {
+  /* This font could not be included automatically because of legal reasons. Please add it manually or switch to another font */
   font-family: 'Redhatdisplay Variablefont Wght';
-  src: url('https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/69648b17a0f413f2696dde9d_RedHatDisplay-VariableFont_wght.ttf') format("truetype");
   font-weight: 300 900;
   font-style: normal;
-  font-display: swap;
 }
 
 @font-face {

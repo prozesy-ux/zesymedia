@@ -233,21 +233,12 @@ export const ReferralTestimonials = () => {
                 </h2>
               </div>
               <div className="relative box-border caret-transparent gap-x-4 grid auto-cols-[1fr] grid-cols-[1fr] grid-rows-[auto_auto_auto] gap-y-4 w-full overflow-hidden">
+                <TestimonialSlider testimonials={testimonials1} />
                 <TestimonialSlider
-                  direction="left"
-                  durationSeconds={40}
-                  testimonials={testimonials1}
-                />
-                <TestimonialSlider
-                  direction="right"
-                  durationSeconds={44}
+                  sliderVariant="translate-x-0"
                   testimonials={testimonials2}
                 />
-                <TestimonialSlider
-                  direction="left"
-                  durationSeconds={42}
-                  testimonials={testimonials3}
-                />
+                <TestimonialSlider testimonials={testimonials3} />
                 <div className="absolute bg-[linear-gradient(90deg,rgb(250,250,250),rgba(255,255,255,0))] box-border caret-transparent h-full pointer-events-none w-[100px] left-0 md:w-[150px]"></div>
                 <div className="absolute bg-[linear-gradient(90deg,rgba(255,255,255,0),rgb(250,250,250))] box-border caret-transparent h-full pointer-events-none w-[100px] right-0 md:w-[150px]"></div>
               </div>
