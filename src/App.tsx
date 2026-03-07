@@ -19,6 +19,10 @@ import { CookieConsent } from "@/components/CookieConsent";
 import { About } from "@/pages/About";
 import { Blog } from "@/pages/Blog";
 import { Teams } from "@/pages/Teams";
+import { Services } from "@/pages/Services";
+import { Projects } from "@/pages/Projects";
+import { Pricing } from "@/pages/Pricing";
+import { Contact } from "@/pages/Contact";
 
 export const App = () => {
   const getNormalizedPath = () =>
@@ -68,6 +72,14 @@ export const App = () => {
             <Blog />
           ) : path === '/teams' ? (
             <Teams />
+          ) : path === '/services' ? (
+            <Services />
+          ) : path === '/projects' ? (
+            <Projects />
+          ) : path === '/pricing' ? (
+            <Pricing />
+          ) : path === '/contact' ? (
+            <Contact />
           ) : (
             <>
               <HeroSection />

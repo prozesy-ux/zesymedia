@@ -95,11 +95,11 @@ export const ProjectCard = (props: ProjectCardProps) => {
           </div>
         </div>
       </div>
-      <div className="relative items-start box-border caret-transparent flex basis-[0%] grow h-full justify-start max-w-full w-full mt-6 mb-4 rounded-lg md:w-auto md:my-0">
+      <div className="relative items-start box-border caret-transparent flex basis-[0%] grow h-full justify-start max-w-full w-full mt-6 mb-4 overflow-hidden rounded-[16px] md:w-auto md:my-0">
         <img
           src={props.projectImageUrl}
           alt={props.projectImageAlt}
-          className="box-border caret-transparent max-w-full w-full"
+          className="box-border caret-transparent max-w-full w-full rounded-[16px]"
         />
       </div>
       <div

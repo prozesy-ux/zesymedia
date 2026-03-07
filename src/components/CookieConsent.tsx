@@ -5,15 +5,15 @@ export const CookieConsent = () => {
         <div className="text-neutral-950 text-lg font-bold box-border caret-transparent leading-[21.6px] mb-2 font-redhatdisplay_variablefont_wght md:text-[22px] md:leading-[26.4px] md:mb-[18px]">
           Cookie Settings
         </div>
-        <p className="text-sm box-border caret-transparent tracking-[0.36px] leading-[21px] md:text-lg md:leading-[27px]">
+        <p className="text-sm box-border caret-transparent tracking-[0.36px] leading-[21px] font-outfit_variablefont_wght md:text-lg md:leading-[27px]">
           By clicking &quot;Accept All Cookies&quot;, you agree to the storing
           of cookies on your device to enhance site navigation, analyze site
           usage and assist in our marketing efforts.{" "}
           <a
             href="/privacy-policy"
-            className="text-violet-600 text-sm box-border caret-transparent leading-[21px] md:text-lg md:leading-[27px]"
+            className="text-violet-600 text-sm box-border caret-transparent leading-[21px] font-outfit_variablefont_wght md:text-lg md:leading-[27px]"
           >
-            <span className="text-sm box-border caret-transparent leading-[21px] md:text-lg md:leading-[27px]">
+            <span className="text-sm box-border caret-transparent leading-[21px] font-outfit_variablefont_wght md:text-lg md:leading-[27px]">
               More info
             </span>
           </a>
@@ -29,11 +29,11 @@ export const CookieConsent = () => {
             className="box-border caret-transparent inline-block max-w-full"
           />
         </a>
-        <div className="box-border caret-transparent mt-8">
+        <div className="box-border caret-transparent mt-8 font-outfit_variablefont_wght">
           <form
             name="email-form"
             aria-label="Email Form"
-            className="box-border caret-transparent"
+            className="box-border caret-transparent font-outfit_variablefont_wght"
           >
             <div className="box-border caret-transparent gap-x-2.5 flex flex-col gap-y-2.5 mb-4 md:gap-x-[18px] md:gap-y-[18px] md:mb-8">
               <div className="relative items-start box-border caret-transparent gap-x-3 flex auto-cols-[1fr] grid-cols-[1fr_0.25fr] grid-rows-[auto] pointer-events-none gap-y-3 pb-[5px]">

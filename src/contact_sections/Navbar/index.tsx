@@ -1,0 +1,60 @@
+import { NavbarLogo } from "@/contact_sections/Navbar/components/NavbarLogo";
+import { NavbarLinks } from "@/contact_sections/Navbar/components/NavbarLinks";
+import { DesktopMenu } from "@/contact_sections/Navbar/components/DesktopMenu";
+import { MobileMenu } from "@/contact_sections/Navbar/components/MobileMenu";
+
+export const Navbar = () => {
+  return (
+    <div className="fixed box-border caret-transparent max-w-none z-[99999] mx-auto pb-6 bottom-[0%] inset-x-[0%] md:max-w-[713px]">
+      <nav className="relative box-border caret-transparent grid grid-cols-[1fr_1fr_92px_1fr_1fr] z-[2] pt-4 pb-[22px] px-0 rounded-2xl md:grid-cols-[1fr_1fr_auto_1fr_1fr] md:p-2">
+        <NavbarLogo />
+        <NavbarLinks
+          href="https://www.designmonks.co/projects"
+          iconSrc="https://c.animaapp.com/ml6p62229g1sAA/assets/icon-2.svg"
+          text="Projects"
+        />
+        <NavbarLinks
+          href="https://www.designmonks.co/services"
+          iconSrc="https://c.animaapp.com/ml6p62229g1sAA/assets/icon-3.svg"
+          text="Services"
+          variant="min-h-[auto] min-w-[auto] md:hidden md:min-h-0 md:min-w-0"
+          textVariant="min-h-[auto] min-w-[auto] md:inline md:min-h-0 md:min-w-0"
+        />
+        <DesktopMenu />
+        <a
+          href="https://www.designmonks.co/contact"
+          className="relative text-zinc-50 text-base font-bold items-center bg-violet-600 box-border caret-transparent flex h-16 justify-center justify-self-center tracking-[0.32px] leading-6 max-w-full translate-y-[-60.0%] w-16 rounded-[18px] md:h-auto md:justify-self-auto md:transform-none md:w-auto md:rounded-lg"
+        >
+          <div className="absolute bg-violet-600 bg-[conic-gradient(at_8.04%_51.79%,rgb(251,250,246)_0deg,rgba(251,250,246,0)_360deg),none] bg-size-[auto,auto] box-border caret-transparent pointer-events-none bg-[position:0%,0%_0%,0%] inset-[0%]"></div>
+          <div className="relative items-center bg-neutral-950 box-border caret-transparent gap-x-2 flex h-full justify-center gap-y-2 w-full z-0 p-[5px] md:px-8 md:py-4">
+            <div className="absolute bg-[linear-gradient(rgb(89,45,181)_25%,rgb(125,64,255))] shadow-[rgba(255,255,255,0.72)_0px_2px_3px_0px_inset] box-border caret-transparent pointer-events-none z-[-1] inset-[0%]"></div>
+            <img
+              src="https://c.animaapp.com/ml6p62229g1sAA/assets/icon-6.svg"
+              alt="Icon"
+              className="text-[32px] box-border caret-transparent shrink-0 h-8 leading-[48px] w-8 md:text-2xl md:h-6 md:leading-9 md:w-6"
+            />
+            <span className="box-border caret-transparent hidden min-h-0 min-w-0 md:block md:min-h-[auto] md:min-w-[auto]">
+              Start a Project
+            </span>
+            <img
+              src="https://c.animaapp.com/ml6p62229g1sAA/assets/icon-7.svg"
+              alt="Icon"
+              className="absolute text-white/50 box-border caret-transparent blur-[2.5px] h-16 pointer-events-none translate-x-[50.0%] translate-y-[-50.0%] w-16 right-[0%] top-[0%]"
+            />
+          </div>
+        </a>
+        <NavbarLinks
+          href="https://www.designmonks.co/pricing"
+          iconSrc="https://c.animaapp.com/ml6p62229g1sAA/assets/icon-8.svg"
+          text="Pricing"
+        />
+        <NavbarLinks
+          iconSrc="https://c.animaapp.com/ml6p62229g1sAA/assets/icon-9.svg"
+          text="More"
+          isDropdown={true}
+        />
+        <MobileMenu />
+      </nav>
+    </div>
+  );
+};
