@@ -28,9 +28,15 @@ export const Navbar = () => {
             <span className="nav-link-text">Projects</span>
           </a>
 
-          <a href="/services" className="nav-link nav-services-mobile">
+          <a 
+            href="/services" 
+            className="nav-link nav-services-mobile"
+            onMouseEnter={() => setServicesOpen(true)}
+            onMouseLeave={() => setServicesOpen(false)}
+            onClick={() => setServicesOpen(!servicesOpen)}
+          >
             <img src="https://c.animaapp.com/mkiynesyxwO7zZ/assets/icon-3.svg" alt="Icon" className="nav-link-icon" />
-            <span className="nav-link-text">Service</span>
+            <span className="nav-link-text">Services</span>
           </a>
 
           <div 
@@ -38,8 +44,15 @@ export const Navbar = () => {
             onMouseEnter={() => setServicesOpen(true)}
             onMouseLeave={() => setServicesOpen(false)}
           >
-            <a href="/services" className="nav-link">
-              <span className="nav-link-text">Service</span>
+            <a 
+              href="/services" 
+              className="nav-link" 
+              onClick={(e) => {
+                e.preventDefault();
+                setServicesOpen(!servicesOpen);
+              }}
+            >
+              <span className="nav-link-text">Services</span>
             </a>
           </div>
 
@@ -58,16 +71,20 @@ export const Navbar = () => {
             <span className="nav-link-text">Pricing</span>
           </a>
 
-          <div 
+          <a 
+            href="/" 
+            className="nav-link"
             style={{ display: 'flex', justifyContent: 'center', width: '100%' }}
             onMouseEnter={() => setMoreOpen(true)}
             onMouseLeave={() => setMoreOpen(false)}
+            onClick={(e) => {
+              e.preventDefault();
+              setMoreOpen(!moreOpen);
+            }}
           >
-            <a href="/" className="nav-link">
-              <img src="https://c.animaapp.com/mkiynesyxwO7zZ/assets/icon-3.svg" alt="Icon" className="nav-link-icon" />
-              <span className="nav-link-text">More</span>
-            </a>
-          </div>
+            <img src="https://c.animaapp.com/mkiynesyxwO7zZ/assets/icon-3.svg" alt="Icon" className="nav-link-icon" />
+            <span className="nav-link-text">More</span>
+          </a>
 
           <div className="navbar-panel"></div>
         </nav>
@@ -75,8 +92,8 @@ export const Navbar = () => {
         {/* Services Dropdown */}
         {servicesOpen && (
           <div 
-            className="absolute left-[50%] -translate-x-1/2 w-[900px] max-w-[calc(100vw-40px)] bg-white rounded-[24px] shadow-lg z-[99]"
-            style={{ top: '100px' }}
+            className="absolute left-[50%] -translate-x-1/2 w-[900px] max-w-[calc(100vw-40px)] bg-white rounded-[24px] shadow-lg z-[9999]"
+            style={{ bottom: 'calc(100% + 16px)' }}
             onMouseEnter={() => setServicesOpen(true)}
             onMouseLeave={() => setServicesOpen(false)}
           >
@@ -122,8 +139,8 @@ export const Navbar = () => {
         {/* More Dropdown */}
         {moreOpen && (
           <div 
-            className="absolute right-0 w-[900px] max-w-[calc(100vw-40px)] bg-white rounded-[24px] shadow-lg z-[99]"
-            style={{ top: '100px' }}
+            className="absolute right-0 w-[900px] max-w-[calc(100vw-40px)] bg-white rounded-[24px] shadow-lg z-[9999]"
+            style={{ bottom: 'calc(100% + 16px)' }}
             onMouseEnter={() => setMoreOpen(true)}
             onMouseLeave={() => setMoreOpen(false)}
           >

@@ -788,6 +788,12 @@
   display: block;
 }
 
+@media (min-width: 768px) {
+  .nav-link-icon {
+    display: none;
+  }
+}
+
 .nav-link-text {
   display: block;
   font-size: 12.8px;
@@ -795,10 +801,34 @@
   letter-spacing: 0.256px;
 }
 
+@media (min-width: 768px) {
+  .nav-link-text {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+  }
+}
+
+.nav-services-mobile {
+  display: flex;
+}
+
+@media (min-width: 768px) {
+  .nav-services-mobile {
+    display: none;
+  }
+}
+
 .nav-services-desktop {
   display: none;
   justify-content: center;
   width: 100%;
+}
+
+@media (min-width: 768px) {
+  .nav-services-desktop {
+    display: flex;
+  }
 }
 
 .cta-link {
