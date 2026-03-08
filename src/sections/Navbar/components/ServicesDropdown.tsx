@@ -1,4 +1,4 @@
-export const ServicesDropdown = () => {
+export const ServicesDropdown = ({ isOpen }: { isOpen: boolean }) => {
   const services = [
     { title: "UI UX", desc: "Creating user-friendly digital experiences." },
     { title: "Logo & Branding", desc: "Creating memorable identities for brands." },
@@ -8,23 +8,29 @@ export const ServicesDropdown = () => {
     { title: "SaaS Design", desc: "Intuitive interfaces that boost user engagement." },
   ];
 
+  const handleMouseEnter = () => {
+    const backdrop = document.getElementById('navBackdrop');
+    if (backdrop) {
+      backdrop.classList.remove('opacity-0', 'invisible');
+      backdrop.classList.add('opacity-100', 'visible');
+    }
+  };
+
+  const handleMouseLeave = () => {
+    const backdrop = document.getElementById('navBackdrop');
+    if (backdrop) {
+      backdrop.classList.add('opacity-0', 'invisible');
+      backdrop.classList.remove('opacity-100', 'visible');
+    }
+  };
+
   return (
     <div 
-      className="absolute top-[calc(100%+20px)] left-[-140px] w-[900px] max-w-[1200px] bg-white rounded-[24px] shadow-[0_20px_60px_-10px_rgba(0,0,0,0.1)] cursor-default z-[99999] hidden md:block opacity-0 invisible group-hover:opacity-100 group-hover:visible group-active:opacity-100 group-active:visible transition-all duration-300 transform origin-top -translate-y-4 group-hover:translate-y-0 group-active:translate-y-0 overflow-hidden pointer-events-none group-hover:pointer-events-auto"
-      onMouseEnter={() => {
-        const backdrop = document.getElementById('navBackdrop');
-        if (backdrop) {
-          backdrop.classList.remove('opacity-0', 'invisible');
-          backdrop.classList.add('opacity-100', 'visible');
-        }
-      }}
-      onMouseLeave={() => {
-        const backdrop = document.getElementById('navBackdrop');
-        if (backdrop) {
-          backdrop.classList.add('opacity-0', 'invisible');
-          backdrop.classList.remove('opacity-100', 'visible');
-        }
-      }}
+      className={`absolute left-1/2 -translate-x-1/2 w-[900px] max-w-[1200px] bg-white rounded-[24px] shadow-[0_20px_60px_-10px_rgba(0,0,0,0.1)] pt-4 z-[99999] hidden md:block transition-opacity duration-300 ${
+        isOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'
+      }`}
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
     >
       <div className="grid grid-cols-2 gap-0 min-h-[560px]">
         {/* Left Column: Services List */}
@@ -41,7 +47,7 @@ export const ServicesDropdown = () => {
             {services.map((service, index) => (
               <a 
                 key={index} 
-                href={`/services/${service.title.toLowerCase().replace(/ /g, "-")}`} 
+                href={`/services/${service.title.toLowerCase().replace(/ /g, "-")}`}
                 className="group/item block relative p-4 -m-4 rounded-xl hover:bg-gray-50 active:bg-gray-100 transition-all cursor-pointer touch-manipulation"
               >
                 <div className="flex items-start justify-between gap-4">
@@ -104,7 +110,7 @@ export const ServicesDropdown = () => {
 
       {/* V-shaped pointer */}
       <svg
-        className="absolute -top-[8px] left-[165px] w-[24px] h-[10px]"
+        className="absolute -top-[8px] left-1/2 -translate-x-1/2 w-[24px] h-[10px]"
         viewBox="0 0 24 10"
         aria-hidden="true"
         shapeRendering="geometricPrecision"

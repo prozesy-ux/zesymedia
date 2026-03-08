@@ -1,6 +1,5 @@
 import type { MouseEvent } from "react";
-import { ServicesDropdown } from "./ServicesDropdown";
-import { MoreDropdown } from "./MoreDropdown";
+import { useState } from "react";
 
 export type NavbarLinksProps = {
   href?: string;
@@ -10,6 +9,7 @@ export type NavbarLinksProps = {
   textVariant?: string;
   isActive?: boolean;
   isDropdown?: boolean;
+  onHoverChange?: (isHovering: boolean) => void;
 };
 
 const handleSpaNavigation = (event: MouseEvent<HTMLAnchorElement>, href: string) => {
@@ -23,12 +23,26 @@ const handleSpaNavigation = (event: MouseEvent<HTMLAnchorElement>, href: string)
 };
 
 export const NavbarLinks = (props: NavbarLinksProps) => {
+  const [isHovering, setIsHovering] = useState(false);
+
+  const handleMouseEnter = () => {
+    setIsHovering(true);
+    props.onHoverChange?.(true);
+  };
+
+  const handleMouseLeave = () => {
+    setIsHovering(false);
+    props.onHoverChange?.(false);
+  };
+
   if (props.isDropdown) {
     // For Services link with href, make it clickable on mobile, hoverable on desktop
     if (props.href) {
       return (
         <div
-          className={`group relative flex items-center box-border justify-center text-left mx-auto pointer-events-auto ${props.variant ?? "w-full"}`}
+          className={`relative flex items-center box-border justify-center text-left mx-auto pointer-events-auto ${props.variant ?? "w-full"}`}
+          onMouseEnter={handleMouseEnter}
+          onMouseLeave={handleMouseLeave}
         >
           <a
             href={props.href}
@@ -44,10 +58,6 @@ export const NavbarLinks = (props: NavbarLinksProps) => {
               {props.label}
             </span>
           </a>
-          
-          {/* Render the dropdown - only visible on desktop */}
-          {props.label === "Services" && <ServicesDropdown />}
-          {props.label === "More" && <MoreDropdown />}
         </div>
       );
     }
@@ -55,7 +65,9 @@ export const NavbarLinks = (props: NavbarLinksProps) => {
     // For dropdown without href (shouldn't happen now)
     return (
       <div
-        className={`group relative flex items-center box-border justify-center text-left mx-auto pointer-events-auto ${props.variant ?? "w-full"}`}
+        className={`relative flex items-center box-border justify-center text-left mx-auto pointer-events-auto ${props.variant ?? "w-full"}`}
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
       >
         <div
           role="button"
@@ -70,10 +82,6 @@ export const NavbarLinks = (props: NavbarLinksProps) => {
             {props.label}
           </span>
         </div>
-        
-        {/* Render the dropdown - only visible on desktop */}
-        {props.label === "Services" && <ServicesDropdown />}
-        {props.label === "More" && <MoreDropdown />}
       </div>
     );
   }

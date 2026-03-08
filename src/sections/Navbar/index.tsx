@@ -1,8 +1,14 @@
+import { useState } from "react";
 import { NavbarLogo } from "@/sections/Navbar/components/NavbarLogo";
 import { NavbarLinks } from "@/sections/Navbar/components/NavbarLinks";
 import { NavbarCTA } from "@/sections/Navbar/components/NavbarCTA";
+import { ServicesDropdown } from "@/sections/Navbar/components/ServicesDropdown";
+import { MoreDropdown } from "@/sections/Navbar/components/MoreDropdown";
 
 export const Navbar = () => {
+  const [servicesOpen, setServicesOpen] = useState(false);
+  const [moreOpen, setMoreOpen] = useState(false);
+
   return (
     <>
       {/* Backdrop for dropdowns */}
@@ -13,9 +19,9 @@ export const Navbar = () => {
       
       <div
         data-wf--new-navbar--variant="primary"
-        className="rd-navbar_wrapper fixed box-border caret-transparent max-w-none z-[99999] mx-auto inset-x-[0%] md:max-w-[850px]"
+        className="rd-navbar_wrapper fixed box-border caret-transparent max-w-none z-[99999] mx-auto inset-x-[0%] md:max-w-[850px] overflow-visible"
       >
-        <nav className="rd-navbar relative box-border caret-transparent grid grid-cols-[1fr_1fr_92px_1fr_1fr] z-[2] pt-4 pb-[22px] px-0 rounded-2xl md:grid-cols-[1fr_1fr_auto_1fr_1fr] md:p-2">
+        <nav className="rd-navbar relative box-border caret-transparent grid grid-cols-[1fr_1fr_92px_1fr_1fr] z-[2] pt-4 pb-[22px] px-0 rounded-2xl md:grid-cols-[1fr_1fr_auto_1fr_1fr] md:p-2 overflow-visible">
           <NavbarLogo />
 
           <NavbarLinks
@@ -39,6 +45,7 @@ export const Navbar = () => {
             variant="hidden md:flex md:justify-center md:w-full"
             isActive={true}
             isDropdown={true}
+            onHoverChange={setServicesOpen}
           />
 
           <NavbarCTA />
@@ -54,10 +61,19 @@ export const Navbar = () => {
             iconSrc="https://c.animaapp.com/mmfqa5b2QIeLaz/assets/icon-8.svg"
             label="More"
             isDropdown={true}
+            onHoverChange={setMoreOpen}
           />
 
           <div className="rd-navbar_bg absolute bg-neutral-950 shadow-[rgba(48,255,151,0.4)_0px_3px_4px_0px_inset] box-border caret-transparent pointer-events-none z-[-1] rounded-2xl inset-[0%]"></div>
         </nav>
+
+        {/* Dropdowns rendered outside nav to avoid clipping */}
+        <div className="absolute top-[100%] left-0 right-0 pointer-events-none">
+          <div className="relative w-full h-0">
+            <ServicesDropdown isOpen={servicesOpen} />
+            <MoreDropdown isOpen={moreOpen} />
+          </div>
+        </div>
       </div>
     </>
   );

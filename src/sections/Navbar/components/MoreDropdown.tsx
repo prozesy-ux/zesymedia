@@ -1,4 +1,4 @@
-export const MoreDropdown = () => {
+export const MoreDropdown = ({ isOpen }: { isOpen: boolean }) => {
   const links = [
     { title: "Home", desc: "Home is where the monk lives", href: "/" },
     { title: "About us", desc: "The journey of Design Monks", href: "/about" },
@@ -8,23 +8,29 @@ export const MoreDropdown = () => {
     { title: "Contact us", desc: "Start your dream design journey from here", href: "/contact" },
   ];
 
+  const handleMouseEnter = () => {
+    const backdrop = document.getElementById('navBackdrop');
+    if (backdrop) {
+      backdrop.classList.remove('opacity-0', 'invisible');
+      backdrop.classList.add('opacity-100', 'visible');
+    }
+  };
+
+  const handleMouseLeave = () => {
+    const backdrop = document.getElementById('navBackdrop');
+    if (backdrop) {
+      backdrop.classList.add('opacity-0', 'invisible');
+      backdrop.classList.remove('opacity-100', 'visible');
+    }
+  };
+
   return (
     <div 
-      className="absolute top-[calc(100%+20px)] right-[-140px] w-[900px] max-w-[1200px] bg-white rounded-[24px] shadow-[0_20px_60px_-10px_rgba(0,0,0,0.1)] cursor-default z-[99999] hidden md:block opacity-0 invisible group-hover:opacity-100 group-hover:visible group-active:opacity-100 group-active:visible transition-all duration-300 transform origin-top -translate-y-4 group-hover:translate-y-0 group-active:translate-y-0 overflow-hidden pointer-events-none group-hover:pointer-events-auto"
-      onMouseEnter={() => {
-        const backdrop = document.getElementById('navBackdrop');
-        if (backdrop) {
-          backdrop.classList.remove('opacity-0', 'invisible');
-          backdrop.classList.add('opacity-100', 'visible');
-        }
-      }}
-      onMouseLeave={() => {
-        const backdrop = document.getElementById('navBackdrop');
-        if (backdrop) {
-          backdrop.classList.add('opacity-0', 'invisible');
-          backdrop.classList.remove('opacity-100', 'visible');
-        }
-      }}
+      className={`absolute right-0 w-[900px] max-w-[1200px] bg-white rounded-[24px] shadow-[0_20px_60px_-10px_rgba(0,0,0,0.1)] pt-4 z-[99999] hidden md:block transition-opacity duration-300 ${
+        isOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'
+      }`}
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
     >
       <div className="grid grid-cols-2 gap-0 min-h-[560px]">
         {/* Left Column: Visual Block with Video */}
