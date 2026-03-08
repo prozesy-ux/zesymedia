@@ -1,8 +1,10 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 
 export const Navbar = () => {
   const [servicesOpen, setServicesOpen] = useState(false);
   const [moreOpen, setMoreOpen] = useState(false);
+  const servicesTimerRef = useRef<NodeJS.Timeout | null>(null);
+  const moreTimerRef = useRef<NodeJS.Timeout | null>(null);
 
   const handleSpaNavigation = (href: string, e: React.MouseEvent) => {
     if (!href.startsWith("/") || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) {
@@ -11,6 +13,32 @@ export const Navbar = () => {
     e.preventDefault();
     window.history.pushState({}, "", href);
     window.dispatchEvent(new Event("locationchange"));
+  };
+
+  const handleServicesMouseLeave = () => {
+    servicesTimerRef.current = setTimeout(() => {
+      setServicesOpen(false);
+    }, 100);
+  };
+
+  const handleServicesMouseEnter = () => {
+    if (servicesTimerRef.current) {
+      clearTimeout(servicesTimerRef.current);
+    }
+    setServicesOpen(true);
+  };
+
+  const handleMoreMouseLeave = () => {
+    moreTimerRef.current = setTimeout(() => {
+      setMoreOpen(false);
+    }, 100);
+  };
+
+  const handleMoreMouseEnter = () => {
+    if (moreTimerRef.current) {
+      clearTimeout(moreTimerRef.current);
+    }
+    setMoreOpen(true);
   };
 
   return (
@@ -23,16 +51,16 @@ export const Navbar = () => {
             className="navbar-shape"
           />
 
-          <a href="/projects" className="nav-link">
+          <a href="/projects" className="nav-link cursor-pointer">
             <img src="https://c.animaapp.com/mkiynesyxwO7zZ/assets/icon-2.svg" alt="Icon" className="nav-link-icon" />
             <span className="nav-link-text">Projects</span>
           </a>
 
           <a 
             href="/services" 
-            className="nav-link nav-services-mobile"
-            onMouseEnter={() => setServicesOpen(true)}
-            onMouseLeave={() => setServicesOpen(false)}
+            className="nav-link nav-services-mobile cursor-pointer"
+            onMouseEnter={handleServicesMouseEnter}
+            onMouseLeave={handleServicesMouseLeave}
             onClick={() => setServicesOpen(!servicesOpen)}
           >
             <img src="https://c.animaapp.com/mkiynesyxwO7zZ/assets/icon-3.svg" alt="Icon" className="nav-link-icon" />
@@ -40,13 +68,13 @@ export const Navbar = () => {
           </a>
 
           <div 
-            className="nav-services-desktop"
-            onMouseEnter={() => setServicesOpen(true)}
-            onMouseLeave={() => setServicesOpen(false)}
+            className="nav-services-desktop cursor-pointer"
+            onMouseEnter={handleServicesMouseEnter}
+            onMouseLeave={handleServicesMouseLeave}
           >
             <a 
               href="/services" 
-              className="nav-link" 
+              className="nav-link cursor-pointer" 
               onClick={(e) => {
                 e.preventDefault();
                 setServicesOpen(!servicesOpen);
@@ -56,7 +84,7 @@ export const Navbar = () => {
             </a>
           </div>
 
-          <a href="/contact" className="cta-link">
+          <a href="/contact" className="cta-link cursor-pointer">
             <div className="cta-border"></div>
             <div className="cta-inner"></div>
             <div className="cta-content">
@@ -66,17 +94,17 @@ export const Navbar = () => {
             </div>
           </a>
 
-          <a href="/pricing" className="nav-link">
+          <a href="/pricing" className="nav-link cursor-pointer">
             <img src="https://c.animaapp.com/mkiynesyxwO7zZ/assets/icon-8.svg" alt="Icon" className="nav-link-icon" />
             <span className="nav-link-text">Pricing</span>
           </a>
 
           <a 
             href="/" 
-            className="nav-link"
+            className="nav-link cursor-pointer"
             style={{ display: 'flex', justifyContent: 'center', width: '100%' }}
-            onMouseEnter={() => setMoreOpen(true)}
-            onMouseLeave={() => setMoreOpen(false)}
+            onMouseEnter={handleMoreMouseEnter}
+            onMouseLeave={handleMoreMouseLeave}
             onClick={(e) => {
               e.preventDefault();
               setMoreOpen(!moreOpen);
@@ -92,18 +120,18 @@ export const Navbar = () => {
         {/* Services Dropdown */}
         {servicesOpen && (
           <div 
-            className="absolute left-[50%] -translate-x-1/2 w-[900px] max-w-[calc(100vw-40px)] bg-white rounded-[24px] shadow-lg z-[9999]"
+            className="absolute left-[50%] -translate-x-1/2 w-[calc(100vw-32px)] md:w-[900px] max-w-[calc(100vw-40px)] bg-white rounded-[24px] shadow-lg z-[9999]"
             style={{ bottom: 'calc(100% + 16px)' }}
-            onMouseEnter={() => setServicesOpen(true)}
-            onMouseLeave={() => setServicesOpen(false)}
+            onMouseEnter={handleServicesMouseEnter}
+            onMouseLeave={handleServicesMouseLeave}
           >
-            <div className="grid grid-cols-2 gap-0 p-8 lg:p-12 min-h-[500px]">
-              <div className="flex flex-col gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-0 p-4 md:p-8 lg:p-12 md:min-h-[500px]">
+              <div className="flex flex-col gap-4 md:gap-6">
                 <div>
-                  <p className="text-[0.875rem] font-medium tracking-[0.15em] uppercase text-gray-500 mb-2">What we do</p>
-                  <h3 className="text-2xl font-bold text-gray-900">Our Services</h3>
+                  <p className="text-[0.75rem] md:text-[0.875rem] font-medium tracking-[0.15em] uppercase text-gray-500 mb-2">What we do</p>
+                  <h3 className="text-lg md:text-2xl font-bold text-gray-900">Our Services</h3>
                 </div>
-                <div className="flex flex-col gap-4">
+                <div className="flex flex-col gap-3 md:gap-4">
                   {[
                     { title: "UI UX", desc: "Creating user-friendly digital experiences." },
                     { title: "Logo & Branding", desc: "Creating memorable identities for brands." },
@@ -115,18 +143,18 @@ export const Navbar = () => {
                     <a 
                       key={idx}
                       href="/services"
-                      className="group p-3 rounded-lg hover:bg-gray-100 cursor-pointer"
+                      className="group p-2 md:p-3 rounded-lg hover:bg-gray-100 cursor-pointer"
                       onClick={(e) => handleSpaNavigation("/services", e)}
                     >
-                      <h4 className="font-semibold text-gray-900 group-hover:text-violet-600">{service.title}</h4>
-                      <p className="text-sm text-gray-600">{service.desc}</p>
+                      <h4 className="text-sm md:text-base font-semibold text-gray-900 group-hover:text-violet-600">{service.title}</h4>
+                      <p className="text-xs md:text-sm text-gray-600">{service.desc}</p>
                     </a>
                   ))}
                 </div>
               </div>
 
-              <div className="flex items-center justify-center pl-8">
-                <div className="w-full h-full bg-black rounded-lg overflow-hidden flex items-center justify-center">
+              <div className="hidden md:flex items-center justify-center md:pl-8 mt-4 md:mt-0">
+                <div className="w-full h-64 md:h-full bg-black rounded-lg overflow-hidden flex items-center justify-center">
                   <video autoPlay loop muted playsInline className="w-full h-full object-cover">
                     <source src="https://github.com/designmonks/DM-Showreel/raw/main/DM%20Showreel%202025%20Vertical.mp4" type="video/mp4" />
                   </video>
@@ -139,26 +167,26 @@ export const Navbar = () => {
         {/* More Dropdown */}
         {moreOpen && (
           <div 
-            className="absolute right-0 w-[900px] max-w-[calc(100vw-40px)] bg-white rounded-[24px] shadow-lg z-[9999]"
+            className="absolute right-0 md:right-auto left-[50%] md:left-auto md:-translate-x-0 -translate-x-1/2 w-[calc(100vw-32px)] md:w-[900px] max-w-[calc(100vw-40px)] bg-white rounded-[24px] shadow-lg z-[9999]"
             style={{ bottom: 'calc(100% + 16px)' }}
-            onMouseEnter={() => setMoreOpen(true)}
-            onMouseLeave={() => setMoreOpen(false)}
+            onMouseEnter={handleMoreMouseEnter}
+            onMouseLeave={handleMoreMouseLeave}
           >
-            <div className="grid grid-cols-2 gap-0 p-8 lg:p-12 min-h-[500px]">
-              <div className="flex items-center justify-center pr-8">
-                <div className="w-full h-full bg-black rounded-lg overflow-hidden flex items-center justify-center">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-0 p-4 md:p-8 lg:p-12 md:min-h-[500px]">
+              <div className="hidden md:flex items-center justify-center md:pr-8 order-2 md:order-1">
+                <div className="w-full h-64 md:h-full bg-black rounded-lg overflow-hidden flex items-center justify-center">
                   <video autoPlay loop muted playsInline className="w-full h-full object-cover">
                     <source src="https://github.com/designmonks/Contact-US-Video/raw/main/DM%20Intro%20Vertical.mp4" type="video/mp4" />
                   </video>
                 </div>
               </div>
 
-              <div className="flex flex-col gap-6 pl-8">
+              <div className="flex flex-col gap-4 md:gap-6 order-1 md:order-2">
                 <div>
-                  <p className="text-[0.875rem] font-medium tracking-[0.15em] uppercase text-gray-500 mb-2">Explore</p>
-                  <h3 className="text-2xl font-bold text-gray-900">Company</h3>
+                  <p className="text-[0.75rem] md:text-[0.875rem] font-medium tracking-[0.15em] uppercase text-gray-500 mb-2">Explore</p>
+                  <h3 className="text-lg md:text-2xl font-bold text-gray-900">Company</h3>
                 </div>
-                <div className="flex flex-col gap-4">
+                <div className="flex flex-col gap-3 md:gap-4">
                   {[
                     { title: "Home", desc: "Home is where Design Monks lives", href: "/" },
                     { title: "About us", desc: "The journey of Design Monks", href: "/about" },
@@ -170,11 +198,11 @@ export const Navbar = () => {
                     <a 
                       key={idx}
                       href={link.href}
-                      className="group p-3 rounded-lg hover:bg-gray-100 cursor-pointer"
+                      className="group p-2 md:p-3 rounded-lg hover:bg-gray-100 cursor-pointer"
                       onClick={(e) => handleSpaNavigation(link.href, e)}
                     >
-                      <h4 className="font-semibold text-gray-900 group-hover:text-violet-600">{link.title}</h4>
-                      <p className="text-sm text-gray-600">{link.desc}</p>
+                      <h4 className="text-sm md:text-base font-semibold text-gray-900 group-hover:text-violet-600">{link.title}</h4>
+                      <p className="text-xs md:text-sm text-gray-600">{link.desc}</p>
                     </a>
                   ))}
                 </div>
