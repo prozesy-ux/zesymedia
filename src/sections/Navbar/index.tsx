@@ -33,7 +33,7 @@ export const Navbar = () => {
           <NavbarLinks
             href="/services"
             iconSrc="https://c.animaapp.com/mmfqa5b2QIeLaz/assets/icon-3.svg"
-            label="Services"
+            label="Service"
             variant="min-h-[auto] min-w-[auto] md:hidden md:min-h-0 md:min-w-0"
             textVariant="min-h-[auto] min-w-[auto] md:inline md:min-h-0 md:min-w-0"
           />
@@ -41,7 +41,7 @@ export const Navbar = () => {
           <NavbarLinks
             href="/services"
             iconSrc="https://c.animaapp.com/mmfqa5b2QIeLaz/assets/icon-3.svg"
-            label="Services"
+            label="Service"
             variant="hidden md:flex md:justify-center md:w-full"
             isActive={true}
             isDropdown={true}
