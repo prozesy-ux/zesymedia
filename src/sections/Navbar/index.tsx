@@ -67,13 +67,9 @@ export const Navbar = () => {
           <div className="rd-navbar_bg absolute bg-neutral-950 shadow-[rgba(48,255,151,0.4)_0px_3px_4px_0px_inset] box-border caret-transparent pointer-events-none z-[-1] rounded-2xl inset-[0%]"></div>
         </nav>
 
-        {/* Dropdowns rendered outside nav to avoid clipping */}
-        <div className="absolute top-[100%] left-0 right-0 z-[99999]">
-          <div className="relative w-full h-0">
-            <ServicesDropdown isOpen={servicesOpen} onHoverChange={setServicesOpen} />
-            <MoreDropdown isOpen={moreOpen} onHoverChange={setMoreOpen} />
-          </div>
-        </div>
+        {/* Dropdowns - positioned absolutely relative to navbar_wrapper */}
+        <ServicesDropdown isOpen={servicesOpen} onHoverChange={setServicesOpen} />
+        <MoreDropdown isOpen={moreOpen} onHoverChange={setMoreOpen} />
       </div>
     </>
   );

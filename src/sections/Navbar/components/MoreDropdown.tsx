@@ -28,9 +28,10 @@ export const MoreDropdown = ({ isOpen, onHoverChange }: { isOpen: boolean; onHov
 
   return (
     <div 
-      className={`absolute right-0 w-[900px] max-w-[1200px] bg-white rounded-[24px] shadow-[0_20px_60px_-10px_rgba(0,0,0,0.1)] pt-4 z-[99999] hidden md:block transition-opacity duration-300 ${
-        isOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'
+      className={`absolute top-0 right-0 w-[900px] max-w-[90vw] bg-white rounded-[24px] shadow-[0_20px_60px_-10px_rgba(0,0,0,0.1)] z-[99999] hidden md:block transition-opacity duration-300 ${
+        isOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'
       }`}
+      style={{ top: '120px' }}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
