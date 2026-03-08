@@ -1,4 +1,6 @@
 import type { MouseEvent } from "react";
+import { ServicesDropdown } from "./ServicesDropdown";
+import { MoreDropdown } from "./MoreDropdown";
 
 export type NavbarLinksProps = {
   href?: string;
@@ -24,7 +26,7 @@ export const NavbarLinks = (props: NavbarLinksProps) => {
   if (props.isDropdown) {
     return (
       <div
-        className={`relative items-center box-border caret-transparent justify-center text-left mx-auto ${props.variant ?? "contents"}`}
+        className={`group relative items-center box-border caret-transparent justify-center text-left mx-auto ${props.variant ?? "contents"}`}
       >
         <div
           role="button"
@@ -70,6 +72,10 @@ export const NavbarLinks = (props: NavbarLinksProps) => {
             </>
           )}
         </div>
+        
+        {/* Render the appropriate dropdown */}
+        {props.label === "Services" && <ServicesDropdown />}
+        {props.label === "More" && <MoreDropdown />}
       </div>
     );
   }
