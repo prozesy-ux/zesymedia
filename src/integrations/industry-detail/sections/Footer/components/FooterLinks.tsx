@@ -1,0 +1,96 @@
+import { FooterColumn } from "@/integrations/industry-detail/sections/Footer/components/FooterColumn";
+import { FooterBadges } from "@/integrations/industry-detail/sections/Footer/components/FooterBadges";
+import { FooterCopyright } from "@/integrations/industry-detail/sections/Footer/components/FooterCopyright";
+
+export const FooterLinks = () => {
+  return (
+    <div className="box-border caret-transparent gap-x-8 flex flex-col gap-y-8 md:gap-x-14 md:gap-y-14">
+      <div className="relative box-border caret-transparent gap-x-6 grid flex-wrap auto-cols-[1fr] grid-cols-[1fr_1fr] grid-rows-[auto] justify-between justify-items-stretch min-h-[auto] min-w-[auto] gap-y-6 z-[55] mx-auto md:static md:flex md:flex-nowrap md:grid-cols-[1fr_1fr_1fr_1fr] md:z-auto md:mx-0">
+        <FooterColumn
+          title="Important Links"
+          links={[
+            { href: "/contact", text: "Contact Us" },
+            { href: "https://prozesy.com/about", text: "About us" },
+            { href: "https://prozesy.com/products", text: "Products" },
+            { href: "/industry", text: "Industry" },
+            { href: "https://prozesy.com/blog", text: "Blogs" },
+          ]}
+        />
+        <FooterColumn
+          title="Services"
+          links={[
+            {
+              href: "/services/ui-ux",
+              text: "UI/UX Design",
+            },
+            {
+              href: "/services/web-design",
+              text: "Web Design",
+            },
+            {
+              href: "/services/logo-branding",
+              text: "Logo & Branding",
+            },
+            {
+              href: "/services/webflow-design",
+              text: "Webflow Design",
+            },
+            {
+              href: "/services/framer-design",
+              text: "Framer Design",
+            },
+          ]}
+        />
+        <FooterColumn
+          title="Specialized Industry"
+          links={[
+            {
+              href: "/industry/fintech",
+              text: "Fintech Industry",
+            },
+            {
+              href: "/industry/fitness-gym",
+              text: "Healthcare & Fitness Industry",
+            },
+            {
+              href: "/industry/edtech",
+              text: "Edtech Industry ",
+            },
+            {
+              href: "/industry/cybersecurity",
+              text: "Cybersecurity Industry",
+            },
+            {
+              href: "https://www.figma.com/proto/3SAd2UpB6GgFnozSVLb73V/Design-Monks-Pitchdeck?page-id=0%3A1&node-id=1-3671&t=gqeZCfRxCq3aupSr-0&scaling=contain&content-scaling=fixed&starting-point-node-id=1%3A3671",
+              text: "Company Deck",
+              hasDownloadIcon: true,
+            },
+          ]}
+        />
+        <FooterColumn
+          title="Compare"
+          links={[
+            {
+              href: "https://prozesy.com/design-monks-vs-agencies",
+              text: "Vs Agencies",
+            },
+            {
+              href: "https://prozesy.com/design-monks-vs-freelancers",
+              text: "Vs Freelancers",
+            },
+            {
+              href: "https://prozesy.com/design-monks-vs-inhouse",
+              text: "Vs Inhouse",
+            },
+          ]}
+        />
+      </div>
+      <div className="items-center box-border caret-transparent gap-x-5 flex flex-col justify-start min-h-[auto] min-w-[auto] gap-y-5 md:gap-x-10 md:gap-y-10">
+        <div className="bg-zinc-300/10 box-border caret-transparent h-px min-h-[auto] min-w-[auto] w-screen"></div>
+        <FooterBadges />
+        <div className="bg-zinc-300/10 box-border caret-transparent h-px min-h-[auto] min-w-[auto] w-screen"></div>
+      </div>
+      <FooterCopyright />
+    </div>
+  );
+};

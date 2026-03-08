@@ -6,7 +6,6 @@ import { VideoSection } from "@/sections/VideoSection";
 import { ServicesSection } from "@/sections/ServicesSection";
 import { WhyChooseUsSection } from "@/sections/WhyChooseUsSection";
 import { SkillsMarquee } from "@/sections/SkillsMarquee";
-import { PricingSection } from "@/sections/PricingSection";
 import { JobOpeningsSection } from "@/sections/JobOpeningsSection";
 import { ReferralTestimonials } from "@/sections/ReferralTestimonials";
 import { FAQSection } from "@/sections/FAQSection";
@@ -23,7 +22,6 @@ export const Home = () => {
       <ServicesSection />
       <WhyChooseUsSection />
       <SkillsMarquee />
-      <PricingSection />
       <JobOpeningsSection />
       <ReferralTestimonials />
       <FAQSection />

@@ -87,7 +87,7 @@ export const ContactSection = () => {
                             </p>
                           </a>
                           <a
-                            href="http://designmonks.co/meeting"
+                            href="http://prozesy.com/meeting"
                             className="text-violet-400 text-base font-bold box-border caret-transparent block leading-[19.2px] decoration-neutral-300 md:text-lg md:leading-[21.6px]"
                           >
                             Book a Call Directly

@@ -1,0 +1,2970 @@
+import { FeatureGrid } from "@/integrations/services/sections/DesignExcellenceSection/components/FeatureGrid";
+
+export const DesignExcellenceSection = () => {
+  return (
+    <div className="relative box-border caret-transparent overflow-clip rounded-[20px] md:rounded-[32px]">
+      <div className="box-border caret-transparent">
+        <div className="bg-neutral-950 box-border caret-transparent">
+          <div className="box-border caret-transparent px-5 py-[60px] md:px-[94px] md:py-[100px]">
+            <div className="box-border caret-transparent max-w-[1252px] w-full z-[1] mx-auto">
+              <div className="box-border caret-transparent gap-x-[60px] flex flex-col gap-y-[60px] md:gap-x-[100px] md:gap-y-[100px]">
+                <div className="items-center box-border caret-transparent gap-x-8 flex flex-col justify-start min-h-[auto] min-w-[auto] gap-y-8 md:gap-x-14 md:gap-y-14">
+                  <div className="items-center box-border caret-transparent gap-x-4 flex flex-col justify-start min-h-[auto] min-w-[auto] gap-y-4 text-center">
+                    <div className="box-border caret-transparent flex min-h-[auto] min-w-[auto]">
+                      <div className="text-green-500 box-border caret-transparent min-h-[auto] min-w-[auto] border border-green-800 px-3 py-1 rounded-3xl border-solid">
+                        <div className="text-sm box-border caret-transparent leading-[21px] md:text-base md:leading-6">
+                          Design Excellence
+                        </div>
+                      </div>
+                    </div>
+                    <div className="text-zinc-50 box-border caret-transparent min-h-[auto] min-w-[auto]">
+                      <h2 className="text-[28px] font-bold box-border caret-transparent leading-[33.6px] font-redhatdisplay_variablefont_wght md:text-5xl md:leading-[57.6px]">
+                        Responsive{" "}
+                        <span className="text-[28px] italic box-border caret-transparent leading-[33.6px] capitalize font-playfairdisplay_variablefont_wght md:text-5xl md:leading-[57.6px]">
+                          UI/UX Design
+                        </span>
+                        <br className="text-[28px] box-border caret-transparent leading-[33.6px] md:text-5xl md:leading-[57.6px]" />
+                        Services for{" "}
+                        <span className="text-[28px] italic box-border caret-transparent leading-[33.6px] capitalize font-playfairdisplay_variablefont_wght md:text-5xl md:leading-[57.6px]">
+                          Successful Brands
+                        </span>
+                      </h2>
+                    </div>
+                  </div>
+                  <FeatureGrid />
+                  <a
+                    href="https://www.designmonks.co/contact"
+                    className="relative text-violet-600 items-center bg-[linear-gradient(rgb(89,45,181)_25%,rgb(125,64,255))] shadow-[rgba(255,255,255,0.72)_0px_1.6px_3px_0px_inset] box-border caret-transparent flex flex-col h-14 justify-center max-w-full min-h-[auto] min-w-[auto] text-left w-full z-[5] overflow-hidden rounded-lg md:max-w-[177px]"
+                  >
+                    <div className="absolute items-center bg-neutral-400 box-border caret-transparent flex h-full justify-center w-full inset-[0%]">
+                      <div className="absolute bg-[linear-gradient(90deg,rgba(255,255,255,0.79)_61%,rgb(255,255,255)_75%)] box-border caret-transparent blur-[6px] h-20 translate-y-[-50.0%] w-full left-2/4 right-[0%] top-2/4 bottom-[0%]"></div>
+                    </div>
+                    <div className="absolute bg-[linear-gradient(rgb(89,45,181)_25%,rgb(125,64,255))] box-border caret-transparent m-[1.3px] rounded-lg inset-[0%]"></div>
+                    <div className="relative text-gray-200 box-border caret-transparent min-h-[auto] min-w-[auto] w-full md:w-auto">
+                      <div className="relative items-center box-border caret-transparent gap-x-2 flex h-full justify-center gap-y-2 w-full z-[1]">
+                        <div className="text-zinc-50 text-base font-bold box-border caret-transparent tracking-[0.32px] leading-[19.2px] min-h-[auto] min-w-[auto]">
+                          Start Project
+                        </div>
+                        <img
+                          src="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/67adba6a3ab018a0349e2bc2_CTA Arrow (2).svg"
+                          alt=""
+                          className="box-border caret-transparent h-7 max-w-7 min-h-[auto] min-w-[auto] object-contain w-full md:h-6 md:max-w-6"
+                        />
+                      </div>
+                    </div>
+                    <img
+                      src="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/672a7a8e3a6aba070d15d4c0_Star 6.avif"
+                      alt=""
+                      className="absolute box-border caret-transparent max-w-full right-[0%] top-[0%]"
+                    />
+                  </a>
+                </div>
+                <section className="bg-neutral-950 box-border caret-transparent min-h-[auto] min-w-[auto]">
+                  <div className="box-border caret-transparent py-[60px] md:py-[100px]">
+                    <div className="box-border caret-transparent max-w-[1252px] w-full mx-auto">
+                      <div className="items-end box-border caret-transparent flex justify-between px-2.5">
+                        <div className="items-start box-border caret-transparent gap-x-4 flex flex-col justify-start max-w-[665px] min-h-[auto] min-w-[auto] gap-y-4">
+                          <div className="text-green-500 box-border caret-transparent min-h-[auto] min-w-[auto] border border-green-800 px-3 py-1 rounded-3xl border-solid">
+                            <div className="text-green-700 text-sm box-border caret-transparent tracking-[0.32px] leading-[21px] capitalize md:text-base md:leading-6">
+                              Industries
+                            </div>
+                          </div>
+                          <h2 className="text-white text-[28px] font-bold box-border caret-transparent leading-[33.6px] min-h-[auto] min-w-[auto] capitalize font-redhatdisplay_variablefont_wght md:text-5xl md:leading-[57.6px]">
+                            Our Expertise Across Diverse
+                            <span className="text-[28px] italic box-border caret-transparent inline-block leading-[33.6px] font-playfairdisplay_variablefont_wght md:text-5xl md:inline md:leading-[57.6px]">
+                              {" "}
+                              Design{" "}
+                            </span>
+                            <span className="text-[28px] italic box-border caret-transparent inline-block leading-[33.6px] font-playfairdisplay_variablefont_wght md:text-5xl md:inline md:leading-[57.6px]">
+                              Service
+                            </span>
+                            <span className="text-[28px] italic box-border caret-transparent inline-block leading-[33.6px] font-playfairdisplay_variablefont_wght md:text-5xl md:inline md:leading-[57.6px]">
+                              {" "}
+                              Industries
+                            </span>
+                          </h2>
+                        </div>
+                        <a
+                          href="https://www.designmonks.co/industry"
+                          className="relative text-violet-600 items-center bg-violet-500 shadow-[rgba(255,255,255,0.72)_0px_2px_3px_0px_inset] box-border caret-transparent hidden flex-col h-14 justify-center max-w-full min-h-0 min-w-0 text-left w-full z-[99] overflow-hidden px-8 py-4 rounded-lg md:flex md:max-w-[158px] md:min-h-[auto] md:min-w-[auto]"
+                        >
+                          <div className="relative text-gray-200 box-border caret-transparent min-h-0 min-w-0 w-full md:min-h-[auto] md:min-w-[auto] md:w-auto">
+                            <div className="relative items-center box-border caret-transparent gap-x-2 flex h-full justify-center gap-y-2 w-full z-[1]">
+                              <div className="text-zinc-50 text-base font-bold box-border caret-transparent tracking-[0.32px] leading-[19.2px] min-h-0 min-w-0 md:min-h-[auto] md:min-w-[auto]">
+                                See All
+                              </div>
+                              <img
+                                src="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/67adba6a3ab018a0349e2bc2_CTA Arrow (2).svg"
+                                alt=""
+                                className="box-border caret-transparent h-7 max-w-7 min-h-0 min-w-0 object-contain w-full md:h-6 md:max-w-6 md:min-h-[auto] md:min-w-[auto]"
+                              />
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div className="items-center box-border caret-transparent flex flex-col justify-start">
+                      <div className="items-center box-border caret-transparent gap-x-2 justify-start min-h-[auto] min-w-[auto] gap-y-2 w-screen">
+                        <div
+                          role="region"
+                          className="relative box-border caret-transparent"
+                        >
+                          <div className="relative box-border caret-transparent z-0 overflow-hidden mt-6 pt-14 md:mt-0">
+                            <div
+                              role="presentation"
+                              className="box-border caret-transparent flex h-full translate-x-[-12941.9px]"
+                            >
+                              <div
+                                role="group"
+                                aria-label="1 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/hotel-management"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6840a79760880a09c69aa5cf_Industry_Hospitality & Travel Industry.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        Hotel Management
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        Get impactful UI/UX for hotel management
+                                        platforms to improve bookings &amp;
+                                        streamline guest experiences.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="2 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/gaming"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6840a68a0dc28dd9070d3062_Industry_Gaming Web design.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        Gaming
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        Gaming websites need seamless UX to
+                                        captivate players and create
+                                        unforgettable experiences.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="3 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/ecrm-portals"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/684bcc71a554a6a4f7377189_eCRM Portal Industry.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        eCRM Portals
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        We design intuitive eCRM portals that
+                                        boost engagement and strengthen customer
+                                        loyalty.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="4 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/portfolio"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6840a6bbd245de2f3acc7fa4_Industry_Portfolio.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        Portfolio
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        Engaging UI/UX solutions built to
+                                        highlight your portfolio with effortless
+                                        navigation and style.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="5 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/on-demand-services"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/684bcbf0349c5fa200ec7ee4_On-Demand Service.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        On‑Demand Services
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        Your on-demand platform deserves smooth
+                                        design that builds confidence and keeps
+                                        users connected.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="6 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/transportation-logistics"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/686b45259af34177290712ce_Transportation & Logistics ✅.avif"
+                                        alt=""
+                                        className="aspect-[auto_416_/_384] box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        Transportation &amp; Logistics
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        Effective UI/UX that boosts efficiency,
+                                        real-time tracking, and enhances user
+                                        control in logistics.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="7 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/saas"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6840a6d281f9b991aec28eac_Industry_SaaS.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        SaaS
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        Effective SaaS UI/UX solutions that
+                                        enhance usability, build trust, and
+                                        drive subscription growth.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="8 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/real-estate"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6840a6de8b900052ace6150e_Industry_Real Estate.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        Real Estate
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        Innovative UI/UX design for real estate
+                                        platforms that boosts engagement, trust,
+                                        and lead conversions.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="9 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/mental-health-services"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6840a6e8c80bb385323e66a0_Industry_Mental Health Services.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        Mental Health Services
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        User-centered UI/UX solutions that
+                                        simplify appointments, consultations,
+                                        and create a safe digital space.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="10 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/legal-services"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/686b44db0aa9997b176415e2_Legal Services ✅.avif"
+                                        alt=""
+                                        className="aspect-[auto_416_/_384] box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        Legal Services
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        Your legal practice deserves intuitive
+                                        design that improves user confidence and
+                                        streamlines document management.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="11 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/it-solutions"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6840a6f78117758eda324e75_Industry_IT Solutions.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        IT Solutions
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        Innovative UI/UX strategies that boost
+                                        productivity and keep users engaged with
+                                        your IT solutions.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="12 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/insurance"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6840a716fa67ce4e051a1582_Industry_Insurance.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        Insurance
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        We create straightforward UI/UX for
+                                        insurance businesses to simplify
+                                        policies and increase customer trust.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="13 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/food-beverages"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6840a72011a14b1864c5ac8b_Industry_Food & Beverages.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        Food &amp; Beverages
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        Smart UI/UX designs for food and
+                                        beverage platforms that simplify
+                                        browsing, ordering, and delivery
+                                        tracking.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="14 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/fitness-gym"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6840a728985a398f5510b16a_Industry_Fitness & Gym.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        Fitness &amp; Gym
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        Your fitness brand deserves intuitive
+                                        design that encourages consistency and
+                                        keeps users actively engaged.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="15 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/fashion-apparel"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6840a73a0775571eff9491e1_Industry_Fashion & Apparel.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        Fashion &amp; Apparel
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        Distinct digital experiences for apparel
+                                        businesses that combine aesthetics,
+                                        usability, and smooth shopping journeys.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="16 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/event-management"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6840a74389d8fd1793261fa4_Industry_Event Management.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        Event Management
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        Modern UI/UX solutions for event
+                                        platforms to enhance discovery,
+                                        streamline booking, and drive
+                                        engagement.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="17 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/entertainment"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6840a752b6275fd32d629136_Industry_Entertainment.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        Entertainment
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        Personalize digital experiences for
+                                        entertainment brands to streamline
+                                        access, boost retention, and delight
+                                        every interaction.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="18 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/electronics"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/684bcbe7d86fe807243059c4_Electronics.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        Electronics
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        Modern design solutions for electronics
+                                        brands that boost usability, increase
+                                        retention, and drive consistent
+                                        engagement.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="19 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/tourism"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6840a765c1b2b8973eef9bdd_Industry_Tourism.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        Tourism
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        We create smooth UX designs for tourism
+                                        websites to simplify travel planning and
+                                        inspire confident bookings.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="20 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/social-media-platforms"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/684bcbde8354211e0caa7d30_Social Media Platforms.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        Social Media Platforms
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        Your social media platform deserves
+                                        smooth, intuitive design that transforms
+                                        visitors into loyal users.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="21 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/healthtech-startups"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6840a774cff1d004e34f8120_Industry_HealthTech Startups.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        HealthTech Startups
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        Intuitive UI/UX design that supports
+                                        healthcare professionals in making fast,
+                                        accurate, and confident decisions.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="22 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/edtech"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6840a77f6939a9607610db19_Industry_EdTech.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        EdTech
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        Your education product deserves
+                                        user-focused design that makes digital
+                                        learning feel natural, fast, and
+                                        frustration-free.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="23 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/renewable-energy"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/686e48291803991fb851a6bc_Industry_Renewable Energy.avif"
+                                        alt=""
+                                        className="aspect-[auto_416_/_384] box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        Renewable Energy
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        We deliver user-focused UX designs that
+                                        simplify renewable energy info and
+                                        inspire sustainable choices.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="24 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/fintech"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6840a79fdf6e61d09c641734_Industry_FinTech.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        Fintech
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        We deliver secure and user-friendly
+                                        FinTech UX to simplify transactions and
+                                        build lasting customer trust.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="25 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/automotive"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6840a7a7baeed139263297a9_Industry_Automotive.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        Automotive
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        Empower your automotive businesses with
+                                        intuitive UI/UX to simplify journeys and
+                                        build stronger brands.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="26 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/business-consulting"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6840a7b0e6545795f963f1ac_Industry_Business Consulting.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        Business Consulting
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        Smart UI/UX solutions for consulting
+                                        firms to help communicate value, build
+                                        credibility, and drive conversions.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="27 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/cybersecurity"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/684bcbc81d295b59aca6e277_Cybersecurity.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        Cybersecurity
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        We create secure, modern UI/UX for
+                                        cybersecurity brands to build instant
+                                        trust and user confidence.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="28 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/ai-machine-learning"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6840a7c102389addcf09837d_Industry_AI & Machine learning.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        AI &amp; Machine learning
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        We deliver smart &amp; responsive UI/UX
+                                        for AI platforms to help boost
+                                        usability, trust, and user retention.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="29 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/construction"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6840a7cbe2733b53303af16a_Industry_Construction.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        Construction
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        Your construction brand deserves a
+                                        professional digital presence to convert
+                                        leads and support business growth.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="30 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/beauty-cosmetics"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6840a7d575c5622f63978b93_Industry_Beauty & Cosmetics.png"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        Beauty &amp; Cosmetics
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        Enhance your beauty brand experiences
+                                        with elegant UX to increase sales,
+                                        loyalty, and customer satisfaction.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="1 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/hotel-management"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6840a79760880a09c69aa5cf_Industry_Hospitality & Travel Industry.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        Hotel Management
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        Get impactful UI/UX for hotel management
+                                        platforms to improve bookings &amp;
+                                        streamline guest experiences.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="2 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/gaming"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6840a68a0dc28dd9070d3062_Industry_Gaming Web design.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        Gaming
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        Gaming websites need seamless UX to
+                                        captivate players and create
+                                        unforgettable experiences.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="3 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/ecrm-portals"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/684bcc71a554a6a4f7377189_eCRM Portal Industry.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        eCRM Portals
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        We design intuitive eCRM portals that
+                                        boost engagement and strengthen customer
+                                        loyalty.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="4 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/portfolio"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6840a6bbd245de2f3acc7fa4_Industry_Portfolio.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        Portfolio
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        Engaging UI/UX solutions built to
+                                        highlight your portfolio with effortless
+                                        navigation and style.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="5 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/on-demand-services"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/684bcbf0349c5fa200ec7ee4_On-Demand Service.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        On‑Demand Services
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        Your on-demand platform deserves smooth
+                                        design that builds confidence and keeps
+                                        users connected.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="6 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/transportation-logistics"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/686b45259af34177290712ce_Transportation & Logistics ✅.avif"
+                                        alt=""
+                                        className="aspect-[auto_416_/_384] box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        Transportation &amp; Logistics
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        Effective UI/UX that boosts efficiency,
+                                        real-time tracking, and enhances user
+                                        control in logistics.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="7 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/saas"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6840a6d281f9b991aec28eac_Industry_SaaS.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        SaaS
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        Effective SaaS UI/UX solutions that
+                                        enhance usability, build trust, and
+                                        drive subscription growth.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="8 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/real-estate"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6840a6de8b900052ace6150e_Industry_Real Estate.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        Real Estate
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        Innovative UI/UX design for real estate
+                                        platforms that boosts engagement, trust,
+                                        and lead conversions.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="9 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/mental-health-services"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6840a6e8c80bb385323e66a0_Industry_Mental Health Services.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        Mental Health Services
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        User-centered UI/UX solutions that
+                                        simplify appointments, consultations,
+                                        and create a safe digital space.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="10 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/legal-services"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/686b44db0aa9997b176415e2_Legal Services ✅.avif"
+                                        alt=""
+                                        className="aspect-[auto_416_/_384] box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        Legal Services
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        Your legal practice deserves intuitive
+                                        design that improves user confidence and
+                                        streamlines document management.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="11 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/it-solutions"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6840a6f78117758eda324e75_Industry_IT Solutions.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        IT Solutions
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        Innovative UI/UX strategies that boost
+                                        productivity and keep users engaged with
+                                        your IT solutions.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="12 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/insurance"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6840a716fa67ce4e051a1582_Industry_Insurance.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        Insurance
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        We create straightforward UI/UX for
+                                        insurance businesses to simplify
+                                        policies and increase customer trust.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="13 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/food-beverages"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6840a72011a14b1864c5ac8b_Industry_Food & Beverages.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        Food &amp; Beverages
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        Smart UI/UX designs for food and
+                                        beverage platforms that simplify
+                                        browsing, ordering, and delivery
+                                        tracking.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="14 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/fitness-gym"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6840a728985a398f5510b16a_Industry_Fitness & Gym.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        Fitness &amp; Gym
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        Your fitness brand deserves intuitive
+                                        design that encourages consistency and
+                                        keeps users actively engaged.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="15 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/fashion-apparel"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6840a73a0775571eff9491e1_Industry_Fashion & Apparel.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        Fashion &amp; Apparel
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        Distinct digital experiences for apparel
+                                        businesses that combine aesthetics,
+                                        usability, and smooth shopping journeys.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="16 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/event-management"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6840a74389d8fd1793261fa4_Industry_Event Management.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        Event Management
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        Modern UI/UX solutions for event
+                                        platforms to enhance discovery,
+                                        streamline booking, and drive
+                                        engagement.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="17 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/entertainment"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6840a752b6275fd32d629136_Industry_Entertainment.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        Entertainment
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        Personalize digital experiences for
+                                        entertainment brands to streamline
+                                        access, boost retention, and delight
+                                        every interaction.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="18 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/electronics"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/684bcbe7d86fe807243059c4_Electronics.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        Electronics
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        Modern design solutions for electronics
+                                        brands that boost usability, increase
+                                        retention, and drive consistent
+                                        engagement.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="19 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/tourism"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6840a765c1b2b8973eef9bdd_Industry_Tourism.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        Tourism
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        We create smooth UX designs for tourism
+                                        websites to simplify travel planning and
+                                        inspire confident bookings.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="20 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/social-media-platforms"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/684bcbde8354211e0caa7d30_Social Media Platforms.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        Social Media Platforms
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        Your social media platform deserves
+                                        smooth, intuitive design that transforms
+                                        visitors into loyal users.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="21 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/healthtech-startups"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6840a774cff1d004e34f8120_Industry_HealthTech Startups.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        HealthTech Startups
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        Intuitive UI/UX design that supports
+                                        healthcare professionals in making fast,
+                                        accurate, and confident decisions.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="22 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/edtech"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6840a77f6939a9607610db19_Industry_EdTech.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        EdTech
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        Your education product deserves
+                                        user-focused design that makes digital
+                                        learning feel natural, fast, and
+                                        frustration-free.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="23 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/renewable-energy"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/686e48291803991fb851a6bc_Industry_Renewable Energy.avif"
+                                        alt=""
+                                        className="aspect-[auto_416_/_384] box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        Renewable Energy
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        We deliver user-focused UX designs that
+                                        simplify renewable energy info and
+                                        inspire sustainable choices.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="24 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/fintech"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6840a79fdf6e61d09c641734_Industry_FinTech.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        Fintech
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        We deliver secure and user-friendly
+                                        FinTech UX to simplify transactions and
+                                        build lasting customer trust.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="25 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/automotive"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6840a7a7baeed139263297a9_Industry_Automotive.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        Automotive
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        Empower your automotive businesses with
+                                        intuitive UI/UX to simplify journeys and
+                                        build stronger brands.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="26 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/business-consulting"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6840a7b0e6545795f963f1ac_Industry_Business Consulting.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        Business Consulting
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        Smart UI/UX solutions for consulting
+                                        firms to help communicate value, build
+                                        credibility, and drive conversions.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="27 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/cybersecurity"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/684bcbc81d295b59aca6e277_Cybersecurity.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        Cybersecurity
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        We create secure, modern UI/UX for
+                                        cybersecurity brands to build instant
+                                        trust and user confidence.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="28 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/ai-machine-learning"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6840a7c102389addcf09837d_Industry_AI & Machine learning.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        AI &amp; Machine learning
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        We deliver smart &amp; responsive UI/UX
+                                        for AI platforms to help boost
+                                        usability, trust, and user retention.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="29 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/construction"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6840a7cbe2733b53303af16a_Industry_Construction.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        Construction
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        Your construction brand deserves a
+                                        professional digital presence to convert
+                                        leads and support business growth.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="30 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/beauty-cosmetics"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6840a7d575c5622f63978b93_Industry_Beauty & Cosmetics.png"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        Beauty &amp; Cosmetics
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        Enhance your beauty brand experiences
+                                        with elegant UX to increase sales,
+                                        loyalty, and customer satisfaction.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="1 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/hotel-management"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6840a79760880a09c69aa5cf_Industry_Hospitality & Travel Industry.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        Hotel Management
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        Get impactful UI/UX for hotel management
+                                        platforms to improve bookings &amp;
+                                        streamline guest experiences.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="2 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/gaming"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6840a68a0dc28dd9070d3062_Industry_Gaming Web design.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        Gaming
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        Gaming websites need seamless UX to
+                                        captivate players and create
+                                        unforgettable experiences.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="3 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/ecrm-portals"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/684bcc71a554a6a4f7377189_eCRM Portal Industry.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        eCRM Portals
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        We design intuitive eCRM portals that
+                                        boost engagement and strengthen customer
+                                        loyalty.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="4 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/portfolio"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6840a6bbd245de2f3acc7fa4_Industry_Portfolio.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        Portfolio
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        Engaging UI/UX solutions built to
+                                        highlight your portfolio with effortless
+                                        navigation and style.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="5 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/on-demand-services"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/684bcbf0349c5fa200ec7ee4_On-Demand Service.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        On‑Demand Services
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        Your on-demand platform deserves smooth
+                                        design that builds confidence and keeps
+                                        users connected.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="6 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/transportation-logistics"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/686b45259af34177290712ce_Transportation & Logistics ✅.avif"
+                                        alt=""
+                                        className="aspect-[auto_416_/_384] box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        Transportation &amp; Logistics
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        Effective UI/UX that boosts efficiency,
+                                        real-time tracking, and enhances user
+                                        control in logistics.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="7 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/saas"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6840a6d281f9b991aec28eac_Industry_SaaS.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        SaaS
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        Effective SaaS UI/UX solutions that
+                                        enhance usability, build trust, and
+                                        drive subscription growth.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="8 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/real-estate"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6840a6de8b900052ace6150e_Industry_Real Estate.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        Real Estate
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        Innovative UI/UX design for real estate
+                                        platforms that boosts engagement, trust,
+                                        and lead conversions.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="9 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/mental-health-services"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6840a6e8c80bb385323e66a0_Industry_Mental Health Services.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        Mental Health Services
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        User-centered UI/UX solutions that
+                                        simplify appointments, consultations,
+                                        and create a safe digital space.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="10 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/legal-services"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/686b44db0aa9997b176415e2_Legal Services ✅.avif"
+                                        alt=""
+                                        className="aspect-[auto_416_/_384] box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        Legal Services
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        Your legal practice deserves intuitive
+                                        design that improves user confidence and
+                                        streamlines document management.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="11 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/it-solutions"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6840a6f78117758eda324e75_Industry_IT Solutions.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        IT Solutions
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        Innovative UI/UX strategies that boost
+                                        productivity and keep users engaged with
+                                        your IT solutions.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="12 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/insurance"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6840a716fa67ce4e051a1582_Industry_Insurance.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        Insurance
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        We create straightforward UI/UX for
+                                        insurance businesses to simplify
+                                        policies and increase customer trust.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="13 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/food-beverages"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6840a72011a14b1864c5ac8b_Industry_Food & Beverages.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        Food &amp; Beverages
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        Smart UI/UX designs for food and
+                                        beverage platforms that simplify
+                                        browsing, ordering, and delivery
+                                        tracking.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="14 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/fitness-gym"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6840a728985a398f5510b16a_Industry_Fitness & Gym.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        Fitness &amp; Gym
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        Your fitness brand deserves intuitive
+                                        design that encourages consistency and
+                                        keeps users actively engaged.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="15 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/fashion-apparel"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6840a73a0775571eff9491e1_Industry_Fashion & Apparel.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        Fashion &amp; Apparel
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        Distinct digital experiences for apparel
+                                        businesses that combine aesthetics,
+                                        usability, and smooth shopping journeys.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="16 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/event-management"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6840a74389d8fd1793261fa4_Industry_Event Management.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        Event Management
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        Modern UI/UX solutions for event
+                                        platforms to enhance discovery,
+                                        streamline booking, and drive
+                                        engagement.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="17 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/entertainment"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6840a752b6275fd32d629136_Industry_Entertainment.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        Entertainment
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        Personalize digital experiences for
+                                        entertainment brands to streamline
+                                        access, boost retention, and delight
+                                        every interaction.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="18 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/electronics"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/684bcbe7d86fe807243059c4_Electronics.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        Electronics
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        Modern design solutions for electronics
+                                        brands that boost usability, increase
+                                        retention, and drive consistent
+                                        engagement.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="19 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/tourism"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6840a765c1b2b8973eef9bdd_Industry_Tourism.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        Tourism
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        We create smooth UX designs for tourism
+                                        websites to simplify travel planning and
+                                        inspire confident bookings.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="20 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/social-media-platforms"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/684bcbde8354211e0caa7d30_Social Media Platforms.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        Social Media Platforms
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        Your social media platform deserves
+                                        smooth, intuitive design that transforms
+                                        visitors into loyal users.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="21 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/healthtech-startups"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6840a774cff1d004e34f8120_Industry_HealthTech Startups.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        HealthTech Startups
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        Intuitive UI/UX design that supports
+                                        healthcare professionals in making fast,
+                                        accurate, and confident decisions.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="22 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/edtech"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6840a77f6939a9607610db19_Industry_EdTech.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        EdTech
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        Your education product deserves
+                                        user-focused design that makes digital
+                                        learning feel natural, fast, and
+                                        frustration-free.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="23 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/renewable-energy"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/686e48291803991fb851a6bc_Industry_Renewable Energy.avif"
+                                        alt=""
+                                        className="aspect-[auto_416_/_384] box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        Renewable Energy
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        We deliver user-focused UX designs that
+                                        simplify renewable energy info and
+                                        inspire sustainable choices.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="24 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/fintech"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6840a79fdf6e61d09c641734_Industry_FinTech.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        Fintech
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        We deliver secure and user-friendly
+                                        FinTech UX to simplify transactions and
+                                        build lasting customer trust.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="25 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/automotive"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6840a7a7baeed139263297a9_Industry_Automotive.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        Automotive
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        Empower your automotive businesses with
+                                        intuitive UI/UX to simplify journeys and
+                                        build stronger brands.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="26 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/business-consulting"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6840a7b0e6545795f963f1ac_Industry_Business Consulting.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        Business Consulting
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        Smart UI/UX solutions for consulting
+                                        firms to help communicate value, build
+                                        credibility, and drive conversions.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="27 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/cybersecurity"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/684bcbc81d295b59aca6e277_Cybersecurity.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        Cybersecurity
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        We create secure, modern UI/UX for
+                                        cybersecurity brands to build instant
+                                        trust and user confidence.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="28 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/ai-machine-learning"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6840a7c102389addcf09837d_Industry_AI & Machine learning.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        AI &amp; Machine learning
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        We deliver smart &amp; responsive UI/UX
+                                        for AI platforms to help boost
+                                        usability, trust, and user retention.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="29 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/construction"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6840a7cbe2733b53303af16a_Industry_Construction.avif"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        Construction
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        Your construction brand deserves a
+                                        professional digital presence to convert
+                                        leads and support business growth.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                              <div
+                                role="group"
+                                aria-label="30 of 30"
+                                className="relative box-border caret-transparent shrink-0 list-none min-h-[auto] min-w-[auto]"
+                              >
+                                <a
+                                  href="https://www.designmonks.co/industry/beauty-cosmetics"
+                                  className="text-violet-600 box-border caret-transparent inline-block max-w-full"
+                                >
+                                  <div className="relative items-stretch box-border caret-transparent flex flex-col shrink-0 h-[350px] justify-end max-w-[250px] w-full z-30 overflow-hidden mx-1.5 p-6 rounded-2xl md:h-96 md:max-w-[416px]">
+                                    <div className="absolute box-border caret-transparent h-full w-full inset-[0%]">
+                                      <img
+                                        src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6840a7d575c5622f63978b93_Industry_Beauty & Cosmetics.png"
+                                        alt=""
+                                        className="box-border caret-transparent inline-block h-full max-w-full object-cover align-bottom w-full"
+                                      />
+                                    </div>
+                                    <div className="relative items-start box-border caret-transparent gap-x-0 flex flex-col justify-end min-h-[auto] min-w-[auto] gap-y-0 w-full z-[2] -mb-2">
+                                      <div className="text-zinc-50 text-lg font-bold box-border caret-transparent tracking-[0.48px] leading-[21.6px] min-h-[auto] min-w-[auto] z-[2] font-redhatdisplay_variablefont_wght md:text-2xl md:leading-[28.8px]">
+                                        Beauty &amp; Cosmetics
+                                      </div>
+                                      <div className="text-neutral-300 text-base box-border caret-transparent h-[0%] leading-6 min-h-[auto] min-w-[auto] z-[2] overflow-hidden mt-2">
+                                        Enhance your beauty brand experiences
+                                        with elegant UX to increase sales,
+                                        loyalty, and customer satisfaction.
+                                      </div>
+                                    </div>
+                                    <div className="absolute bg-[linear-gradient(rgba(23,11,38,0)_27.31%,rgb(15,7,25)_84%)] box-border caret-transparent opacity-60 inset-[0%]"></div>
+                                  </div>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="box-border caret-transparent before:accent-auto before:caret-transparent before:text-zinc-800 before:table before:text-sm before:not-italic before:normal-nums before:font-normal before:col-end-2 before:col-start-1 before:row-end-2 before:row-start-1 before:tracking-[normal] before:leading-5 before:list-outside before:list-disc before:pointer-events-auto before:text-start before:no-underline before:indent-[0px] before:normal-case before:visible before:border-separate before:font-outfit_variablefont_wght after:accent-auto after:caret-transparent after:clear-both after:text-zinc-800 after:table after:text-sm after:not-italic after:normal-nums after:font-normal after:col-end-2 after:col-start-1 after:row-end-2 after:row-start-1 after:tracking-[normal] after:leading-5 after:list-outside after:list-disc after:pointer-events-auto after:text-start after:no-underline after:indent-[0px] after:normal-case after:visible after:border-separate after:font-outfit_variablefont_wght"></div>
+                      </div>
+                    </div>
+                    <div className="box-border caret-transparent mt-6 px-5 md:mt-0 md:px-0">
+                      <a
+                        href="https://www.designmonks.co/projects"
+                        className="relative text-violet-600 items-center bg-violet-500 shadow-[rgba(255,255,255,0.72)_0px_2px_3px_0px_inset] box-border caret-transparent flex flex-col h-14 justify-center max-w-full text-left w-full z-[99] overflow-hidden px-8 py-4 rounded-lg md:hidden md:max-w-[158px]"
+                      >
+                        <div className="relative text-gray-200 box-border caret-transparent min-h-[auto] min-w-[auto] w-full md:min-h-0 md:min-w-0 md:w-auto">
+                          <div className="relative items-center box-border caret-transparent gap-x-2 flex h-full justify-center gap-y-2 w-full z-[1]">
+                            <div className="text-zinc-50 text-base font-bold box-border caret-transparent tracking-[0.32px] leading-[19.2px] min-h-[auto] min-w-[auto] md:min-h-0 md:min-w-0">
+                              See All
+                            </div>
+                            <img
+                              src="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/67adba6a3ab018a0349e2bc2_CTA Arrow (2).svg"
+                              alt=""
+                              className="box-border caret-transparent h-7 max-w-7 min-h-[auto] min-w-[auto] object-contain w-full md:h-6 md:max-w-6 md:min-h-0 md:min-w-0"
+                            />
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute box-border caret-transparent max-w-44 pointer-events-none z-0 right-[0%] top-[0%] md:max-w-none">
+        <img
+          src="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/680c913472d2c51bf8574903_ef06d5c5d9e5b0bba2c2a6326fa57740_right top round.avif"
+          alt=""
+          className="box-border caret-transparent inline-block max-w-full"
+        />
+      </div>
+      <div className="absolute box-border caret-transparent pointer-events-none w-full top-0">
+        <img
+          src="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/6812483c6bde6e720d880757_Shade (1).avif"
+          alt=""
+          className="box-border caret-transparent inline-block max-w-full"
+        />
+      </div>
+    </div>
+  );
+};

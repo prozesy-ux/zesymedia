@@ -112,7 +112,7 @@ export const FooterLinks = () => {
               </h3>
               <div className="items-start box-border caret-transparent gap-x-3.5 flex flex-col gap-y-3.5 capitalize md:gap-x-4 md:gap-y-4">
                 <a
-                  href="https://www.designmonks.co/industry/fintech"
+                  href="/industry/fintech"
                   className="text-neutral-400 text-sm items-start box-border caret-transparent gap-x-1 flex justify-end tracking-[0.32px] leading-[21px] max-w-full gap-y-1 text-left md:text-base md:items-center md:gap-x-1.5 md:justify-start md:leading-6 md:gap-y-1.5 md:text-start"
                 >
                   <div className="text-sm box-border caret-transparent leading-[21px] text-left md:text-base md:leading-6 md:text-start">
@@ -120,7 +120,7 @@ export const FooterLinks = () => {
                   </div>
                 </a>
                 <a
-                  href="https://www.designmonks.co/industry/fitness-gym"
+                  href="/industry/fitness-gym"
                   className="text-neutral-400 text-sm items-start box-border caret-transparent gap-x-1 flex justify-end tracking-[0.32px] leading-[21px] max-w-full gap-y-1 text-left md:text-base md:items-center md:gap-x-1.5 md:justify-start md:leading-6 md:gap-y-1.5 md:text-start"
                 >
                   <div className="text-sm box-border caret-transparent leading-[21px] text-left md:text-base md:leading-6 md:text-start">
@@ -128,7 +128,7 @@ export const FooterLinks = () => {
                   </div>
                 </a>
                 <a
-                  href="https://www.designmonks.co/industry/edtech"
+                  href="/industry/edtech"
                   className="text-neutral-400 text-sm items-start box-border caret-transparent gap-x-1 flex justify-end tracking-[0.32px] leading-[21px] max-w-full gap-y-1 text-left md:text-base md:items-center md:gap-x-1.5 md:justify-start md:leading-6 md:gap-y-1.5 md:text-start"
                 >
                   <div className="text-sm box-border caret-transparent leading-[21px] text-left md:text-base md:leading-6 md:text-start">
@@ -136,7 +136,7 @@ export const FooterLinks = () => {
                   </div>
                 </a>
                 <a
-                  href="https://www.designmonks.co/industry/cybersecurity"
+                  href="/industry/cybersecurity"
                   className="text-neutral-400 text-sm items-start box-border caret-transparent gap-x-1 flex justify-end tracking-[0.32px] leading-[21px] max-w-full gap-y-1 text-left md:text-base md:items-center md:gap-x-1.5 md:justify-start md:leading-6 md:gap-y-1.5 md:text-start"
                 >
                   <div className="text-sm box-border caret-transparent leading-[21px] text-left md:text-base md:leading-6 md:text-start">
@@ -202,14 +202,6 @@ export const FooterLinks = () => {
                 >
                   <div className="text-sm box-border caret-transparent leading-[21px] text-left md:text-base md:leading-6 md:text-start">
                     Process
-                  </div>
-                </a>
-                <a
-                  href="/pricing"
-                  className="text-neutral-400 text-sm items-start box-border caret-transparent gap-x-1 flex justify-end tracking-[0.32px] leading-[21px] max-w-full gap-y-1 text-left md:text-base md:items-center md:gap-x-1.5 md:justify-start md:leading-6 md:gap-y-1.5 md:text-start"
-                >
-                  <div className="text-sm box-border caret-transparent leading-[21px] text-left md:text-base md:leading-6 md:text-start">
-                    Pricing
                   </div>
                 </a>
                 <a

@@ -8,7 +8,7 @@ export const HeroContent = () => {
         <div className="items-center box-border caret-transparent gap-x-4 flex flex-col justify-start gap-y-4 text-center">
           <div className="items-center box-border caret-transparent flex justify-center z-[99] pt-[27px] pb-[7px] md:py-7">
             <a
-              href="https://www.designmonks.co/"
+              href="https://prozesy.com/"
               className="text-violet-600 box-border caret-transparent block max-w-full"
             >
               <img

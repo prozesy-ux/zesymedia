@@ -1,169 +1,55 @@
-import { ServicesDropdown } from "@/sections/Navbar/components/ServicesDropdown";
-    import { MoreDropdown } from "@/sections/Navbar/components/MoreDropdown";
+import { NavbarLogo } from "@/sections/Navbar/components/NavbarLogo";
+import { NavbarLinks } from "@/sections/Navbar/components/NavbarLinks";
+import { NavbarCTA } from "@/sections/Navbar/components/NavbarCTA";
 
-    export const Navbar = () => {
-      return (
-        <>
-          {/* Backdrop Blur Overlay - shared by both dropdowns */}
-          <div 
-            id="navBackdrop" 
-            className="fixed inset-0 bg-black/20 backdrop-blur-sm z-[99998] opacity-0 invisible transition-all duration-300 pointer-events-none"
-          />
-          
-          <div className="fixed box-border caret-transparent max-w-none z-[99999] mx-auto pb-0 bottom-[0%] inset-x-[0%] md:max-w-[713px] md:pb-6">
-            <nav className="relative box-border caret-transparent grid grid-cols-[1fr_1fr_92px_1fr_1fr] z-[2] pt-4 pb-[22px] px-0 rounded-2xl md:grid-cols-[1fr_1fr_auto_1fr_1fr] md:p-2">
-            <img
-              src="https://c.animaapp.com/mkiynesyxwO7zZ/assets/icon-1.svg"
-              alt="Icon"
-              className="absolute box-border caret-transparent block h-[92px] pointer-events-none translate-x-[-50.0%] w-screen left-2/4 top-[0%] md:hidden md:transform-none md:w-[375px]"
-            />
-            <a
-              href="/projects"
-              onClick={(e) => {
-                e.preventDefault();
-                window.history.pushState({}, "", "/projects");
-                window.dispatchEvent(new Event("locationchange"));
-              }}
-              className="relative text-zinc-50 text-[12.8px] items-center box-border caret-transparent gap-x-2 flex flex-col justify-center tracking-[0.256px] leading-[19.2px] max-w-full gap-y-2 w-full p-[5px] md:text-base md:tracking-[0.32px] md:leading-6 hover:text-violet-600 transition-colors cursor-pointer"
-            >
-              <img
-                src="https://c.animaapp.com/mkiynesyxwO7zZ/assets/icon-2.svg"
-                alt="Icon"
-                className="text-2xl box-border caret-transparent block shrink-0 h-6 tracking-[0.256px] leading-9 w-6 md:hidden md:tracking-[0.32px]"
-              />
-              <span className="text-[12.8px] box-border caret-transparent block tracking-[0.256px] leading-[19.2px] md:text-base md:tracking-[0.32px] md:leading-6">
-                Projects
-              </span>
-            </a>
-            
-            {/* Mobile Services Link */}
-            <a
-              href="/services"
-              onClick={(e) => {
-                e.preventDefault();
-                window.history.pushState({}, "", "/services");
-                window.dispatchEvent(new Event("locationchange"));
-              }}
-              className="relative text-zinc-50 text-[12.8px] items-center box-border caret-transparent gap-x-2 flex flex-col justify-center tracking-[0.256px] leading-[19.2px] max-w-full min-h-[auto] min-w-[auto] gap-y-2 w-full p-[5px] md:hidden md:tracking-[0.32px] md:leading-6 md:min-h-0 md:min-w-0 cursor-pointer"
-            >
-              <img
-                src="https://c.animaapp.com/mkiynesyxwO7zZ/assets/icon-3.svg"
-                alt="Icon"
-                className="text-2xl box-border caret-transparent block shrink-0 h-6 tracking-[0.256px] leading-9 w-6 md:hidden md:tracking-[0.32px]"
-              />
-              <span className="text-[12.8px] box-border caret-transparent block tracking-[0.256px] leading-[19.2px] min-h-[auto] min-w-[auto] md:text-base md:inline md:tracking-[0.32px] md:leading-6 md:min-h-0 md:min-w-0">
-                Services
-              </span>
-            </a>
+export const Navbar = () => {
+  return (
+    <div
+      data-wf--new-navbar--variant="primary"
+      className="rd-navbar_wrapper fixed box-border caret-transparent max-w-none z-[99999] mx-auto inset-x-[0%] md:max-w-[850px]"
+    >
+      <nav className="rd-navbar relative box-border caret-transparent grid grid-cols-[1fr_1fr_92px_1fr_1fr] z-[2] pt-4 pb-[22px] px-0 rounded-2xl md:grid-cols-[1fr_1fr_auto_1fr_1fr] md:p-2">
+        <NavbarLogo />
 
-            {/* Desktop Services Dropdown */}
-            <div className="relative group hidden md:flex justify-center w-full">
-              <a
-                href="/services"
-                className="relative text-zinc-50 text-base items-center box-border caret-transparent gap-x-2 flex flex-col justify-center tracking-[0.32px] leading-6 w-full p-[5px] group-hover:text-violet-400 transition-all duration-300 group-hover:drop-shadow-[0_0_10px_rgba(139,92,246,0.5)]"
-                onMouseEnter={() => {
-                  const backdrop = document.getElementById('navBackdrop');
-                  if (backdrop) {
-                    backdrop.classList.remove('opacity-0', 'invisible');
-                    backdrop.classList.add('opacity-100', 'visible');
-                  }
-                }}
-                onMouseLeave={() => {
-                  const backdrop = document.getElementById('navBackdrop');
-                  if (backdrop) {
-                    backdrop.classList.add('opacity-0', 'invisible');
-                    backdrop.classList.remove('opacity-100', 'visible');
-                  }
-                }}
-              >
-                <span className="block">Services</span>
-              </a>
-              <ServicesDropdown />
-            </div>
+        <NavbarLinks
+          href="/projects"
+          iconSrc="https://c.animaapp.com/mmfqa5b2QIeLaz/assets/icon-2.svg"
+          label="Projects"
+        />
 
-            <a
-              href="/contact"
-              onClick={(e) => {
-                e.preventDefault();
-                window.history.pushState({}, "", "/contact");
-                window.dispatchEvent(new Event("locationchange"));
-              }}
-              className="relative group text-zinc-50 text-base font-bold items-center box-border caret-transparent flex h-16 justify-center justify-self-center tracking-[0.32px] leading-6 max-w-full translate-y-[-60.0%] w-16 rounded-[18px] md:h-auto md:justify-self-auto md:transform-none md:w-auto md:rounded-lg overflow-hidden cursor-pointer"
-            >
-              {/* Animated Gradient Border */}
-              <div className="absolute inset-[-100%] bg-[conic-gradient(from_0deg_at_50%_50%,transparent_0%,#ffffff_10%,transparent_20%,transparent_100%)] animate-[spin_2s_linear_infinite]" />
-              
-              {/* Inner Background */}
-              <div className="absolute inset-[1px] bg-[#743bed] rounded-[17px] md:rounded-[7px] z-0" />
+        <NavbarLinks
+          href="/services"
+          iconSrc="https://c.animaapp.com/mmfqa5b2QIeLaz/assets/icon-3.svg"
+          label="Services"
+          variant="min-h-[auto] min-w-[auto] md:hidden md:min-h-0 md:min-w-0"
+          textVariant="min-h-[auto] min-w-[auto] md:inline md:min-h-0 md:min-w-0"
+        />
 
-              {/* Content */}
-              <div className="relative items-center box-border caret-transparent gap-x-2 flex h-full justify-center gap-y-2 w-full z-10 p-[5px] md:px-8 md:py-4">
-                <img
-                  src="https://anpeyqpnsavhykstwwbq.supabase.co/storage/v1/object/public/images/ff/1770491818758-0.png"
-                  alt="Icon"
-                  className="text-[32px] box-border caret-transparent shrink-0 h-8 leading-[48px] w-8 md:text-2xl md:h-6 md:leading-9 md:w-6"
-                />
-                <span className="box-border caret-transparent hidden min-h-0 min-w-0 md:block md:min-h-[auto] md:min-w-[auto]">
-                  Start a Project
-                </span>
-                <img
-                  src="https://c.animaapp.com/mkiynesyxwO7zZ/assets/icon-7.svg"
-                  alt="Icon"
-                  className="absolute text-white/50 box-border caret-transparent blur-[2.5px] h-16 pointer-events-none translate-x-[50.0%] translate-y-[-50.0%] w-16 right-[0%] top-[0%]"
-                />
-              </div>
-            </a>
-            <a
-              href="/pricing"
-              onClick={(e) => {
-                e.preventDefault();
-                window.history.pushState({}, "", "/pricing");
-                window.dispatchEvent(new Event("locationchange"));
-              }}
-              className="relative text-zinc-50 text-[12.8px] items-center box-border caret-transparent gap-x-2 flex flex-col justify-center tracking-[0.256px] leading-[19.2px] max-w-full gap-y-2 w-full p-[5px] md:text-base md:tracking-[0.32px] md:leading-6 hover:text-violet-600 transition-colors cursor-pointer"
-            >
-              <img
-                src="https://c.animaapp.com/mkiynesyxwO7zZ/assets/icon-8.svg"
-                alt="Icon"
-                className="text-2xl box-border caret-transparent block shrink-0 h-6 tracking-[0.256px] leading-9 w-6 md:hidden md:tracking-[0.32px]"
-              />
-              <span className="text-[12.8px] box-border caret-transparent block tracking-[0.256px] leading-[19.2px] md:text-base md:tracking-[0.32px] md:leading-6">
-                Pricing
-              </span>
-            </a>
-            <div className="relative group flex justify-center w-full">
-              <a
-                href="/more"
-                className="relative text-zinc-50 text-[12.8px] items-center box-border caret-transparent gap-x-2 flex flex-col justify-center tracking-[0.256px] leading-[19.2px] max-w-full gap-y-2 w-full p-[5px] md:text-base md:tracking-[0.32px] md:leading-6 group-hover:text-violet-600 transition-colors"
-                onMouseEnter={() => {
-                  const backdrop = document.getElementById('navBackdrop');
-                  if (backdrop) {
-                    backdrop.classList.remove('opacity-0', 'invisible');
-                    backdrop.classList.add('opacity-100', 'visible');
-                  }
-                }}
-                onMouseLeave={() => {
-                  const backdrop = document.getElementById('navBackdrop');
-                  if (backdrop) {
-                    backdrop.classList.add('opacity-0', 'invisible');
-                    backdrop.classList.remove('opacity-100', 'visible');
-                  }
-                }}
-              >
-                <img
-                  src="https://c.animaapp.com/mkiynesyxwO7zZ/assets/icon-3.svg"
-                  alt="Icon"
-                  className="text-2xl box-border caret-transparent block shrink-0 h-6 tracking-[0.256px] leading-9 w-6 md:hidden md:tracking-[0.32px]"
-                />
-                <span className="text-[12.8px] box-border caret-transparent block tracking-[0.256px] leading-[19.2px] md:text-base md:tracking-[0.32px] md:leading-6">
-                  More
-                </span>
-              </a>
-              <MoreDropdown />
-            </div>
-            <div className="absolute bg-neutral-950 border border-white/10 shadow-[0_0_20px_rgba(0,0,0,0.5)] box-border caret-transparent pointer-events-none z-[-1] rounded-t-2xl rounded-b-none inset-[0%] md:rounded-b-2xl"></div>
-          </nav>
-        </div>
-        </>
-      );
-    };
+        <NavbarLinks
+          href="/services"
+          iconSrc="https://c.animaapp.com/mmfqa5b2QIeLaz/assets/icon-3.svg"
+          label="Services"
+          variant="hidden md:contents"
+          isActive={true}
+          isDropdown={true}
+        />
+
+        <NavbarCTA />
+
+        <NavbarLinks
+          href="/pricing"
+          iconSrc="https://c.animaapp.com/mmfqa5b2QIeLaz/assets/icon-4.svg"
+          label="Pricing"
+        />
+
+        <NavbarLinks
+          iconSrc="https://c.animaapp.com/mmfqa5b2QIeLaz/assets/icon-8.svg"
+          label="More"
+          isDropdown={true}
+        />
+
+        <div className="rd-navbar_bg absolute bg-neutral-950 shadow-[rgba(48,255,151,0.4)_0px_3px_4px_0px_inset] box-border caret-transparent pointer-events-none z-[-1] rounded-2xl inset-[0%]"></div>
+      </nav>
+    </div>
+  );
+};

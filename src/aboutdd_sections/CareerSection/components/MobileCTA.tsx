@@ -3,7 +3,7 @@ export const MobileCTA = () => {
     <div className="absolute items-start box-border caret-transparent gap-x-8 block flex-col max-w-full gap-y-8 w-full z-[3] pb-4 px-4 bottom-0 md:relative md:hidden md:max-w-none md:pb-0 md:px-0 md:bottom-auto">
       <div className="relative items-center box-border caret-transparent flex justify-start w-full z-20 md:static md:[align-items:normal] md:z-auto">
         <a
-          href="https://www.designmonks.co/about"
+          href="https://prozesy.com/about"
           className="relative text-violet-600 items-center bg-[linear-gradient(rgb(89,45,181)_25%,rgb(125,64,255))] shadow-[rgba(255,255,255,0.72)_0px_1.6px_3px_0px_inset] box-border caret-transparent flex flex-col h-14 justify-center max-w-full min-h-[auto] min-w-[auto] text-left w-full z-10 overflow-hidden rounded-lg md:max-w-[207px] md:min-h-0 md:min-w-0"
         >
           <div className="absolute items-center bg-neutral-400 box-border caret-transparent flex h-full justify-center rotate-[-61.51300798879805deg] w-full inset-[0%] md:transform-none">

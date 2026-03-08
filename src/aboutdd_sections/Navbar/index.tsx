@@ -12,12 +12,12 @@ export const Navbar = () => {
           className="absolute box-border caret-transparent block h-[92px] pointer-events-none translate-x-[-50.0%] w-screen left-2/4 top-[0%] md:hidden md:transform-none md:w-[375px]"
         />
         <NavLink
-          href="https://www.designmonks.co/projects"
+          href="https://prozesy.com/projects"
           iconSrc="https://c.animaapp.com/mlf8vhlmD4U7Ki/assets/icon-2.svg"
           label="Projects"
         />
         <NavLink
-          href="https://www.designmonks.co/services"
+          href="https://prozesy.com/services"
           iconSrc="https://c.animaapp.com/mlf8vhlmD4U7Ki/assets/icon-3.svg"
           label="Services"
           linkVariant="min-h-[auto] min-w-[auto] md:hidden md:min-h-0 md:min-w-0"
@@ -29,7 +29,7 @@ export const Navbar = () => {
             className="relative text-neutral-800 box-border caret-transparent contents text-nowrap align-top mx-auto pl-5 pr-10 py-5"
           >
             <a
-              href="https://www.designmonks.co/services"
+              href="https://prozesy.com/services"
               className="relative text-zinc-50 text-[12.8px] items-center box-border caret-transparent gap-x-2 flex flex-col justify-center tracking-[0.256px] leading-[19.2px] max-w-full min-h-0 min-w-0 gap-y-2 text-nowrap w-full my-0 p-[5px] md:text-base md:tracking-[0.32px] md:leading-6 md:min-h-[auto] md:min-w-[auto] md:-my-2"
             >
               <img
@@ -44,7 +44,7 @@ export const Navbar = () => {
           </div>
         </div>
         <CTAButton
-          href="https://www.designmonks.co/contact"
+          href="https://prozesy.com/contact"
           text="Start a Project"
           variant="relative text-zinc-50 text-base font-bold items-center bg-violet-600 box-border caret-transparent flex h-16 justify-center justify-self-center tracking-[0.32px] leading-6 max-w-full translate-y-[-60.0%] w-16 rounded-[18px] md:h-auto md:justify-self-auto md:transform-none md:w-auto md:rounded-lg"
           backgroundVariant="absolute bg-violet-600 bg-[conic-gradient(at_8.04%_51.79%,rgb(251,250,246)_0deg,rgba(251,250,246,0)_360deg),none] bg-size-[auto,auto] box-border caret-transparent pointer-events-none bg-[position:0%,0%_0%,0%] inset-[0%]"
@@ -57,9 +57,9 @@ export const Navbar = () => {
           rightIconAlt="Icon"
         />
         <NavLink
-          href="https://www.designmonks.co/pricing"
+          href="/contact"
           iconSrc="https://c.animaapp.com/mlf8vhlmD4U7Ki/assets/icon-8.svg"
-          label="Pricing"
+          label="Contact"
         />
         <MobileMenu />
         <div className="absolute bg-neutral-950 shadow-[rgba(48,255,151,0.4)_0px_3px_4px_0px_inset] box-border caret-transparent pointer-events-none z-[-1] rounded-2xl inset-[0%]"></div>

@@ -78,12 +78,32 @@ module.exports = {
           "0%, 100%": { transform: "scale(0.95)" },
           "50%": { transform: "scale(1.05)" },
         },
+        slideUp: {
+          "0%": { transform: "translateY(100%)", opacity: "0" },
+          "100%": { transform: "translateY(0)", opacity: "1" },
+        },
+        borderSpin: {
+          "0%": { transform: "scale(1.5) rotate(0deg)" },
+          "100%": { transform: "scale(1.5) rotate(360deg)" },
+        },
+        floatUp: {
+          "0%, 100%": { transform: "translateY(0px)" },
+          "50%": { transform: "translateY(-20px)" },
+        },
+        floatDown: {
+          "0%, 100%": { transform: "translateY(0px)" },
+          "50%": { transform: "translateY(20px)" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
         marquee: "marquee 60s linear infinite",
         breathe: "breathe 3s ease-in-out infinite",
+        slideUp: "slideUp 0.3s ease-out",
+        borderSpin: "borderSpin 1.8s linear infinite",
+        floatUp: "floatUp 3s ease-in-out infinite",
+        floatDown: "floatDown 3s ease-in-out infinite",
       },
     },
     container: { center: true, padding: "2rem", screens: { "2xl": "1400px" } },

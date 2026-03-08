@@ -9,12 +9,12 @@ export const MobileNavbar = () => {
       <nav className="relative box-border caret-transparent grid grid-cols-[1fr_1fr_92px_1fr_1fr] z-[2] pt-4 pb-[22px] px-0 rounded-2xl md:grid-cols-[1fr_1fr_auto_1fr_1fr] md:p-2">
         <NavbarLogo />
         <NavLink
-          href="https://www.designmonks.co/projects"
+          href="https://prozesy.com/projects"
           iconSrc="https://c.animaapp.com/mldx9647Nmda9z/assets/icon-2.svg"
           label="Projects"
         />
         <NavLink
-          href="https://www.designmonks.co/services"
+          href="https://prozesy.com/services"
           iconSrc="https://c.animaapp.com/mldx9647Nmda9z/assets/icon-3.svg"
           label="Services"
           variant="min-h-[auto] min-w-[auto] md:hidden md:min-h-0 md:min-w-0"
@@ -26,8 +26,8 @@ export const MobileNavbar = () => {
             className="relative text-neutral-800 box-border caret-transparent contents text-nowrap align-top mx-auto pl-5 pr-10 py-5"
           >
             <a
-              href="https://www.designmonks.co/services"
-              className="relative text-zinc-50 text-[12.8px] items-center box-border caret-transparent gap-x-2 flex flex-col justify-center tracking-[0.256px] leading-[19.2px] max-w-full min-h-0 min-w-0 gap-y-2 text-nowrap w-full my-0 p-[5px] md:text-base md:tracking-[0.32px] md:leading-6 md:min-h-[auto] md:min-w-[auto] md:-my-2 hover:text-violet-400 transition-colors duration-200"
+              href="https://prozesy.com/services"
+              className="relative text-zinc-50 text-[12.8px] items-center box-border caret-transparent gap-x-2 flex flex-col justify-center tracking-[0.256px] leading-[19.2px] max-w-full min-h-0 min-w-0 gap-y-2 text-nowrap w-full my-0 p-[5px] md:text-base md:tracking-[0.32px] md:leading-6 md:min-h-[auto] md:min-w-[auto] md:-my-2 hover:text-violet-400 active:text-violet-500 transition-colors duration-200 cursor-pointer"
             >
               <img
                 src="https://c.animaapp.com/mldx9647Nmda9z/assets/icon-3.svg"
@@ -42,9 +42,9 @@ export const MobileNavbar = () => {
         </div>
         <StartProjectButton />
         <NavLink
-          href="https://www.designmonks.co/pricing"
+          href="/contact"
           iconSrc="https://c.animaapp.com/mldx9647Nmda9z/assets/icon-8.svg"
-          label="Pricing"
+          label="Contact"
         />
         <MoreButton />
         <div className="absolute bg-neutral-950 shadow-[rgba(48,255,151,0.4)_0px_3px_4px_0px_inset] box-border caret-transparent pointer-events-none z-[-1] rounded-2xl inset-[0%]"></div>

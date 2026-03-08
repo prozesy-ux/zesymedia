@@ -3,7 +3,7 @@ export const DesktopCTA = () => {
     <div className="relative items-start box-border caret-transparent gap-x-8 hidden flex-col max-w-full min-h-0 min-w-0 gap-y-8 w-full z-[3] md:flex md:max-w-[280px] md:min-h-[auto] md:min-w-[auto]">
       <div className="relative items-center box-border caret-transparent flex justify-start min-h-0 min-w-0 w-full z-20 md:static md:[align-items:normal] md:min-h-[auto] md:min-w-[auto] md:z-auto">
         <a
-          href="https://www.designmonks.co/career"
+          href="https://prozesy.com/career"
           className="relative text-violet-600 items-center bg-[linear-gradient(rgb(89,45,181)_25%,rgb(125,64,255))] shadow-[rgba(255,255,255,0.72)_0px_1.6px_3px_0px_inset] box-border caret-transparent flex flex-col h-14 justify-center max-w-full min-h-0 min-w-0 text-left w-full z-10 overflow-hidden rounded-lg md:max-w-[207px] md:min-h-[auto] md:min-w-[auto]"
         >
           <div className="absolute items-center bg-neutral-400 box-border caret-transparent flex h-full justify-center transform-none w-full inset-[0%] md:rotate-[-1.2950000653697762deg]">

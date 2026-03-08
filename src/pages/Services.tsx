@@ -1,15 +1,34 @@
-import { ServicesSection } from "@/sections/ServicesSection";
-import { AIDesignSection } from "@/sections/AIDesignSection";
-import { SkillsMarquee } from "@/sections/SkillsMarquee";
+import { useState } from "react";
+import { Hero } from "@/integrations/services/sections/Hero";
+import { ServicesSection } from "@/integrations/services/sections/ServicesSection";
+import { WhyUsSection } from "@/integrations/services/sections/WhyUsSection";
+import { DesignExcellenceSection } from "@/integrations/services/sections/DesignExcellenceSection";
+import { TestimonialsSection } from "@/integrations/services/sections/TestimonialsSection";
+import { ContactSection } from "@/integrations/services/sections/ContactSection";
+import { FAQSection } from "@/sections/FAQSection";
 
 export const Services = () => {
+  const [selectedService, setSelectedService] = useState<string | null>(null);
+
+  const handleServiceClick = (serviceId: string) => {
+    // Navigate to service detail page
+    const serviceDetailPath = `/services/${serviceId}`;
+    history.pushState(null, "", serviceDetailPath);
+    window.dispatchEvent(new Event("locationchange"));
+  };
+
   return (
-    <div className="bg-zinc-50 pt-[120px] pb-20">
-      <div className="flex flex-col gap-20">
-        <ServicesSection />
-        <AIDesignSection />
-        <SkillsMarquee />
-      </div>
+    <div className="box-border caret-transparent overflow-x-clip">
+      <main className="box-border caret-transparent">
+        <Hero />
+        <ServicesSection onServiceClick={handleServiceClick} />
+        <WhyUsSection />
+        <DesignExcellenceSection />
+        <TestimonialsSection />
+        <FAQSection />
+        <ContactSection />
+      </main>
     </div>
   );
 };
+

@@ -32,9 +32,9 @@ export const ServiceCard = (props: ServiceCardProps) => {
       </div>
       <a
         href={props.linkHref}
-        className="text-slate-500 text-base font-bold box-border caret-transparent gap-x-2 flex tracking-[0.32px] leading-6 max-w-full gap-y-2 capitalize"
+        className="text-slate-500 text-base font-bold box-border caret-transparent gap-x-2 flex tracking-[0.32px] leading-6 max-w-full gap-y-2 capitalize cursor-pointer hover:text-violet-600 active:text-violet-700 transition-colors touch-manipulation"
       >
-        <div className="text-violet-600 box-border caret-transparent">
+        <div className="text-violet-600 box-border caret-transparent group-hover:text-violet-700 group-active:text-violet-800 transition-colors">
           See More
         </div>
         <div className="box-border caret-transparent">

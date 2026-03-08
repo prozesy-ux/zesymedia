@@ -7,7 +7,7 @@ export const CategoryScroller = () => {
           className="relative items-center caret-transparent gap-x-4 flex h-full justify-start gap-y-4 w-full z-[1]"
         >
           <a
-            href="https://www.designmonks.co/blog"
+            href="https://prozesy.com/blog"
             className="text-zinc-50 text-base bg-violet-600 box-border caret-transparent block shrink-0 leading-6 max-w-full outline-neutral-600 -outline-offset-1 p-3 rounded-lg"
           >
             <div className="box-border caret-transparent">
@@ -21,8 +21,8 @@ export const CategoryScroller = () => {
             className="relative box-border caret-transparent shrink-0 h-full"
           >
             <a
-              href="https://www.designmonks.co/blog-category/ai"
-              className="text-neutral-950 text-base bg-zinc-950/0 box-border caret-transparent inline-block shrink-0 leading-6 max-w-full outline-neutral-100 -outline-offset-1 outline outline-1 p-3 rounded-lg hover:outline-neutral-950 hover:outline-0"
+              href="https://prozesy.com/blog-category/ai"
+              className="text-neutral-950 text-base bg-zinc-950/0 box-border caret-transparent inline-block shrink-0 leading-6 max-w-full outline-neutral-100 -outline-offset-1 outline outline-1 p-3 rounded-lg hover:outline-neutral-950 hover:outline-0 active:outline-neutral-950 active:outline-2 active:bg-neutral-50 transition-all cursor-pointer touch-manipulation"
             >
               <div className="box-border caret-transparent">AI</div>
             </a>
@@ -33,8 +33,8 @@ export const CategoryScroller = () => {
             className="relative box-border caret-transparent shrink-0 h-full"
           >
             <a
-              href="https://www.designmonks.co/blog-category/artificial-intelligence"
-              className="text-neutral-950 text-base bg-zinc-950/0 box-border caret-transparent inline-block shrink-0 leading-6 max-w-full outline-neutral-100 -outline-offset-1 outline outline-1 p-3 rounded-lg hover:outline-neutral-950 hover:outline-0"
+              href="https://prozesy.com/blog-category/artificial-intelligence"
+              className="text-neutral-950 text-base bg-zinc-950/0 box-border caret-transparent inline-block shrink-0 leading-6 max-w-full outline-neutral-100 -outline-offset-1 outline outline-1 p-3 rounded-lg hover:outline-neutral-950 hover:outline-0 active:outline-neutral-950 active:outline-2 active:bg-neutral-50 transition-all cursor-pointer touch-manipulation"
             >
               <div className="box-border caret-transparent">
                 Artificial intelligence
@@ -47,8 +47,8 @@ export const CategoryScroller = () => {
             className="relative box-border caret-transparent shrink-0 h-full"
           >
             <a
-              href="https://www.designmonks.co/blog-category/branding"
-              className="text-neutral-950 text-base bg-zinc-950/0 box-border caret-transparent inline-block shrink-0 leading-6 max-w-full outline-neutral-100 -outline-offset-1 outline outline-1 p-3 rounded-lg hover:outline-neutral-950 hover:outline-0"
+              href="https://prozesy.com/blog-category/branding"
+              className="text-neutral-950 text-base bg-zinc-950/0 box-border caret-transparent inline-block shrink-0 leading-6 max-w-full outline-neutral-100 -outline-offset-1 outline outline-1 p-3 rounded-lg hover:outline-neutral-950 hover:outline-0 active:outline-neutral-950 active:outline-2 active:bg-neutral-50 transition-all cursor-pointer touch-manipulation"
             >
               <div className="box-border caret-transparent">Branding</div>
             </a>
@@ -59,8 +59,8 @@ export const CategoryScroller = () => {
             className="relative box-border caret-transparent shrink-0 h-full"
           >
             <a
-              href="https://www.designmonks.co/blog-category/design-chit-chat"
-              className="text-neutral-950 text-base bg-zinc-950/0 box-border caret-transparent inline-block shrink-0 leading-6 max-w-full outline-neutral-100 -outline-offset-1 outline outline-1 p-3 rounded-lg hover:outline-neutral-950 hover:outline-0"
+              href="https://prozesy.com/blog-category/design-chit-chat"
+              className="text-neutral-950 text-base bg-zinc-950/0 box-border caret-transparent inline-block shrink-0 leading-6 max-w-full outline-neutral-100 -outline-offset-1 outline outline-1 p-3 rounded-lg hover:outline-neutral-950 hover:outline-0 active:outline-neutral-950 active:outline-2 active:bg-neutral-50 transition-all cursor-pointer touch-manipulation"
             >
               <div className="box-border caret-transparent">
                 Design Chit Chat
@@ -73,8 +73,8 @@ export const CategoryScroller = () => {
             className="relative box-border caret-transparent shrink-0 h-full"
           >
             <a
-              href="https://www.designmonks.co/blog-category/design-principles"
-              className="text-neutral-950 text-base bg-zinc-950/0 box-border caret-transparent inline-block shrink-0 leading-6 max-w-full outline-neutral-100 -outline-offset-1 outline outline-1 p-3 rounded-lg hover:outline-neutral-950 hover:outline-0"
+              href="https://prozesy.com/blog-category/design-principles"
+              className="text-neutral-950 text-base bg-zinc-950/0 box-border caret-transparent inline-block shrink-0 leading-6 max-w-full outline-neutral-100 -outline-offset-1 outline outline-1 p-3 rounded-lg hover:outline-neutral-950 hover:outline-0 active:outline-neutral-950 active:outline-2 active:bg-neutral-50 transition-all cursor-pointer touch-manipulation"
             >
               <div className="box-border caret-transparent">
                 Design Principles
@@ -87,8 +87,8 @@ export const CategoryScroller = () => {
             className="relative box-border caret-transparent shrink-0 h-full"
           >
             <a
-              href="https://www.designmonks.co/blog-category/design-process"
-              className="text-neutral-950 text-base bg-zinc-950/0 box-border caret-transparent inline-block shrink-0 leading-6 max-w-full outline-neutral-100 -outline-offset-1 outline outline-1 p-3 rounded-lg hover:outline-neutral-950 hover:outline-0"
+              href="https://prozesy.com/blog-category/design-process"
+              className="text-neutral-950 text-base bg-zinc-950/0 box-border caret-transparent inline-block shrink-0 leading-6 max-w-full outline-neutral-100 -outline-offset-1 outline outline-1 p-3 rounded-lg hover:outline-neutral-950 hover:outline-0 active:outline-neutral-950 active:outline-2 active:bg-neutral-50 transition-all cursor-pointer touch-manipulation"
             >
               <div className="box-border caret-transparent">Design Process</div>
             </a>
@@ -99,8 +99,8 @@ export const CategoryScroller = () => {
             className="relative box-border caret-transparent shrink-0 h-full"
           >
             <a
-              href="https://www.designmonks.co/blog-category/design-strategies"
-              className="text-neutral-950 text-base bg-zinc-950/0 box-border caret-transparent inline-block shrink-0 leading-6 max-w-full outline-neutral-100 -outline-offset-1 outline outline-1 p-3 rounded-lg hover:outline-neutral-950 hover:outline-0"
+              href="https://prozesy.com/blog-category/design-strategies"
+              className="text-neutral-950 text-base bg-zinc-950/0 box-border caret-transparent inline-block shrink-0 leading-6 max-w-full outline-neutral-100 -outline-offset-1 outline outline-1 p-3 rounded-lg hover:outline-neutral-950 hover:outline-0 active:outline-neutral-950 active:outline-2 active:bg-neutral-50 transition-all cursor-pointer touch-manipulation"
             >
               <div className="box-border caret-transparent">
                 Design Strategies
@@ -113,8 +113,8 @@ export const CategoryScroller = () => {
             className="relative box-border caret-transparent shrink-0 h-full"
           >
             <a
-              href="https://www.designmonks.co/blog-category/design-career"
-              className="text-neutral-950 text-base bg-zinc-950/0 box-border caret-transparent inline-block shrink-0 leading-6 max-w-full outline-neutral-100 -outline-offset-1 outline outline-1 p-3 rounded-lg hover:outline-neutral-950 hover:outline-0"
+              href="https://prozesy.com/blog-category/design-career"
+              className="text-neutral-950 text-base bg-zinc-950/0 box-border caret-transparent inline-block shrink-0 leading-6 max-w-full outline-neutral-100 -outline-offset-1 outline outline-1 p-3 rounded-lg hover:outline-neutral-950 hover:outline-0 active:outline-neutral-950 active:outline-2 active:bg-neutral-50 transition-all cursor-pointer touch-manipulation"
             >
               <div className="box-border caret-transparent">Design career</div>
             </a>
@@ -125,8 +125,8 @@ export const CategoryScroller = () => {
             className="relative box-border caret-transparent shrink-0 h-full"
           >
             <a
-              href="https://www.designmonks.co/blog-category/design-hierarchy"
-              className="text-neutral-950 text-base bg-zinc-950/0 box-border caret-transparent inline-block shrink-0 leading-6 max-w-full outline-neutral-100 -outline-offset-1 outline outline-1 p-3 rounded-lg hover:outline-neutral-950 hover:outline-0"
+              href="https://prozesy.com/blog-category/design-hierarchy"
+              className="text-neutral-950 text-base bg-zinc-950/0 box-border caret-transparent inline-block shrink-0 leading-6 max-w-full outline-neutral-100 -outline-offset-1 outline outline-1 p-3 rounded-lg hover:outline-neutral-950 hover:outline-0 active:outline-neutral-950 active:outline-2 active:bg-neutral-50 transition-all cursor-pointer touch-manipulation"
             >
               <div className="box-border caret-transparent">
                 Design hierarchy
@@ -139,8 +139,8 @@ export const CategoryScroller = () => {
             className="relative box-border caret-transparent shrink-0 h-full"
           >
             <a
-              href="https://www.designmonks.co/blog-category/design-system"
-              className="text-neutral-950 text-base bg-zinc-950/0 box-border caret-transparent inline-block shrink-0 leading-6 max-w-full outline-neutral-100 -outline-offset-1 outline outline-1 p-3 rounded-lg hover:outline-neutral-950 hover:outline-0"
+              href="https://prozesy.com/blog-category/design-system"
+              className="text-neutral-950 text-base bg-zinc-950/0 box-border caret-transparent inline-block shrink-0 leading-6 max-w-full outline-neutral-100 -outline-offset-1 outline outline-1 p-3 rounded-lg hover:outline-neutral-950 hover:outline-0 active:outline-neutral-950 active:outline-2 active:bg-neutral-50 transition-all cursor-pointer touch-manipulation"
             >
               <div className="box-border caret-transparent">Design system</div>
             </a>
@@ -151,8 +151,8 @@ export const CategoryScroller = () => {
             className="relative box-border caret-transparent shrink-0 h-full"
           >
             <a
-              href="https://www.designmonks.co/blog-category/development"
-              className="text-neutral-950 text-base bg-zinc-950/0 box-border caret-transparent inline-block shrink-0 leading-6 max-w-full outline-neutral-100 -outline-offset-1 outline outline-1 p-3 rounded-lg hover:outline-neutral-950 hover:outline-0"
+              href="https://prozesy.com/blog-category/development"
+              className="text-neutral-950 text-base bg-zinc-950/0 box-border caret-transparent inline-block shrink-0 leading-6 max-w-full outline-neutral-100 -outline-offset-1 outline outline-1 p-3 rounded-lg hover:outline-neutral-950 hover:outline-0 active:outline-neutral-950 active:outline-2 active:bg-neutral-50 transition-all cursor-pointer touch-manipulation"
             >
               <div className="box-border caret-transparent">Development</div>
             </a>
@@ -163,8 +163,8 @@ export const CategoryScroller = () => {
             className="relative box-border caret-transparent shrink-0 h-full"
           >
             <a
-              href="https://www.designmonks.co/blog-category/edutech"
-              className="text-neutral-950 text-base bg-zinc-950/0 box-border caret-transparent inline-block shrink-0 leading-6 max-w-full outline-neutral-100 -outline-offset-1 outline outline-1 p-3 rounded-lg hover:outline-neutral-950 hover:outline-0"
+              href="https://prozesy.com/blog-category/edutech"
+              className="text-neutral-950 text-base bg-zinc-950/0 box-border caret-transparent inline-block shrink-0 leading-6 max-w-full outline-neutral-100 -outline-offset-1 outline outline-1 p-3 rounded-lg hover:outline-neutral-950 hover:outline-0 active:outline-neutral-950 active:outline-2 active:bg-neutral-50 transition-all cursor-pointer touch-manipulation"
             >
               <div className="box-border caret-transparent">Edutech</div>
             </a>
@@ -175,8 +175,8 @@ export const CategoryScroller = () => {
             className="relative box-border caret-transparent shrink-0 h-full"
           >
             <a
-              href="https://www.designmonks.co/blog-category/figma"
-              className="text-neutral-950 text-base bg-zinc-950/0 box-border caret-transparent inline-block shrink-0 leading-6 max-w-full outline-neutral-100 -outline-offset-1 outline outline-1 p-3 rounded-lg hover:outline-neutral-950 hover:outline-0"
+              href="https://prozesy.com/blog-category/figma"
+              className="text-neutral-950 text-base bg-zinc-950/0 box-border caret-transparent inline-block shrink-0 leading-6 max-w-full outline-neutral-100 -outline-offset-1 outline outline-1 p-3 rounded-lg hover:outline-neutral-950 hover:outline-0 active:outline-neutral-950 active:outline-2 active:bg-neutral-50 transition-all cursor-pointer touch-manipulation"
             >
               <div className="box-border caret-transparent">Figma</div>
             </a>
@@ -187,8 +187,8 @@ export const CategoryScroller = () => {
             className="relative box-border caret-transparent shrink-0 h-full"
           >
             <a
-              href="https://www.designmonks.co/blog-category/framer"
-              className="text-neutral-950 text-base bg-zinc-950/0 box-border caret-transparent inline-block shrink-0 leading-6 max-w-full outline-neutral-100 -outline-offset-1 outline outline-1 p-3 rounded-lg hover:outline-neutral-950 hover:outline-0"
+              href="https://prozesy.com/blog-category/framer"
+              className="text-neutral-950 text-base bg-zinc-950/0 box-border caret-transparent inline-block shrink-0 leading-6 max-w-full outline-neutral-100 -outline-offset-1 outline outline-1 p-3 rounded-lg hover:outline-neutral-950 hover:outline-0 active:outline-neutral-950 active:outline-2 active:bg-neutral-50 transition-all cursor-pointer touch-manipulation"
             >
               <div className="box-border caret-transparent">Framer</div>
             </a>
@@ -199,8 +199,8 @@ export const CategoryScroller = () => {
             className="relative box-border caret-transparent shrink-0 h-full"
           >
             <a
-              href="https://www.designmonks.co/blog-category/life-at-design-monks"
-              className="text-neutral-950 text-base bg-zinc-950/0 box-border caret-transparent inline-block shrink-0 leading-6 max-w-full outline-neutral-100 -outline-offset-1 outline outline-1 p-3 rounded-lg hover:outline-neutral-950 hover:outline-0"
+              href="https://prozesy.com/blog-category/life-at-design-monks"
+              className="text-neutral-950 text-base bg-zinc-950/0 box-border caret-transparent inline-block shrink-0 leading-6 max-w-full outline-neutral-100 -outline-offset-1 outline outline-1 p-3 rounded-lg hover:outline-neutral-950 hover:outline-0 active:outline-neutral-950 active:outline-2 active:bg-neutral-50 transition-all cursor-pointer touch-manipulation"
             >
               <div className="box-border caret-transparent">
                 Life at Prozesy Media
@@ -213,8 +213,8 @@ export const CategoryScroller = () => {
             className="relative box-border caret-transparent shrink-0 h-full"
           >
             <a
-              href="https://www.designmonks.co/blog-category/mobile-app-design"
-              className="text-neutral-950 text-base bg-zinc-950/0 box-border caret-transparent inline-block shrink-0 leading-6 max-w-full outline-neutral-100 -outline-offset-1 outline outline-1 p-3 rounded-lg hover:outline-neutral-950 hover:outline-0"
+              href="https://prozesy.com/blog-category/mobile-app-design"
+              className="text-neutral-950 text-base bg-zinc-950/0 box-border caret-transparent inline-block shrink-0 leading-6 max-w-full outline-neutral-100 -outline-offset-1 outline outline-1 p-3 rounded-lg hover:outline-neutral-950 hover:outline-0 active:outline-neutral-950 active:outline-2 active:bg-neutral-50 transition-all cursor-pointer touch-manipulation"
             >
               <div className="box-border caret-transparent">
                 Mobile App Design
@@ -227,8 +227,8 @@ export const CategoryScroller = () => {
             className="relative box-border caret-transparent shrink-0 h-full"
           >
             <a
-              href="https://www.designmonks.co/blog-category/product-design"
-              className="text-neutral-950 text-base bg-zinc-950/0 box-border caret-transparent inline-block shrink-0 leading-6 max-w-full outline-neutral-100 -outline-offset-1 outline outline-1 p-3 rounded-lg hover:outline-neutral-950 hover:outline-0"
+              href="https://prozesy.com/blog-category/product-design"
+              className="text-neutral-950 text-base bg-zinc-950/0 box-border caret-transparent inline-block shrink-0 leading-6 max-w-full outline-neutral-100 -outline-offset-1 outline outline-1 p-3 rounded-lg hover:outline-neutral-950 hover:outline-0 active:outline-neutral-950 active:outline-2 active:bg-neutral-50 transition-all cursor-pointer touch-manipulation"
             >
               <div className="box-border caret-transparent">Product Design</div>
             </a>
@@ -239,8 +239,8 @@ export const CategoryScroller = () => {
             className="relative box-border caret-transparent shrink-0 h-full"
           >
             <a
-              href="https://www.designmonks.co/blog-category/rebranding"
-              className="text-neutral-950 text-base bg-zinc-950/0 box-border caret-transparent inline-block shrink-0 leading-6 max-w-full outline-neutral-100 -outline-offset-1 outline outline-1 p-3 rounded-lg hover:outline-neutral-950 hover:outline-0"
+              href="https://prozesy.com/blog-category/rebranding"
+              className="text-neutral-950 text-base bg-zinc-950/0 box-border caret-transparent inline-block shrink-0 leading-6 max-w-full outline-neutral-100 -outline-offset-1 outline outline-1 p-3 rounded-lg hover:outline-neutral-950 hover:outline-0 active:outline-neutral-950 active:outline-2 active:bg-neutral-50 transition-all cursor-pointer touch-manipulation"
             >
               <div className="box-border caret-transparent">Rebranding</div>
             </a>
@@ -251,8 +251,8 @@ export const CategoryScroller = () => {
             className="relative box-border caret-transparent shrink-0 h-full"
           >
             <a
-              href="https://www.designmonks.co/blog-category/startup"
-              className="text-neutral-950 text-base bg-zinc-950/0 box-border caret-transparent inline-block shrink-0 leading-6 max-w-full outline-neutral-100 -outline-offset-1 outline outline-1 p-3 rounded-lg hover:outline-neutral-950 hover:outline-0"
+              href="https://prozesy.com/blog-category/startup"
+              className="text-neutral-950 text-base bg-zinc-950/0 box-border caret-transparent inline-block shrink-0 leading-6 max-w-full outline-neutral-100 -outline-offset-1 outline outline-1 p-3 rounded-lg hover:outline-neutral-950 hover:outline-0 active:outline-neutral-950 active:outline-2 active:bg-neutral-50 transition-all cursor-pointer touch-manipulation"
             >
               <div className="box-border caret-transparent">Startup</div>
             </a>
@@ -263,8 +263,8 @@ export const CategoryScroller = () => {
             className="relative box-border caret-transparent shrink-0 h-full"
           >
             <a
-              href="https://www.designmonks.co/blog-category/tech-news"
-              className="text-neutral-950 text-base bg-zinc-950/0 box-border caret-transparent inline-block shrink-0 leading-6 max-w-full outline-neutral-100 -outline-offset-1 outline outline-1 p-3 rounded-lg hover:outline-neutral-950 hover:outline-0"
+              href="https://prozesy.com/blog-category/tech-news"
+              className="text-neutral-950 text-base bg-zinc-950/0 box-border caret-transparent inline-block shrink-0 leading-6 max-w-full outline-neutral-100 -outline-offset-1 outline outline-1 p-3 rounded-lg hover:outline-neutral-950 hover:outline-0 active:outline-neutral-950 active:outline-2 active:bg-neutral-50 transition-all cursor-pointer touch-manipulation"
             >
               <div className="box-border caret-transparent">Tech news</div>
             </a>
@@ -275,8 +275,8 @@ export const CategoryScroller = () => {
             className="relative box-border caret-transparent shrink-0 h-full"
           >
             <a
-              href="https://www.designmonks.co/blog-category/technology"
-              className="text-neutral-950 text-base bg-zinc-950/0 box-border caret-transparent inline-block shrink-0 leading-6 max-w-full outline-neutral-100 -outline-offset-1 outline outline-1 p-3 rounded-lg hover:outline-neutral-950 hover:outline-0"
+              href="https://prozesy.com/blog-category/technology"
+              className="text-neutral-950 text-base bg-zinc-950/0 box-border caret-transparent inline-block shrink-0 leading-6 max-w-full outline-neutral-100 -outline-offset-1 outline outline-1 p-3 rounded-lg hover:outline-neutral-950 hover:outline-0 active:outline-neutral-950 active:outline-2 active:bg-neutral-50 transition-all cursor-pointer touch-manipulation"
             >
               <div className="box-border caret-transparent">Technology</div>
             </a>
@@ -287,8 +287,8 @@ export const CategoryScroller = () => {
             className="relative box-border caret-transparent shrink-0 h-full"
           >
             <a
-              href="https://www.designmonks.co/blog-category/ui"
-              className="text-neutral-950 text-base bg-zinc-950/0 box-border caret-transparent inline-block shrink-0 leading-6 max-w-full outline-neutral-100 -outline-offset-1 outline outline-1 p-3 rounded-lg hover:outline-neutral-950 hover:outline-0"
+              href="https://prozesy.com/blog-category/ui"
+              className="text-neutral-950 text-base bg-zinc-950/0 box-border caret-transparent inline-block shrink-0 leading-6 max-w-full outline-neutral-100 -outline-offset-1 outline outline-1 p-3 rounded-lg hover:outline-neutral-950 hover:outline-0 active:outline-neutral-950 active:outline-2 active:bg-neutral-50 transition-all cursor-pointer touch-manipulation"
             >
               <div className="box-border caret-transparent">UI</div>
             </a>
@@ -299,8 +299,8 @@ export const CategoryScroller = () => {
             className="relative box-border caret-transparent shrink-0 h-full"
           >
             <a
-              href="https://www.designmonks.co/blog-category/ui-design"
-              className="text-neutral-950 text-base bg-zinc-950/0 box-border caret-transparent inline-block shrink-0 leading-6 max-w-full outline-neutral-100 -outline-offset-1 outline outline-1 p-3 rounded-lg hover:outline-neutral-950 hover:outline-0"
+              href="https://prozesy.com/blog-category/ui-design"
+              className="text-neutral-950 text-base bg-zinc-950/0 box-border caret-transparent inline-block shrink-0 leading-6 max-w-full outline-neutral-100 -outline-offset-1 outline outline-1 p-3 rounded-lg hover:outline-neutral-950 hover:outline-0 active:outline-neutral-950 active:outline-2 active:bg-neutral-50 transition-all cursor-pointer touch-manipulation"
             >
               <div className="box-border caret-transparent">UI Design</div>
             </a>
@@ -311,8 +311,8 @@ export const CategoryScroller = () => {
             className="relative box-border caret-transparent shrink-0 h-full"
           >
             <a
-              href="https://www.designmonks.co/blog-category/ux-audit"
-              className="text-neutral-950 text-base bg-zinc-950/0 box-border caret-transparent inline-block shrink-0 leading-6 max-w-full outline-neutral-100 -outline-offset-1 outline outline-1 p-3 rounded-lg hover:outline-neutral-950 hover:outline-0"
+              href="https://prozesy.com/blog-category/ux-audit"
+              className="text-neutral-950 text-base bg-zinc-950/0 box-border caret-transparent inline-block shrink-0 leading-6 max-w-full outline-neutral-100 -outline-offset-1 outline outline-1 p-3 rounded-lg hover:outline-neutral-950 hover:outline-0 active:outline-neutral-950 active:outline-2 active:bg-neutral-50 transition-all cursor-pointer touch-manipulation"
             >
               <div className="box-border caret-transparent">UX Audit</div>
             </a>
@@ -323,8 +323,8 @@ export const CategoryScroller = () => {
             className="relative box-border caret-transparent shrink-0 h-full"
           >
             <a
-              href="https://www.designmonks.co/blog-category/ux-engineering"
-              className="text-neutral-950 text-base bg-zinc-950/0 box-border caret-transparent inline-block shrink-0 leading-6 max-w-full outline-neutral-100 -outline-offset-1 outline outline-1 p-3 rounded-lg hover:outline-neutral-950 hover:outline-0"
+              href="https://prozesy.com/blog-category/ux-engineering"
+              className="text-neutral-950 text-base bg-zinc-950/0 box-border caret-transparent inline-block shrink-0 leading-6 max-w-full outline-neutral-100 -outline-offset-1 outline outline-1 p-3 rounded-lg hover:outline-neutral-950 hover:outline-0 active:outline-neutral-950 active:outline-2 active:bg-neutral-50 transition-all cursor-pointer touch-manipulation"
             >
               <div className="box-border caret-transparent">UX Engineering</div>
             </a>
@@ -335,8 +335,8 @@ export const CategoryScroller = () => {
             className="relative box-border caret-transparent shrink-0 h-full"
           >
             <a
-              href="https://www.designmonks.co/blog-category/ux-research"
-              className="text-neutral-950 text-base bg-zinc-950/0 box-border caret-transparent inline-block shrink-0 leading-6 max-w-full outline-neutral-100 -outline-offset-1 outline outline-1 p-3 rounded-lg hover:outline-neutral-950 hover:outline-0"
+              href="https://prozesy.com/blog-category/ux-research"
+              className="text-neutral-950 text-base bg-zinc-950/0 box-border caret-transparent inline-block shrink-0 leading-6 max-w-full outline-neutral-100 -outline-offset-1 outline outline-1 p-3 rounded-lg hover:outline-neutral-950 hover:outline-0 active:outline-neutral-950 active:outline-2 active:bg-neutral-50 transition-all cursor-pointer touch-manipulation"
             >
               <div className="box-border caret-transparent">UX Research</div>
             </a>
@@ -347,8 +347,8 @@ export const CategoryScroller = () => {
             className="relative box-border caret-transparent shrink-0 h-full"
           >
             <a
-              href="https://www.designmonks.co/blog-category/user-interface"
-              className="text-neutral-950 text-base bg-zinc-950/0 box-border caret-transparent inline-block shrink-0 leading-6 max-w-full outline-neutral-100 -outline-offset-1 outline outline-1 p-3 rounded-lg hover:outline-neutral-950 hover:outline-0"
+              href="https://prozesy.com/blog-category/user-interface"
+              className="text-neutral-950 text-base bg-zinc-950/0 box-border caret-transparent inline-block shrink-0 leading-6 max-w-full outline-neutral-100 -outline-offset-1 outline outline-1 p-3 rounded-lg hover:outline-neutral-950 hover:outline-0 active:outline-neutral-950 active:outline-2 active:bg-neutral-50 transition-all cursor-pointer touch-manipulation"
             >
               <div className="box-border caret-transparent">User interface</div>
             </a>
@@ -359,8 +359,8 @@ export const CategoryScroller = () => {
             className="relative box-border caret-transparent shrink-0 h-full"
           >
             <a
-              href="https://www.designmonks.co/blog-category/web-development"
-              className="text-neutral-950 text-base bg-zinc-950/0 box-border caret-transparent inline-block shrink-0 leading-6 max-w-full outline-neutral-100 -outline-offset-1 outline outline-1 p-3 rounded-lg hover:outline-neutral-950 hover:outline-0"
+              href="https://prozesy.com/blog-category/web-development"
+              className="text-neutral-950 text-base bg-zinc-950/0 box-border caret-transparent inline-block shrink-0 leading-6 max-w-full outline-neutral-100 -outline-offset-1 outline outline-1 p-3 rounded-lg hover:outline-neutral-950 hover:outline-0 active:outline-neutral-950 active:outline-2 active:bg-neutral-50 transition-all cursor-pointer touch-manipulation"
             >
               <div className="box-border caret-transparent">
                 Web Development
@@ -373,8 +373,8 @@ export const CategoryScroller = () => {
             className="relative box-border caret-transparent shrink-0 h-full"
           >
             <a
-              href="https://www.designmonks.co/blog-category/uiux"
-              className="text-neutral-950 text-base bg-zinc-950/0 box-border caret-transparent inline-block shrink-0 leading-6 max-w-full outline-neutral-100 -outline-offset-1 outline outline-1 p-3 rounded-lg hover:outline-neutral-950 hover:outline-0"
+              href="https://prozesy.com/blog-category/uiux"
+              className="text-neutral-950 text-base bg-zinc-950/0 box-border caret-transparent inline-block shrink-0 leading-6 max-w-full outline-neutral-100 -outline-offset-1 outline outline-1 p-3 rounded-lg hover:outline-neutral-950 hover:outline-0 active:outline-neutral-950 active:outline-2 active:bg-neutral-50 transition-all cursor-pointer touch-manipulation"
             >
               <div className="box-border caret-transparent">uiux</div>
             </a>
@@ -385,8 +385,8 @@ export const CategoryScroller = () => {
             className="relative box-border caret-transparent shrink-0 h-full"
           >
             <a
-              href="https://www.designmonks.co/blog-category/ux-design"
-              className="text-neutral-950 text-base bg-zinc-950/0 box-border caret-transparent inline-block shrink-0 leading-6 max-w-full outline-neutral-100 -outline-offset-1 outline outline-1 p-3 rounded-lg hover:outline-neutral-950 hover:outline-0"
+              href="https://prozesy.com/blog-category/ux-design"
+              className="text-neutral-950 text-base bg-zinc-950/0 box-border caret-transparent inline-block shrink-0 leading-6 max-w-full outline-neutral-100 -outline-offset-1 outline outline-1 p-3 rounded-lg hover:outline-neutral-950 hover:outline-0 active:outline-neutral-950 active:outline-2 active:bg-neutral-50 transition-all cursor-pointer touch-manipulation"
             >
               <div className="box-border caret-transparent">ux design</div>
             </a>
@@ -397,8 +397,8 @@ export const CategoryScroller = () => {
             className="relative box-border caret-transparent shrink-0 h-full"
           >
             <a
-              href="https://www.designmonks.co/blog-category/web-design"
-              className="text-neutral-950 text-base bg-zinc-950/0 box-border caret-transparent inline-block shrink-0 leading-6 max-w-full outline-neutral-100 -outline-offset-1 outline outline-1 p-3 rounded-lg hover:outline-neutral-950 hover:outline-0"
+              href="https://prozesy.com/blog-category/web-design"
+              className="text-neutral-950 text-base bg-zinc-950/0 box-border caret-transparent inline-block shrink-0 leading-6 max-w-full outline-neutral-100 -outline-offset-1 outline outline-1 p-3 rounded-lg hover:outline-neutral-950 hover:outline-0 active:outline-neutral-950 active:outline-2 active:bg-neutral-50 transition-all cursor-pointer touch-manipulation"
             >
               <div className="box-border caret-transparent">web design</div>
             </a>

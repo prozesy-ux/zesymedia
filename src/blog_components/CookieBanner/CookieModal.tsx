@@ -12,7 +12,7 @@ export const CookieModal = () => {
           of cookies on your device to enhance site navigation, analyze site
           usage and assist in our marketing efforts.{" "}
           <a
-            href="https://www.designmonks.co/privacy-policy"
+            href="https://prozesy.com/privacy-policy"
             className="text-violet-600 text-sm box-border caret-transparent leading-[21px] md:text-lg md:leading-[27px]"
           >
             <span className="text-sm box-border caret-transparent leading-[21px] md:text-lg md:leading-[27px]">
@@ -21,7 +21,7 @@ export const CookieModal = () => {
           </a>
         </p>
         <a
-          href="https://www.designmonks.co/blog"
+          href="https://prozesy.com/blog"
           role="button"
           className="absolute text-violet-600 box-border caret-transparent block max-w-full right-2.5 top-2.5 md:right-5 md:top-5"
         >

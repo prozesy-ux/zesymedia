@@ -8,7 +8,7 @@ export const FooterLinks = () => {
           </h3>
           <div className="items-start box-border caret-transparent gap-x-3.5 flex flex-col gap-y-3.5 capitalize md:gap-x-4 md:gap-y-4">
             <a
-              href="https://www.designmonks.co/contact"
+              href="https://prozesy.com/contact"
               className="text-neutral-400 text-sm items-start box-border caret-transparent gap-x-1 flex justify-end tracking-[0.32px] leading-[21px] max-w-full gap-y-1 text-left md:text-base md:items-center md:gap-x-1.5 md:justify-start md:leading-6 md:gap-y-1.5 md:text-start"
             >
               <div className="text-sm box-border caret-transparent leading-[21px] text-left md:text-base md:leading-6 md:text-start">
@@ -16,7 +16,7 @@ export const FooterLinks = () => {
               </div>
             </a>
             <a
-              href="https://www.designmonks.co/about"
+              href="https://prozesy.com/about"
               className="text-neutral-400 text-sm items-start box-border caret-transparent gap-x-1 flex justify-end tracking-[0.32px] leading-[21px] max-w-full gap-y-1 text-left md:text-base md:items-center md:gap-x-1.5 md:justify-start md:leading-6 md:gap-y-1.5 md:text-start"
             >
               <div className="text-sm box-border caret-transparent leading-[21px] text-left md:text-base md:leading-6 md:text-start">
@@ -24,7 +24,7 @@ export const FooterLinks = () => {
               </div>
             </a>
             <a
-              href="https://www.designmonks.co/products"
+              href="https://prozesy.com/products"
               className="text-neutral-400 text-sm items-start box-border caret-transparent gap-x-1 flex justify-end tracking-[0.32px] leading-[21px] max-w-full gap-y-1 text-left md:text-base md:items-center md:gap-x-1.5 md:justify-start md:leading-6 md:gap-y-1.5 md:text-start"
             >
               <div className="text-sm box-border caret-transparent leading-[21px] text-left md:text-base md:leading-6 md:text-start">
@@ -32,7 +32,7 @@ export const FooterLinks = () => {
               </div>
             </a>
             <a
-              href="https://www.designmonks.co/industry"
+              href="https://prozesy.com/industry"
               className="text-neutral-400 text-sm items-start box-border caret-transparent gap-x-1 flex justify-end tracking-[0.32px] leading-[21px] max-w-full gap-y-1 text-left md:text-base md:items-center md:gap-x-1.5 md:justify-start md:leading-6 md:gap-y-1.5 md:text-start"
             >
               <div className="text-sm box-border caret-transparent leading-[21px] text-left md:text-base md:leading-6 md:text-start">
@@ -40,7 +40,7 @@ export const FooterLinks = () => {
               </div>
             </a>
             <a
-              href="https://www.designmonks.co/blog"
+              href="https://prozesy.com/blog"
               className="text-neutral-400 text-sm items-start box-border caret-transparent gap-x-1 flex justify-end tracking-[0.32px] leading-[21px] max-w-full gap-y-1 text-left md:text-base md:items-center md:gap-x-1.5 md:justify-start md:leading-6 md:gap-y-1.5 md:text-start"
             >
               <div className="text-sm box-border caret-transparent leading-[21px] text-left md:text-base md:leading-6 md:text-start">
@@ -55,7 +55,7 @@ export const FooterLinks = () => {
           </h3>
           <div className="items-start box-border caret-transparent gap-x-3.5 flex flex-col gap-y-3.5 capitalize md:gap-x-4 md:gap-y-4">
             <a
-              href="https://www.designmonks.co/services/ui-ux"
+              href="https://prozesy.com/services/ui-ux"
               className="text-neutral-400 text-sm items-start box-border caret-transparent gap-x-1 flex justify-end tracking-[0.32px] leading-[21px] max-w-full gap-y-1 text-left md:text-base md:items-center md:gap-x-1.5 md:justify-start md:leading-6 md:gap-y-1.5 md:text-start"
             >
               <div className="text-sm box-border caret-transparent leading-[21px] text-left md:text-base md:leading-6 md:text-start">
@@ -63,7 +63,7 @@ export const FooterLinks = () => {
               </div>
             </a>
             <a
-              href="https://www.designmonks.co/services/web-design"
+              href="https://prozesy.com/services/web-design"
               className="text-neutral-400 text-sm items-start box-border caret-transparent gap-x-1 flex justify-end tracking-[0.32px] leading-[21px] max-w-full gap-y-1 text-left md:text-base md:items-center md:gap-x-1.5 md:justify-start md:leading-6 md:gap-y-1.5 md:text-start"
             >
               <div className="text-sm box-border caret-transparent leading-[21px] text-left md:text-base md:leading-6 md:text-start">
@@ -71,7 +71,7 @@ export const FooterLinks = () => {
               </div>
             </a>
             <a
-              href="https://www.designmonks.co/services/logo-branding"
+              href="https://prozesy.com/services/logo-branding"
               className="text-neutral-400 text-sm items-start box-border caret-transparent gap-x-1 flex justify-end tracking-[0.32px] leading-[21px] max-w-full gap-y-1 text-left md:text-base md:items-center md:gap-x-1.5 md:justify-start md:leading-6 md:gap-y-1.5 md:text-start"
             >
               <div className="text-sm box-border caret-transparent leading-[21px] text-left md:text-base md:leading-6 md:text-start">
@@ -79,7 +79,7 @@ export const FooterLinks = () => {
               </div>
             </a>
             <a
-              href="https://www.designmonks.co/services/webflow-design"
+              href="https://prozesy.com/services/webflow-design"
               className="text-neutral-400 text-sm items-start box-border caret-transparent gap-x-1 flex justify-end tracking-[0.32px] leading-[21px] max-w-full gap-y-1 text-left md:text-base md:items-center md:gap-x-1.5 md:justify-start md:leading-6 md:gap-y-1.5 md:text-start"
             >
               <div className="text-sm box-border caret-transparent leading-[21px] text-left md:text-base md:leading-6 md:text-start">
@@ -87,7 +87,7 @@ export const FooterLinks = () => {
               </div>
             </a>
             <a
-              href="https://www.designmonks.co/services/framer-design"
+              href="https://prozesy.com/services/framer-design"
               className="text-neutral-400 text-sm items-start box-border caret-transparent gap-x-1 flex justify-end tracking-[0.32px] leading-[21px] max-w-full gap-y-1 text-left md:text-base md:items-center md:gap-x-1.5 md:justify-start md:leading-6 md:gap-y-1.5 md:text-start"
             >
               <div className="text-sm box-border caret-transparent leading-[21px] text-left md:text-base md:leading-6 md:text-start">
@@ -102,7 +102,7 @@ export const FooterLinks = () => {
           </h3>
           <div className="items-start box-border caret-transparent gap-x-3.5 flex flex-col gap-y-3.5 capitalize md:gap-x-4 md:gap-y-4">
             <a
-              href="https://www.designmonks.co/industry/fintech"
+              href="https://prozesy.com/industry/fintech"
               className="text-neutral-400 text-sm items-start box-border caret-transparent gap-x-1 flex justify-end tracking-[0.32px] leading-[21px] max-w-full gap-y-1 text-left md:text-base md:items-center md:gap-x-1.5 md:justify-start md:leading-6 md:gap-y-1.5 md:text-start"
             >
               <div className="text-sm box-border caret-transparent leading-[21px] text-left md:text-base md:leading-6 md:text-start">
@@ -110,7 +110,7 @@ export const FooterLinks = () => {
               </div>
             </a>
             <a
-              href="https://www.designmonks.co/industry/fitness-gym"
+              href="https://prozesy.com/industry/fitness-gym"
               className="text-neutral-400 text-sm items-start box-border caret-transparent gap-x-1 flex justify-end tracking-[0.32px] leading-[21px] max-w-full gap-y-1 text-left md:text-base md:items-center md:gap-x-1.5 md:justify-start md:leading-6 md:gap-y-1.5 md:text-start"
             >
               <div className="text-sm box-border caret-transparent leading-[21px] text-left md:text-base md:leading-6 md:text-start">
@@ -118,7 +118,7 @@ export const FooterLinks = () => {
               </div>
             </a>
             <a
-              href="https://www.designmonks.co/industry/edtech"
+              href="https://prozesy.com/industry/edtech"
               className="text-neutral-400 text-sm items-start box-border caret-transparent gap-x-1 flex justify-end tracking-[0.32px] leading-[21px] max-w-full gap-y-1 text-left md:text-base md:items-center md:gap-x-1.5 md:justify-start md:leading-6 md:gap-y-1.5 md:text-start"
             >
               <div className="text-sm box-border caret-transparent leading-[21px] text-left md:text-base md:leading-6 md:text-start">
@@ -126,7 +126,7 @@ export const FooterLinks = () => {
               </div>
             </a>
             <a
-              href="https://www.designmonks.co/industry/cybersecurity"
+              href="https://prozesy.com/industry/cybersecurity"
               className="text-neutral-400 text-sm items-start box-border caret-transparent gap-x-1 flex justify-end tracking-[0.32px] leading-[21px] max-w-full gap-y-1 text-left md:text-base md:items-center md:gap-x-1.5 md:justify-start md:leading-6 md:gap-y-1.5 md:text-start"
             >
               <div className="text-sm box-border caret-transparent leading-[21px] text-left md:text-base md:leading-6 md:text-start">
@@ -156,7 +156,7 @@ export const FooterLinks = () => {
           </h3>
           <div className="items-start box-border caret-transparent gap-x-3.5 flex flex-col gap-y-3.5 capitalize md:gap-x-4 md:gap-y-4">
             <a
-              href="https://www.designmonks.co/design-monks-vs-agencies"
+              href="https://prozesy.com/design-monks-vs-agencies"
               className="text-neutral-400 text-sm items-start box-border caret-transparent gap-x-1 flex justify-end tracking-[0.32px] leading-[21px] max-w-full gap-y-1 text-left md:text-base md:items-center md:gap-x-1.5 md:justify-start md:leading-6 md:gap-y-1.5 md:text-start"
             >
               <div className="text-sm box-border caret-transparent leading-[21px] text-left md:text-base md:leading-6 md:text-start">
@@ -164,7 +164,7 @@ export const FooterLinks = () => {
               </div>
             </a>
             <a
-              href="https://www.designmonks.co/design-monks-vs-freelancers"
+              href="https://prozesy.com/design-monks-vs-freelancers"
               className="text-neutral-400 text-sm items-start box-border caret-transparent gap-x-1 flex justify-end tracking-[0.32px] leading-[21px] max-w-full gap-y-1 text-left md:text-base md:items-center md:gap-x-1.5 md:justify-start md:leading-6 md:gap-y-1.5 md:text-start"
             >
               <div className="text-sm box-border caret-transparent leading-[21px] text-left md:text-base md:leading-6 md:text-start">
@@ -172,7 +172,7 @@ export const FooterLinks = () => {
               </div>
             </a>
             <a
-              href="https://www.designmonks.co/design-monks-vs-inhouse"
+              href="https://prozesy.com/design-monks-vs-inhouse"
               className="text-neutral-400 text-sm items-start box-border caret-transparent gap-x-1 flex justify-end tracking-[0.32px] leading-[21px] max-w-full gap-y-1 text-left md:text-base md:items-center md:gap-x-1.5 md:justify-start md:leading-6 md:gap-y-1.5 md:text-start"
             >
               <div className="text-sm box-border caret-transparent leading-[21px] text-left md:text-base md:leading-6 md:text-start">
@@ -298,7 +298,7 @@ export const FooterLinks = () => {
       </div>
       <div className="items-center box-border caret-transparent gap-x-4 flex flex-col justify-center gap-y-4 mb-5 md:[align-items:normal] md:gap-x-[normal] md:flex-row md:justify-between md:gap-y-[normal] md:mb-8">
         <a
-          href="https://www.designmonks.co/terms-and-condition"
+          href="https://prozesy.com/terms-and-condition"
           className="text-zinc-50 text-sm items-start box-border caret-transparent gap-x-1 flex justify-end tracking-[0.32px] leading-[21px] max-w-full gap-y-1 text-left md:text-base md:items-center md:gap-x-1.5 md:justify-start md:leading-6 md:gap-y-1.5 md:text-start"
         >
           <div className="text-sm box-border caret-transparent leading-[21px] text-left md:text-base md:leading-6 md:text-start">
@@ -306,7 +306,7 @@ export const FooterLinks = () => {
           </div>
         </a>
         <a
-          href="https://www.designmonks.co/"
+          href="https://prozesy.com/"
           className="text-zinc-50 text-sm items-start box-border caret-transparent gap-x-1 flex justify-end tracking-[0.32px] leading-[21px] max-w-full gap-y-1 text-left md:text-base md:items-center md:gap-x-1.5 md:justify-start md:leading-6 md:gap-y-1.5 md:text-start"
         >
             <div className="text-sm box-border caret-transparent leading-[21px] text-left md:text-base md:leading-6 md:text-start">
@@ -314,7 +314,7 @@ export const FooterLinks = () => {
           </div>
         </a>
         <a
-          href="https://www.designmonks.co/privacy-policy"
+          href="https://prozesy.com/privacy-policy"
           className="text-zinc-50 text-sm items-start box-border caret-transparent gap-x-1 flex justify-end tracking-[0.32px] leading-[21px] max-w-full gap-y-1 text-left md:text-base md:items-center md:gap-x-1.5 md:justify-start md:leading-6 md:gap-y-1.5 md:text-start"
         >
           <div className="text-sm box-border caret-transparent leading-[21px] text-left md:text-base md:leading-6 md:text-start">

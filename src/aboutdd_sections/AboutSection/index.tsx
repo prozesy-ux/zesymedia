@@ -23,7 +23,7 @@ export const AboutSection = () => {
                 </div>
                 <div className="box-border caret-transparent mt-8">
                   <CTAButton
-                    href="https://www.designmonks.co/contact"
+                    href="https://prozesy.com/contact"
                     text="Book a Call"
                     variant="relative text-violet-600 items-center bg-[linear-gradient(rgb(89,45,181)_25%,rgb(125,64,255))] shadow-[rgba(255,255,255,0.72)_0px_1.6px_3px_0px_inset] box-border caret-transparent flex flex-col h-14 justify-center max-w-full text-left w-full z-[5] overflow-hidden rounded-lg md:max-w-[177px]"
                     backgroundVariant="absolute items-center bg-neutral-400 box-border caret-transparent flex h-full justify-center rotate-[-0.08800003360022549deg] w-full inset-[0%]"

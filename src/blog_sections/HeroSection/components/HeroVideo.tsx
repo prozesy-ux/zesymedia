@@ -23,7 +23,7 @@ export const HeroVideo = () => {
             <div className="items-center box-border caret-transparent gap-x-4 flex flex-col justify-start gap-y-4 text-center">
               <div className="items-center box-border caret-transparent flex justify-center z-[99] pt-[27px] pb-[7px] md:py-7">
                 <a
-                  href="https://www.designmonks.co/"
+                  href="https://prozesy.com/"
                   className="text-violet-600 box-border caret-transparent block max-w-full"
                 >
                   <img
@@ -35,7 +35,7 @@ export const HeroVideo = () => {
               </div>
               <div className="relative items-center bg-white/10 box-border caret-transparent gap-x-[5px] flex gap-y-[5px] z-[88] px-3 py-1 rounded-[18px] md:static md:z-auto">
                 <a
-                  href="https://www.designmonks.co/"
+                  href="https://prozesy.com/"
                   className="text-neutral-400 text-xs box-border caret-transparent block tracking-[0.24px] leading-[18px] max-w-full capitalize"
                 >
                   <div className="box-border caret-transparent normal-case">
@@ -50,7 +50,7 @@ export const HeroVideo = () => {
                   />
                 </div>
                 <a
-                  href="https://www.designmonks.co/blog"
+                  href="https://prozesy.com/blog"
                   className="text-xs box-border caret-transparent block tracking-[0.24px] leading-[18px] max-w-full capitalize"
                 >
                   <div className="box-border caret-transparent normal-case">

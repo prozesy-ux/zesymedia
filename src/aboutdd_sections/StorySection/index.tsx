@@ -40,7 +40,7 @@ export const StorySection = () => {
                   </div>
                   <div className="box-border caret-transparent min-h-[auto] min-w-[auto] text-center w-full mt-8 md:min-h-0 md:min-w-0 md:text-start md:w-auto">
                     <a
-                      href="https://www.designmonks.co/teams"
+                      href="https://prozesy.com/teams"
                       className="relative text-violet-600 items-center bg-[linear-gradient(rgb(89,45,181)_25%,rgb(125,64,255))] shadow-[rgba(255,255,255,0.72)_0px_1.6px_3px_0px_inset] box-border caret-transparent flex flex-col h-14 justify-center max-w-full text-left w-full z-10 overflow-hidden rounded-lg md:max-w-[207px]"
                     >
                       <div className="absolute items-center bg-neutral-400 box-border caret-transparent flex h-full justify-center rotate-[-0.4830002007633736deg] w-full inset-[0%]">

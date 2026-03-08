@@ -25,7 +25,7 @@ export const Hero = () => {
           <div className="relative items-center box-border caret-transparent flex flex-col text-center z-[1] px-3 md:px-0">
             <div className="box-border caret-transparent mt-7 mb-5 md:mb-14">
               <a
-                href="https://www.designmonks.co/"
+                href="https://prozesy.com/"
                 className="text-violet-600 box-border caret-transparent inline-block max-w-full"
               >
                 <img

@@ -12,42 +12,42 @@ export const FooterLinks = () => {
               title="Important Links"
               links={[
                 {
-                  href: "https://www.designmonks.co/contact",
+                  href: "https://prozesy.com/contact",
                   text: "Contact Us",
                 },
-                { href: "https://www.designmonks.co/about", text: "About us" },
+                { href: "https://prozesy.com/about", text: "About us" },
                 {
-                  href: "https://www.designmonks.co/products",
+                  href: "https://prozesy.com/products",
                   text: "Products",
                 },
                 {
-                  href: "https://www.designmonks.co/industry",
+                  href: "https://prozesy.com/industry",
                   text: "Industry",
                 },
-                { href: "https://www.designmonks.co/blog", text: "Blogs" },
+                { href: "https://prozesy.com/blog", text: "Blogs" },
               ]}
             />
             <FooterColumn
               title="Services"
               links={[
                 {
-                  href: "https://www.designmonks.co/services/ui-ux",
+                  href: "https://prozesy.com/services/ui-ux",
                   text: "UI/UX Design",
                 },
                 {
-                  href: "https://www.designmonks.co/services/web-design",
+                  href: "https://prozesy.com/services/web-design",
                   text: "Web Design",
                 },
                 {
-                  href: "https://www.designmonks.co/services/logo-branding",
+                  href: "https://prozesy.com/services/logo-branding",
                   text: "Logo & Branding",
                 },
                 {
-                  href: "https://www.designmonks.co/services/webflow-design",
+                  href: "https://prozesy.com/services/webflow-design",
                   text: "Webflow Design",
                 },
                 {
-                  href: "https://www.designmonks.co/services/framer-design",
+                  href: "https://prozesy.com/services/framer-design",
                   text: "Framer Design",
                 },
               ]}
@@ -56,19 +56,19 @@ export const FooterLinks = () => {
               title="Specialized Industry"
               links={[
                 {
-                  href: "https://www.designmonks.co/industry/fintech",
+                  href: "https://prozesy.com/industry/fintech",
                   text: "Fintech Industry",
                 },
                 {
-                  href: "https://www.designmonks.co/industry/fitness-gym",
+                  href: "https://prozesy.com/industry/fitness-gym",
                   text: "Healthcare & Fitness Industry",
                 },
                 {
-                  href: "https://www.designmonks.co/industry/edtech",
+                  href: "https://prozesy.com/industry/edtech",
                   text: "Edtech Industry ",
                 },
                 {
-                  href: "https://www.designmonks.co/industry/cybersecurity",
+                  href: "https://prozesy.com/industry/cybersecurity",
                   text: "Cybersecurity Industry",
                 },
                 {
@@ -82,15 +82,15 @@ export const FooterLinks = () => {
               title="Compare"
               links={[
                 {
-                  href: "https://www.designmonks.co/design-monks-vs-agencies",
+                  href: "https://prozesy.com/design-monks-vs-agencies",
                   text: "Vs Agencies",
                 },
                 {
-                  href: "https://www.designmonks.co/design-monks-vs-freelancers",
+                  href: "https://prozesy.com/design-monks-vs-freelancers",
                   text: "Vs Freelancers",
                 },
                 {
-                  href: "https://www.designmonks.co/design-monks-vs-inhouse",
+                  href: "https://prozesy.com/design-monks-vs-inhouse",
                   text: "Vs Inhouse",
                 },
               ]}

@@ -16,9 +16,9 @@ export const HeroSection = () => {
       </div>
       <div className="absolute box-border caret-transparent hidden flex-col left-[0%] top-[90px] md:flex">
         <img
-          src="https://c.animaapp.com/mkiynesyxwO7zZ/assets/6772a59f9e4d013c6a671384_Mockups.avif"
+          src="https://anpeyqpnsavhykstwwbq.supabase.co/storage/v1/object/public/images/Prozesy%20Project%20Image/96210c70-0881-4a93-a98a-61ce6bb7a81b-1772917847699.png"
           alt=""
-          className="relative box-border caret-transparent inline-block h-full max-w-full min-h-0 min-w-0 transform-none w-full z-[1] md:block md:h-auto md:min-h-[auto] md:min-w-[auto] md:translate-y-[6.34848px] md:w-[245px]"
+          className="relative box-border caret-transparent inline-block h-full max-w-full min-h-0 min-w-0 w-full z-[1] md:block md:h-auto md:min-h-[auto] md:min-w-[auto] md:w-[13.75rem] xl:w-[15.3125rem] 2xl:w-[21.4375rem] md:animate-floatUp"
         />
         <img
           src="https://c.animaapp.com/mkiynesyxwO7zZ/assets/6772a59fa5a5e8b8e00985f8_Ai.avif"
@@ -33,9 +33,9 @@ export const HeroSection = () => {
       </div>
       <div className="absolute box-border caret-transparent hidden flex-col right-[0%] top-[125px] md:flex">
         <img
-          src="https://c.animaapp.com/mkiynesyxwO7zZ/assets/6772a8cda0faac73a2d81fb2_Frame_1618873776.avif"
+          src="https://anpeyqpnsavhykstwwbq.supabase.co/storage/v1/object/public/images/Prozesy%20Project%20Image/da2948d2-cb96-4c27-928a-57963b916456-1772917570361.png"
           alt=""
-          className="relative box-border caret-transparent inline-block h-full max-w-full min-h-0 min-w-0 transform-none w-[290px] z-[1] md:block md:h-auto md:min-h-[auto] md:min-w-[auto] md:translate-y-[0.25248px] md:w-[310px]"
+          className="relative box-border caret-transparent inline-block h-full max-w-full min-h-0 min-w-0 w-[290px] z-[1] md:block md:h-auto md:min-h-[auto] md:min-w-[auto] md:w-[13.75rem] xl:w-[15.3125rem] 2xl:w-[21.4375rem] md:animate-floatDown"
         />
         <img
           src="https://c.animaapp.com/mkiynesyxwO7zZ/assets/6772a59f7b1eefa28a38aa7d_cursor.avif"

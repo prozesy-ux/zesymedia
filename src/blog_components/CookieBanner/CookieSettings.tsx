@@ -6,7 +6,7 @@ export const CookieSettings = () => {
           Cookie Settings
         </div>
         <a
-          href="https://www.designmonks.co/blog"
+          href="https://prozesy.com/blog"
           role="button"
           className="text-violet-600 box-border caret-transparent block max-w-full decoration-neutral-600"
         >
@@ -19,7 +19,7 @@ export const CookieSettings = () => {
       </div>
       <div className="bg-purple-100 box-border caret-transparent pt-4 pb-5 px-5 md:pb-4">
         <a
-          href="https://www.designmonks.co/blog"
+          href="https://prozesy.com/blog"
           role="button"
           className="text-violet-600 box-border caret-transparent inline-block tracking-[0.28px] leading-[21px] border border-violet-600 px-4 py-2.5 rounded-lg border-solid"
         >
@@ -30,7 +30,7 @@ export const CookieSettings = () => {
           of cookies on your device to enhance site navigation, analyze site
           usage and assist in our marketing efforts.{" "}
           <a
-            href="https://www.designmonks.co/privacy-policy"
+            href="https://prozesy.com/privacy-policy"
             className="text-violet-600 text-xs box-border caret-transparent leading-4 md:text-base md:leading-6"
           >
             More info
@@ -38,7 +38,7 @@ export const CookieSettings = () => {
           <br className="text-xs box-border caret-transparent leading-4 md:text-base md:leading-6" />
         </p>
         <a
-          href="https://www.designmonks.co/blog"
+          href="https://prozesy.com/blog"
           role="button"
           className="text-violet-600 text-base box-border caret-transparent tracking-[0.36px] md:text-lg"
         >

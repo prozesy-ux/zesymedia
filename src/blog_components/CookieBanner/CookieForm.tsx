@@ -38,7 +38,7 @@ export const CookieForm = () => {
           className="text-zinc-50 text-base items-center bg-violet-600 box-border caret-transparent flex justify-center tracking-[0.28px] leading-6 text-center text-nowrap w-full border border-violet-600 px-8 py-2.5 rounded-lg border-solid md:py-3"
         />
         <a
-          href="https://www.designmonks.co/blog"
+          href="https://prozesy.com/blog"
           role="button"
           className="text-violet-600 text-base font-bold box-border caret-transparent block leading-6 mt-2.5 md:mt-5"
         >

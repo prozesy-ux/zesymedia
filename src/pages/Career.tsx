@@ -23,17 +23,17 @@ export const Career = () => {
       {/* Benefits Grid */}
       <div className="max-w-[1252px] mx-auto px-5 md:px-[94px] mb-20">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-white p-8 rounded-2xl border border-neutral-200 shadow-sm hover:shadow-md transition-shadow">
+            <div className="bg-white p-8 rounded-2xl border border-neutral-200 shadow-sm hover:shadow-md active:shadow-lg transition-shadow cursor-pointer">
                 <div className="w-12 h-12 bg-violet-100 rounded-full flex items-center justify-center mb-6 text-2xl">🌍</div>
                 <h3 className="text-xl font-bold mb-3 text-neutral-950">Remote First</h3>
                 <p className="text-neutral-600">Work from anywhere in the world. We believe in freedom and flexibility to do your best work.</p>
             </div>
-            <div className="bg-white p-8 rounded-2xl border border-neutral-200 shadow-sm hover:shadow-md transition-shadow">
+            <div className="bg-white p-8 rounded-2xl border border-neutral-200 shadow-sm hover:shadow-md active:shadow-lg transition-shadow cursor-pointer">
                 <div className="w-12 h-12 bg-emerald-100 rounded-full flex items-center justify-center mb-6 text-2xl">🌱</div>
                 <h3 className="text-xl font-bold mb-3 text-neutral-950">Growth Budget</h3>
                 <p className="text-neutral-600">We support your learning journey with a dedicated budget for courses, books, and conferences.</p>
             </div>
-            <div className="bg-white p-8 rounded-2xl border border-neutral-200 shadow-sm hover:shadow-md transition-shadow">
+            <div className="bg-white p-8 rounded-2xl border border-neutral-200 shadow-sm hover:shadow-md active:shadow-lg transition-shadow cursor-pointer">
                 <div className="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center mb-6 text-2xl">⚖️</div>
                 <h3 className="text-xl font-bold mb-3 text-neutral-950">Work-Life Balance</h3>
                 <p className="text-neutral-600">We prioritize mental health and sustainable working hours. No burnout culture here.</p>

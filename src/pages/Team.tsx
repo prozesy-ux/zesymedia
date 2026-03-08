@@ -101,11 +101,11 @@ export const Team = () => {
             <div className="items-center gap-x-4 flex flex-col justify-start gap-y-4 text-center">
               
               <div className="items-center bg-white/10 gap-x-[5px] flex gap-y-[5px] z-[88] px-3 py-1 rounded-[18px] md:static md:z-auto">
-                <Link to="/" className="text-neutral-400 text-xs block tracking-[0.24px] leading-[18px] max-w-full capitalize hover:text-white transition-colors">
+                <Link to="/" className="text-neutral-400 text-xs block tracking-[0.24px] leading-[18px] max-w-full capitalize hover:text-white active:text-violet-400 transition-colors cursor-pointer">
                   <div className="normal-case">Home</div>
                 </Link>
                 <div><img src="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/67423a8542288605dea89299_CaretRight.webp" alt="" className="inline-block max-w-full" /></div>
-                <Link to="/about" className="text-neutral-400 text-xs block tracking-[0.24px] leading-[18px] max-w-full capitalize hover:text-white transition-colors">
+                <Link to="/about" className="text-neutral-400 text-xs block tracking-[0.24px] leading-[18px] max-w-full capitalize hover:text-white active:text-violet-400 transition-colors cursor-pointer">
                   <div className="normal-case">About Us</div>
                 </Link>
                 <div><img src="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/67423a8542288605dea89299_CaretRight.webp" alt="" className="inline-block max-w-full" /></div>
@@ -153,7 +153,7 @@ export const Team = () => {
                   </div>
                 </div>
                 <div className="gap-x-4 flex justify-center gap-y-4 mt-4">
-                  <a href="https://www.linkedin.com/in/atiq31416/" target="_blank" rel="noopener noreferrer" className="text-violet-600 items-center bg-neutral-900/10 flex h-11 justify-center max-w-11 w-full rounded-lg hover:bg-blue-600/20 transition-colors">
+                  <a href="https://www.linkedin.com/in/atiq31416/" target="_blank" rel="noopener noreferrer" className="text-violet-600 items-center bg-neutral-900/10 flex h-11 justify-center max-w-11 w-full rounded-lg hover:bg-blue-600/20 active:bg-blue-600/30 transition-colors cursor-pointer">
                     <img src="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/676d686bcc487e32fc0ab3d3_LinkedinLogo.svg" alt="LinkedIn" className="max-w-full" />
                   </a>
                   <a href="https://twitter.com/Atiq31416" target="_blank" rel="noopener noreferrer" className="text-violet-600 items-center bg-neutral-900/10 flex h-11 justify-center max-w-11 w-full rounded-lg hover:bg-blue-600/20 transition-colors">
@@ -256,7 +256,7 @@ export const Team = () => {
               
               {/* Carousel Controls */}
               <div className="content-center gap-x-3 grid grid-flow-col justify-center gap-y-3 w-auto md:grid-flow-row md:justify-normal md:w-full">
-                <button type="button" onClick={handlePrev} aria-label="Previous slide" className="text-violet-600 items-center aspect-square bg-zinc-50 grid justify-items-center text-center -rotate-90 w-[46px] border border-violet-600 p-0 rounded-[50%] border-solid md:transform-none hover:bg-violet-600 hover:text-white transition-colors">
+                <button type="button" onClick={handlePrev} aria-label="Previous slide" className="text-violet-600 items-center aspect-square bg-zinc-50 grid justify-items-center text-center -rotate-90 w-[46px] border border-violet-600 p-0 rounded-[50%] border-solid md:transform-none hover:bg-violet-600 hover:text-white active:bg-violet-700 active:text-white transition-colors cursor-pointer">
                   <img src="https://c.animaapp.com/mlcfrtj47me9da/assets/icon-10.svg" alt="Icon" className="h-[21px] w-[17px]" />
                 </button>
                 <button type="button" onClick={handleNext} aria-label="Next slide" className="text-violet-600 items-center aspect-square bg-zinc-50 grid justify-items-center text-center -rotate-90 w-[46px] border border-violet-600 p-0 rounded-[50%] border-solid md:transform-none hover:bg-violet-600 hover:text-white transition-colors">

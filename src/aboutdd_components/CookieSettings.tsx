@@ -10,7 +10,7 @@ export const CookieSettings = () => {
           of cookies on your device to enhance site navigation, analyze site
           usage and assist in our marketing efforts.{" "}
           <a
-            href="https://www.designmonks.co/privacy-policy"
+            href="https://prozesy.com/privacy-policy"
             className="text-violet-600 text-sm box-border caret-transparent leading-[21px] md:text-lg md:leading-[27px]"
           >
             <span className="text-sm box-border caret-transparent leading-[21px] md:text-lg md:leading-[27px]">
@@ -19,7 +19,7 @@ export const CookieSettings = () => {
           </a>
         </p>
         <a
-          href="https://www.designmonks.co/about"
+          href="https://prozesy.com/about"
           role="button"
           className="absolute text-violet-600 box-border caret-transparent block max-w-full right-2.5 top-2.5 md:right-5 md:top-5"
         >
@@ -114,7 +114,7 @@ export const CookieSettings = () => {
                 className="text-zinc-50 text-base items-center bg-violet-600 box-border caret-transparent flex justify-center tracking-[0.28px] leading-6 text-center text-nowrap w-full border border-violet-600 px-8 py-2.5 rounded-lg border-solid md:py-3"
               />
               <a
-                href="https://www.designmonks.co/about"
+                href="https://prozesy.com/about"
                 role="button"
                 className="text-violet-600 text-base font-bold box-border caret-transparent block leading-6 mt-2.5 md:mt-5"
               >

@@ -1,0 +1,20 @@
+import { FooterNewsletter } from "@/integrations/industry/sections/Footer/components/FooterNewsletter";
+import { FooterLocations } from "@/integrations/industry/sections/Footer/components/FooterLocations";
+import { FooterLinks } from "@/integrations/industry/sections/Footer/components/FooterLinks";
+
+export const Footer = () => {
+  return (
+    <footer className="relative box-border caret-transparent">
+      <div className="box-border caret-transparent">
+        <div className="box-border caret-transparent">
+          <FooterNewsletter />
+        </div>
+        <FooterLocations />
+        <FooterLinks />
+      </div>
+      <div className="[mask-image:linear-gradient(to_top,rgb(0,0,0)_0%,rgb(0,0,0)_10%,rgba(0,0,0,0.8)_40%,rgba(0,0,0,0.5)_80%,rgba(0,0,0,0)_100%)] fixed backdrop-blur-[15px] shadow-[rgba(255,255,255,0.2)_0px_10px_30px_0px] box-border caret-transparent hidden h-[150px] pointer-events-none w-full z-[777] bottom-[0%] inset-x-[0%] md:block">
+        <div className="box-border caret-transparent before:accent-auto before:caret-transparent before:text-zinc-800 before:table before:text-sm before:not-italic before:normal-nums before:font-normal before:col-end-2 before:col-start-1 before:row-end-2 before:row-start-1 before:tracking-[normal] before:leading-5 before:list-outside before:list-disc before:pointer-events-none before:text-start before:indent-[0px] before:normal-case before:visible before:border-separate before:font-outfit_variablefont_wght after:accent-auto after:caret-transparent after:clear-both after:text-zinc-800 after:table after:text-sm after:not-italic after:normal-nums after:font-normal after:col-end-2 after:col-start-1 after:row-end-2 after:row-start-1 after:tracking-[normal] after:leading-5 after:list-outside after:list-disc after:pointer-events-none after:text-start after:indent-[0px] after:normal-case after:visible after:border-separate after:font-outfit_variablefont_wght"></div>
+      </div>
+    </footer>
+  );
+};

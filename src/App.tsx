@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from "react";
-import { Navbar } from "@/sections/Navbar";
+import { useEffect, useState } from "react";
 import { Logo } from "@/components/Logo";
+import { Navbar } from "@/components/Navbar";
 import { HeroSection } from "@/sections/HeroSection";
 import { IndustryWinsSection } from "@/sections/IndustryWinsSection";
 import { TestimonialsSection } from "@/sections/TestimonialsSection";
@@ -9,7 +9,6 @@ import { VideoSection } from "@/sections/VideoSection";
 import { ServicesSection } from "@/sections/ServicesSection";
 import { WhyChooseUsSection } from "@/sections/WhyChooseUsSection";
 import { SkillsMarquee } from "@/sections/SkillsMarquee";
-import { PricingSection } from "@/sections/PricingSection";
 import { JobOpeningsSection } from "@/sections/JobOpeningsSection";
 import { ReferralTestimonials } from "@/sections/ReferralTestimonials";
 import { FAQSection } from "@/sections/FAQSection";
@@ -19,6 +18,15 @@ import { CookieConsent } from "@/components/CookieConsent";
 import { About } from "@/pages/About";
 import { Blog } from "@/pages/Blog";
 import { Teams } from "@/pages/Teams";
+import { Services } from "@/pages/Services";
+import { Contact } from "@/pages/Contact";
+import { Career } from "@/pages/Career";
+import { Projects } from "@/pages/Projects";
+import { ProjectDetail } from "@/pages/ProjectDetail";
+import { Industry } from "@/pages/Industry";
+import { ServiceDetail } from "@/pages/ServiceDetail";
+import { IndustryDetail } from "@/pages/IndustryDetail";
+import { Pricing } from "@/pages/Pricing";
 
 export const App = () => {
   const getNormalizedPath = () =>
@@ -27,7 +35,6 @@ export const App = () => {
       : "/";
 
   const [path, setPath] = useState<string>(getNormalizedPath);
-
   useEffect(() => {
     // Patch history methods to dispatch a custom event so SPA navigations are detected
     const origPush = history.pushState;
@@ -59,7 +66,6 @@ export const App = () => {
     <body className="text-zinc-800 text-sm not-italic normal-nums font-normal accent-auto bg-zinc-50 box-border caret-transparent block tracking-[normal] leading-5 list-outside list-disc min-h-full pointer-events-auto text-start indent-[0px] normal-case visible border-separate font-outfit_variablefont_wght">
       <div className="box-border caret-transparent overflow-x-clip">
         <div className="box-border caret-transparent hidden before:accent-auto before:caret-transparent before:text-zinc-800 before:table before:text-sm before:not-italic before:normal-nums before:font-normal before:col-end-2 before:col-start-1 before:row-end-2 before:row-start-1 before:tracking-[normal] before:leading-5 before:list-outside before:list-disc before:pointer-events-auto before:text-start before:indent-[0px] before:normal-case before:visible before:border-separate before:font-outfit_variablefont_wght after:accent-auto after:caret-transparent after:clear-both after:text-zinc-800 after:table after:text-sm after:not-italic after:normal-nums after:font-normal after:col-end-2 after:col-start-1 after:row-end-2 after:row-start-1 after:tracking-[normal] after:leading-5 after:list-outside after:list-disc after:pointer-events-auto after:text-start after:indent-[0px] after:normal-case after:visible after:border-separate after:font-outfit_variablefont_wght"></div>
-        <Navbar />
         <Logo />
         <main className="box-border caret-transparent">
           {path === '/about' ? (
@@ -68,6 +74,24 @@ export const App = () => {
             <Blog />
           ) : path === '/teams' ? (
             <Teams />
+          ) : path === '/industry' || path === '/indrusty' ? (
+            <Industry />
+          ) : path === '/services' ? (
+            <Services />
+          ) : path.startsWith('/services/') ? (
+            <ServiceDetail />
+          ) : path.startsWith('/industry/') || path.startsWith('/indrusty/') ? (
+            <IndustryDetail />
+          ) : path === '/contact' ? (
+            <Contact />
+          ) : path === '/career' ? (
+            <Career />
+          ) : path === '/pricing' ? (
+            <Pricing />
+          ) : path === '/projects' ? (
+            <Projects />
+          ) : path.startsWith('/projects/') ? (
+            <ProjectDetail />
           ) : (
             <>
               <HeroSection />
@@ -78,7 +102,6 @@ export const App = () => {
               <ServicesSection />
               <WhyChooseUsSection />
               <SkillsMarquee />
-              <PricingSection />
               <JobOpeningsSection />
               <ReferralTestimonials />
               <FAQSection />
@@ -91,6 +114,7 @@ export const App = () => {
       <div className="relative box-border caret-transparent flex z-[99999]">
         <CookieConsent />
       </div>
+      <Navbar />
     </body>
   );
 };

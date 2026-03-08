@@ -14,31 +14,31 @@ export const TestimonialCarousel = () => {
       image: "https://cdn.prod.website-files.com/674703d2af36853f65da67e0/68b819c1deb8e68db3dba2d6_DP_Saif Sarwar.avif",
       name: "Saif Sarwar",
       role: "Product Designer",
-      quote: "Being a part of Design Monks truly feels like a blessing. I get to work with amazing teammates and learn from great mentors. Also, working remotely not only saves time but also boosts productivity. For me, Design Monks isn't just about work, it's about being part of a team that genuinely understands the balance between freedom and responsibility."
+      quote: "Being a part of Prozesy Media truly feels like a blessing. I get to work with amazing teammates and learn from great mentors. Also, working remotely not only saves time but also boosts productivity. For me, Prozesy Media isn't just about work, it's about being part of a team that genuinely understands the balance between freedom and responsibility."
     },
     {
       image: "https://cdn.prod.website-files.com/674703d2af36853f65da67e0/68b81a54cf1e021d5942774a_DP_Sourav Dhali.avif",
       name: "Sourav Dhali",
       role: "Product Designer",
-      quote: "Being a part of Design Monks truly feels like a blessing. I get to work with amazing teammates and learn from great mentors. Also, working remotely not only saves time but also boosts productivity. For me, Design Monks isn't just about work, it's about being part of a team that genuinely understands the balance between freedom and responsibility."
+      quote: "Being a part of Prozesy Media truly feels like a blessing. I get to work with amazing teammates and learn from great mentors. Also, working remotely not only saves time but also boosts productivity. For me, Prozesy Media isn't just about work, it's about being part of a team that genuinely understands the balance between freedom and responsibility."
     },
     {
       image: "https://cdn.prod.website-files.com/674703d2af36853f65da67e0/68b8197ba8f360fc1827ad50_DP_Sabiha Sultana.avif",
       name: "Sabiha Sultana",
       role: "Content Writer",
-      quote: "Working at Design Monks has been an incredible journey. The collaborative environment and supportive team make every project enjoyable and rewarding."
+      quote: "Working at Prozesy Media has been an incredible journey. The collaborative environment and supportive team make every project enjoyable and rewarding."
     },
     {
       image: "https://cdn.prod.website-files.com/674703d2af36853f65da67e0/68b819e46f5ee25b86cc4be2_DP_Abid Hasan.avif",
       name: "Abid Hasan",
       role: "Project Manager",
-      quote: "Design Monks provides the perfect balance of creative freedom and professional growth. It's a place where innovation thrives."
+      quote: "Prozesy Media provides the perfect balance of creative freedom and professional growth. It's a place where innovation thrives."
     },
     {
       image: "https://cdn.prod.website-files.com/674703d2af36853f65da67e0/68b81a48fe9e99eff8a88cea_DP_Sakib Reza Moon.avif",
       name: "Sakib Reza Moon",
       role: "UI Designer",
-      quote: "The culture at Design Monks is exceptional. Every day brings new learning opportunities and challenges that help me grow as a designer."
+      quote: "The culture at Prozesy Media is exceptional. Every day brings new learning opportunities and challenges that help me grow as a designer."
     },
     {
       image: "https://cdn.prod.website-files.com/674703d2af36853f65da67e0/68b81a19695263f17b57965e_DP_Hafij Uddin Ahmed.avif",
@@ -50,7 +50,7 @@ export const TestimonialCarousel = () => {
       image: "https://cdn.prod.website-files.com/674703d2af36853f65da67e0/68b819ff7d9017b942dfb25a_DP_Shakila Yesmin.avif",
       name: "Shakila Yesmin",
       role: "Business Development Manager",
-      quote: "Design Monks has given me the platform to excel in my career while working with amazing clients and projects from around the world."
+      quote: "Prozesy Media has given me the platform to excel in my career while working with amazing clients and projects from around the world."
     }
   ];
 

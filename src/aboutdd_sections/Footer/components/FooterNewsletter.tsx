@@ -30,7 +30,7 @@ export const FooterNewsletter = () => {
           />
         </a>
         <a
-          href="https://www.instagram.com/designmonks.co/"
+          href="https://www.instagram.com/prozesy.com/"
           className="text-violet-600 items-center bg-neutral-900/10 box-border caret-transparent flex h-11 justify-center max-w-11 decoration-neutral-600 w-full rounded-lg"
         >
           <img
@@ -50,7 +50,7 @@ export const FooterNewsletter = () => {
           />
         </a>
         <a
-          href="https://www.facebook.com/designmonks.co"
+          href="https://www.facebook.com/prozesy.com"
           className="text-violet-600 items-center bg-neutral-900/10 box-border caret-transparent flex h-11 justify-center max-w-11 decoration-neutral-600 w-full rounded-lg"
         >
           <img

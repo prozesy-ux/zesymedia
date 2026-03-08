@@ -2,7 +2,7 @@ export const Breadcrumb = () => {
   return (
     <div className="relative items-center bg-white/10 box-border caret-transparent gap-x-[5px] flex gap-y-[5px] z-[88] px-3 py-1 rounded-[18px] md:static md:z-auto">
       <a
-        href="https://www.designmonks.co/"
+        href="https://prozesy.com/"
         className="text-neutral-400 text-xs box-border caret-transparent block tracking-[0.24px] leading-[18px] max-w-full capitalize"
       >
         <div className="box-border caret-transparent normal-case">Home</div>
@@ -15,7 +15,7 @@ export const Breadcrumb = () => {
         />
       </div>
       <a
-        href="https://www.designmonks.co/about"
+        href="https://prozesy.com/about"
         className="text-xs box-border caret-transparent block tracking-[0.24px] leading-[18px] max-w-full capitalize"
       >
         <div className="box-border caret-transparent normal-case">About us</div>

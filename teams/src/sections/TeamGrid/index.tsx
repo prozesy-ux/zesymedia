@@ -18,7 +18,7 @@ export const TeamGrid = () => {
                     className="self-center box-border caret-transparent md:self-auto"
                   >
                     <TeamMemberCard
-                      href="https://www.designmonks.co/atiqur-rahaman"
+                      href="https://prozesy.com/atiqur-rahaman"
                       imageUrl="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/68b818a778cc3901842066df_DP_Atiq.avif"
                       imageAlt=""
                       name="Atiqur Rahaman"
@@ -62,7 +62,7 @@ export const TeamGrid = () => {
                     className="self-center box-border caret-transparent md:self-auto"
                   >
                     <TeamMemberCard
-                      href="https://www.designmonks.co/abdullah-al-noman"
+                      href="https://prozesy.com/abdullah-al-noman"
                       imageUrl="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/68b81861c10b86bd876593bc_DP_Noman.avif"
                       imageAlt=""
                       name="Abdullah Al Noman"
@@ -90,7 +90,7 @@ export const TeamGrid = () => {
                         />
                       </a>
                       <a
-                        href="https://www.designmonks.co/teams"
+                        href="https://prozesy.com/teams"
                         className="text-violet-600 items-center bg-neutral-900/10 box-border caret-transparent hidden h-11 justify-center max-w-11 decoration-neutral-600 w-full rounded-lg hover:bg-blue-600/20"
                       >
                         <img
