@@ -351,6 +351,8 @@
   html {
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
+    width: 100%;
+    overflow-x: hidden;
   }
 
   body {
@@ -369,6 +371,7 @@
     margin: 0;
     position: relative;
     overflow-x: hidden;
+    width: 100%;
   }
 
   /* Emphasized text with Playfair Display */
@@ -746,6 +749,29 @@
   .navbar-wrap {
     position: fixed;
     bottom: 0;
+    width: 100vw;
+    left: 0;
+    right: 0;
+  }
+
+  @media (max-width: 767px) {
+    .navbar-wrap {
+      width: 100vw !important;
+      max-width: 100vw !important;
+      margin: 0 !important;
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+
+    .navbar {
+      width: 100vw !important;
+      border-radius: 0 !important;
+    }
+
+    .navbar-shape {
+      width: 100vw !important;
+      border-radius: 0 !important;
+    }
   }
 }
 
@@ -992,6 +1018,23 @@
     right: 0 !important;
     width: 100% !important;
     margin: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .navbar {
+    border-radius: 0 !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .navbar-shape {
+    border-radius: 0 !important;
+    width: 100vw !important;
+    left: 0 !important;
+    right: 0 !important;
   }
 }
 
