@@ -10,7 +10,7 @@ export const MoreDropdown = () => {
 
   return (
     <div 
-      className="absolute bottom-[calc(100%+40px)] right-[-140px] w-[900px] max-w-[1200px] bg-white rounded-[24px] shadow-[0_20px_60px_-10px_rgba(0,0,0,0.1)] cursor-default z-[99999] hidden md:block opacity-0 invisible group-hover:opacity-100 group-hover:visible group-active:opacity-100 group-active:visible transition-all duration-300 transform origin-bottom translate-y-4 group-hover:translate-y-0 group-active:translate-y-0 overflow-hidden"
+      className="absolute top-[calc(100%+20px)] right-[-140px] w-[900px] max-w-[1200px] bg-white rounded-[24px] shadow-[0_20px_60px_-10px_rgba(0,0,0,0.1)] cursor-default z-[99999] hidden md:block opacity-0 invisible group-hover:opacity-100 group-hover:visible group-active:opacity-100 group-active:visible transition-all duration-300 transform origin-top -translate-y-4 group-hover:translate-y-0 group-active:translate-y-0 overflow-hidden pointer-events-none group-hover:pointer-events-auto"
       onMouseEnter={() => {
         const backdrop = document.getElementById('navBackdrop');
         if (backdrop) {
@@ -109,12 +109,12 @@ export const MoreDropdown = () => {
 
       {/* V-shaped pointer */}
       <svg
-        className="absolute -bottom-[8px] right-[150px] w-[24px] h-[10px]"
+        className="absolute -top-[8px] right-[150px] w-[24px] h-[10px]"
         viewBox="0 0 24 10"
         aria-hidden="true"
         shapeRendering="geometricPrecision"
       >
-        <path d="M12 0 L24 10 H0 Z" fill="white" />
+        <path d="M12 10 L24 0 H0 Z" fill="white" />
       </svg>
     </div>
   );
