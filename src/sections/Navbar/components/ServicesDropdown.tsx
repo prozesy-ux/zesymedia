@@ -1,4 +1,4 @@
-export const ServicesDropdown = ({ isOpen }: { isOpen: boolean }) => {
+export const ServicesDropdown = ({ isOpen, onHoverChange }: { isOpen: boolean; onHoverChange?: (open: boolean) => void }) => {
   const services = [
     { title: "UI UX", desc: "Creating user-friendly digital experiences." },
     { title: "Logo & Branding", desc: "Creating memorable identities for brands." },
@@ -9,6 +9,7 @@ export const ServicesDropdown = ({ isOpen }: { isOpen: boolean }) => {
   ];
 
   const handleMouseEnter = () => {
+    onHoverChange?.(true);
     const backdrop = document.getElementById('navBackdrop');
     if (backdrop) {
       backdrop.classList.remove('opacity-0', 'invisible');
@@ -17,6 +18,7 @@ export const ServicesDropdown = ({ isOpen }: { isOpen: boolean }) => {
   };
 
   const handleMouseLeave = () => {
+    onHoverChange?.(false);
     const backdrop = document.getElementById('navBackdrop');
     if (backdrop) {
       backdrop.classList.add('opacity-0', 'invisible');

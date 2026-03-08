@@ -1,4 +1,4 @@
-export const MoreDropdown = ({ isOpen }: { isOpen: boolean }) => {
+export const MoreDropdown = ({ isOpen, onHoverChange }: { isOpen: boolean; onHoverChange?: (open: boolean) => void }) => {
   const links = [
     { title: "Home", desc: "Home is where the monk lives", href: "/" },
     { title: "About us", desc: "The journey of Design Monks", href: "/about" },
@@ -9,6 +9,7 @@ export const MoreDropdown = ({ isOpen }: { isOpen: boolean }) => {
   ];
 
   const handleMouseEnter = () => {
+    onHoverChange?.(true);
     const backdrop = document.getElementById('navBackdrop');
     if (backdrop) {
       backdrop.classList.remove('opacity-0', 'invisible');
@@ -17,6 +18,7 @@ export const MoreDropdown = ({ isOpen }: { isOpen: boolean }) => {
   };
 
   const handleMouseLeave = () => {
+    onHoverChange?.(false);
     const backdrop = document.getElementById('navBackdrop');
     if (backdrop) {
       backdrop.classList.add('opacity-0', 'invisible');

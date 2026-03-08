@@ -68,10 +68,10 @@ export const Navbar = () => {
         </nav>
 
         {/* Dropdowns rendered outside nav to avoid clipping */}
-        <div className="absolute top-[100%] left-0 right-0 pointer-events-none">
+        <div className="absolute top-[100%] left-0 right-0 z-[99999]">
           <div className="relative w-full h-0">
-            <ServicesDropdown isOpen={servicesOpen} />
-            <MoreDropdown isOpen={moreOpen} />
+            <ServicesDropdown isOpen={servicesOpen} onHoverChange={setServicesOpen} />
+            <MoreDropdown isOpen={moreOpen} onHoverChange={setMoreOpen} />
           </div>
         </div>
       </div>
