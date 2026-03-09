@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>AI Product Design Section</title>
+  <link href="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/css/design-monks.shared.a6355be29.min.css" rel="stylesheet" type="text/css" crossorigin="anonymous"/>
+  <link href="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/css/design-monks.67b427216535397fbd9f5133-aae37237a.min.css" rel="stylesheet" type="text/css" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css"/>
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script>
+    WebFont.load({
+      google: {
+        families: ["PT Sans:400,400italic,700,700italic", "Outfit:300,400,500,600,700", "Playfair Display:300,400,500,600,700", "Red Hat Display:300,400,500,600,700"]
+      }
+    });
+  </script>
+  <style>
+    body {
+      margin: 0;
+      background: #0a0a0a;
+    }
+
+    .idea-section {
+      background: #fff;
+    }
+  </style>
+</head>
+<body>
+  <section class="section-service-details">
+    <div data-poster-url="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9%2F674238984b5b15db637f4a63_-60bc-4584-9ad6-9caa931f8372-poster-00001.jpg" data-video-urls="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9%2F674238984b5b15db637f4a63_-60bc-4584-9ad6-9caa931f8372-transcode.mp4,https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9%2F674238984b5b15db637f4a63_-60bc-4584-9ad6-9caa931f8372-transcode.webm" data-autoplay="true" data-loop="true" data-wf-ignore="true" class="sd-bg-video w-background-video w-background-video-atom">
+      <video id="e7461063-1de7-610b-48ba-d323ab6b9905-video" autoplay="" loop="" style="background-image:url(&quot;https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9%2F674238984b5b15db637f4a63_-60bc-4584-9ad6-9caa931f8372-poster-00001.jpg&quot;)" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover">
+        <source src="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9%2F674238984b5b15db637f4a63_-60bc-4584-9ad6-9caa931f8372-transcode.mp4" data-wf-ignore="true"/>
+        <source src="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9%2F674238984b5b15db637f4a63_-60bc-4584-9ad6-9caa931f8372-transcode.webm" data-wf-ignore="true"/>
+      </video>
+      <div class="heros-content-wrapper">
+        <div class="hero-upper-block">
+          <div class="hero-logo-block">
+            <a href="/" class="logo-link-block w-inline-block">
+              <img src="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/679a08604def1d26213e6133_designmonks%20(1).svg" loading="lazy" alt="" class="hero-logo"/>
+            </a>
+          </div>
+          <div class="page-tracker-block">
+            <a href="/" class="page-tracker-link w-inline-block">
+              <div class="page-tracker-link-text">Home</div>
+            </a>
+            <div class="page-tracker-mid-icon-block">
+              <img src="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/67423a8542288605dea89299_CaretRight.webp" loading="lazy" alt="" class="page-tracker-mid-icon"/>
+            </div>
+            <a href="/services" class="page-tracker-link w-inline-block">
+              <div class="page-tracker-link-text">Services</div>
+            </a>
+            <div class="page-tracker-mid-icon-block">
+              <img src="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/67423a8542288605dea89299_CaretRight.webp" loading="lazy" alt="" class="page-tracker-mid-icon"/>
+            </div>
+            <a href="#" class="page-tracker-link is-current w-inline-block">
+              <div class="page-tracker-link-text">AI Product Design </div>
+            </a>
+          </div>
+          <div class="service-details-title-wrap">
+            <h1 class="hero-title">
+              AI Product Design Agency for <span class="hero-title-pd">Future-proof Design</span>
+            </h1>
+            <p class="service-details-text">We create intuitive and scalable UI/UX solutions for AI-driven products to ensure smooth user experiences that evolve with innovation.ful, and easy to navigate.</p>
+          </div>
+          <div class="sd-button-wrapper">
+            <a href="/contact" class="contact-button-wapper w-inline-block">
+              <div class="ae-element_item-glow-wrapper pointer-events-off">
+                <div class="ae-element_item-glow"></div>
+              </div>
+              <div class="ae-element_item-background pointer-events-off"></div>
+              <div class="ae-element_item-content z-index-2">
+                <div class="button-primary-inside">
+                  <img src="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/6799ff5246a12a0e295ca0cf_Designmonks.svg" loading="lazy" alt="" class="button-primary-icon"/>
+                  <div class="button-primary-text">Book a Call</div>
+                </div>
+              </div>
+              <img src="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/672a7a8e3a6aba070d15d4c0_Star%206.avif" loading="lazy" alt="" class="image"/>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="sd-background-shade"></div>
+    </div>
+    <div class="section-padding">
+      <div data-drag="false" data-speed="0.5" class="splide common-marquee-slider">
+        <div class="splide__track">
+          <div class="splide__list">
+            <div data-wf--service-project-card--variant="desktop-screen" class="splide__slide">
+              <div class="service-project-card-wrapper"><div class="service-project-card"><div class="service-project-card_figure"><img src="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/67b429edf1de34102b351e90_Free_iPad_Mockup_1%204.avif" loading="lazy" width="560" height="403" alt="" sizes="(max-width: 560px) 100vw, 560px" srcset="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/67b429edf1de34102b351e90_Free_iPad_Mockup_1%204-p-500.avif 500w, https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/67b429edf1de34102b351e90_Free_iPad_Mockup_1%204.avif 560w" class="service-project-card_image"/></div></div></div>
+            </div>
+            <div data-wf--service-project-card--variant="desktop-screen" class="splide__slide">
+              <div class="service-project-card-wrapper"><div class="service-project-card"><div class="service-project-card_figure"><img src="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/67b429ed8fe80c9438d5af1e_Free_iPad_Mockup_1%205.avif" loading="lazy" width="560" height="403" alt="" sizes="(max-width: 560px) 100vw, 560px" srcset="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/67b429ed8fe80c9438d5af1e_Free_iPad_Mockup_1%205-p-500.avif 500w, https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/67b429ed8fe80c9438d5af1e_Free_iPad_Mockup_1%205.avif 560w" class="service-project-card_image"/></div></div></div>
+            </div>
+            <div data-wf--service-project-card--variant="desktop-screen" class="splide__slide">
+              <div class="service-project-card-wrapper"><div class="service-project-card"><div class="service-project-card_figure"><img src="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/67b429ed64cdbe7aac6d2066_Free_iPad_Mockup_1%206.avif" loading="lazy" width="560" height="403" alt="" sizes="(max-width: 560px) 100vw, 560px" srcset="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/67b429ed64cdbe7aac6d2066_Free_iPad_Mockup_1%206-p-500.avif 500w, https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/67b429ed64cdbe7aac6d2066_Free_iPad_Mockup_1%206.avif 560w" class="service-project-card_image"/></div></div></div>
+            </div>
+            <div data-wf--service-project-card--variant="desktop-screen" class="splide__slide">
+              <div class="service-project-card-wrapper"><div class="service-project-card"><div class="service-project-card_figure"><img src="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/67b429ed6535397fbda1febe_Free_iPad_Mockup_1%208.avif" loading="lazy" width="560" height="403" alt="" sizes="(max-width: 560px) 100vw, 560px" srcset="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/67b429ed6535397fbda1febe_Free_iPad_Mockup_1%208-p-500.avif 500w, https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/67b429ed6535397fbda1febe_Free_iPad_Mockup_1%208.avif 560w" class="service-project-card_image"/></div></div></div>
+            </div>
+            <div data-wf--service-project-card--variant="desktop-screen" class="splide__slide">
+              <div class="service-project-card-wrapper"><div class="service-project-card"><div class="service-project-card_figure"><img src="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/67b429ed52efb6edf7d24b53_Free_iPad_Mockup_1%207.avif" loading="lazy" width="560" height="403" alt="" sizes="(max-width: 560px) 100vw, 560px" srcset="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/67b429ed52efb6edf7d24b53_Free_iPad_Mockup_1%207-p-500.avif 500w, https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/67b429ed52efb6edf7d24b53_Free_iPad_Mockup_1%207.avif 560w" class="service-project-card_image"/></div></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-1252px">
+      <div class="sd-work-logo-wrapper">
+        <div class="sd-work-logo-header-wrap">
+          <div class="section-tag"><div class="section-tag_text">Brand Trust</div></div>
+          <h3 class="section-title-rh-2 white">Trusted by <span class="section-title-pd-2">Leading Brands</span></h3>
+        </div>
+        <div class="worked-logo-wrapper">
+          <div data-drag="true" data-speed="0.4" class="splide common-marquee-slider">
+            <div class="splide__track w-dyn-list">
+              <div role="list" class="splide__list logos-wrap w-dyn-items">
+                <div role="listitem" class="worked_logo-block splide__slide w-dyn-item"><img loading="lazy" src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6885efb8de6485b41ef30512_Logo_edvive_mono.svg" alt="" class="worked-logo"/></div>
+                <div role="listitem" class="worked_logo-block splide__slide w-dyn-item"><img loading="lazy" src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6885f091d389d8df99129c17_Logo_leklub_mono.svg" alt="" class="worked-logo"/></div>
+                <div role="listitem" class="worked_logo-block splide__slide w-dyn-item"><img loading="lazy" src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6885f0a19297eaa439b36a54_Logo_lendiview_mono.svg" alt="" class="worked-logo"/></div>
+                <div role="listitem" class="worked_logo-block splide__slide w-dyn-item"><img loading="lazy" src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6885f0d458e5a5df0fbf1790_Logo_likely_mono.svg" alt="" class="worked-logo"/></div>
+                <div role="listitem" class="worked_logo-block splide__slide w-dyn-item"><img loading="lazy" src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6885f0e8feb06d3d996d79c3_Logo_Memorybox_mono.svg" alt="" class="worked-logo"/></div>
+                <div role="listitem" class="worked_logo-block splide__slide w-dyn-item"><img loading="lazy" src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6885f10530ade15b8f215893_Logo_onethread_mono.svg" alt="" class="worked-logo"/></div>
+                <div role="listitem" class="worked_logo-block splide__slide w-dyn-item"><img loading="lazy" src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6885f12d87ea8f930b98389b_Logo_rabfy_mono.svg" alt="" class="worked-logo"/></div>
+                <div role="listitem" class="worked_logo-block splide__slide w-dyn-item"><img loading="lazy" src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6885f13ec2ad5470f81a0156_Logo_ontik_mono.svg" alt="" class="worked-logo"/></div>
+                <div role="listitem" class="worked_logo-block splide__slide w-dyn-item"><img loading="lazy" src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6885f14fe135439678c205c4_Logo_ostad_mono.svg" alt="" class="worked-logo"/></div>
+                <div role="listitem" class="worked_logo-block splide__slide w-dyn-item"><img loading="lazy" src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6885f15d6e8226dcdd42841f_Logo_oter_mono.svg" alt="" class="worked-logo"/></div>
+                <div role="listitem" class="worked_logo-block splide__slide w-dyn-item"><img loading="lazy" src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6885f18ddddd13f9898fa4a1_Logo_Sift_mono.svg" alt="" class="worked-logo"/></div>
+                <div role="listitem" class="worked_logo-block splide__slide w-dyn-item"><img loading="lazy" src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6885f19c8b03c8659ce41c98_Logo_skillophy_mono.svg" alt="" class="worked-logo"/></div>
+                <div role="listitem" class="worked_logo-block splide__slide w-dyn-item"><img loading="lazy" src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6885f1b6efcab4b193f09f5c_Logo_tempo_mono.svg" alt="" class="worked-logo"/></div>
+                <div role="listitem" class="worked_logo-block splide__slide w-dyn-item"><img loading="lazy" src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6885f1c594a1ec8ca506cd37_Logo_triply_mono.svg" alt="" class="worked-logo"/></div>
+                <div role="listitem" class="worked_logo-block splide__slide w-dyn-item"><img loading="lazy" src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6885f1e4306e3894a1466064_Logo_ways_mono.svg" alt="" class="worked-logo"/></div>
+                <div role="listitem" class="worked_logo-block splide__slide w-dyn-item"><img loading="lazy" src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6885f1f680fdbf02fa0eae57_Logo_Y%20Combinator_mono.svg" alt="" class="worked-logo"/></div>
+                <div role="listitem" class="worked_logo-block splide__slide w-dyn-item"><img loading="lazy" src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6885f2004933c2b4d513d932_Logo_yenex_mono.svg" alt="" class="worked-logo"/></div>
+                <div role="listitem" class="worked_logo-block splide__slide w-dyn-item"><img loading="lazy" src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/68a091859ea0add1f56a3a99_Logo_zantrik_mono.svg" alt="" class="worked-logo"/></div>
+                <div role="listitem" class="worked_logo-block splide__slide w-dyn-item"><img loading="lazy" src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6886538a81d84aaf47e5386d_Logo_Addisoft_mono.svg" alt="" class="worked-logo"/></div>
+                <div role="listitem" class="worked_logo-block splide__slide w-dyn-item"><img loading="lazy" src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6886539e25b283ac0614549d_Logo_Banglashikhi_mono.svg" alt="" class="worked-logo"/></div>
+                <div role="listitem" class="worked_logo-block splide__slide w-dyn-item"><img loading="lazy" src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/688656b4cb56ce5a1e817819_Logo_Relaxy_mono.svg" alt="" class="worked-logo"/></div>
+                <div role="listitem" class="worked_logo-block splide__slide w-dyn-item"><img loading="lazy" src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/68a091c01ddc2dc9b5c6004d_Logo_Backpack_mono.svg" alt="" class="worked-logo"/></div>
+                <div role="listitem" class="worked_logo-block splide__slide w-dyn-item"><img loading="lazy" src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/68a091feeaa832d6e633b930_Logo_Goldman%20Sachs_mono.svg" alt="" class="worked-logo"/></div>
+                <div role="listitem" class="worked_logo-block splide__slide w-dyn-item"><img loading="lazy" src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/68db9056e42ba9fd6c172833_Logo_Clarity_mono.svg" alt="" class="worked-logo"/></div>
+                <div role="listitem" class="worked_logo-block splide__slide w-dyn-item"><img loading="lazy" src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/68dcdfc38248b93d8a3fe1ed_Logo_Esdiac_mono.svg" alt="" class="worked-logo"/></div>
+                <div role="listitem" class="worked_logo-block splide__slide w-dyn-item"><img loading="lazy" src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/68dcdff13a553e58f8303e64_Logo_Learndojo_mono.svg" alt="" class="worked-logo"/></div>
+                <div role="listitem" class="worked_logo-block splide__slide w-dyn-item"><img loading="lazy" src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/68dce04f1cc66d075bc201c7_Logo_Vocai_mono.svg" alt="" class="worked-logo"/></div>
+                <div role="listitem" class="worked_logo-block splide__slide w-dyn-item"><img loading="lazy" src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/68dce06d6d2fe778ba755c28_Logo_Plentypay_mono.svg" alt="" class="worked-logo"/></div>
+                <div role="listitem" class="worked_logo-block splide__slide w-dyn-item"><img loading="lazy" src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/68deba780a85b7d26245ce16_Logo_Aike_mono.svg" alt="" class="worked-logo"/></div>
+                <div role="listitem" class="worked_logo-block splide__slide w-dyn-item"><img loading="lazy" src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/69720678ee0f40386f6b4992_Logo_Fraus_mono.svg" alt="" class="worked-logo"/></div>
+                <div role="listitem" class="worked_logo-block splide__slide w-dyn-item"><img loading="lazy" src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/697b6e3416493b65e726d165_Logo_Coinpulse_%20mono.svg" alt="" class="worked-logo"/></div>
+                <div role="listitem" class="worked_logo-block splide__slide w-dyn-item"><img loading="lazy" src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/699edc572d2132bc29e673b6_Logo_Wefi_%20mono.svg" alt="" class="worked-logo"/></div>
+                <div role="listitem" class="worked_logo-block splide__slide w-dyn-item"><img loading="lazy" src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/699edc87359d20b3995f03cc_Logo_FMS_%20mono.svg" alt="" class="worked-logo"/></div>
+                <div role="listitem" class="worked_logo-block splide__slide w-dyn-item"><img loading="lazy" src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/688653bf4f47ca91cf09762b_Logo_Sitewise_mono.svg" alt="" class="worked-logo"/></div>
+                <div role="listitem" class="worked_logo-block splide__slide w-dyn-item"><img loading="lazy" src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/688653afacecba76738e739f_Logo_Homerun_mono.svg" alt="" class="worked-logo"/></div>
+                <div role="listitem" class="worked_logo-block splide__slide w-dyn-item"><img loading="lazy" src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6885f1d2a43bb3fbe72ee40c_Logo_viber_mono.svg" alt="" class="worked-logo"/></div>
+                <div role="listitem" class="worked_logo-block splide__slide w-dyn-item"><img loading="lazy" src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6885f17caf72390465b4e033_Logo_PF_mono.svg" alt="" class="worked-logo"/></div>
+                <div role="listitem" class="worked_logo-block splide__slide w-dyn-item"><img loading="lazy" src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6885f16d40ff0915c93957cd_Logo_pepsi_mono.svg" alt="" class="worked-logo"/></div>
+                <div role="listitem" class="worked_logo-block splide__slide w-dyn-item"><img loading="lazy" src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6885f0c4d6d77ef939024a24_Logo_liberatelabs_mono.svg" alt="" class="worked-logo"/></div>
+              </div>
+            </div>
+          </div>
+          <div class="solid-logo-gap"></div>
+          <div data-drag="true" data-speed="0.4" data-direction="reversed" class="splide common-marquee-slider">
+            <div class="splide__track w-dyn-list">
+              <div role="list" class="splide__list logos-wrap w-dyn-items">
+                <div role="listitem" class="worked_logo-block splide__slide w-dyn-item"><img loading="lazy" src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6885ee08f5f493b2bb9e7f1e_Logo_medease_mono.svg" alt="" class="worked-logo"/></div>
+                <div role="listitem" class="worked_logo-block splide__slide w-dyn-item"><img loading="lazy" src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6885ee4528e1e50ce73cec96_Logo_3asafeer_mono.svg" alt="" class="worked-logo"/></div>
+                <div role="listitem" class="worked_logo-block splide__slide w-dyn-item"><img loading="lazy" src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6885ee8c69e8f4233a577999_Logo_akijship_mono.svg" alt="" class="worked-logo"/></div>
+                <div role="listitem" class="worked_logo-block splide__slide w-dyn-item"><img loading="lazy" src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6885ee9e7ebe3a3c0e3a331c_Logo_akij_mono.svg" alt="" class="worked-logo"/></div>
+                <div role="listitem" class="worked_logo-block splide__slide w-dyn-item"><img loading="lazy" src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6885eeb809370b706fb8e60d_Logo_alpine_mono.svg" alt="" class="worked-logo"/></div>
+                <div role="listitem" class="worked_logo-block splide__slide w-dyn-item"><img loading="lazy" src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6885eee107ee412b3af204cf_Logo_Bizphix_mono.svg" alt="" class="worked-logo"/></div>
+                <div role="listitem" class="worked_logo-block splide__slide w-dyn-item"><img loading="lazy" src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6885eef1a76e2babd6efc174_Logo_Buttercup_mono.svg" alt="" class="worked-logo"/></div>
+                <div role="listitem" class="worked_logo-block splide__slide w-dyn-item"><img loading="lazy" src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6885ef0413f8918ac5356de1_Logo_carbobon_mono.svg" alt="" class="worked-logo"/></div>
+                <div role="listitem" class="worked_logo-block splide__slide w-dyn-item"><img loading="lazy" src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6885ef13617c539ba8a284f4_Logo_carnesia_mono.svg" alt="" class="worked-logo"/></div>
+                <div role="listitem" class="worked_logo-block splide__slide w-dyn-item"><img loading="lazy" src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6885ef283a1bcb89be6747e7_Logo_compaies_mono.svg" alt="" class="worked-logo"/></div>
+                <div role="listitem" class="worked_logo-block splide__slide w-dyn-item"><img loading="lazy" src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6885ef3df74b709059457346_Logo_cpg_mono.svg" alt="" class="worked-logo"/></div>
+                <div role="listitem" class="worked_logo-block splide__slide w-dyn-item"><img loading="lazy" src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6885ef94ab9e4ca1123be230_Logo_Dlicio_mono.svg" alt="" class="worked-logo"/></div>
+                <div role="listitem" class="worked_logo-block splide__slide w-dyn-item"><img loading="lazy" src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6885efa747ec9f1d1564f668_Logo_docuseal_mono.svg" alt="" class="worked-logo"/></div>
+                <div role="listitem" class="worked_logo-block splide__slide w-dyn-item"><img loading="lazy" src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6885efcf7840077b72111115_Logo_farasha_mono.svg" alt="" class="worked-logo"/></div>
+                <div role="listitem" class="worked_logo-block splide__slide w-dyn-item"><img loading="lazy" src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6885efde40d2b35d3d22dea0_Logo_fitmate_mono.svg" alt="" class="worked-logo"/></div>
+                <div role="listitem" class="worked_logo-block splide__slide w-dyn-item"><img loading="lazy" src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6885effb87ea8f930b980cad_Logo_Gainsty_mono.svg" alt="" class="worked-logo"/></div>
+                <div role="listitem" class="worked_logo-block splide__slide w-dyn-item"><img loading="lazy" src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6885f01211f8986a34f542d8_Logo_grow_mono.svg" alt="" class="worked-logo"/></div>
+                <div role="listitem" class="worked_logo-block splide__slide w-dyn-item"><img loading="lazy" src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6885f045523f0b94ba432e42_Logo_heyluna_mono.svg" alt="" class="worked-logo"/></div>
+                <div role="listitem" class="worked_logo-block splide__slide w-dyn-item"><img loading="lazy" src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6885f0546756b58458d71b9b_Logo_IPDC_mono.svg" alt="" class="worked-logo"/></div>
+                <div role="listitem" class="worked_logo-block splide__slide w-dyn-item"><img loading="lazy" src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6885f06558e5a5df0fbefdde_Logo_khanit_mono.svg" alt="" class="worked-logo"/></div>
+                <div role="listitem" class="worked_logo-block splide__slide w-dyn-item"><img loading="lazy" src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6885f07d9c093fad609a26bb_Logo_klasio_mono.svg" alt="" class="worked-logo"/></div>
+                <div role="listitem" class="worked_logo-block splide__slide w-dyn-item"><img loading="lazy" src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6885ee66114ee66a929deac9_Logo_affine_mono.svg" alt="" class="worked-logo"/></div>
+                <div role="listitem" class="worked_logo-block splide__slide w-dyn-item"><img loading="lazy" src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6885f1aadb3edb2617313123_Logo_telenor_mono.svg" alt="" class="worked-logo"/></div>
+                <div role="listitem" class="worked_logo-block splide__slide w-dyn-item"><img loading="lazy" src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6885eece6aa97547b732fdf2_Logo_axiata_mono.svg" alt="" class="worked-logo"/></div>
+                <div role="listitem" class="worked_logo-block splide__slide w-dyn-item"><img loading="lazy" src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6885f03409370b706fb922c8_Logo_Guardian_mono.svg" alt="" class="worked-logo"/></div>
+                <div role="listitem" class="worked_logo-block splide__slide w-dyn-item"><img loading="lazy" src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6885ef50dfdca9f9140b8bf1_Logo_crantech_mono.svg" alt="" class="worked-logo"/></div>
+                <div role="listitem" class="worked_logo-block splide__slide w-dyn-item"><img loading="lazy" src="https://cdn.prod.website-files.com/674703d2af36853f65da67e0/6885ef82c4a168e60b47911d_Logo_CRE%20Guard_mono.svg" alt="" class="worked-logo"/></div>
+              </div>
+            </div>
+          </div>
+          <div class="right-shade"></div>
+          <div class="left-shde"></div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-circle-wrapper">
+      <img src="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/67424426f5b29ed4026778df_Cube.avif" loading="lazy" width="184" alt="" class="hero-circle"/>
+    </div>
+    <div class="sd-cursor-wrapper">
+      <img src="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/673a389e2b5f982ca7e5ba3d_Cube.avif" loading="lazy" alt="" class="hero-cursor"/>
+    </div>
+    <div class="sd-bottom-shade"></div>
+    <div class="hero-glow-wrap is-glow">
+      <img src="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/6798a3cca97b5f56d4a2f0ca_Ellipse%2036.svg" loading="lazy" alt="" class="hero-cube"/>
+    </div>
+  </section>
+
+  <section class="idea-section">
+    <div class="theme-light">
+      <div class="global-paddings">
+        <div class="container-main">
+          <div class="spacer-56 center-aline-pc">
+            <div class="spacer-16 center-aline-pc">
+              <div class="section_tag-wapper">
+                <div class="section_tag-title">
+                  <div class="body-r">Idea Transformation</div>
+                </div>
+              </div>
+              <div class="text-color-main">
+                <h2 class="heading-h2">Your Ideas, Our Expertise,<br/><em>Impactful Results</em></h2>
+              </div>
+            </div>
+            <div class="idea-trans-wapper">
+              <div class="it-tran-content-wapper">
+                <div class="it-content-type-1">
+                  <img src="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/68b0629d56bf1a97444d9255_f58a95c70220d8c9085c7a6546da28c0_Frame%202147226602.avif" loading="lazy" width="222" alt=""/>
+                  <div class="spacer-8">
+                    <div class="text-color-main"><h3 class="heading-h5">60+ Creative Minds</h3></div>
+                    <div class="text-color-secondary"><p class="body-r">United minds turn ideas into stories.</p></div>
+                  </div>
+                </div>
+              </div>
+              <div id="w-node-d28bc8b8-63de-36a9-cb03-4442bcc66413-a17da950" class="it-tran-content-wapper">
+                <div class="it-content-type-2">
+                  <img src="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/68b065f7ccf8164eb8332938_8775343b23f45031fbfc08b29234a3ed_Frame%202147226594.avif" loading="lazy" alt="" class="it-testimonial-img"/>
+                  <div class="it-testimonial-content">
+                    <img src="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/68b06644b6196cba872c0930_6e71234d385cdaa95c533fe495eff951_Frame%202147224319.avif" loading="lazy" width="155" alt=""/>
+                    <p class="body-r">Design Monks were great, flexible and communicative. Excellent designs and quick turnaround!</p>
+                  </div>
+                  <div class="it-testimonial-content-2nd">
+                    <p class="it-testimonial-title">Jenna Carvalho</p>
+                    <p class="body-s">Principal @ Guardian Estate Company</p>
+                  </div>
+                </div>
+              </div>
+              <div id="w-node-d28bc8b8-63de-36a9-cb03-4442bcc6641f-a17da950" class="it-tran-content-wapper">
+                <div class="it-content-type-1 is-bg-1">
+                  <img src="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/673349db3249e461d12aa2ee_star.avif" loading="lazy" width="54" alt=""/>
+                  <div class="spacer-8">
+                    <div class="text-color-main"><h3 class="review-title">4.9/5</h3></div>
+                    <div class="text-color-secondary"><p class="body-r">We ensure excellence for customer satisfaction.</p></div>
+                  </div>
+                </div>
+              </div>
+              <div id="w-node-d28bc8b8-63de-36a9-cb03-4442bcc66429-a17da950" class="it-tran-content-wapper is-2nd">
+                <div class="it-content-type-1 is-glove">
+                  <div class="spacer-8">
+                    <div class="text-color-main"><h3 class="heading-h5">Global Presence</h3></div>
+                    <div class="text-color-secondary"><p class="body-r">Offices That Span the Map.</p></div>
+                  </div>
+                  <img src="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/68b06c66bf43609c723cc0de_7ca0364ddf346a953c088ca61f8739f7_Frame%202147226600.avif" loading="lazy" alt="" class="glove-image"/>
+                </div>
+              </div>
+              <div id="w-node-d28bc8b8-63de-36a9-cb03-4442bcc66433-a17da950" class="it-tran-content-wapper">
+                <div class="it-content-type-1 is-center">
+                  <img src="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/68b0687d24134f3ba017b6a9_a7085564e5fe149ebba1bdebaae92a4a_Frame%202147226628.avif" loading="lazy" width="233" alt=""/>
+                </div>
+              </div>
+              <div id="w-node-d28bc8b8-63de-36a9-cb03-4442bcc66436-a17da950" class="it-tran-content-wapper">
+                <div class="it-content-type-1 is-global">
+                  <img src="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/68b06d1de51094ae52616a3a_018e90dfb109d1f25809108143ed72fa_Frame%202147226597.avif" loading="lazy" alt="" class="it-img-people"/>
+                  <img src="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/68b07264c563fa7ebb3e41a1_ce4722eb1b77531673cbfdedbf6128bf_Frame%202147226637.avif" loading="lazy" alt="" class="it-img-people is-mb"/>
+                  <div class="spacer-8">
+                    <div class="text-color-main"><h3 class="heading-h5">150+ Global Clients</h3></div>
+                    <div class="text-color-secondary"><p class="body-r">Worldwide Trust. Proven Results.</p></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.5.3/dist/js/splide-extension-auto-scroll.min.js"></script>
+  <script>
+    document.querySelectorAll(".common-marquee-slider").forEach((item) => {
+      const autoScrollSpeed = item.dataset.speed ? parseFloat(item.dataset.speed) : 0.5;
+      const isDraggable = item.dataset.drag !== "false";
+
+      const splideInstance = new Splide(item, {
+        pagination: false,
+        arrows: false,
+        autoWidth: true,
+        type: "loop",
+        drag: isDraggable,
+        autoScroll: {
+          speed: item.dataset.direction === "reversed" ? -autoScrollSpeed : autoScrollSpeed,
+          pauseOnHover: false,
+          pauseOnFocus: false
+        }
+      });
+
+      splideInstance.mount(window.splide.Extensions);
+
+      if (window.Webflow && Webflow.require) {
+        splideInstance.on("moved", () => Webflow.require("ix2").init());
+        setTimeout(() => Webflow.require("ix2").init(), 500);
+      }
+    });
+  </script>
+</body>
+</html>

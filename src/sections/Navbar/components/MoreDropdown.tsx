@@ -27,14 +27,25 @@ export const MoreDropdown = ({ isOpen, onHoverChange }: { isOpen: boolean; onHov
   };
 
   return (
-    <div 
-      className={`absolute top-0 right-0 w-[900px] max-w-[90vw] bg-white rounded-[24px] shadow-[0_20px_60px_-10px_rgba(0,0,0,0.1)] z-[99999] hidden md:block transition-opacity duration-300 ${
-        isOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'
-      }`}
-      style={{ top: '120px' }}
-      onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}
-    >
+    <>
+      {/* Invisible bridge for smooth hover transition */}
+      <div 
+        className={`absolute top-0 right-0 w-[900px] max-w-[90vw] h-[100px] z-[99999] hidden md:block ${
+          isOpen ? 'pointer-events-auto' : 'pointer-events-none'
+        }`}
+        style={{ top: '60px' }}
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
+      />
+      
+      <div 
+        className={`absolute top-0 right-0 w-[900px] max-w-[90vw] bg-white rounded-[24px] shadow-[0_20px_60px_-10px_rgba(0,0,0,0.1)] z-[99999] hidden md:block transition-opacity duration-300 ${
+          isOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'
+        }`}
+        style={{ top: '80px', paddingTop: '20px' }}
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
+      >
       <div className="grid grid-cols-2 gap-0 min-h-[560px]">
         {/* Left Column: Visual Block with Video */}
         <div className="p-8 lg:p-12 flex items-stretch">
@@ -126,5 +137,6 @@ export const MoreDropdown = ({ isOpen, onHoverChange }: { isOpen: boolean; onHov
         <path d="M12 10 L24 0 H0 Z" fill="white" />
       </svg>
     </div>
+    </>
   );
 };

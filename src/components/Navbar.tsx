@@ -1,10 +1,42 @@
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 
 export const Navbar = () => {
   const [servicesOpen, setServicesOpen] = useState(false);
   const [moreOpen, setMoreOpen] = useState(false);
-  const servicesTimerRef = useRef<NodeJS.Timeout | null>(null);
-  const moreTimerRef = useRef<NodeJS.Timeout | null>(null);
+  const [isAfterFirstSection, setIsAfterFirstSection] = useState(false);
+  const servicesTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const moreTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  useEffect(() => {
+    const getFirstSectionThreshold = () => {
+      const firstSection =
+        (document.querySelector("main section") as HTMLElement | null) ||
+        (document.querySelector("section") as HTMLElement | null);
+
+      if (!firstSection) {
+        return window.innerHeight;
+      }
+
+      const rect = firstSection.getBoundingClientRect();
+      return window.scrollY + rect.top + rect.height;
+    };
+
+    const updateScrollState = () => {
+      const threshold = getFirstSectionThreshold();
+      setIsAfterFirstSection(window.scrollY >= threshold);
+    };
+
+    updateScrollState();
+    window.addEventListener("scroll", updateScrollState, { passive: true });
+    window.addEventListener("resize", updateScrollState);
+    window.addEventListener("locationchange", updateScrollState as EventListener);
+
+    return () => {
+      window.removeEventListener("scroll", updateScrollState);
+      window.removeEventListener("resize", updateScrollState);
+      window.removeEventListener("locationchange", updateScrollState as EventListener);
+    };
+  }, []);
 
   const handleSpaNavigation = (href: string, e: React.MouseEvent) => {
     if (!href.startsWith("/") || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) {
@@ -61,7 +93,10 @@ export const Navbar = () => {
             className="nav-link nav-services-mobile cursor-pointer"
             onMouseEnter={handleServicesMouseEnter}
             onMouseLeave={handleServicesMouseLeave}
-            onClick={() => setServicesOpen(!servicesOpen)}
+            onClick={(e) => {
+              setServicesOpen(false);
+              handleSpaNavigation("/services", e);
+            }}
           >
             <img src="https://c.animaapp.com/mkiynesyxwO7zZ/assets/icon-3.svg" alt="Icon" className="nav-link-icon" />
             <span className="nav-link-text">Services</span>
@@ -76,15 +111,19 @@ export const Navbar = () => {
               href="/services" 
               className="nav-link cursor-pointer" 
               onClick={(e) => {
-                e.preventDefault();
-                setServicesOpen(!servicesOpen);
+                setServicesOpen(false);
+                handleSpaNavigation("/services", e);
               }}
             >
               <span className="nav-link-text">Services</span>
             </a>
           </div>
 
-          <a href="/contact" className="cta-link cursor-pointer">
+          <a
+            href="/contact"
+            className={`cta-link cursor-pointer ${isAfterFirstSection ? "cta-link-scrolled" : "cta-link-default"}`}
+            onClick={(e) => handleSpaNavigation("/contact", e)}
+          >
             <div className="cta-border"></div>
             <div className="cta-inner"></div>
             <div className="cta-content">
@@ -133,18 +172,19 @@ export const Navbar = () => {
                 </div>
                 <div className="flex flex-col gap-3 md:gap-4">
                   {[
-                    { title: "UI UX", desc: "Creating user-friendly digital experiences." },
-                    { title: "Logo & Branding", desc: "Creating memorable identities for brands." },
-                    { title: "Web Design", desc: "Building visually appealing & functional websites." },
-                    { title: "Webflow Design", desc: "Developing responsive websites effortlessly." },
-                    { title: "Framer Design", desc: "Interactive web designs are made simple." },
-                    { title: "SaaS Design", desc: "Intuitive interfaces that boost user engagement." },
+                    { title: "Marketing Meta Ads", desc: "Running growth-focused Meta ad campaigns for sales and leads.", href: "/services/marketing-meta-ads" },
+                    { title: "Google Ads & PPC", desc: "Managing high-intent search and PPC campaigns for better ROI.", href: "/services/google-ads-ppc" },
+                    { title: "TikTok Ads", desc: "Creating performance-first TikTok campaigns with strong creatives.", href: "/services/tiktok-ads" },
+                    { title: "Web App Development", desc: "Building scalable and high-performance web applications.", href: "/services/web-app-development" },
+                    { title: "UI UX Design", desc: "Designing intuitive interfaces and smooth user journeys.", href: "/services/ui-ux-design" },
+                    { title: "Branding Design", desc: "Crafting memorable brand identities that stand out.", href: "/services/branding-design" },
+                    { title: "SEO Optimization", desc: "Improving search rankings, organic traffic, and conversions.", href: "/services/seo-optimization" },
                   ].map((service, idx) => (
                     <a 
                       key={idx}
-                      href="/services"
+                      href={service.href}
                       className="group p-2 md:p-3 rounded-lg hover:bg-gray-100 cursor-pointer"
-                      onClick={(e) => handleSpaNavigation("/services", e)}
+                      onClick={(e) => handleSpaNavigation(service.href, e)}
                     >
                       <h4 className="text-sm md:text-base font-semibold text-gray-900 group-hover:text-violet-600">{service.title}</h4>
                       <p className="text-xs md:text-sm text-gray-600">{service.desc}</p>

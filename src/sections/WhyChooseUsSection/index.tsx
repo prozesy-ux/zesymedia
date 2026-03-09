@@ -45,8 +45,8 @@ export const WhyChooseUsSection = () => {
                     iconMaxWidth="max-w-[93px]"
                     iconHeightMd="md:h-[68px]"
                     iconMaxWidthMd="md:max-w-[133px]"
-                    title="Unlimited Revisions"
-                    description="We’re committed to your satisfaction with unlimited revisions at every step. Our mission is to make your vision come to life exactly as you imagine."
+                    title="Data-Driven Ad Campaigns"
+                    description="We create high-performing Meta Ads and Google Ads campaigns that drive real growth. Our strategies are built on analytics and insights to maximize your ROAS and lower CPA."
                   />
                   <BenefitCard
                     iconUrl="https://c.animaapp.com/mkiynesyxwO7zZ/assets/67bbf455cd6e05ec201e5e82_Profile.avif"
@@ -56,8 +56,8 @@ export const WhyChooseUsSection = () => {
                     iconMaxWidth="max-w-[59px]"
                     iconHeightMd="md:h-[68px]"
                     iconMaxWidthMd="md:max-w-[70px]"
-                    title="Lifetime Support"
-                    description="With our lifetime support, you’re never alone. We’ll be there for you at every stage with necessary guidance and assistance whenever you need it."
+                    title="Full-Stack Web Development"
+                    description="From idea to launch, we build custom web applications that scale with your business. Our development team creates fast, secure, and user-friendly platforms tailored to your needs."
                   />
                   <div className="box-border caret-transparent gap-x-4 grid auto-cols-[1fr] col-end-[span_1] col-start-[span_1] row-end-[span_1] row-start-[span_1] grid-cols-[1fr] grid-rows-[auto] gap-y-4 md:gap-x-8 md:col-end-[span_2] md:col-start-[span_2] md:grid-cols-[1fr_1fr_1fr] md:gap-y-8">
                     <BenefitCard
@@ -68,8 +68,8 @@ export const WhyChooseUsSection = () => {
                       iconMaxWidth="max-w-[47px]"
                       iconHeightMd="md:h-[84px]"
                       iconMaxWidthMd="md:max-w-[60px]"
-                      title="Personalised Plans"
-                      description="Get top-quality service without breaking the bank. Our rates are designed to fit your budget so that you can get the best value for your investment."
+                      title="Growth-Focused Marketing"
+                      description="We don't just run ads—we fuel your business growth. Our marketing strategies combine SEO, retargeting, and conversion optimization to turn visitors into customers and boost your revenue."
                     />
                     <BenefitCard
                       iconUrl="https://c.animaapp.com/mkiynesyxwO7zZ/assets/67bbf455657afc36ca73f802_diagram.avif"
@@ -79,8 +79,8 @@ export const WhyChooseUsSection = () => {
                       iconMaxWidth="max-w-[57px]"
                       iconHeightMd="md:h-[81px]"
                       iconMaxWidthMd="md:max-w-[81px]"
-                      title="Custom Design Solutions"
-                      description="Our easy payment options are completely flexible. So, you can invest in your success while staying within your budget."
+                      title="Human-Centered Design"
+                      description="We design websites and apps that people love to use. Our UX/UI approach focuses on creating intuitive experiences that connect with your audience and drive engagement naturally."
                     />
                     <BenefitCard
                       iconUrl="https://c.animaapp.com/mkiynesyxwO7zZ/assets/67bbf455f7d2b364987895ff_star.avif"
@@ -90,8 +90,8 @@ export const WhyChooseUsSection = () => {
                       iconMaxWidth="w-[57px]"
                       iconHeightMd="md:h-20"
                       iconMaxWidthMd="md:w-[81px]"
-                      title="24/7 Customer Support"
-                      description="Benefit from the expertise of our carefully chosen resources that are designed to make your journey smooth and effortless with outstanding results."
+                      title="End-to-End Support"
+                      description="From strategy to execution and beyond, we're with you every step of the way. Our team provides ongoing support, optimization, and guidance to ensure your continued success."
                     />
                   </div>
                 </div>

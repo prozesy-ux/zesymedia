@@ -1,5 +1,5 @@
 import type { MouseEvent } from "react";
-import { useState } from "react";
+import { useState, useRef } from "react";
 
 export type NavbarLinksProps = {
   href?: string;
@@ -24,15 +24,43 @@ const handleSpaNavigation = (event: MouseEvent<HTMLAnchorElement>, href: string)
 
 export const NavbarLinks = (props: NavbarLinksProps) => {
   const [isHovering, setIsHovering] = useState(false);
+  const backdropTimerRef = useRef<NodeJS.Timeout | null>(null);
 
   const handleMouseEnter = () => {
     setIsHovering(true);
     props.onHoverChange?.(true);
+    
+    // Show backdrop for dropdown links
+    if (props.isDropdown) {
+      // Clear any pending hide timer
+      if (backdropTimerRef.current) {
+        clearTimeout(backdropTimerRef.current);
+        backdropTimerRef.current = null;
+      }
+      
+      const backdrop = document.getElementById('navBackdrop');
+      if (backdrop) {
+        backdrop.classList.remove('opacity-0', 'invisible');
+        backdrop.classList.add('opacity-100', 'visible');
+      }
+    }
   };
 
   const handleMouseLeave = () => {
     setIsHovering(false);
     props.onHoverChange?.(false);
+    
+    // Hide backdrop for dropdown links with delay
+    if (props.isDropdown) {
+      // Add delay before hiding backdrop to allow smooth transition to dropdown
+      backdropTimerRef.current = setTimeout(() => {
+        const backdrop = document.getElementById('navBackdrop');
+        if (backdrop) {
+          backdrop.classList.add('opacity-0', 'invisible');
+          backdrop.classList.remove('opacity-100', 'visible');
+        }
+      }, 150);
+    }
   };
 
   if (props.isDropdown) {

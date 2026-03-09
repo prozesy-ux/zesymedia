@@ -2,7 +2,7 @@ import { FeatureCard } from "@/integrations/services/sections/DesignExcellenceSe
 
 export const FeatureGrid = () => {
   return (
-    <div className="box-border caret-transparent gap-x-8 grid auto-cols-[1fr] grid-cols-[1fr] grid-rows-[auto] min-h-[auto] min-w-[auto] gap-y-8 w-full md:grid-cols-[1fr_1fr_1fr]">
+    <div className="solutions-component-wrapper">
       <FeatureCard
         imageUrl="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/67645313a395db108c0d6266_Frame (6).webp"
         imageAlt=""

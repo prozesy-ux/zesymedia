@@ -912,6 +912,24 @@
   z-index: 0;
 }
 
+.cta-link.cta-link-scrolled .cta-border {
+  background:
+    conic-gradient(
+      from var(--_gradient-angle) at 8.04% 51.79%,
+      #fbfaf6 0deg,
+      rgba(251, 250, 246, 0) 360deg
+    ),
+    #7d40ff;
+  transform: none;
+  animation: gradient-angle-rotate 3s linear infinite;
+}
+
+.cta-link.cta-link-scrolled .cta-inner {
+  inset: 1.3px;
+  background-image: linear-gradient(rgb(89, 45, 181) 25%, rgb(125, 64, 255));
+  box-shadow: rgba(255, 255, 255, 0.72) 0 2px 3px inset;
+}
+
 .cta-content {
   position: relative;
   z-index: 10;
@@ -1135,4 +1153,977 @@
   .nav-link {
     transition: none;
   }
+}
+
+/* ==========================================
+   CTA Button Animated Gradient Border
+   ========================================== */
+
+@property --_gradient-angle {
+  syntax: '<angle>';
+  inherits: false;
+  initial-value: 0deg;
+}
+
+@keyframes gradient-angle-rotate {
+  from { --_gradient-angle: 0deg; }
+  to { --_gradient-angle: 360deg; }
+}
+
+.cta-btn {
+  --cta-ring-base: #6b36de;
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.cta-btn-default {
+  --cta-ring-base: #6b36de;
+}
+
+.cta-btn-scrolled {
+  --cta-ring-base: #7d40ff;
+}
+
+.cta-btn::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    conic-gradient(
+      from var(--_gradient-angle) at 8.04% 51.79%,
+      #fbfaf6 0deg,
+      rgba(251, 250, 246, 0) 360deg
+    ),
+    var(--cta-ring-base);
+  animation: gradient-angle-rotate 3s linear infinite;
+}
+
+.cta-btn-inner {
+  position: relative;
+  margin: 1.3px;
+  border-radius: 7px;
+  transition: none;
+  box-shadow: rgba(255, 255, 255, 0.72) 0 2px 3px inset;
+}
+
+.cta-btn-inner-default {
+  background-image: linear-gradient(rgb(72, 38, 148) 25%, rgb(106, 54, 218));
+}
+
+.cta-btn-inner-scrolled {
+  background-image: linear-gradient(rgb(89, 45, 181) 25%, rgb(125, 64, 255));
+}
+
+/* ==========================================
+   Pricing Page Video Background Styles
+   ========================================== */
+
+.pricing-video-section {
+  position: relative;
+  overflow: hidden;
+}
+
+.pricing-bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.pricing-bg-video video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.pricing-bg-video-element {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.pricing-bg-video-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(10, 10, 10, 0.45);
+  z-index: 2;
+}
+
+.pricing-page-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    transparent 50%,
+    rgba(10, 10, 10, 0.9) 85%,
+    rgb(10, 10, 10) 100%
+  );
+  z-index: 1;
+  pointer-events: none;
+}
+
+.pricing-video-content {
+  position: relative;
+  z-index: 4;
+}
+
+/* ==========================================
+   Bonus Section Animated Border Styles
+   ========================================== */
+
+.pricing-bonus-c-wrapper {
+  position: relative;
+}
+
+.bonus-card {
+  position: relative;
+  border: 1px solid rgba(127, 33, 255, 0.3);
+  border-radius: 24px;
+  overflow: hidden;
+}
+
+/* Animated gradient border lines using pseudo-elements */
+.bonus-card::before,
+.bonus-card::after {
+  content: "";
+  position: absolute;
+  width: 84%;
+  height: 1px;
+  left: 8%;
+  background: linear-gradient(
+    90deg,
+    rgba(127, 33, 255, 0.1),
+    rgba(168, 85, 247, 0.9) 25%,
+    rgba(168, 85, 247, 1) 50%,
+    rgba(168, 85, 247, 0.9) 75%,
+    rgba(127, 33, 255, 0.1)
+  );
+  animation: bonus-border-sweep 4s ease-in-out infinite;
+  opacity: 0.65;
+  z-index: 6;
+}
+
+.bonus-card::before {
+  top: 0;
+}
+
+.bonus-card::after {
+  bottom: 0;
+  animation-delay: 2s;
+}
+
+@keyframes bonus-border-sweep {
+  0%,
+  100% {
+    transform: translateX(-12%);
+    opacity: 0.65;
+  }
+  50% {
+    transform: translateX(12%);
+    opacity: 1;
+  }
+}
+
+.bonus-card-shade {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(127, 33, 255, 0.15),
+    rgba(10, 10, 10, 0.9)
+  );
+  z-index: 2;
+}
+
+.bonus-card-stroke-wrap {
+  position: absolute;
+  inset: 0;
+  z-index: 5;
+  pointer-events: none;
+}
+
+.bonus-card-stroke-glow {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    circle at 50% 0%,
+    rgba(168, 85, 247, 0.4),
+    transparent 60%
+  );
+  filter: blur(22px);
+  opacity: 0.6;
+  animation: bonus-stroke-pulse 3.8s ease-in-out infinite;
+}
+
+@keyframes bonus-stroke-pulse {
+  0%,
+  100% {
+    opacity: 0.4;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.7;
+    transform: scale(1.05);
+  }
+}
+
+.bonus-card-content {
+  position: relative;
+  z-index: 7;
+}
+
+/* Service Detail Page Styles */
+.section-service-details {
+  position: relative;
+  overflow: hidden;
+}
+
+.sd-bg-video {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.w-background-video video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.heros-content-wrapper {
+  position: relative;
+  z-index: 10;
+  padding-top: 80px;
+}
+
+.sd-background-shade {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.hero-upper-block {
+  position: relative;
+  z-index: 10;
+}
+
+.hero-logo {
+  filter: brightness(0) invert(1);
+}
+
+.section-padding {
+  background: #fff;
+}
+
+/* Project Cards Carousel */
+.project-cards-carousel-wrapper {
+  overflow: hidden;
+}
+
+.service-project-card-wrapper {
+  padding: 8px;
+}
+
+.service-project-card {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.service-project-card_image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* Logo Carousel Styles */
+.sd-work-logo-wrapper {
+  margin-top: 60px;
+}
+
+@media (min-width: 768px) {
+  .heros-content-wrapper {
+    padding-top: 120px;
+  }
+  
+  .sd-work-logo-wrapper {
+    margin-top: 100px;
+  }
+}
+
+/* Hide scrollbar utility */
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* Testimonial Section Styles */
+.testimonial-slider-wrap {
+  position: relative;
+  width: 100%;
+  max-width: 62.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.testimonial-nav-button-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  .testimonial-nav-button-wrap {
+    position: absolute;
+    inset: 0;
+    margin-bottom: 0;
+  }
+}
+
+.testimonial-slider-arrow-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 5rem;
+  gap: 1.5rem;
+  z-index: 99;
+}
+
+@media (min-width: 768px) {
+  .testimonial-slider-arrow-block {
+    position: absolute;
+    inset-top: 0;
+    inset-bottom: 0;
+  }
+  
+  .testimonial-slider-arrow-block:not(.is-right) {
+    left: -4%;
+  }
+  
+  .testimonial-slider-arrow-block.is-right {
+    right: -4%;
+  }
+}
+
+.slider-arrow-block {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 2.5rem;
+  height: 2.5rem;
+  z-index: 99;
+  background-color: #ffffff;
+  border: 0.0625rem solid #7d40ff;
+  border-radius: 100%;
+  flex: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.slider-arrow-block:hover {
+  background-color: #f5f3ff;
+}
+
+.slider-arrow-icon {
+  max-width: 100%;
+}
+
+.swiper-pagination.is-none-lg {
+  position: static !important;
+}
+
+@media (min-width: 1024px) {
+  .swiper-pagination.is-none-lg {
+    display: none !important;
+  }
+}
+
+.swiper-pagination-bullet-active {
+  background: #7d40ff !important;
+}
+
+.testimonial-card {
+  background-color: #fff;
+  border: 0.0625rem solid #e5e5e5;
+  border-radius: 1.25rem;
+  width: 100%;
+  height: 100%;
+}
+
+.testimonial-card-c-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0.9375rem 0.9375rem 1.5rem;
+  gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .testimonial-card-c-wrapper {
+    flex-direction: row;
+    padding: 1.5rem;
+    gap: 2rem;
+  }
+}
+
+.testimonial-author-image-block {
+  border-radius: 0.5rem;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  .testimonial-author-image-block {
+    flex: none;
+    max-width: 13.75rem;
+    height: 100%;
+  }
+}
+
+.testimonial-author-image {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 767px) {
+  .testimonial-author-image {
+    aspect-ratio: 1;
+  }
+}
+
+.testimonial-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex: 0 auto;
+  max-width: none;
+}
+
+@media (min-width: 768px) {
+  .testimonial-text-wrapper {
+    max-width: 25rem;
+  }
+}
+
+.testimonial-quote-icon-block {
+  display: inline-block;
+  margin-bottom: 1rem;
+  width: 100%;
+  max-width: 2.1875rem;
+}
+
+.testimonial-text-block {
+  color: #525252;
+  max-width: none;
+  margin-top: 0;
+}
+
+@media (min-width: 768px) {
+  .testimonial-text-block {
+    margin-top: 1.25rem;
+  }
+}
+
+.testimonial-text {
+  font-size: 1rem;
+  letter-spacing: 0.03rem;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+@media (min-width: 768px) {
+  .testimonial-text {
+    font-size: 1.5rem;
+  }
+}
+
+.testimonial-company-info-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: auto;
+  padding-top: 1.5rem;
+  gap: 1rem;
+}
+
+@media (min-width: 768px) {
+  .testimonial-company-info-wrap {
+    flex-direction: row;
+    align-items: flex-end;
+    padding-top: 2rem;
+  }
+}
+
+.testimonial-author-info-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: #0a0a0a;
+  gap: 0.125rem;
+}
+
+.t-author-name {
+  color: #0a0a0a;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0;
+  line-height: 120%;
+}
+
+.t-author-tag {
+  font-family: "Outfit", Arial, sans-serif;
+  color: #525252;
+  font-size: 1rem;
+  letter-spacing: 0.32px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.t-author-c-logo {
+  height: auto;
+  max-height: 70px;
+}
+
+/* Design Excellence Section CSS */
+
+/* Feature Grid */
+.solutions-component-wrapper {
+  grid-column-gap: 2rem;
+  grid-row-gap: 2rem;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-columns: 1fr;
+  width: 100%;
+  display: grid;
+}
+
+@media (max-width: 991px) {
+  .solutions-component-wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 767px) {
+  .solutions-component-wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Feature Card Wrapper with Gradient Border */
+.benefit-card-item-wapper {
+  background-image: linear-gradient(333deg, #c4c4c400 55%, #ececec33 70%, #5f00e0);
+  border-radius: 2rem;
+  padding: 1px;
+  transition: all .2s ease-in;
+  overflow: hidden;
+  box-shadow: 0 16px 24px #5f00e01a;
+}
+
+@media (max-width: 767px) {
+  .benefit-card-item-wapper {
+    border-radius: 1rem;
+  }
+}
+
+/* Feature Card Hover Effect */
+.benefit-card-item-wapper:hover {
+  background-image: linear-gradient(225deg, #ebf8fc, #7fb8ef 27%, #5142f1 58%, #1d1d29 95%);
+  margin: -.5px;
+  padding: 1.5px;
+  box-shadow: 0 0 100px #7d40ff52, 0 16px 24px #5f00e01a;
+}
+
+/* Feature Card Background */
+.benefit-card-bg {
+  z-index: 5;
+  background-color: #0a0a0a;
+  background-image: linear-gradient(347deg, #571bd233, #0a0a0a33);
+  border-radius: 2rem;
+  width: 100%;
+  height: 100%;
+  display: block;
+  box-shadow: inset 0 8px 24px #ffffff17;
+}
+
+@media (max-width: 767px) {
+  .benefit-card-bg {
+    border-radius: 1rem;
+  }
+}
+
+/* Feature Card Content */
+.benifit-card-content-wapper {
+  grid-column-gap: 1.5rem;
+  grid-row-gap: 1.5rem;
+  flex-flow: column;
+  padding: 2.75rem 2rem;
+  display: flex;
+}
+
+@media (max-width: 767px) {
+  .benifit-card-content-wapper {
+    padding: 1.75rem 1.25rem;
+  }
+}
+
+/* Feature Card Icon */
+.benifit-card-icon-block {
+  display: block;
+}
+
+.benifit-card-icon {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  max-width: 100%;
+}
+
+/* Feature Card Text Wrapper */
+.benifit-card-text-wapper {
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
+  flex-flow: column;
+  display: flex;
+}
+
+/* Typography - Heading H4 */
+.heading-h4 {
+  font-family: "Redhatdisplay Variablefont Wght", Arial, sans-serif;
+  font-size: 2rem;
+  line-height: 120%;
+  font-weight: 700;
+  color: #fafafa;
+}
+
+@media (max-width: 767px) {
+  .heading-h4 {
+    font-size: 1.25rem;
+  }
+}
+
+/* Typography - Body Base */
+.body-base {
+  font-size: 1rem;
+  letter-spacing: 0;
+  line-height: 140%;
+}
+
+@media (max-width: 767px) {
+  .body-base {
+    font-size: .875rem;
+  }
+}
+
+/* Text Color Secondary */
+.text-color-secondary {
+  color: #d4d4d4;
+}
+
+/* Hero Section CSS */
+
+/* Main hero section */
+.cms-cetagories_hero-section {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Theme dark */
+.theme-dark {
+  background-color: #0a0a0a;
+}
+
+/* Video background */
+.section-about-bg-video {
+  position: relative;
+  width: 100%;
+  min-height: 34rem;
+  overflow: hidden;
+}
+
+@media (max-width: 767px) {
+  .section-about-bg-video {
+    min-height: 28rem;
+  }
+}
+
+.w-background-video {
+  position: relative;
+  overflow: hidden;
+}
+
+.w-background-video video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+  top: 0;
+  left: 0;
+}
+
+.services-hero-bg-video-element {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+/* Container main */
+.container-main {
+  z-index: 2;
+  width: 100%;
+  max-width: 78.25rem;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+/* Hero section wrapper */
+.hero-section-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 1.25rem 2rem;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .hero-section-wrapper {
+    padding: 6rem 5.875rem 5rem;
+  }
+}
+
+.hero-section-wrapper.is-width-60rem {
+  max-width: 60rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+/* Spacer 16 */
+.spacer-16 {
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
+  flex-flow: column;
+  display: flex;
+}
+
+.center-aline-pc {
+  align-items: center;
+  text-align: center;
+}
+
+/* Site logo */
+.site-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.logo-link-block {
+  display: inline-block;
+}
+
+.brand-logo-image {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Page tracker / breadcrumb */
+.page-tracker-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3125rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 1.125rem;
+  padding: 0.25rem 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.page-tracker-link {
+  display: inline-block;
+  text-decoration: none;
+  color: #a3a3a3;
+  font-size: 0.75rem;
+  line-height: 1.5;
+  letter-spacing: 0.015rem;
+}
+
+.page-tracker-link.is-current {
+  color: #fafafa;
+}
+
+.page-tracker-link-text {
+  text-transform: capitalize;
+}
+
+.page-tracker-mid-icon-block {
+  display: flex;
+  align-items: center;
+}
+
+.page-tracker-mid-icon {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Text color main */
+.text-color-main {
+  color: #fafafa;
+}
+
+/* Heading H1 */
+.heading-h1 {
+  font-family: "Redhatdisplay Variablefont Wght", "Red Hat Display", Arial, sans-serif;
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #fafafa;
+  margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  .heading-h1 {
+    font-size: 3.5rem;
+  }
+}
+
+.heading-h1 em {
+  font-style: italic;
+}
+
+.section-title-pd {
+  font-family: "Playfairdisplay Variablefont Wght", "Playfair Display", Arial, sans-serif;
+  font-style: italic;
+  text-transform: capitalize;
+}
+
+/* Decorative elements */
+.element_top-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  max-width: 11rem;
+  pointer-events: none;
+  z-index: 0;
+}
+
+@media (min-width: 768px) {
+  .element_top-right {
+    max-width: none;
+  }
+}
+
+.element_top-right img {
+  display: inline-block;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.element_bottom-left {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  max-width: 5rem;
+  pointer-events: none;
+  height: 100px;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .element_bottom-left {
+    max-width: none;
+    width: auto;
+    height: auto;
+    align-items: normal;
+    justify-content: normal;
+  }
+}
+
+.element_bottom-left.is-hidden-sm {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .element_bottom-left.is-hidden-sm {
+    display: block;
+  }
+}
+
+.element_bottom-left img {
+  display: inline-block;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+/* Page wrapper */
+.page-wrapper {
+  position: relative;
+}
+
+.page-wrapper.is-about {
+  /* Additional about page styles if needed */
 }

@@ -146,7 +146,7 @@ export const AlternativesSection = () => {
                             <div className="relative text-lg items-start box-border caret-transparent basis-auto flex-col grow-0 justify-start leading-[25.2px] text-center p-5 md:text-[22px] md:basis-[0%] md:grow md:leading-[30.8px] md:p-0">
                               <div className="text-zinc-50 text-lg items-center border-b-neutral-600 border-l-zinc-50 border-r-zinc-50 border-t-zinc-50 box-border caret-transparent flex justify-center leading-[25.2px] min-h-[72px] text-left pl-5 pr-4 border-b md:text-[22px] md:leading-[30.8px] md:min-h-[81.4px] md:pl-4">
                                 <img
-                                  src="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/67f82e36fecf47ade32ba597_logo.avif"
+                                  src="https://c.animaapp.com/mkiynesyxwO7zZ/img/uploaded-asset-1770481180535-1.png"
                                   alt=""
                                   className="relative text-lg box-border caret-transparent leading-[25.2px] mt-[-15px] max-w-60 min-h-0 min-w-0 w-4/5 z-[2] md:text-[22px] md:leading-[30.8px] md:min-h-[auto] md:min-w-[auto] md:w-auto"
                                 />
@@ -286,7 +286,7 @@ export const AlternativesSection = () => {
                     },
                   ],
                   logoUrl:
-                    "https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/67f82e36fecf47ade32ba597_logo.avif",
+                    "https://c.animaapp.com/mkiynesyxwO7zZ/img/uploaded-asset-1770481180535-1.png",
                   logoAlt: "",
                   decorativeImageUrl:
                     "https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/67fa2e8c69df927d4c26bfd3_Ellipse 14.avif",
@@ -366,7 +366,7 @@ export const AlternativesSection = () => {
                     },
                   ],
                   logoUrl:
-                    "https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/67f82e36fecf47ade32ba597_logo.avif",
+                    "https://c.animaapp.com/mkiynesyxwO7zZ/img/uploaded-asset-1770481180535-1.png",
                   logoAlt: "",
                   decorativeImageUrl:
                     "https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/67fa2e8c69df927d4c26bfd3_Ellipse 14.avif",
@@ -516,7 +516,7 @@ export const AlternativesSection = () => {
                 showOurCompany={true}
                 ourCompanyData={{
                   logoUrl:
-                    "https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/67f82e36fecf47ade32ba597_logo.avif",
+                    "https://c.animaapp.com/mkiynesyxwO7zZ/img/uploaded-asset-1770481180535-1.png",
                   logoAlt: "",
                   features: [
                     {

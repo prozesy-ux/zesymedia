@@ -4,6 +4,7 @@ export type FigmaCardProps = {
   description: string;
   figmaFileUrl: string;
   variant: string;
+  buttonText?: string;
 };
 
 export const FigmaCard = (props: FigmaCardProps) => {
@@ -32,7 +33,7 @@ export const FigmaCard = (props: FigmaCardProps) => {
           <div className="relative text-gray-200 box-border caret-transparent min-h-[auto] min-w-[auto] w-full md:w-auto">
             <div className="relative items-center box-border caret-transparent gap-x-2 flex h-full justify-center gap-y-2 w-full z-[1]">
               <div className="text-zinc-50 text-base font-bold box-border caret-transparent tracking-[0.32px] leading-[19.2px] min-h-[auto] min-w-[auto]">
-                See Figma File
+                {props.buttonText || "See Figma File"}
               </div>
               <img
                 src="https://c.animaapp.com/mmfqa5b2QIeLaz/assets/icon-21.svg"

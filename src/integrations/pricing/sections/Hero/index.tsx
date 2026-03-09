@@ -3,10 +3,30 @@ import { PricingTabs } from "@/integrations/pricing/components/PricingTabs";
 import { BonusSection } from "@/integrations/pricing/sections/BonusSection";
 import { ServicesGrid } from "@/integrations/pricing/components/ServicesGrid";
 
+const HERO_VIDEO_POSTER =
+  "https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9%2F674238984b5b15db637f4a63_-60bc-4584-9ad6-9caa931f8372-poster-00001.jpg";
+
 export const Hero = () => {
   return (
-    <section className="relative bg-neutral-950/90 box-border caret-transparent overflow-hidden">
-      <div className="box-border caret-transparent">
+    <section className="pricing-video-section relative bg-neutral-950/90 box-border caret-transparent overflow-hidden">
+      {/* Static Background Layer */}
+      <div 
+        className="pricing-bg-video"
+        style={{
+          backgroundImage: `url('${HERO_VIDEO_POSTER}')`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      />
+      
+      {/* Video Shadow Overlay */}
+      <div className="pricing-bg-video-shadow"></div>
+      
+      {/* Page Background */}
+      <div className="pricing-page-bg"></div>
+      
+      {/* Content Layer */}
+      <div className="pricing-video-content box-border caret-transparent">
         <div className="box-border caret-transparent pb-[60px] px-5 md:pb-[100px] md:px-[94px]">
           <div className="box-border caret-transparent max-w-[1252px] w-full z-[1] mx-auto">
             <div className="box-border caret-transparent gap-x-8 flex flex-col gap-y-8 md:gap-x-14 md:gap-y-14">
@@ -15,35 +35,17 @@ export const Hero = () => {
                 <PricingTabs />
               </div>
               <div className="relative box-border caret-transparent min-h-[auto] min-w-[auto] overflow-hidden mt-8 rounded-3xl md:mt-0">
-                <BonusSection />
-                <div className="absolute box-border caret-transparent h-full w-full z-[2] inset-[0%]">
-                  <div className="absolute bg-[linear-gradient(rgba(127,33,255,0.6),rgb(52,109,255)_29%,rgb(191,199,101)_52%,rgb(80,65,255)_79%,rgba(127,33,255,0.6)),linear-gradient(25deg,rgba(127,33,255,0.6),rgba(219,219,219,0.79)_41%,rgba(255,255,255,0.89)_61%,rgba(80,60,120,0.07))] bg-size-[auto,auto] box-border caret-transparent blur-[10px] h-[150%] translate-x-[-50.0%] w-[150%] z-0 bg-[position:0%,0%_0%,0%] left-2/4 top-[0%] md:top-2/4"></div>
+                <div className="relative z-[2]">
+                  <BonusSection />
+                </div>
+                <div className="pointer-events-none absolute box-border caret-transparent h-full w-full z-[1] inset-[0%]">
+                  <div className="absolute bg-[radial-gradient(circle_at_50%_20%,rgba(127,33,255,0.28),rgba(127,33,255,0)_62%)] box-border caret-transparent h-full w-full z-0 left-0 top-0"></div>
                 </div>
               </div>
               <ServicesGrid />
             </div>
           </div>
         </div>
-        <div className="absolute text-white box-border caret-transparent h-[1200px] w-full z-[-1] overflow-hidden top-0">
-          <video
-            autoplay=""
-            loop=""
-            muted=""
-            playsinline=""
-            className="absolute bg-[url('https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9%2F674238984b5b15db637f4a63_-60bc-4584-9ad6-9caa931f8372-poster-00001.jpg')] bg-cover box-border caret-transparent h-full object-cover align-baseline w-full z-[-100] bg-center m-auto -inset-full"
-          >
-            <source
-              src="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/674238984b5b15db637f4a63_-60bc-4584-9ad6-9caa931f8372-transcode.mp4"
-              className="text-black text-base box-border caret-transparent leading-[normal] font-times_new_roman"
-            />
-            <source
-              src="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/674238984b5b15db637f4a63_-60bc-4584-9ad6-9caa931f8372-transcode.webm"
-              className="text-black text-base box-border caret-transparent leading-[normal] font-times_new_roman"
-            />
-          </video>
-          <div className="absolute bg-[linear-gradient(rgba(10,10,10,0),rgb(10,10,10)_70%)] box-border caret-transparent h-[200px] bottom-[0%] inset-x-[0%]"></div>
-        </div>
-        <div className="absolute bg-neutral-950 box-border caret-transparent z-[-2] inset-[0%]"></div>
       </div>
       <div className="absolute box-border caret-transparent max-w-44 pointer-events-none z-0 right-[0%] top-[0%] md:max-w-none">
         <img

@@ -6,7 +6,7 @@ import { SolutionsSection } from "@/integrations/industry-detail/sections/Soluti
 import { PartnersSection } from "@/integrations/industry-detail/sections/PartnersSection";
 import { TestimonialsSection } from "@/integrations/industry-detail/sections/TestimonialsSection";
 import { FAQSection } from "@/integrations/industry-detail/sections/FAQSection";
-import { ContactSection } from "@/integrations/industry-detail/sections/ContactSection";
+import { ContactSection } from "@/sections/ContactSection";
 
 export const Main = () => {
   return (

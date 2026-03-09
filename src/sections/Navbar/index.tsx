@@ -14,7 +14,7 @@ export const Navbar = () => {
       {/* Backdrop for dropdowns */}
       <div
         id="navBackdrop"
-        className="fixed inset-0 bg-black/20 backdrop-blur-sm z-[99998] opacity-0 invisible transition-all duration-300 pointer-events-none"
+        className="fixed inset-0 bg-black/30 backdrop-blur-md z-[99998] opacity-0 invisible transition-all duration-300 pointer-events-none"
       />
       
       <div

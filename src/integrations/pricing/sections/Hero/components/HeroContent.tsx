@@ -2,19 +2,7 @@ export const HeroContent = () => {
   return (
     <div className="items-center box-border caret-transparent gap-x-4 flex flex-col justify-start min-h-[auto] min-w-[auto] gap-y-4 text-center md:gap-x-7 md:gap-y-7">
       <div className="items-center box-border caret-transparent gap-x-4 flex flex-col justify-start min-h-[auto] min-w-[auto] gap-y-4">
-        <div className="items-center box-border caret-transparent flex justify-center min-h-[auto] min-w-[auto] z-[99] pt-[27px] pb-[7px] md:py-7">
-          <a
-            href="https://prozesy.com/"
-            className="text-violet-600 box-border caret-transparent block max-w-full min-h-[auto] min-w-[auto]"
-          >
-            <img
-              src="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/679a08604def1d26213e6133_designmonks (1).svg"
-              alt=""
-              className="box-border caret-transparent inline-block max-w-full"
-            />
-          </a>
-        </div>
-        <div className="relative items-center bg-white/10 box-border caret-transparent gap-x-[5px] flex min-h-[auto] min-w-[auto] gap-y-[5px] z-[88] px-3 py-1 rounded-[18px] md:static md:z-auto">
+        <div className="relative items-center bg-white/10 box-border caret-transparent gap-x-[5px] flex min-h-[auto] min-w-[auto] gap-y-[5px] z-[88] mt-[70px] px-3 py-1 rounded-[18px] md:static md:z-auto md:mt-[96px]">
           <a
             href="https://prozesy.com/"
             className="text-neutral-400 text-xs box-border caret-transparent block tracking-[0.24px] leading-[18px] max-w-full min-h-[auto] min-w-[auto] capitalize"
@@ -39,18 +27,17 @@ export const HeroContent = () => {
         </div>
         <div className="text-zinc-50 box-border caret-transparent min-h-[auto] min-w-[auto]">
           <h1 className="text-[32px] font-bold box-border caret-transparent leading-[38.4px] font-redhatdisplay_variablefont_wght md:text-[56px] md:leading-[67.2px]">
-            Premium Quality With
+            Ads Service Plans With
             <span className="text-[32px] italic box-border caret-transparent leading-[38.4px] capitalize font-playfairdisplay_variablefont_wght md:text-[56px] md:leading-[67.2px]">
               <br className="text-[32px] box-border caret-transparent leading-[38.4px] md:text-[56px] md:leading-[67.2px]" />
-              Affordability &amp; Flexibility
+              Performance &amp; Growth
             </span>
           </h1>
         </div>
       </div>
       <div className="text-neutral-300 box-border caret-transparent min-h-[auto] min-w-[auto]">
         <p className="text-base box-border caret-transparent tracking-[0.36px] leading-6 md:text-lg md:leading-[27px]">
-          Personalize your plan for custom solutions according to your business
-          needs
+          Choose the perfect plan for Meta Ads, Google Ads, TikTok, PPC search, video ads, UGC content, and scalable web/app growth
         </p>
       </div>
     </div>

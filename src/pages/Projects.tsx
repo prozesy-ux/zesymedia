@@ -1,6 +1,6 @@
 import { Hero } from "@/integrations/projects/sections/Hero";
 import { ProjectsSection } from "@/integrations/projects/sections/ProjectsSection";
-import { ContactSection } from "@/integrations/projects/sections/ContactSection";
+import { ContactSection } from "@/sections/ContactSection";
 
 export const Projects = () => {
   return (

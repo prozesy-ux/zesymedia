@@ -21,19 +21,7 @@ export const HeroVideo = () => {
         <div className="relative items-center box-border caret-transparent flex-col h-full justify-center text-left w-full z-[2] pb-8 px-5 md:pb-20 md:px-[94px]">
           <div className="items-center box-border caret-transparent gap-x-5 flex flex-col justify-start gap-y-5 md:gap-x-10 md:gap-y-10">
             <div className="items-center box-border caret-transparent gap-x-4 flex flex-col justify-start gap-y-4 text-center">
-              <div className="items-center box-border caret-transparent flex justify-center z-[99] pt-[27px] pb-[7px] md:py-7">
-                <a
-                  href="https://prozesy.com/"
-                  className="text-violet-600 box-border caret-transparent block max-w-full"
-                >
-                  <img
-                    src="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/679a08604def1d26213e6133_designmonks (1).svg"
-                    alt=""
-                    className="box-border caret-transparent inline-block max-w-full"
-                  />
-                </a>
-              </div>
-              <div className="relative items-center bg-white/10 box-border caret-transparent gap-x-[5px] flex gap-y-[5px] z-[88] px-3 py-1 rounded-[18px] md:static md:z-auto">
+              <div className="relative items-center bg-white/10 box-border caret-transparent gap-x-[5px] flex gap-y-[5px] z-[88] mt-[70px] px-3 py-1 rounded-[18px] md:static md:z-auto md:mt-[96px]">
                 <a
                   href="https://prozesy.com/"
                   className="text-neutral-400 text-xs box-border caret-transparent block tracking-[0.24px] leading-[18px] max-w-full capitalize"

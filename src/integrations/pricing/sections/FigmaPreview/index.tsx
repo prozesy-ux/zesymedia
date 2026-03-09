@@ -29,29 +29,30 @@ export const FigmaPreview = () => {
               <div className="box-border caret-transparent gap-x-8 grid auto-cols-[1fr] grid-cols-[1fr] grid-rows-[auto] min-h-[auto] min-w-[auto] gap-y-8 w-full md:grid-cols-[1fr_1fr_1fr_1fr_1fr]">
                 <FigmaCard
                   imageUrl="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/68f75ce538411aee83c2c00a_61.avif"
-                  title="Need a Product Designer?"
-                  description="Turning your big ideas into pixel-perfect products—need a Product Designer?"
+                  title="Contact Us"
+                  description="Need a marketing team? We offer fully automated marketing solutions to grow your business and reach your audience."
                   figmaFileUrl="https://www.figma.com/design/eKzH2d2jWbOwvOSsG9nfNT/Designmonks-Landing-Page-Live-Portfolio?m=auto&t=yjjU815PhhXvf2YG-6"
+                  buttonText="Contact Us"
                   variant="h-[400px] rounded-3xl md:col-end-[span_3] md:col-start-[span_3] md:h-auto"
                 />
                 <FigmaCard
                   imageUrl="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/68f76205464c6be23237017b_1.avif"
-                  title="Need a Mobile Designer?"
-                  description="Seeking a Mobile Designer for user-friendly app designs."
+                  title="Need an App Developer & Designer?"
+                  description="Need custom web apps and mobile solutions built with expert design and development?"
                   figmaFileUrl="https://www.figma.com/design/wML2YPnkaI7WhaQOPh3FbB/DM-Mobile-App-Live-Portfolio?m=auto&t=yjjU815PhhXvf2YG-6"
                   variant="md:col-end-[span_2] md:col-start-[span_2]"
                 />
                 <FigmaCard
-                  imageUrl="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/68f7670179e0ba46f675f877_59.avif"
-                  title="Need a Brand Designer?"
-                  description="Your story, my design—together, we craft a brand that speaks."
+                  imageUrl="https://wcvjpentbtxtnlrdthdk.supabase.co/storage/v1/object/public/images/5f337e11-6346-48b4-8f2b-d5c417e57077/Firefly_Gemini%20Flash_same%20to%20same%20image%20genrato%20same%20bg%20just%20anem%20chanhge%20rpoazesy%20use%20water%20744804.png"
+                  title="Need a Brand Maker & Designer?"
+                  description="Create a unique brand identity that stands out. We design logos, branding, and visual identity that tells your story."
                   figmaFileUrl="https://www.figma.com/design/nR9RCciO92pCXVtqT3EXR5/DM-Brand-Book-Live-Portfolio?m=auto&t=yjjU815PhhXvf2YG-6"
                   variant="md:col-end-[span_2] md:col-start-[span_2]"
                 />
                 <FigmaCard
                   imageUrl="https://cdn.prod.website-files.com/672a72b52eb5f37692d645a9/68f767013ad25dcff2a5b078_60.avif"
-                  title="Need a SaaS Designer?"
-                  description="Turning SaaS platforms into user-friendly experiences that people love."
+                  title="Need an Ads Coach?"
+                  description="Expert ads management and strategy to run high-performing campaigns that grow your business and maximize ROI."
                   figmaFileUrl="https://www.figma.com/design/UV5rZSzHBgZmCWIrvgYDUD/Designmonks-WebApp-Live-Portfolio?m=auto&t=yjjU815PhhXvf2YG-6"
                   variant="h-[400px] rounded-3xl md:col-end-[span_3] md:col-start-[span_3] md:h-auto"
                 />

@@ -1,12 +1,47 @@
+import { useEffect, useState } from "react";
+
 export const NavbarCTA = () => {
+  const [isAfterFirstSection, setIsAfterFirstSection] = useState(false);
+
+  useEffect(() => {
+    const getFirstSectionThreshold = () => {
+      const firstSection = document.querySelector("main section, section") as HTMLElement | null;
+      if (!firstSection) {
+        return window.innerHeight;
+      }
+
+      const rect = firstSection.getBoundingClientRect();
+      return window.scrollY + rect.top + rect.height;
+    };
+
+    const updateScrollState = () => {
+      const threshold = getFirstSectionThreshold();
+      const reachedThreshold = window.scrollY >= threshold;
+      setIsAfterFirstSection(reachedThreshold);
+    };
+
+    updateScrollState();
+    window.addEventListener("scroll", updateScrollState, { passive: true });
+    window.addEventListener("resize", updateScrollState);
+
+    return () => {
+      window.removeEventListener("scroll", updateScrollState);
+      window.removeEventListener("resize", updateScrollState);
+    };
+  }, []);
+
   return (
     <a
       href="https://prozesy.com/contact"
-      className="relative text-zinc-50 text-base font-bold items-center bg-violet-600 box-border caret-transparent flex h-16 justify-center justify-self-center tracking-[0.32px] leading-6 max-w-full min-h-[auto] min-w-[auto] translate-y-[-60.0%] w-16 rounded-[18px] md:h-auto md:justify-self-auto md:transform-none md:w-auto md:rounded-lg"
+      className={`cta-btn relative text-zinc-50 text-base font-bold items-center box-border caret-transparent flex h-16 justify-center justify-self-center tracking-[0.32px] leading-6 max-w-full min-h-[auto] min-w-[auto] translate-y-[-60.0%] w-16 rounded-[18px] overflow-hidden md:h-auto md:justify-self-auto md:transform-none md:w-auto md:rounded-lg ${
+        isAfterFirstSection ? "cta-btn-scrolled" : "cta-btn-default"
+      }`}
     >
-      <div className="absolute bg-violet-600 bg-[conic-gradient(at_8.04%_51.79%,rgb(251,250,246)_0deg,rgba(251,250,246,0)_360deg),none] bg-size-[auto,auto] box-border caret-transparent pointer-events-none bg-[position:0%,0%_0%,0%] inset-[0%]"></div>
-      <div className="relative items-center bg-neutral-950 box-border caret-transparent gap-x-2 flex h-full justify-center min-h-[auto] min-w-[auto] gap-y-2 w-full z-0 p-[5px] md:px-8 md:py-4">
-        <div className="absolute bg-[linear-gradient(rgb(89,45,181)_25%,rgb(125,64,255))] shadow-[rgba(255,255,255,0.72)_0px_2px_3px_0px_inset] box-border caret-transparent pointer-events-none z-[-1] inset-[0%]"></div>
+      <div
+        className={`cta-btn-inner relative items-center box-border caret-transparent gap-x-2 flex h-full justify-center min-h-[auto] min-w-[auto] gap-y-2 w-full z-0 p-[5px] md:px-8 md:py-4 ${
+          isAfterFirstSection ? "cta-btn-inner-scrolled" : "cta-btn-inner-default"
+        }`}
+      >
         <img
           src="https://c.animaapp.com/mmfqa5b2QIeLaz/assets/icon-5.svg"
           alt="Icon"

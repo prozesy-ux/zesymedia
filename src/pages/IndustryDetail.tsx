@@ -5,7 +5,7 @@ import { StatsSection } from "@/integrations/industry-detail/sections/StatsSecti
 import { SolutionsSection } from "@/integrations/industry-detail/sections/SolutionsSection";
 import { PartnersSection } from "@/integrations/industry-detail/sections/PartnersSection";
 import { TestimonialsSection } from "@/integrations/industry-detail/sections/TestimonialsSection";
-import { ContactSection } from "@/integrations/industry-detail/sections/ContactSection";
+import { ContactSection } from "@/sections/ContactSection";
 import { FAQSection } from "@/sections/FAQSection";
 
 export const IndustryDetail = () => {

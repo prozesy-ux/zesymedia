@@ -280,7 +280,7 @@ export const ContactForm = () => {
               </div>
             </div>
             <div className="relative bg-white shadow-[rgba(15,23,42,0.1)_0px_20px_48px_-12px] box-border caret-transparent border border-neutral-200 overflow-hidden mt-4 px-8 py-3 rounded-[70px] border-solid md:py-4">
-              <div className="box-border caret-transparent gap-x-[5px] flex gap-y-[5px]">
+              <div className="box-border caret-transparent gap-x-[5px] flex gap-y-[5px] animate-marquee w-max">
                 <p className="text-neutral-950 text-lg box-border caret-transparent shrink-0 tracking-[0.48px] leading-[27px] min-h-[auto] min-w-[auto] capitalize text-nowrap md:text-2xl md:leading-9">
                   Why risk it with the{" "}
                   <span className="text-lg italic font-semibold box-border caret-transparent leading-[27px] text-nowrap font-playfairdisplay_variablefont_wght md:text-2xl md:leading-9">

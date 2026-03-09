@@ -5,6 +5,18 @@ import { useInView } from "framer-motion";
 const services = [
   {
     id: 0,
+    titlePrefix: "Marketing &",
+    titleSuffix: "Ads",
+    description:
+      "Meta Ads, Google Ads, Performance Marketing, Pixel Tracking, Campaign Strategy, Ad Creative, Retargeting, ROI Optimization. We help startups build brands and reach audiences everywhere—nothing is impossible.",
+    linkHref: "/services/marketing-ads",
+    images: [
+      "https://wcvjpentbtxtnlrdthdk.supabase.co/storage/v1/object/public/images/5f337e11-6346-48b4-8f2b-d5c417e57077/Firefly_Gemini%20Flash_same%20to%20same%20image%20genrato%20same%20bg%20just%20anem%20chanhge%20meta%20ads%20reated%20%20660089.png",
+      "https://wcvjpentbtxtnlrdthdk.supabase.co/storage/v1/object/public/images/5f337e11-6346-48b4-8f2b-d5c417e57077/Firefly_GeminiFlash_same%20to%20same%20image%20genrato%20same%20bg%20just%20anem%20chanhge%20meta%20ads%20marketing%20reated%20anothe%20317884.png",
+    ],
+  },
+  {
+    id: 1,
     titlePrefix: "UI/UX",
     titleSuffix: "Design",
     description:
@@ -16,7 +28,7 @@ const services = [
     ],
   },
   {
-    id: 1,
+    id: 2,
     titlePrefix: "Web",
     titleSuffix: "Development",
     description:
@@ -28,7 +40,7 @@ const services = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     titlePrefix: "Logo & Branding",
     titleSuffix: "",
     description:
@@ -40,7 +52,7 @@ const services = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     titlePrefix: "Webflow",
     titleSuffix: "Framer",
     description:
@@ -114,7 +126,7 @@ export const ServicesSection = () => {
                 <div className="box-border caret-transparent">
                   <h2 className="text-white text-[28px] font-bold box-border caret-transparent leading-[33.6px] capitalize font-redhatdisplay_variablefont_wght md:text-5xl md:leading-[57.6px]">
                     <span className="text-[28px] box-border caret-transparent leading-[33.6px] md:text-5xl md:leading-[57.6px]">
-                      We Design{" "}
+                      We Build{" "}
                     </span>
                     <span className="text-[28px] italic box-border caret-transparent inline-block leading-[33.6px] font-playfairdisplay_variablefont_wght md:text-5xl md:inline md:leading-[57.6px]">
                       Brands
@@ -124,11 +136,11 @@ export const ServicesSection = () => {
                       That{" "}
                     </span>
                     <span className="text-[28px] italic box-border caret-transparent inline-block leading-[33.6px] font-playfairdisplay_variablefont_wght md:text-5xl md:inline md:leading-[57.6px]">
-                      Speak
+                      Reach
                     </span>
                     <span className="text-[28px] box-border caret-transparent leading-[33.6px] md:text-5xl md:leading-[57.6px]">
                       <em className="text-[28px] italic box-border caret-transparent leading-[33.6px] font-playfairdisplay_variablefont_wght md:text-5xl md:leading-[57.6px]"></em>
-                      to Audiences
+                      Everyone
                     </span>
                   </h2>
                 </div>

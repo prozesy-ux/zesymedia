@@ -25,17 +25,15 @@ export const ServicesGrid = () => {
           <div className="box-border caret-transparent gap-x-6 grid flex-wrap auto-cols-[1fr] grid-cols-[1fr] grid-rows-[auto_auto] justify-between gap-y-6 md:gap-x-4 md:flex md:flex-nowrap md:auto-cols-auto md:grid-cols-none md:grid-rows-none md:gap-y-4">
             <div className="box-border caret-transparent gap-x-6 flex flex-col min-h-[auto] min-w-[auto] gap-y-6">
               <div className="text-zinc-50 items-start box-border caret-transparent gap-x-2 flex justify-start min-h-[auto] min-w-[auto] gap-y-2">
-                <div className="box-border caret-transparent shrink-0 min-h-[auto] min-w-[auto]">
-                  <div className="box-border caret-transparent h-6 w-6">
-                    <img
-                      src="https://c.animaapp.com/mmfqa5b2QIeLaz/assets/icon-9.svg"
-                      alt="Icon"
-                      className="box-border caret-transparent inline align-baseline w-full"
-                    />
-                  </div>
+                <div className="box-border caret-transparent h-6 min-h-[auto] min-w-[auto] w-6">
+                  <img
+                    src="https://c.animaapp.com/mmfqa5b2QIeLaz/assets/icon-9.svg"
+                    alt="Icon"
+                    className="box-border caret-transparent inline align-baseline w-full"
+                  />
                 </div>
                 <div className="text-base box-border caret-transparent tracking-[0.36px] leading-6 min-h-[auto] min-w-[auto] md:text-lg md:leading-[27px]">
-                  Website Designs
+                  Meta Ads Service
                 </div>
               </div>
               <div className="text-zinc-50 items-start box-border caret-transparent gap-x-2 flex justify-start min-h-[auto] min-w-[auto] gap-y-2">
@@ -47,7 +45,7 @@ export const ServicesGrid = () => {
                   />
                 </div>
                 <div className="text-base box-border caret-transparent tracking-[0.36px] leading-6 min-h-[auto] min-w-[auto] md:text-lg md:leading-[27px]">
-                  SaaS App Design
+                  Google Ads Service
                 </div>
               </div>
               <div className="text-zinc-50 items-start box-border caret-transparent gap-x-2 flex justify-start min-h-[auto] min-w-[auto] gap-y-2">
@@ -59,7 +57,7 @@ export const ServicesGrid = () => {
                   />
                 </div>
                 <div className="text-base box-border caret-transparent tracking-[0.36px] leading-6 min-h-[auto] min-w-[auto] md:text-lg md:leading-[27px]">
-                  Product Design
+                  TikTok Ads Service
                 </div>
               </div>
               <div className="text-zinc-50 items-start box-border caret-transparent gap-x-2 flex justify-start min-h-[auto] min-w-[auto] gap-y-2">
@@ -71,7 +69,7 @@ export const ServicesGrid = () => {
                   />
                 </div>
                 <div className="text-base box-border caret-transparent tracking-[0.36px] leading-6 min-h-[auto] min-w-[auto] md:text-lg md:leading-[27px]">
-                  SaaS Design
+                  PPC Search Ads
                 </div>
               </div>
               <div className="text-zinc-50 items-start box-border caret-transparent gap-x-2 flex justify-start min-h-[auto] min-w-[auto] gap-y-2">
@@ -83,7 +81,7 @@ export const ServicesGrid = () => {
                   />
                 </div>
                 <div className="text-base box-border caret-transparent tracking-[0.36px] leading-6 min-h-[auto] min-w-[auto] md:text-lg md:leading-[27px]">
-                  Mobile App Design
+                  Video Ads Service
                 </div>
               </div>
               <div className="text-zinc-50 items-start box-border caret-transparent gap-x-2 flex justify-start min-h-[auto] min-w-[auto] gap-y-2">
@@ -95,7 +93,7 @@ export const ServicesGrid = () => {
                   />
                 </div>
                 <div className="text-base box-border caret-transparent tracking-[0.36px] leading-6 min-h-[auto] min-w-[auto] md:text-lg md:leading-[27px]">
-                  Mobile Game UI Design
+                  UGC Ads Creative
                 </div>
               </div>
               <div className="text-zinc-50 items-start box-border caret-transparent gap-x-2 flex justify-start min-h-[auto] min-w-[auto] gap-y-2">
@@ -107,7 +105,7 @@ export const ServicesGrid = () => {
                   />
                 </div>
                 <div className="text-base box-border caret-transparent tracking-[0.36px] leading-6 min-h-[auto] min-w-[auto] md:text-lg md:leading-[27px]">
-                  Video Game UI Design
+                  GA4 Custom Analytics
                 </div>
               </div>
               <div className="text-zinc-50 items-start box-border caret-transparent gap-x-2 flex justify-start min-h-[auto] min-w-[auto] gap-y-2">
@@ -119,7 +117,7 @@ export const ServicesGrid = () => {
                   />
                 </div>
                 <div className="text-base box-border caret-transparent tracking-[0.36px] leading-6 min-h-[auto] min-w-[auto] md:text-lg md:leading-[27px]">
-                  Gamification UI
+                  SEO Strategy &amp; Planning
                 </div>
               </div>
             </div>
@@ -283,7 +281,7 @@ export const ServicesGrid = () => {
                   />
                 </div>
                 <div className="text-base box-border caret-transparent tracking-[0.36px] leading-6 min-h-[auto] min-w-[auto] md:text-lg md:leading-[27px]">
-                  3D Design
+                  Technical SEO
                 </div>
               </div>
               <div className="text-zinc-50 items-start box-border caret-transparent gap-x-2 flex justify-start min-h-[auto] min-w-[auto] gap-y-2">
@@ -295,7 +293,7 @@ export const ServicesGrid = () => {
                   />
                 </div>
                 <div className="text-base box-border caret-transparent tracking-[0.36px] leading-6 min-h-[auto] min-w-[auto] md:text-lg md:leading-[27px]">
-                  UI Animation
+                  On-Page SEO
                 </div>
               </div>
               <div className="text-zinc-50 items-start box-border caret-transparent gap-x-2 flex justify-start min-h-[auto] min-w-[auto] gap-y-2">
@@ -307,7 +305,7 @@ export const ServicesGrid = () => {
                   />
                 </div>
                 <div className="text-base box-border caret-transparent tracking-[0.36px] leading-6 min-h-[auto] min-w-[auto] md:text-lg md:leading-[27px]">
-                  Product Launching Video
+                  Off-Page SEO
                 </div>
               </div>
               <div className="text-zinc-50 items-start box-border caret-transparent gap-x-2 flex justify-start min-h-[auto] min-w-[auto] gap-y-2">
@@ -319,7 +317,7 @@ export const ServicesGrid = () => {
                   />
                 </div>
                 <div className="text-base box-border caret-transparent tracking-[0.36px] leading-6 min-h-[auto] min-w-[auto] md:text-lg md:leading-[27px]">
-                  Motion Graphics
+                  Local SEO
                 </div>
               </div>
             </div>
@@ -405,7 +403,7 @@ export const ServicesGrid = () => {
                   />
                 </div>
                 <div className="text-base box-border caret-transparent tracking-[0.36px] leading-6 min-h-[auto] min-w-[auto] md:text-lg md:leading-[27px]">
-                  eBook Design
+                  Brand Campaign Strategy
                 </div>
               </div>
               <div className="text-zinc-50 items-start box-border caret-transparent gap-x-2 flex justify-start min-h-[auto] min-w-[auto] gap-y-2">
@@ -417,7 +415,7 @@ export const ServicesGrid = () => {
                   />
                 </div>
                 <div className="text-base box-border caret-transparent tracking-[0.36px] leading-6 min-h-[auto] min-w-[auto] md:text-lg md:leading-[27px]">
-                  User Flow Design
+                  Ecommerce SEO
                 </div>
               </div>
             </div>

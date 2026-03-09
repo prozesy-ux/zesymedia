@@ -24,7 +24,7 @@ import { Career } from "@/pages/Career";
 import { Projects } from "@/pages/Projects";
 import { ProjectDetail } from "@/pages/ProjectDetail";
 import { Industry } from "@/pages/Industry";
-import { ServiceDetail } from "@/pages/ServiceDetail";
+import { ServiceItemDetail } from "@/pages/ServiceItemDetail";
 import { IndustryDetail } from "@/pages/IndustryDetail";
 import { Pricing } from "@/pages/Pricing";
 
@@ -78,8 +78,9 @@ export const App = () => {
             <Industry />
           ) : path === '/services' ? (
             <Services />
-          ) : path.startsWith('/services/') ? (
-            <ServiceDetail />
+          ) : path.match(/^\/services\/[^/]+\/[^/]+$/) ? (
+            <ServiceItemDetail />
+
           ) : path.startsWith('/industry/') || path.startsWith('/indrusty/') ? (
             <IndustryDetail />
           ) : path === '/contact' ? (

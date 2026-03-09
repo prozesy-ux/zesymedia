@@ -1,11 +1,12 @@
 export const ServicesDropdown = ({ isOpen, onHoverChange }: { isOpen: boolean; onHoverChange?: (open: boolean) => void }) => {
   const services = [
-    { title: "UI UX", desc: "Creating user-friendly digital experiences." },
-    { title: "Logo & Branding", desc: "Creating memorable identities for brands." },
-    { title: "Web Design", desc: "Building visually appealing & functional websites." },
-    { title: "Webflow Design", desc: "Developing responsive websites effortlessly." },
-    { title: "Framer Design", desc: "Interactive web designs are made simple." },
-    { title: "SaaS Design", desc: "Intuitive interfaces that boost user engagement." },
+    { title: "Marketing Meta Ads", desc: "Running growth-focused Meta ad campaigns for sales and leads.", slug: "marketing-meta-ads" },
+    { title: "Google Ads & PPC", desc: "Managing high-intent search and PPC campaigns for better ROI.", slug: "google-ads-ppc" },
+    { title: "TikTok Ads", desc: "Creating performance-first TikTok campaigns with strong creatives.", slug: "tiktok-ads" },
+    { title: "Web App Development", desc: "Building scalable and high-performance web applications.", slug: "web-app-development" },
+    { title: "UI UX Design", desc: "Designing intuitive interfaces and smooth user journeys.", slug: "ui-ux-design" },
+    { title: "Branding Design", desc: "Crafting memorable brand identities that stand out.", slug: "branding-design" },
+    { title: "SEO Optimization", desc: "Improving search rankings, organic traffic, and conversions.", slug: "seo-optimization" },
   ];
 
   const handleMouseEnter = () => {
@@ -27,14 +28,25 @@ export const ServicesDropdown = ({ isOpen, onHoverChange }: { isOpen: boolean; o
   };
 
   return (
-    <div 
-      className={`absolute top-0 left-1/2 -translate-x-1/2 w-[900px] max-w-[90vw] bg-white rounded-[24px] shadow-[0_20px_60px_-10px_rgba(0,0,0,0.1)] z-[99999] hidden md:block transition-opacity duration-300 ${
-        isOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'
-      }`}
-      style={{ top: '120px' }}
-      onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}
-    >
+    <>
+      {/* Invisible bridge for smooth hover transition */}
+      <div 
+        className={`absolute top-0 left-1/2 -translate-x-1/2 w-[900px] max-w-[90vw] h-[100px] z-[99999] hidden md:block ${
+          isOpen ? 'pointer-events-auto' : 'pointer-events-none'
+        }`}
+        style={{ top: '60px' }}
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
+      />
+      
+      <div 
+        className={`absolute top-0 left-1/2 -translate-x-1/2 w-[900px] max-w-[90vw] bg-white rounded-[24px] shadow-[0_20px_60px_-10px_rgba(0,0,0,0.1)] z-[99999] hidden md:block transition-opacity duration-300 ${
+          isOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'
+        }`}
+        style={{ top: '80px', paddingTop: '20px' }}
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
+      >
       <div className="grid grid-cols-2 gap-0 min-h-[560px]">
         {/* Left Column: Services List */}
         <div className="p-8 lg:p-12 flex flex-col gap-6">
@@ -50,7 +62,7 @@ export const ServicesDropdown = ({ isOpen, onHoverChange }: { isOpen: boolean; o
             {services.map((service, index) => (
               <a 
                 key={index} 
-                href={`/services/${service.title.toLowerCase().replace(/ /g, "-")}`}
+                href={`/services/${service.slug}`}
                 className="group/item block relative p-4 -m-4 rounded-xl hover:bg-gray-50 active:bg-gray-100 transition-all cursor-pointer touch-manipulation"
               >
                 <div className="flex items-start justify-between gap-4">
@@ -121,5 +133,6 @@ export const ServicesDropdown = ({ isOpen, onHoverChange }: { isOpen: boolean; o
         <path d="M12 10 L24 0 H0 Z" fill="white" />
       </svg>
     </div>
+    </>
   );
 };

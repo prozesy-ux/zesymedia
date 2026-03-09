@@ -4,7 +4,7 @@ import { ServicesSection } from "@/integrations/services/sections/ServicesSectio
 import { WhyUsSection } from "@/integrations/services/sections/WhyUsSection";
 import { DesignExcellenceSection } from "@/integrations/services/sections/DesignExcellenceSection";
 import { TestimonialsSection } from "@/integrations/services/sections/TestimonialsSection";
-import { ContactSection } from "@/integrations/services/sections/ContactSection";
+import { ContactSection } from "@/sections/ContactSection";
 import { FAQSection } from "@/sections/FAQSection";
 
 export const Services = () => {
