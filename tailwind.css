@@ -352,7 +352,7 @@
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     width: 100%;
-    overflow-x: hidden;
+    overflow-x: clip;
   }
 
   body {
@@ -370,7 +370,7 @@
     min-height: 100%;
     margin: 0;
     position: relative;
-    overflow-x: hidden;
+    overflow-x: clip;
     width: 100%;
   }
 
